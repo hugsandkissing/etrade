@@ -15,13 +15,27 @@ Rules enforced: whole shares, long only, cash can never go negative.
 """
 
 import argparse
+import fcntl
 import json
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
 LEDGER = Path(__file__).parent / "challenge" / "ledger.json"
 START_CASH = 100.0
 GOAL = 200.0
+
+
+@contextmanager
+def locked():
+    """Serialize ledger writes across processes (session ticks + watcher)."""
+    LEDGER.parent.mkdir(exist_ok=True)
+    with open(LEDGER.parent / ".ledger.lock", "w") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(f, fcntl.LOCK_UN)
 
 
 def now():
@@ -59,6 +73,11 @@ def cmd_init(args):
 
 
 def cmd_trade(args, action):
+    with locked():
+        _do_trade(args, action)
+
+
+def _do_trade(args, action):
     ledger = load()
     sym = args.symbol.upper()
     qty, price = args.quantity, args.price
@@ -91,19 +110,26 @@ def cmd_trade(args, action):
     print(f"{action.upper()} {qty} {sym} @ ${price:.2f} — cash ${ledger['cash']:.2f}")
 
 
+def record_mark(prices, source=""):
+    """Append a valuation snapshot. Safe to call from any process."""
+    with locked():
+        ledger = load()
+        missing = set(ledger["positions"]) - set(prices)
+        if missing:
+            raise SystemExit(f"Missing prices for held positions: {', '.join(sorted(missing))}")
+        eq = equity(ledger, prices)
+        ledger["marks"].append({"ts": now(), "prices": prices, "equity": round(eq, 2),
+                                "source": source})
+        save(ledger)
+    return eq
+
+
 def cmd_mark(args):
-    ledger = load()
     prices = {}
     for pair in args.prices:
         sym, _, price = pair.partition("=")
         prices[sym.upper()] = float(price)
-    missing = set(ledger["positions"]) - set(prices)
-    if missing:
-        raise SystemExit(f"Missing prices for held positions: {', '.join(sorted(missing))}")
-    eq = equity(ledger, prices)
-    ledger["marks"].append({"ts": now(), "prices": prices, "equity": round(eq, 2),
-                            "source": args.source})
-    save(ledger)
+    eq = record_mark(prices, args.source)
     print(f"Marked: equity ${eq:.2f} ({(eq - START_CASH) / START_CASH * +100:+.1f}%)")
 
 

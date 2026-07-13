@@ -75,6 +75,8 @@ def main():
     parser.add_argument("--once", action="store_true")
     parser.add_argument("--duration", type=int, default=3300, help="seconds")
     parser.add_argument("--interval", type=int, default=30, help="seconds")
+    parser.add_argument("--mark-every", type=int, default=300,
+                        help="append a ledger mark every N seconds (0 = off)")
     args = parser.parse_args()
 
     positions = load_positions()
@@ -84,6 +86,7 @@ def main():
     bands = load_bands()
 
     deadline = time.time() + args.duration
+    last_mark = 0.0
     while True:
         try:
             status, alerts = check(positions, bands)
@@ -99,6 +102,16 @@ def main():
         if alerts:
             print(json.dumps({"alerts": alerts, "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}))
             return 2
+        if args.mark_every and time.time() - last_mark >= args.mark_every:
+            prices = {e["symbol"]: e["price"] for e in status if "price" in e}
+            if set(prices) >= set(positions):
+                try:
+                    import challenge
+                    eq = challenge.record_mark(prices, source="Yahoo via watch.py auto-mark")
+                    print(f"auto-mark: equity {eq:.2f}", flush=True)
+                    last_mark = time.time()
+                except SystemExit as e:
+                    print(f"auto-mark skipped: {e}", file=sys.stderr)
         if time.time() >= deadline:
             return 0
         time.sleep(args.interval)
