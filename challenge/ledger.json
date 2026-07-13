@@ -56,6 +56,16 @@
       },
       "equity": 100.0,
       "source": "entry prices"
+    },
+    {
+      "ts": "2026-07-13T15:46:06Z",
+      "prices": {
+        "SOFI": 18.79,
+        "MARA": 11.46,
+        "RIG": 5.28
+      },
+      "equity": 100.18,
+      "source": "WebSearch intraday 2026-07-13 ~15:50 UTC"
     }
   ]
 }
