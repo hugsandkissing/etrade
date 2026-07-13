@@ -1,0 +1,9 @@
+# Credentials and OAuth tokens — never commit these
+.env
+tokens.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
