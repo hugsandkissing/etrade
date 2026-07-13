@@ -14,6 +14,7 @@ decision log.
 """
 
 import json
+import ssl
 import time
 import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -21,6 +22,13 @@ from pathlib import Path
 
 PORT = 8741
 LEDGER = Path(__file__).parent / "challenge" / "ledger.json"
+
+# macOS python.org installs ship without root CAs; use certifi's if available
+try:
+    import certifi
+    SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL_CTX = ssl.create_default_context()
 
 PAGE = """<!doctype html><html><head><meta charset="utf-8">
 <title>Challenge — Live</title>
@@ -102,8 +110,14 @@ tick(); setInterval(tick, 10000);
 def yahoo_price(sym):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1d&interval=5m"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=10) as resp:
-        return json.load(resp)["chart"]["result"][0]["meta"]["regularMarketPrice"]
+    try:
+        with urllib.request.urlopen(req, timeout=10, context=SSL_CTX) as resp:
+            return json.load(resp)["chart"]["result"][0]["meta"]["regularMarketPrice"]
+    except ssl.SSLCertVerificationError:
+        print("HINT: missing root certificates. Fix with ONE of:\n"
+              "  pip3 install certifi   (then restart this script)\n"
+              "  or run: /Applications/Python*/Install\\ Certificates.command")
+        raise
 
 
 class Handler(BaseHTTPRequestHandler):
