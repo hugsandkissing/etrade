@@ -2,14 +2,14 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 7.099999999999994,
+  "cash": 2.809999999999995,
   "positions": {
     "SOFI": {
-      "qty": 2,
+      "qty": 3,
       "avg_cost": 18.78
     },
     "MARA": {
-      "qty": 3,
+      "qty": 2,
       "avg_cost": 11.46
     },
     "RIG": {
@@ -44,6 +44,24 @@
       "price": 5.24,
       "source": "WebSearch/CNN quote 2026-07-10",
       "note": "Catalyst play: $1B Equinor backlog + S&P upgrade to B-; cheap per-share lets us size in"
+    },
+    {
+      "ts": "2026-07-13T16:08:49Z",
+      "action": "SELL",
+      "symbol": "MARA",
+      "qty": 1,
+      "price": 14.49,
+      "source": "WebSearch/TradingView intraday 2026-07-13",
+      "note": "Bank 1/3 at +26% per strategy reassess trigger; position was 41% of equity and 3% off intraday high. Trailing stop raised to +15% on remaining 2 shares"
+    },
+    {
+      "ts": "2026-07-13T16:08:49Z",
+      "action": "BUY",
+      "symbol": "SOFI",
+      "qty": 1,
+      "price": 18.78,
+      "source": "WebSearch/Yahoo intraday 2026-07-13, stable 18.78-18.79 all session",
+      "note": "Redeploy MARA profits same session per strategy; SOFI coiled under $20 breakout level ahead of earnings, unchanged all day while market moves - low-risk add point"
     }
   ],
   "marks": [
@@ -76,6 +94,16 @@
       },
       "equity": 103.73,
       "source": "WebSearch/finviz+tradingeconomics intraday 2026-07-13 ~16:02 UTC"
+    },
+    {
+      "ts": "2026-07-13T16:08:49Z",
+      "prices": {
+        "SOFI": 18.78,
+        "MARA": 14.49,
+        "RIG": 5.28
+      },
+      "equity": 109.25,
+      "source": "WebSearch/TradingView intraday 2026-07-13 ~16:10 UTC; MARA quotes varied 12.65-14.49 across providers, using freshest"
     }
   ]
 }

@@ -8,8 +8,8 @@
     "target_pct": 15.0
   },
   "MARA": {
-    "stop_pct": 0.0,
-    "target_pct": 20.0
+    "stop_pct": 15.0,
+    "target_pct": 35.0
   },
   "RIG": {
     "stop_pct": -10.0,
