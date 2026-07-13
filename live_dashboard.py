@@ -67,11 +67,14 @@ const sgn = v => (v >= 0 ? "+" : "") + usd(v).replace("$-", "-$");
 async function tick() {
   try {
     const r = await (await fetch("/quotes")).json();
-    let rows = "", value = r.cash;
+    let rows = "", value = r.cash, stale = [];
     for (const [sym, p] of Object.entries(r.positions)) {
       const last = r.prices[sym], val = p.qty * last, pnl = (last - p.avg_cost) * p.qty;
+      const isStale = (r.sources[sym] || "").startsWith("STALE");
+      if (isStale) stale.push(sym);
       value += val;
-      rows += `<tr><td>${sym}</td><td>${p.qty}</td><td>${usd(p.avg_cost)}</td>
+      rows += `<tr><td>${sym}${isStale ? ' <span class="stale">⚠</span>' : ""}</td>
+        <td>${p.qty}</td><td>${usd(p.avg_cost)}</td>
         <td>${usd(last)}</td><td>${usd(val)}</td>
         <td class="${pnl < 0 ? "neg" : "pos"}">${sgn(pnl)}</td></tr>`;
     }
@@ -82,8 +85,11 @@ async function tick() {
     eq.className = "equity " + (value < r.start_cash ? "neg" : "pos");
     document.getElementById("cash").textContent = "Cash " + usd(r.cash) +
       " · goal $" + r.goal.toFixed(0);
-    document.getElementById("status").textContent =
-      "live · updated " + new Date().toLocaleTimeString();
+    document.getElementById("status").innerHTML = stale.length
+      ? `<span class="stale">QUOTES STALE for ${stale.join(", ")} — Yahoo unreachable
+         from this machine; showing last ledger mark. Check the terminal running
+         live_dashboard.py for the error.</span>`
+      : "live · updated " + new Date().toLocaleTimeString();
   } catch (e) {
     document.getElementById("status").innerHTML =
       '<span class="stale">disconnected — is live_dashboard.py running?</span>';
@@ -115,22 +121,27 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/quotes":
             ledger = json.loads(LEDGER.read_text())
-            prices = {}
+            prices, sources = {}, {}
             for sym in ledger["positions"]:
                 cached = self._cache.get(sym)
                 if cached and time.time() - cached[1] < 8:
-                    prices[sym] = cached[0]
-                else:
-                    try:
-                        prices[sym] = yahoo_price(sym)
-                        self._cache[sym] = (prices[sym], time.time())
-                    except Exception:
-                        # fall back to last ledger mark if Yahoo hiccups
-                        marks = ledger.get("marks", [])
-                        prices[sym] = (marks[-1]["prices"].get(sym)
-                                       if marks else ledger["positions"][sym]["avg_cost"])
+                    prices[sym], sources[sym] = cached[0], "live"
+                    continue
+                try:
+                    prices[sym] = yahoo_price(sym)
+                    sources[sym] = "live"
+                    self._cache[sym] = (prices[sym], time.time())
+                except Exception as e:
+                    # Fall back to the last ledger mark — and SAY SO, loudly
+                    print(f"[quote FAIL] {sym}: {e!r}")
+                    marks = ledger.get("marks", [])
+                    prices[sym] = (marks[-1]["prices"].get(sym)
+                                   if marks else ledger["positions"][sym]["avg_cost"])
+                    sources[sym] = (f"STALE (ledger mark {marks[-1]['ts'][11:16]} UTC)"
+                                    if marks else "STALE (avg cost)")
             self._send(json.dumps({
-                "prices": prices, "positions": ledger["positions"],
+                "prices": prices, "sources": sources,
+                "positions": ledger["positions"],
                 "cash": ledger["cash"], "start_cash": ledger["start_cash"],
                 "goal": ledger["goal"],
             }), "application/json")
