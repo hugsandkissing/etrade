@@ -1,12 +1,19 @@
 # Challenge monitoring stack — runbook
 
-Architecture for the $100 → $200 paper-trading challenge. Four layers:
+Architecture for the $100 → $200 paper-trading challenge. Containers are
+reclaimed when idle (observed ~hourly overnight), which wipes in-session
+cron jobs and background processes — so only the market tick lives
+in-session; everything else is a cloud-side CCR Routine that survives
+restarts:
 
 1. **Market-hours tick** — in-session cron `*/5 13-20 * * 1-5` (UTC).
-2. **Overnight signal check** — in-session cron `37 0-12,21-23 * * *` (UTC).
-3. **Pre-market briefing** — in-session cron `3 13 * * 1-5` (UTC).
-4. **Cloud watchdog** — CCR Routine, hourly at :40, revives layers 1–3 if the
-   session restarted or crons expired (they auto-expire after 7 days).
+   Recreated by the watchdog or briefing whenever a restart wipes it.
+2. **Overnight signal check** — CCR Routine, `37 0-12,21-23 * * *` (UTC).
+3. **Pre-market briefing** — CCR Routine, `3 13 * * 1-5` (UTC). Also
+   recreates the tick cron and re-arms the guardrail watcher each morning.
+4. **Cloud watchdog** — CCR Routine, `40 13-20 * * 1-5` (UTC): recreates
+   the tick cron, re-arms the watcher process, and backfills stale marks
+   during market hours.
 
 Guardrail bands per position live in `challenge/guardrails.json`; `watch.py`
 polls them every 30s when stooq.com is network-allowlisted. Overnight notes
