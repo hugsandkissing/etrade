@@ -19,3 +19,16 @@ replay (insufficient cash at real prices). True equity: $99.13 (-0.9%).
 Old marks flagged unverified_source. watch.py switched to Yahoo. Trade
 suspension LIFTED; guardrails reset to strategy defaults vs corrected
 costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
+
+## 2026-07-13 22:45 UTC — overnight signals (backfill; 21:37/22:37 checks missed to container restarts)
+- BTC ~$62.8k, -1.4%/24h after an Asian-session leverage flush from ~$64.3k
+  (coindesk). Below our ±5% MARA threshold but soft. Watch for follow-through.
+- RISK-OFF TAPE: Nasdaq-100 futures -1.15%; semis routed in Asia (SK Hynix
+  -15% record drop, Samsung -11%, Kospi -9%). Headwind for SOFI and MARA
+  tomorrow.
+- US-Iran conflict escalated over the weekend; WTI +3% above $73. Direct
+  TAILWIND for RIG (offshore driller) — our only green position may gap up.
+- Preliminary read for tomorrow's open: hold RIG into oil strength, consider
+  letting the trailing rule protect it if it spikes; watch SOFI/MARA opening
+  gaps against the weak tape — do not panic-sell into a gap-down that holds
+  above stops. Final call at the 9:03am briefing.
