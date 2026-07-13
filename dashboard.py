@@ -338,11 +338,11 @@ def page_template(sandbox, accounts, challenge, etrade_html):
 </header>
 {challenge}
 {etrade_html}
-<footer>Data from the E*TRADE API · auto-refreshes every 5 minutes ·
-regenerate with <code>python dashboard.py</code></footer>
+<footer>Data from the E*TRADE API · page reloads every minute; data marks
+~every 5 min in market hours · regenerate with <code>python dashboard.py</code></footer>
 </div><div id="tip"></div></div>
 <script>
-  setTimeout(() => location.reload(), 300000);
+  setTimeout(() => location.reload(), 60000);
   const tip = document.getElementById('tip');
   document.querySelectorAll('.bar-row').forEach(row => {{
     row.addEventListener('mousemove', e => {{
