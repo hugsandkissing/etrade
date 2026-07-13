@@ -27,6 +27,15 @@ monitoring loop; update it only on owner instruction.
   results — revisit only with a real-time quote source), futures, forex,
   fractional shares, margin. Score honestly or the experiment is worthless.
 
+## Floor ratchet (owner goal, 2026-07-13)
+
+The guardrail floor = cash + every position valued at its stop price. It
+only moves UP: as equity grows, trail stops so the floor ratchets higher,
+and never widen a stop once raised. Milestone 1: floor ≥ $120 (requires
+equity ≈ $133+ with 10% trails). Balance to respect: trails tighter than
+~8-10% on these names get shaken out by ordinary noise — earn the floor
+with growth, don't fake it with hair-trigger stops.
+
 ## Fill discipline
 
 Paper fills use the most recent verifiable quote, recorded with source in the

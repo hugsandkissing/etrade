@@ -18,6 +18,21 @@ from pathlib import Path
 import etrade_client as ec
 
 CHALLENGE_LEDGER = Path(__file__).parent / "challenge" / "ledger.json"
+GUARDRAILS_FILE = Path(__file__).parent / "challenge" / "guardrails.json"
+
+
+def guardrail_floor(ledger):
+    """Worst-case equity if every position sold at its stop price."""
+    try:
+        bands = json.loads(GUARDRAILS_FILE.read_text())
+    except OSError:
+        return None
+    default = bands.get("_default", {"stop_pct": -10.0})
+    floor = ledger["cash"]
+    for sym, pos in ledger["positions"].items():
+        stop_pct = bands.get(sym, default)["stop_pct"]
+        floor += pos["qty"] * pos["avg_cost"] * (1 + stop_pct / 100)
+    return floor
 
 
 def fetch_portfolio():
@@ -120,6 +135,12 @@ def challenge_section():
                  f'<polyline points="{pts}" class="spark-line"/>'
                  f'<circle cx="{end_x}" cy="{end_y:.2f}" r="1.6" class="spark-dot"/></svg>')
 
+    floor = guardrail_floor(ledger)
+    floor_html = ""
+    if floor is not None:
+        floor_html = (f' · Guardrail floor: {fmt_usd(floor)}'
+                      f' <span style="color:var(--ink-muted)">(milestone: ≥ $120)</span>')
+
     pos_rows = "\n".join(
         f"<tr><td>{html.escape(sym)}</td><td class='num'>{pos['qty']}</td>"
         f"<td class='num'>{fmt_usd(pos['avg_cost'])}</td>"
@@ -151,7 +172,7 @@ def challenge_section():
       <div class="label" style="display:flex;justify-content:space-between">
         <span>$0</span><span>start $100</span><span>goal $200</span></div>
       {spark}
-      <div class="label" style="margin-top:8px">Cash: {fmt_usd(ledger['cash'])}</div>
+      <div class="label" style="margin-top:8px">Cash: {fmt_usd(ledger['cash'])}{floor_html}</div>
     </div>
     <div>
       <table>
