@@ -47,6 +47,20 @@ python example.py        # lists accounts + quotes AAPL
 python example.py TSLA
 ```
 
+## Trading
+
+E*TRADE requires every order to be previewed before it can be placed;
+`orders.py` handles both steps and asks for confirmation in between:
+
+```bash
+python orders.py BUY AAPL 10                 # market order
+python orders.py BUY AAPL 10 --limit 150.00  # limit order
+python orders.py SELL AAPL 10 --preview-only # preview only
+```
+
+With a sandbox key these run against fake data. With a production key
+they place real trades.
+
 ## Security notes
 
 - Never commit `.env` or `tokens.json` (both are gitignored).
