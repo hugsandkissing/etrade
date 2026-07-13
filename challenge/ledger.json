@@ -158,6 +158,16 @@
       },
       "equity": 99.29,
       "source": "Yahoo v8 chart API 17:32 UTC"
+    },
+    {
+      "ts": "2026-07-13T18:40:43Z",
+      "prices": {
+        "SOFI": 18.17,
+        "MARA": 12.01,
+        "RIG": 5.39
+      },
+      "equity": 99.57,
+      "source": "Yahoo v8 chart API 18:40 UTC"
     }
   ]
 }
