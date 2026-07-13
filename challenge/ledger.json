@@ -2,19 +2,19 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 2.809999999999995,
+  "cash": 17.65,
   "positions": {
     "SOFI": {
-      "qty": 3,
-      "avg_cost": 18.78
+      "qty": 2,
+      "avg_cost": 18.33
     },
     "MARA": {
       "qty": 2,
-      "avg_cost": 11.46
+      "avg_cost": 12.24
     },
     "RIG": {
       "qty": 4,
-      "avg_cost": 5.24
+      "avg_cost": 5.28
     }
   },
   "trades": [
@@ -23,45 +23,55 @@
       "action": "BUY",
       "symbol": "SOFI",
       "qty": 2,
-      "price": 18.78,
+      "price": 18.33,
       "source": "WebSearch/Yahoo close 2026-07-10",
-      "note": "Fintech momentum play: attempting trend reversal, testing $20 breakout ahead of earnings; high beta"
+      "note": "Fintech momentum play: attempting trend reversal, testing $20 breakout ahead of earnings; high beta",
+      "amended_from": 18.78,
+      "amendment": "Repriced to verified Yahoo 5m candle at trade time (2026-07-13 reconciliation)"
     },
     {
       "ts": "2026-07-13T15:35:10Z",
       "action": "BUY",
       "symbol": "MARA",
       "qty": 3,
-      "price": 11.46,
+      "price": 12.24,
       "source": "WebSearch/Investing.com 2026-07-13 intraday",
-      "note": "Bitcoin-mining proxy near 52wk lows (6.66-23.45 range); extreme volatility gives doubling potential; contrarian entry"
+      "note": "Bitcoin-mining proxy near 52wk lows (6.66-23.45 range); extreme volatility gives doubling potential; contrarian entry",
+      "amended_from": 11.46,
+      "amendment": "Repriced to verified Yahoo 5m candle at trade time (2026-07-13 reconciliation)"
     },
     {
       "ts": "2026-07-13T15:35:10Z",
       "action": "BUY",
       "symbol": "RIG",
       "qty": 4,
-      "price": 5.24,
+      "price": 5.28,
       "source": "WebSearch/CNN quote 2026-07-10",
-      "note": "Catalyst play: $1B Equinor backlog + S&P upgrade to B-; cheap per-share lets us size in"
+      "note": "Catalyst play: $1B Equinor backlog + S&P upgrade to B-; cheap per-share lets us size in",
+      "amended_from": 5.24,
+      "amendment": "Repriced to verified Yahoo 5m candle at trade time (2026-07-13 reconciliation)"
     },
     {
       "ts": "2026-07-13T16:08:49Z",
       "action": "SELL",
       "symbol": "MARA",
       "qty": 1,
-      "price": 14.49,
+      "price": 12.15,
       "source": "WebSearch/TradingView intraday 2026-07-13",
-      "note": "Bank 1/3 at +26% per strategy reassess trigger; position was 41% of equity and 3% off intraday high. Trailing stop raised to +15% on remaining 2 shares"
+      "note": "Bank 1/3 at +26% per strategy reassess trigger; position was 41% of equity and 3% off intraday high. Trailing stop raised to +15% on remaining 2 shares",
+      "amended_from": 14.49,
+      "amendment": "Repriced to verified Yahoo 5m candle at trade time (2026-07-13 reconciliation)"
     },
     {
       "ts": "2026-07-13T16:08:49Z",
-      "action": "BUY",
+      "action": "BUY-REJECTED",
       "symbol": "SOFI",
       "qty": 1,
-      "price": 18.78,
+      "price": 18.33,
       "source": "WebSearch/Yahoo intraday 2026-07-13, stable 18.78-18.79 all session",
-      "note": "Redeploy MARA profits same session per strategy; SOFI coiled under $20 breakout level ahead of earnings, unchanged all day while market moves - low-risk add point"
+      "note": "Redeploy MARA profits same session per strategy; SOFI coiled under $20 breakout level ahead of earnings, unchanged all day while market moves - low-risk add point",
+      "amended_from": 18.78,
+      "amendment": "Repriced to verified Yahoo 5m candle at trade time (2026-07-13 reconciliation); REJECTED on replay: insufficient cash at real price (order would not have filled)"
     }
   ],
   "marks": [
@@ -73,7 +83,8 @@
         "RIG": 5.24
       },
       "equity": 100.0,
-      "source": "entry prices"
+      "source": "entry prices",
+      "unverified_source": true
     },
     {
       "ts": "2026-07-13T15:46:06Z",
@@ -83,7 +94,8 @@
         "RIG": 5.28
       },
       "equity": 100.18,
-      "source": "WebSearch intraday 2026-07-13 ~15:50 UTC"
+      "source": "WebSearch intraday 2026-07-13 ~15:50 UTC",
+      "unverified_source": true
     },
     {
       "ts": "2026-07-13T16:03:22Z",
@@ -93,7 +105,8 @@
         "RIG": 5.28
       },
       "equity": 103.73,
-      "source": "WebSearch/finviz+tradingeconomics intraday 2026-07-13 ~16:02 UTC"
+      "source": "WebSearch/finviz+tradingeconomics intraday 2026-07-13 ~16:02 UTC",
+      "unverified_source": true
     },
     {
       "ts": "2026-07-13T16:08:49Z",
@@ -103,7 +116,18 @@
         "RIG": 5.28
       },
       "equity": 109.25,
-      "source": "WebSearch/TradingView intraday 2026-07-13 ~16:10 UTC; MARA quotes varied 12.65-14.49 across providers, using freshest"
+      "source": "WebSearch/TradingView intraday 2026-07-13 ~16:10 UTC; MARA quotes varied 12.65-14.49 across providers, using freshest",
+      "unverified_source": true
+    },
+    {
+      "ts": "2026-07-13T16:26:14Z",
+      "prices": {
+        "SOFI": 18.19,
+        "MARA": 12.07,
+        "RIG": 5.24
+      },
+      "equity": 99.13,
+      "source": "Yahoo v8 chart API (verified feed)"
     }
   ]
 }

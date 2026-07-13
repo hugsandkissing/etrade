@@ -11,13 +11,11 @@ Exit codes: 0 = clean timeout, 2 = guardrail breached (alert on stdout).
 Bands live in challenge/guardrails.json; defaults are stop -12% and
 target +20% relative to average cost.
 
-Quote source: stooq.com free CSV (delayed ~15 min). The environment's
-network allowlist must include stooq.com.
+Quote source: Yahoo Finance v8 chart API (near-real-time). The environment's
+network allowlist must include query1.finance.yahoo.com.
 """
 
 import argparse
-import csv
-import io
 import json
 import sys
 import time
@@ -41,15 +39,13 @@ def load_bands():
 
 
 def fetch_quotes(symbols):
-    tickers = ",".join(f"{s.lower()}.us" for s in symbols)
-    url = f"https://stooq.com/q/l/?s={tickers}&f=sd2t2ohlcv&h&e=csv"
-    with urllib.request.urlopen(url, timeout=15) as resp:
-        text = resp.read().decode()
     quotes = {}
-    for row in csv.DictReader(io.StringIO(text)):
-        close = row.get("Close")
-        if close and close != "N/D":
-            quotes[row["Symbol"].replace(".US", "").upper()] = float(close)
+    for sym in symbols:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1d&interval=5m"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            meta = json.load(resp)["chart"]["result"][0]["meta"]
+        quotes[sym.upper()] = meta["regularMarketPrice"]
     return quotes
 
 
