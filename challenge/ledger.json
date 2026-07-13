@@ -1,0 +1,61 @@
+{
+  "start_cash": 100.0,
+  "goal": 200.0,
+  "created": "2026-07-13T15:35:10Z",
+  "cash": 7.099999999999994,
+  "positions": {
+    "SOFI": {
+      "qty": 2,
+      "avg_cost": 18.78
+    },
+    "MARA": {
+      "qty": 3,
+      "avg_cost": 11.46
+    },
+    "RIG": {
+      "qty": 4,
+      "avg_cost": 5.24
+    }
+  },
+  "trades": [
+    {
+      "ts": "2026-07-13T15:35:10Z",
+      "action": "BUY",
+      "symbol": "SOFI",
+      "qty": 2,
+      "price": 18.78,
+      "source": "WebSearch/Yahoo close 2026-07-10",
+      "note": "Fintech momentum play: attempting trend reversal, testing $20 breakout ahead of earnings; high beta"
+    },
+    {
+      "ts": "2026-07-13T15:35:10Z",
+      "action": "BUY",
+      "symbol": "MARA",
+      "qty": 3,
+      "price": 11.46,
+      "source": "WebSearch/Investing.com 2026-07-13 intraday",
+      "note": "Bitcoin-mining proxy near 52wk lows (6.66-23.45 range); extreme volatility gives doubling potential; contrarian entry"
+    },
+    {
+      "ts": "2026-07-13T15:35:10Z",
+      "action": "BUY",
+      "symbol": "RIG",
+      "qty": 4,
+      "price": 5.24,
+      "source": "WebSearch/CNN quote 2026-07-10",
+      "note": "Catalyst play: $1B Equinor backlog + S&P upgrade to B-; cheap per-share lets us size in"
+    }
+  ],
+  "marks": [
+    {
+      "ts": "2026-07-13T15:35:10Z",
+      "prices": {
+        "SOFI": 18.78,
+        "MARA": 11.46,
+        "RIG": 5.24
+      },
+      "equity": 100.0,
+      "source": "entry prices"
+    }
+  ]
+}

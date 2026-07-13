@@ -13,8 +13,11 @@ import html
 import json
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 import etrade_client as ec
+
+CHALLENGE_LEDGER = Path(__file__).parent / "challenge" / "ledger.json"
 
 
 def fetch_portfolio():
@@ -86,7 +89,91 @@ def diverging_bars(rows, value_key, detail):
     return "\n".join(out)
 
 
+def challenge_section():
+    """Render the $100 -> $200 paper-trading challenge panel, if a ledger exists."""
+    if not CHALLENGE_LEDGER.exists():
+        return ""
+    ledger = json.loads(CHALLENGE_LEDGER.read_text())
+    marks = ledger["marks"]
+    prices = marks[-1]["prices"] if marks else {}
+    equity = ledger["cash"] + sum(
+        pos["qty"] * prices.get(sym, pos["avg_cost"])
+        for sym, pos in ledger["positions"].items())
+    start, goal = ledger["start_cash"], ledger["goal"]
+    pct = (equity - start) / start * 100
+    eq_cls = "neg" if equity < start else "pos"
+    bar_pct = max(0, min(equity / goal * 100, 100))
+    start_pct = start / goal * 100
+
+    spark = ""
+    if len(marks) >= 2:
+        eqs = [m["equity"] for m in marks]
+        lo, hi = min(eqs + [start]), max(eqs + [start])
+        span = (hi - lo) or 1
+        n = len(eqs)
+        pts = " ".join(f"{i / (n - 1) * 100:.2f},{30 - (e - lo) / span * 26:.2f}"
+                       for i, e in enumerate(eqs))
+        base_y = 30 - (start - lo) / span * 26
+        end_x, end_y = 100, 30 - (eqs[-1] - lo) / span * 26
+        spark = (f'<svg viewBox="0 0 100 32" preserveAspectRatio="none" class="spark">'
+                 f'<line x1="0" y1="{base_y:.2f}" x2="100" y2="{base_y:.2f}" class="spark-base"/>'
+                 f'<polyline points="{pts}" class="spark-line"/>'
+                 f'<circle cx="{end_x}" cy="{end_y:.2f}" r="1.6" class="spark-dot"/></svg>')
+
+    pos_rows = "\n".join(
+        f"<tr><td>{html.escape(sym)}</td><td class='num'>{pos['qty']}</td>"
+        f"<td class='num'>{fmt_usd(pos['avg_cost'])}</td>"
+        f"<td class='num'>{fmt_usd(prices.get(sym, pos['avg_cost']))}</td>"
+        f"<td class='num'>{fmt_usd(pos['qty'] * prices.get(sym, pos['avg_cost']))}</td>"
+        f"<td class='num {'neg' if prices.get(sym, pos['avg_cost']) < pos['avg_cost'] else 'pos'}'>"
+        f"{fmt_signed_usd((prices.get(sym, pos['avg_cost']) - pos['avg_cost']) * pos['qty'])}</td></tr>"
+        for sym, pos in sorted(ledger["positions"].items()))
+
+    trade_items = "\n".join(
+        f"<li><strong>{t['action']} {t['qty']} {html.escape(t['symbol'])}</strong> @ "
+        f"{fmt_usd(t['price'])} <span class='muted'>({t['ts'][:10]})</span>"
+        + (f"<br><span class='muted'>{html.escape(t['note'])}</span>" if t.get("note") else "")
+        + "</li>"
+        for t in reversed(ledger["trades"][-5:]))
+
+    return f"""
+<div class="card" style="margin-bottom:16px">
+  <h2>$100 &rarr; $200 Challenge <span class="badge">PAPER — no real money</span></h2>
+  <p class="hint">Started {ledger['created'][:10]} · {len(ledger['trades'])} trades ·
+    scored against real market prices</p>
+  <div class="ch-grid">
+    <div>
+      <div class="label">Equity</div>
+      <div class="value {eq_cls}" style="font-size:28px;font-weight:600">{fmt_usd(equity)}
+        <span style="font-size:14px">({pct:+.1f}%)</span></div>
+      <div class="progress"><span class="progress-fill" style="width:{bar_pct:.1f}%"></span>
+        <span class="progress-start" style="left:{start_pct:.0f}%"></span></div>
+      <div class="label" style="display:flex;justify-content:space-between">
+        <span>$0</span><span>start $100</span><span>goal $200</span></div>
+      {spark}
+      <div class="label" style="margin-top:8px">Cash: {fmt_usd(ledger['cash'])}</div>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th>Symbol</th><th class="num">Qty</th><th class="num">Avg cost</th>
+          <th class="num">Last</th><th class="num">Value</th><th class="num">Gain</th></tr></thead>
+        <tbody>{pos_rows}</tbody>
+      </table>
+      <div class="label" style="margin:10px 0 4px">Recent trades</div>
+      <ul class="trades">{trade_items}</ul>
+    </div>
+  </div>
+</div>"""
+
+
 def build_html(sandbox, accounts, positions):
+    challenge = challenge_section()
+    if not positions:
+        etrade_html = ('<div class="card"><h2>E*TRADE account</h2>'
+                       '<p class="hint">Account data unavailable — the daily OAuth token '
+                       'has likely expired. Run <code>python auth.py</code>.</p></div>')
+        return page_template(sandbox, accounts, challenge, etrade_html)
+
     total_mv = sum(p["marketValue"] for p in positions)
     days_gain = sum(p["daysGain"] for p in positions)
     total_gain = sum(p["totalGain"] for p in positions)
@@ -112,12 +199,40 @@ def build_html(sandbox, accounts, positions):
         for p in sorted(positions, key=lambda p: -abs(p["marketValue"]))
     )
 
-    acct_names = ", ".join(
-        f"{a.get('accountDesc') or a.get('accountType')} ({a['accountId']})" for a in accounts)
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    env_badge = "SANDBOX — simulated data" if sandbox else "PRODUCTION"
     gain_cls = "neg" if days_gain < 0 else "pos"
     tgain_cls = "neg" if total_gain < 0 else "pos"
+
+    etrade_html = f"""<div class="tiles">
+  <div class="tile"><div class="label">Net market value</div><div class="value">{fmt_usd(total_mv)}</div></div>
+  <div class="tile"><div class="label">Day's gain</div><div class="value {gain_cls}">{fmt_signed_usd(days_gain)}</div></div>
+  <div class="tile"><div class="label">Total gain</div><div class="value {tgain_cls}">{fmt_signed_usd(total_gain)}</div></div>
+  <div class="tile"><div class="label">Positions</div><div class="value">{len(positions)}</div>
+    <div class="label" style="margin:4px 0 0">{longs} long · {shorts} short</div></div>
+</div>
+<div class="cards">
+  <div class="card"><h2>Market value by position</h2>
+    <p class="hint">Short positions extend left of the zero line</p>{mv_bars}</div>
+  <div class="card"><h2>Day's gain by position</h2>
+    <p class="hint">Today's dollar change per position</p>{gain_bars}</div>
+</div>
+<div class="card table-scroll">
+  <h2>Positions</h2>
+  <table>
+    <thead><tr><th>Symbol</th><th class="num">Qty</th><th class="num">Last</th>
+      <th class="num">Day %</th><th class="num">Mkt value</th><th class="num">Day gain</th>
+      <th class="num">Total gain</th></tr></thead>
+    <tbody>{table_rows}</tbody>
+  </table>
+</div>"""
+    return page_template(sandbox, accounts, challenge, etrade_html)
+
+
+def page_template(sandbox, accounts, challenge, etrade_html):
+    acct_names = ", ".join(
+        f"{a.get('accountDesc') or a.get('accountType')} ({a['accountId']})"
+        for a in accounts) or "account data unavailable"
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    env_badge = "SANDBOX — simulated data" if sandbox else "PRODUCTION"
 
     return f"""<title>Portfolio Dashboard</title>
 <style>
@@ -193,6 +308,25 @@ def build_html(sandbox, accounts, positions):
   td.neg {{ color: var(--neg-text); }}
   .table-scroll {{ overflow-x: auto; }}
   footer {{ color: var(--ink-muted); font-size: 12px; margin-top: 16px; }}
+  .label {{ font-size: 12px; color: var(--ink-2); }}
+  .muted {{ color: var(--ink-muted); font-size: 12px; }}
+  .value.pos {{ color: var(--pos-text); }}
+  .value.neg {{ color: var(--neg-text); }}
+  .ch-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; margin-top: 8px; }}
+  .progress {{ position: relative; height: 10px; background: var(--grid);
+    border-radius: 5px; margin: 10px 0 4px; overflow: hidden; }}
+  .progress-fill {{ position: absolute; left: 0; top: 0; bottom: 0;
+    background: var(--pos); border-radius: 5px; }}
+  .progress-start {{ position: absolute; top: -2px; bottom: -2px; width: 2px;
+    background: var(--baseline); }}
+  .spark {{ width: 100%; height: 48px; margin-top: 12px; }}
+  .spark-line {{ fill: none; stroke: var(--pos); stroke-width: 1.2;
+    vector-effect: non-scaling-stroke; }}
+  .spark-base {{ stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }}
+  .spark-dot {{ fill: var(--pos); }}
+  ul.trades {{ margin: 0; padding-left: 18px; font-size: 12px; }}
+  ul.trades li {{ margin-bottom: 6px; }}
   #tip {{ position: fixed; pointer-events: none; background: var(--surface-1);
     border: 1px solid var(--ring); border-radius: 8px; padding: 6px 10px; font-size: 12px;
     color: var(--ink-1); box-shadow: 0 2px 8px rgba(0,0,0,.15); display: none; z-index: 10; }}
@@ -202,28 +336,8 @@ def build_html(sandbox, accounts, positions):
   <h1>Portfolio Dashboard<span class="badge">{env_badge}</span></h1>
   <p class="sub">{html.escape(acct_names)} · generated {stamp}</p>
 </header>
-<div class="tiles">
-  <div class="tile"><div class="label">Net market value</div><div class="value">{fmt_usd(total_mv)}</div></div>
-  <div class="tile"><div class="label">Day's gain</div><div class="value {gain_cls}">{fmt_signed_usd(days_gain)}</div></div>
-  <div class="tile"><div class="label">Total gain</div><div class="value {tgain_cls}">{fmt_signed_usd(total_gain)}</div></div>
-  <div class="tile"><div class="label">Positions</div><div class="value">{len(positions)}</div>
-    <div class="label" style="margin:4px 0 0">{longs} long · {shorts} short</div></div>
-</div>
-<div class="cards">
-  <div class="card"><h2>Market value by position</h2>
-    <p class="hint">Short positions extend left of the zero line</p>{mv_bars}</div>
-  <div class="card"><h2>Day's gain by position</h2>
-    <p class="hint">Today's dollar change per position</p>{gain_bars}</div>
-</div>
-<div class="card table-scroll">
-  <h2>Positions</h2>
-  <table>
-    <thead><tr><th>Symbol</th><th class="num">Qty</th><th class="num">Last</th>
-      <th class="num">Day %</th><th class="num">Mkt value</th><th class="num">Day gain</th>
-      <th class="num">Total gain</th></tr></thead>
-    <tbody>{table_rows}</tbody>
-  </table>
-</div>
+{challenge}
+{etrade_html}
 <footer>Data from the E*TRADE API · regenerate with <code>python dashboard.py</code></footer>
 </div><div id="tip"></div></div>
 <script>
@@ -244,9 +358,12 @@ def build_html(sandbox, accounts, positions):
 
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else "dashboard.html"
-    sandbox, accounts, positions = fetch_portfolio()
-    if not positions:
-        raise SystemExit("No positions returned — is your token still valid? Run auth.py.")
+    try:
+        sandbox, accounts, positions = fetch_portfolio()
+    except Exception as e:
+        # Challenge panel still renders when the E*TRADE token has expired
+        print(f"E*TRADE fetch failed ({e}); rendering challenge data only")
+        sandbox, accounts, positions = True, [], []
     with open(out, "w") as f:
         f.write(build_html(sandbox, accounts, positions))
     print(f"Wrote {out}: {len(positions)} positions across {len(accounts)} account(s)")
