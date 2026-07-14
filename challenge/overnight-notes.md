@@ -97,3 +97,21 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
 - Briefing at 9:03 should confirm the futures reaction before finalizing:
   if futures flipped green, hold everything into the open and let winners
   run; keep stops untouched.
+
+## 2026-07-14 13:05 UTC (9:05am ET) — PRE-MARKET BRIEFING / DAY PLAN
+Post-CPI tape: mixed, not a rally — Dow -0.3%, S&P -0.2%, Nasdaq +0.2%.
+But July hike odds collapsed 42% -> 17%. Pre-market prints on our names too
+thin to read via Yahoo meta.
+
+PLAN FOR THE OPEN:
+1. HOLD all three positions into the open. SOFI: hike-odds collapse is a
+   direct positive + Jul 29 earnings catalyst intact. MARA: BTC stable,
+   rate relief mild positive; entering above stop, let it work. RIG: oil
+   elevated + 4pm blockade; trailing rule governs, don't sell strength.
+2. CASH ($17.65): stay dry through the 10am Warsh testimony (three-catalyst
+   day = keep optionality). After Warsh reaction settles (~10:30), deploy
+   into whichever name shows strongest post-CPI momentum with thesis
+   intact — evaluated at that tick with verified quotes.
+3. RISK: stops unchanged (SOFI -10%, MARA -12%, RIG -10% from cost).
+   4pm blockade window: expect RIG volatility both directions; the
+   Iranian-ships-only nuance may fade the oil premium.
