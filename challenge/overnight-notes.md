@@ -64,3 +64,16 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
 - Blockade nuance from later reporting: targets only Iranian ships and
   customers, not all Hormuz traffic — oil move may partially fade on
   digestion. Day-of-event reversal risk for RIG noted.
+
+## 2026-07-14 07:40 UTC (3:40am ET) — overnight check
+- EARNINGS DATES CONFIRMED: SOFI Q2 call Wed Jul 29 8am ET (results ~7am);
+  RIG Q2 on Aug 5. SOFI earnings is 2 weeks out — the breakout thesis has a
+  hard catalyst date now.
+- RIG backlog story keeps building: beyond the $1B Equinor deal (3 rigs,
+  day rates >$400k), ~$185M additional firm backlog from Norway/Australia
+  work extending utilization into 2027-28. Thesis intact and strengthening
+  independent of the oil spike.
+- BTC steady in the $62-63k band; one search result claimed a "$123k record
+  high" — that's a cached 2025 article (URL dated 202507), discarded.
+  Ongoing reminder that search results carry stale-data traps.
+- No changes to plan: CPI 8:30am ET is the gate, briefing at 9:03am ET.
