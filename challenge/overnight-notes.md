@@ -48,3 +48,7 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
   from our $5.28 cost, consider trimming 1-2 shares into strength or
   tightening the trail rather than selling all; energy shocks can run for
   days. MARA/SOFI: hold through the gap unless stops trigger at real prices.
+- UPDATE 00:50 UTC: Brent +9.5% above $83; WTI topped $78 and climbing
+  (owner flagged $80+). Blockade takes effect 4pm ET TUESDAY - the shock
+  lands during tomorrow's session, not before it. RIG gap-up thesis
+  strengthens; day-of-event volatility will be extreme in both directions.
