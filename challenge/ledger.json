@@ -856,6 +856,36 @@
       },
       "equity": 99.83,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-14T17:30:13Z",
+      "prices": {
+        "SOFI": 18.66,
+        "MARA": 11.79,
+        "RIG": 5.285
+      },
+      "equity": 100.01,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-14T17:35:26Z",
+      "prices": {
+        "SOFI": 18.69,
+        "MARA": 11.83,
+        "RIG": 5.29
+      },
+      "equity": 100.16,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-14T17:40:39Z",
+      "prices": {
+        "SOFI": 18.72,
+        "MARA": 11.93,
+        "RIG": 5.285
+      },
+      "equity": 100.33,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
