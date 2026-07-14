@@ -77,3 +77,6 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
   high" — that's a cached 2025 article (URL dated 202507), discarded.
   Ongoing reminder that search results carry stale-data traps.
 - No changes to plan: CPI 8:30am ET is the gate, briefing at 9:03am ET.
+- 09:40 UTC addendum: CPI consensus is 0.2% m/m core — the number to beat.
+  Above 0.2 = hawkish surprise (SOFI/MARA pressure); at/below = relief pop
+  possible in risk assets. Micron -5% pre-market; semi weakness persisting.
