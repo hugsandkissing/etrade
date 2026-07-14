@@ -8,6 +8,10 @@ restarts:
 
 1. **Market-hours tick** — in-session cron `*/5 13-20 * * 1-5` (UTC).
    Recreated by the watchdog or briefing whenever a restart wipes it.
+   KNOWN LIMITATION (2026-07-14): in-session cron does not reliably fire
+   between turns in this environment — treat it as best-effort only. The
+   guaranteed dashboard cadence comes from cloud refresh Routines at :12
+   and :26 (hours 14-20 UTC weekdays) plus the :40 watchdog.
 2. **Overnight signal check** — CCR Routine, `37 0-12,21-23 * * *` (UTC).
 3. **Pre-market briefing** — CCR Routine, `3 13 * * 1-5` (UTC). Also
    recreates the tick cron and re-arms the guardrail watcher each morning.
