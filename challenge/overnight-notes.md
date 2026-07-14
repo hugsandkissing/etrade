@@ -127,3 +127,6 @@ PLAN FOR THE OPEN:
   approaching the ±5% plan threshold.
 - Book closed day 2 at $100.00 flat. Watch tonight: BTC direction
   resolution, PPI Wednesday morning, Warsh Senate round 2.
+- 22:40 UTC addendum: BTC conflict RESOLVED — trading ~$62.9-63k; the
+  $64.5k print was stale noise. No ±5% move, no MARA plan needed. Range
+  $59-66k intact, currently lower half.
