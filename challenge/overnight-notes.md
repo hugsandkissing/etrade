@@ -84,3 +84,16 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
   congressional testimony, House Financial Services 10:00am ET (Senate Weds).
   CPI y/y expected to ease to 3.8% from 4.4%. Day's event map: 8:30 CPI ->
   10:00 Warsh -> 4:00pm blockade effective. Expect three volatility windows.
+
+## 2026-07-14 12:40 UTC (8:40am ET) — CPI PRINT (pre-briefing)
+- June CPI: 3.5% y/y vs 3.8% expected — COOLER than consensus (May was
+  4.2%, a 3yr high). Core steady at 2.9%, in line. Dovish surprise.
+- Fed context: markets had priced ~30% chance of a July HIKE and 77% of at
+  least one hike by year-end — this print deflates some of that. Rate
+  relief = tailwind for SOFI (rate-sensitive) and MARA (risk asset) at the
+  open, ON TOP of the RIG oil tailwind. Potentially green across the book.
+- Caveat from commentary: single soft print + oil rising again = muted
+  reaction possible; Warsh testimony at 10am can recolor everything.
+- Briefing at 9:03 should confirm the futures reaction before finalizing:
+  if futures flipped green, hold everything into the open and let winners
+  run; keep stops untouched.
