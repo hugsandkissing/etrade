@@ -80,3 +80,7 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
 - 09:40 UTC addendum: CPI consensus is 0.2% m/m core — the number to beat.
   Above 0.2 = hawkish surprise (SOFI/MARA pressure); at/below = relief pop
   possible in risk assets. Micron -5% pre-market; semi weakness persisting.
+- 10:40 UTC addendum: SECOND macro catalyst today — Fed Chair Warsh's first
+  congressional testimony, House Financial Services 10:00am ET (Senate Weds).
+  CPI y/y expected to ease to 3.8% from 4.4%. Day's event map: 8:30 CPI ->
+  10:00 Warsh -> 4:00pm blockade effective. Expect three volatility windows.
