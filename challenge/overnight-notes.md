@@ -115,3 +115,15 @@ PLAN FOR THE OPEN:
 3. RISK: stops unchanged (SOFI -10%, MARA -12%, RIG -10% from cost).
    4pm blockade window: expect RIG volatility both directions; the
    Iranian-ships-only nuance may fade the oil premium.
+
+## 2026-07-14 21:40 UTC (5:40pm ET) — post-close check, night 2
+- Blockade took effect 4pm ET with WTI just shy of $80 (+2% day) — the oil
+  bid did NOT fade after the event; RIG may get a second look tomorrow.
+  (One outlet claims "oil hit $111" — outlier/clickbait, discarded; all
+  primary sources cluster ~$78-80.)
+- BTC prints conflict across sources: $62.6k flat vs $64.5k +4%/24h with
+  "risk markets not reacting much, Nasdaq +1%." If the $64.5k print is
+  real, MARA setup improves materially overnight — VERIFY at next check;
+  approaching the ±5% plan threshold.
+- Book closed day 2 at $100.00 flat. Watch tonight: BTC direction
+  resolution, PPI Wednesday morning, Warsh Senate round 2.
