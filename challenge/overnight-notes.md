@@ -52,3 +52,15 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
   (owner flagged $80+). Blockade takes effect 4pm ET TUESDAY - the shock
   lands during tomorrow's session, not before it. RIG gap-up thesis
   strengthens; day-of-event volatility will be extreme in both directions.
+
+## 2026-07-14 04:40 UTC (12:40am ET) — overnight check
+- NEW: June CPI report lands Tuesday 8:30am ET — the key macro catalyst.
+  Oil near $74-79 feeding inflation fear; a hot print = hawkish Fed = extra
+  pressure on SOFI (rate-sensitive fintech) and MARA (risk asset), while
+  supporting the RIG energy trade. The 9:03am briefing MUST read the CPI
+  reaction before setting the day's plan.
+- BTC ~$62.5k, stable in the $62-63k band all night; $62.6M of leveraged
+  longs liquidated earlier. No ±5% MARA trigger.
+- Blockade nuance from later reporting: targets only Iranian ships and
+  customers, not all Hormuz traffic — oil move may partially fade on
+  digestion. Day-of-event reversal risk for RIG noted.
