@@ -6,7 +6,8 @@ cron jobs and background processes — so only the market tick lives
 in-session; everything else is a cloud-side CCR Routine that survives
 restarts:
 
-1. **Market-hours tick** — in-session cron `*/5 13-20 * * 1-5` (UTC).
+1. **Market-hours tick** — in-session cron `*/5 13-19 * * 1-5` (UTC;
+   ends 19:55 to avoid post-close no-op firings).
    Recreated by the watchdog or briefing whenever a restart wipes it.
    KNOWN LIMITATION (2026-07-14): in-session cron does not reliably fire
    between turns in this environment — treat it as best-effort only. The
