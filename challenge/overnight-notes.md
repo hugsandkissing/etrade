@@ -32,3 +32,19 @@ costs. WebSearch is no longer an acceptable fill source — Yahoo feed only.
   letting the trailing rule protect it if it spikes; watch SOFI/MARA opening
   gaps against the weak tape — do not panic-sell into a gap-down that holds
   above stops. Final call at the 9:03am briefing.
+
+## 2026-07-14 00:40 UTC — overnight check: energy shock building
+- GEOPOLITICS: Trump announced an Iranian blockade with a 20% fee on Strait
+  of Hormuz cargo + renewed airstrikes. WTI +8.5% to ~$77.50 (one-month
+  high). MAJOR tailwind for RIG at tomorrow's open — expect a gap up.
+- BTC gave up $62k: ~$61,850, -3.4%/24h (was ~$62.8k at last note). Crypto
+  miners (MARA, RIOT, CLSK) all ~-5% in extended/overnight pricing. MARA
+  entering tomorrow under pressure — stop is -12% from $12.24 avg = $10.77;
+  a -5% open (~$11.40) holds above it. Do not panic-sell the gap; let the
+  stop do its job.
+- Broad tape: stocks near session lows, risk-off continuing from the Asian
+  semi rout.
+- Plan sketch for 9:03 briefing: RIG likely gaps up — if it opens >+8-10%
+  from our $5.28 cost, consider trimming 1-2 shares into strength or
+  tightening the trail rather than selling all; energy shocks can run for
+  days. MARA/SOFI: hold through the gap unless stops trigger at real prices.
