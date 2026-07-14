@@ -14,6 +14,10 @@ restarts:
 4. **Cloud watchdog** — CCR Routine, `40 13-20 * * 1-5` (UTC): recreates
    the tick cron, re-arms the watcher process, and backfills stale marks
    during market hours.
+5. **Daily trends report** — CCR Routine, `20 20 * * 1-5` (UTC): after the
+   close, writes reports/YYYY-MM-DD.md scoring last night's signals against
+   the day's actual outcome (format: reports/2026-07-13.md) and messages it
+   to the owner.
 
 Guardrail bands per position live in `challenge/guardrails.json`; `watch.py`
 polls them every 30s when stooq.com is network-allowlisted. Overnight notes
