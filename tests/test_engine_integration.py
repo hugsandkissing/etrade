@@ -16,7 +16,9 @@ def test_engine_creates_only_a_hypothetical_fill(tmp_path):
         state_path=tmp_path / "state.json",
         kill_switch_path=tmp_path / "KILL_SWITCH",
         min_five_minute_volume=100,
-        stale_seconds=86_400,
+        # Synthetic events use a fixed date; keep quote freshness out of this
+        # allocation-flow integration test.
+        stale_seconds=7 * 86_400,
     )
     engine = ShadowEngine(settings)
     engine.health.set(HealthState.HEALTHY, "synthetic integration test")
@@ -24,6 +26,21 @@ def test_engine_creates_only_a_hypothetical_fill(tmp_path):
 
     events = [
         MarketEvent("q1", EventType.QUOTE, "VG", now, bid=10.00, ask=10.01),
+        MarketEvent(
+            "q2",
+            EventType.QUOTE,
+            "VG",
+            now + timedelta(seconds=1),
+            bid=10.00,
+            ask=10.01,
+        ),
+        MarketEvent(
+            "t1",
+            EventType.TRADE,
+            "VG",
+            now + timedelta(seconds=2),
+            price=10.01,
+        ),
         MarketEvent("b1", EventType.BAR, "VG", now, price=10.00, volume=100),
         MarketEvent(
             "b2",
@@ -54,7 +71,12 @@ def test_engine_creates_only_a_hypothetical_fill(tmp_path):
     assert len(fills) == 1
     assert fills[0]["payload"]["action"] == "BUY"
     assert engine.portfolio.position("VG") is not None
-    assert sum(record["type"] == "market_event" for record in records) == len(events)
+    market_events = [
+        record["payload"] for record in records if record["type"] == "market_event"
+    ]
+    assert len(market_events) == 4
+    assert sum(item["event_type"] == "quote" for item in market_events) == 1
+    assert not any(item["event_type"] == "trade" for item in market_events)
     assert not any(
         record["type"] in {"order_preview", "order_placed"} for record in records
     )

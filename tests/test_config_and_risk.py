@@ -4,7 +4,15 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from swagger.config import ConfigurationError, Settings
-from swagger.models import Action, AccountState, Decision, HealthState, Quote
+from swagger.models import (
+    Action,
+    AccountState,
+    Decision,
+    HealthState,
+    Position,
+    Quote,
+    TargetAllocation,
+)
 from swagger.risk import RiskContext, RiskKernel
 
 
@@ -22,6 +30,12 @@ def decision(action=Action.BUY, symbol="VG", amount=20.0):
         invalidation_condition="test",
         suggested_protective_exit_pct=-7.0,
         idempotency_key="test-key",
+        target_allocations=(
+            TargetAllocation(symbol, amount / 50.0)
+            if action is Action.BUY
+            else TargetAllocation(symbol, 0.0),
+        ),
+        target_is_complete=True,
     )
 
 
@@ -52,9 +66,14 @@ def test_buy_blocked_at_floor_but_sell_remains_possible():
     settings = Settings()
     kernel = RiskKernel(settings)
     assert not kernel.evaluate(decision(), context(settings, account_value=40)).approved
-    assert kernel.evaluate(
-        decision(Action.SELL), context(settings, account_value=40)
-    ).approved
+    quote = Quote("VG", 10, 10.01, datetime.now(timezone.utc), "test")
+    sell_context = RiskContext(
+        AccountState(40, 30, positions=(Position("VG", 1, 10),)),
+        quote,
+        HealthState.HEALTHY,
+        True,
+    )
+    assert kernel.evaluate(decision(Action.SELL), sell_context).approved
 
 
 def test_stale_quote_and_wide_spread_are_blocked():
@@ -75,3 +94,34 @@ def test_duplicate_and_unhealthy_engine_are_blocked():
     verdict = RiskKernel(settings).evaluate(decision(), blocked)
     assert not verdict.approved
     assert "duplicate idempotency key" in verdict.reasons
+
+
+def test_complete_target_is_authoritative_over_legacy_amount():
+    settings = Settings()
+    proposal = replace(
+        decision(amount=999),
+        target_allocations=(TargetAllocation("VG", 0.5),),
+        target_is_complete=True,
+    )
+    verdict = RiskKernel(settings).evaluate(proposal, context(settings))
+    assert verdict.approved
+
+
+def test_complete_target_must_preserve_existing_positions():
+    settings = Settings()
+    proposal = replace(
+        decision(),
+        target_allocations=(TargetAllocation("VG", 0.5),),
+        target_is_complete=True,
+    )
+    quote = Quote("VG", 10, 10.01, datetime.now(timezone.utc), "test")
+    account = AccountState(
+        50,
+        20,
+        positions=(Position("QQQ", 0.1, 300),),
+    )
+    verdict = RiskKernel(settings).evaluate(
+        proposal, RiskContext(account, quote, HealthState.HEALTHY, True)
+    )
+    assert not verdict.approved
+    assert "complete target omits an existing position" in verdict.reasons

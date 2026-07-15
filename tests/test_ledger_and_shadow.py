@@ -1,11 +1,18 @@
 from datetime import datetime, timezone
 
 from swagger.ledger import AuditLedger
-from swagger.models import Action, Decision, Quote
+from swagger.broker import BrokerCapabilities, plan_allocation_order
+from swagger.models import (
+    AccountState,
+    Action,
+    Decision,
+    Quote,
+    TargetAllocation,
+)
 from swagger.shadow import ShadowPortfolio
 
 
-def make_decision(action, key, amount=None, quantity=None):
+def make_decision(action, key, amount=None, quantity=None, target=None):
     return Decision(
         action=action,
         symbol="VG",
@@ -19,6 +26,10 @@ def make_decision(action, key, amount=None, quantity=None):
         invalidation_condition="test",
         suggested_protective_exit_pct=-7,
         idempotency_key=key,
+        target_allocations=(TargetAllocation("VG", target),)
+        if target is not None
+        else (),
+        target_is_complete=target is not None,
     )
 
 
@@ -58,3 +69,73 @@ def test_shadow_state_recovers_after_restart(tmp_path):
     recovered = ShadowPortfolio(path, 50, slippage_bps=0)
     assert recovered.position("VG") is not None
     assert recovered.cash == first.cash
+
+
+def test_fractional_target_allocation_uses_nearly_all_target_dollars(tmp_path):
+    portfolio = ShadowPortfolio(tmp_path / "state.json", 50, slippage_bps=0)
+    quote = Quote("VG", 13.20, 13.22, datetime.now(timezone.utc), "test")
+    fill = portfolio.execute(
+        make_decision(Action.BUY, "allocation-buy", amount=50, target=1.0), quote
+    )
+    assert fill.quantity % 1 != 0
+    assert fill.target_weight == 1.0
+    assert fill.execution_residual_cash_after is not None
+    assert fill.execution_residual_cash_after < 0.01
+
+
+def test_whole_share_adapter_rounds_and_reports_residual_cash():
+    quote = Quote("VG", 13.20, 13.22, datetime.now(timezone.utc), "test")
+    order = plan_allocation_order(
+        target=TargetAllocation("VG", 1.0),
+        account=AccountState(value=50, buying_power=50),
+        quote=quote,
+        capabilities=BrokerCapabilities(supports_fractional_shares=False),
+    )
+    assert order is not None
+    assert order.quantity == 3
+    assert round(order.residual_cash, 2) == 10.34
+
+
+def test_allocation_snapshot_reports_target_realized_drift_and_cash(tmp_path):
+    portfolio = ShadowPortfolio(tmp_path / "state.json", 50, slippage_bps=0)
+    quote = Quote("VG", 10, 10, datetime.now(timezone.utc), "test")
+    portfolio.execute(make_decision(Action.BUY, "half", amount=25, target=0.5), quote)
+    snapshot = portfolio.allocation_snapshot(
+        {"VG": quote}, (TargetAllocation("VG", 0.5),)
+    )
+    assert snapshot.lines[0].target_weight == 0.5
+    assert snapshot.lines[0].realized_weight == 0.5
+    assert snapshot.lines[0].drift_weight == 0
+    assert snapshot.target_cash_value == 25
+    assert snapshot.realized_cash_value == 25
+    assert snapshot.target_cash_weight == 0.5
+    assert snapshot.realized_cash_weight == 0.5
+    assert snapshot.execution_residual_cash == 0
+
+
+def test_allocation_drift_is_target_minus_realized(tmp_path):
+    portfolio = ShadowPortfolio(tmp_path / "state.json", 50, slippage_bps=0)
+    quote = Quote("VG", 10, 10, datetime.now(timezone.utc), "test")
+    portfolio.execute(
+        make_decision(Action.BUY, "quarter", amount=12.5, target=0.25), quote
+    )
+    snapshot = portfolio.allocation_snapshot(
+        {"VG": quote}, (TargetAllocation("VG", 0.5),)
+    )
+    assert snapshot.lines[0].drift_weight == 0.25
+
+
+def test_ledger_rotates_without_breaking_hash_continuity(tmp_path):
+    path = tmp_path / "ledger.jsonl"
+    archive_dir = tmp_path / "archive"
+    ledger = AuditLedger(path, max_bytes=512, archive_dir=archive_dir)
+    ledger.append("large", {"value": "x" * 600})
+    ledger.append("after_rotation", {"idempotency_key": "rotated"})
+
+    archives = list(archive_dir.glob("*.jsonl"))
+    assert len(archives) == 1
+    records = list(ledger.records())
+    assert records[0]["type"] == "ledger_segment_started"
+    assert records[0]["payload"]["archived_file"] == archives[0].name
+    assert ledger.verify_chain() == (True, "ok")
+    assert ledger.contains_idempotency_key("rotated")

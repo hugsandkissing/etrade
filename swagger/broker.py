@@ -4,11 +4,75 @@ from __future__ import annotations
 
 from typing import Protocol
 
-from .models import AccountState, Decision, Quote
+from dataclasses import dataclass
+import math
+
+from .models import (
+    AccountState,
+    Action,
+    Decision,
+    ExecutionOrder,
+    Quote,
+    TargetAllocation,
+)
 
 
 class BrokerUnavailable(RuntimeError):
     pass
+
+
+@dataclass(frozen=True)
+class BrokerCapabilities:
+    supports_fractional_shares: bool
+    quantity_increment: float = 1.0
+
+
+def target_for(decision: Decision, symbol: str) -> TargetAllocation | None:
+    return next(
+        (item for item in decision.target_allocations if item.symbol == symbol), None
+    )
+
+
+def plan_allocation_order(
+    *,
+    target: TargetAllocation,
+    account: AccountState,
+    quote: Quote,
+    capabilities: BrokerCapabilities,
+) -> ExecutionOrder | None:
+    """Translate target-weight drift into an adapter-specific executable order."""
+    if not 0 <= target.weight <= 1:
+        raise ValueError("target allocation weight must be between 0 and 1")
+    position = next((p for p in account.positions if p.symbol == target.symbol), None)
+    current_quantity = position.quantity if position else 0.0
+    current_value = current_quantity * quote.midpoint
+    target_value = account.value * target.weight
+    delta = target_value - current_value
+    if abs(delta) < 0.01:
+        return None
+    action = Action.BUY if delta > 0 else Action.SELL
+    price = quote.ask if action is Action.BUY else quote.bid
+    raw_quantity = abs(delta) / price
+    if capabilities.supports_fractional_shares:
+        quantity = raw_quantity
+    else:
+        increment = capabilities.quantity_increment
+        quantity = math.floor(raw_quantity / increment) * increment
+    if action is Action.SELL:
+        quantity = min(quantity, current_quantity)
+    if quantity <= 0:
+        return None
+    estimated_value = quantity * price
+    residual = max(0.0, abs(delta) - estimated_value)
+    return ExecutionOrder(
+        symbol=target.symbol,
+        action=action,
+        quantity=quantity,
+        estimated_price=price,
+        estimated_value=estimated_value,
+        target_weight=target.weight,
+        residual_cash=residual,
+    )
 
 
 class Broker(Protocol):

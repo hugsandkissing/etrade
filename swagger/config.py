@@ -51,7 +51,10 @@ class Settings:
     shadow_slippage_bps: float = 5.0
     reconnect_max_attempts: int = 8
     reconnect_max_seconds: int = 60
+    ledger_quote_sample_seconds: int = 60
+    ledger_max_bytes: int = 100 * 1024 * 1024
     ledger_path: Path = Path("swagger_state/ledger.jsonl")
+    ledger_archive_dir: Path = Path("swagger_state/ledger_archive")
     state_path: Path = Path("swagger_state/shadow_state.json")
     kill_switch_path: Path = Path("swagger_state/KILL_SWITCH")
     health_host: str = "127.0.0.1"
@@ -84,9 +87,7 @@ class Settings:
             robinhood_mcp_url=os.getenv(
                 "ROBINHOOD_MCP_URL", "https://agent.robinhood.com/mcp/trading"
             ),
-            robinhood_oauth_callback_port=_int(
-                "ROBINHOOD_OAUTH_CALLBACK_PORT", 8765
-            ),
+            robinhood_oauth_callback_port=_int("ROBINHOOD_OAUTH_CALLBACK_PORT", 8765),
             broker_reconcile_seconds=_int("BROKER_RECONCILE_SECONDS", 300),
             max_capital=_float("MAX_CAPITAL", 50),
             account_floor=_float("ACCOUNT_FLOOR", 40),
@@ -100,8 +101,16 @@ class Settings:
             shadow_slippage_bps=_float("SHADOW_SLIPPAGE_BPS", 5),
             reconnect_max_attempts=_int("RECONNECT_MAX_ATTEMPTS", 8),
             reconnect_max_seconds=_int("RECONNECT_MAX_SECONDS", 60),
+            ledger_quote_sample_seconds=_int("LEDGER_QUOTE_SAMPLE_SECONDS", 60),
+            ledger_max_bytes=_int("LEDGER_MAX_BYTES", 100 * 1024 * 1024),
             ledger_path=Path(
                 os.getenv("SWAGGER_LEDGER_PATH", "swagger_state/ledger.jsonl")
+            ),
+            ledger_archive_dir=Path(
+                os.getenv(
+                    "SWAGGER_LEDGER_ARCHIVE_DIR",
+                    "swagger_state/ledger_archive",
+                )
             ),
             state_path=Path(
                 os.getenv("SWAGGER_STATE_PATH", "swagger_state/shadow_state.json")
@@ -147,3 +156,7 @@ class Settings:
             raise ConfigurationError("MAX_POSITIONS must be positive")
         if self.stale_seconds < 1 or self.proposal_cooldown_seconds < 0:
             raise ConfigurationError("timing values must be non-negative")
+        if self.ledger_quote_sample_seconds < 1:
+            raise ConfigurationError("LEDGER_QUOTE_SAMPLE_SECONDS must be positive")
+        if self.ledger_max_bytes < 1024 * 1024:
+            raise ConfigurationError("LEDGER_MAX_BYTES must be at least 1 MiB")

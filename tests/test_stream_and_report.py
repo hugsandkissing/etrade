@@ -74,6 +74,25 @@ def test_report_calculates_costs_and_benchmarks():
         {"type": "shadow_snapshot", "payload": {"value": 50}},
         {"type": "shadow_snapshot", "payload": {"value": 51}},
         {
+            "type": "allocation_snapshot",
+            "payload": {
+                "cash": 25.0,
+                "target_cash_weight": 0.5,
+                "realized_cash_weight": 0.52,
+                "target_cash_value": 25.0,
+                "realized_cash_value": 26.0,
+                "execution_residual_cash": 1.25,
+                "lines": [
+                    {
+                        "symbol": "VG",
+                        "target_weight": 0.5,
+                        "realized_weight": 0.48,
+                        "drift_weight": 0.02,
+                    }
+                ],
+            },
+        },
+        {
             "type": "market_event",
             "payload": {"event_type": "bar", "symbol": "VG", "price": 10},
         },
@@ -88,3 +107,12 @@ def test_report_calculates_costs_and_benchmarks():
     assert round(report["shadow_return_pct"], 2) == 2
     assert round(report["vg_buy_and_hold_pct"], 2) == 10
     assert report["average_holding_hours"] == 1
+    assert report["latest_target_allocation"] == {"VG": 0.5}
+    assert report["latest_realized_allocation"] == {"VG": 0.48}
+    assert report["latest_allocation_drift"] == {"VG": 0.02}
+    assert report["latest_cash"] == 25.0
+    assert report["latest_target_cash_weight"] == 0.5
+    assert report["latest_realized_cash_weight"] == 0.52
+    assert report["latest_execution_residual_cash"] == 1.25
+    assert report["total_evaluations"] == 1
+    assert report["actionable_proposals"] == 1

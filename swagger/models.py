@@ -94,6 +94,37 @@ class AccountState:
 
 
 @dataclass(frozen=True)
+class TargetAllocation:
+    """A strategy-owned desired portfolio weight (0.0 through 1.0)."""
+
+    symbol: str
+    weight: float
+
+
+@dataclass(frozen=True)
+class AllocationLine:
+    symbol: str
+    target_weight: float
+    realized_weight: float
+    drift_weight: float
+    target_value: float
+    realized_value: float
+
+
+@dataclass(frozen=True)
+class AllocationSnapshot:
+    portfolio_value: float
+    cash: float
+    target_cash_weight: float
+    realized_cash_weight: float
+    target_cash_value: float
+    realized_cash_value: float
+    execution_residual_cash: float
+    lines: tuple[AllocationLine, ...]
+    timestamp: datetime = field(default_factory=utc_now)
+
+
+@dataclass(frozen=True)
 class Decision:
     action: Action
     symbol: str
@@ -107,6 +138,8 @@ class Decision:
     invalidation_condition: str
     suggested_protective_exit_pct: float | None
     idempotency_key: str
+    target_allocations: tuple[TargetAllocation, ...] = ()
+    target_is_complete: bool = False
     rotate_from: str | None = None
     instrument_is_leveraged: bool = False
 
@@ -130,6 +163,22 @@ class ShadowFill:
     slippage_cost: float
     timestamp: datetime
     realized_pnl: float = 0.0
+    target_weight: float | None = None
+    realized_weight_after: float | None = None
+    execution_residual_cash_after: float | None = None
+
+
+@dataclass(frozen=True)
+class ExecutionOrder:
+    """Broker-adapter output derived from a target allocation."""
+
+    symbol: str
+    action: Action
+    quantity: float
+    estimated_price: float
+    estimated_value: float
+    target_weight: float
+    residual_cash: float
 
 
 def jsonable(value: Any) -> Any:

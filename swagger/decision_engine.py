@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from typing import Protocol
 
 from .config import Settings
-from .models import Action, Decision, Position, Quote, Signal
+from .models import Action, Decision, Position, Quote, Signal, TargetAllocation
 from .signals import distinct_families, signal_names
 
 
@@ -21,6 +21,7 @@ class DecisionContext:
     position: Position | None
     buying_power: float
     account_value: float
+    current_allocations: tuple[TargetAllocation, ...] = ()
 
 
 class DecisionProvider(Protocol):
@@ -109,6 +110,25 @@ class RuleBasedDecisionProvider:
         invalidation_condition: str,
         suggested_protective_exit_pct: float | None,
     ) -> Decision:
+        targets: tuple[TargetAllocation, ...] = ()
+        if action is not Action.HOLD:
+            target_map = {
+                item.symbol.upper(): item.weight for item in context.current_allocations
+            }
+            if action is Action.SELL:
+                target_map[context.symbol.upper()] = 0.0
+            elif action in {Action.BUY, Action.ROTATE}:
+                target_map[context.symbol.upper()] = min(
+                    1.0 / self.settings.max_positions,
+                    (maximum_dollar_amount or 0) / context.account_value
+                    if context.account_value > 0
+                    else 0.0,
+                )
+            targets = tuple(
+                TargetAllocation(symbol, weight)
+                for symbol, weight in sorted(target_map.items())
+            )
+
         return Decision(
             action=action,
             symbol=context.symbol,
@@ -122,6 +142,8 @@ class RuleBasedDecisionProvider:
             invalidation_condition=invalidation_condition,
             suggested_protective_exit_pct=suggested_protective_exit_pct,
             idempotency_key=_key(context, action),
+            target_allocations=targets,
+            target_is_complete=action is not Action.HOLD,
         )
 
 

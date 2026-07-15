@@ -10,7 +10,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .models import Action, AccountState, Decision, Position, Quote, ShadowFill
+from .broker import BrokerCapabilities, plan_allocation_order, target_for
+from .models import (
+    Action,
+    AccountState,
+    AllocationLine,
+    AllocationSnapshot,
+    Decision,
+    Position,
+    Quote,
+    ShadowFill,
+    TargetAllocation,
+)
 
 
 class ShadowPortfolioError(RuntimeError):
@@ -108,17 +119,117 @@ class ShadowPortfolio:
             daily_pnl_pct=round(daily_pnl, 6),
         )
 
+    def realized_allocations(
+        self, quotes: dict[str, Quote]
+    ) -> tuple[TargetAllocation, ...]:
+        """Return every held symbol's current portfolio weight.
+
+        These weights seed the next complete target so an action on one symbol
+        cannot silently imply liquidating every other holding.
+        """
+        account = self.account_state(quotes)
+        allocations: list[TargetAllocation] = []
+        for symbol in sorted(self.positions):
+            position = self.position(symbol)
+            if position is None:
+                continue
+            quote = quotes.get(symbol)
+            value = position.quantity * (
+                quote.midpoint if quote else position.average_cost
+            )
+            allocations.append(
+                TargetAllocation(
+                    symbol=symbol,
+                    weight=value / account.value if account.value else 0.0,
+                )
+            )
+        return tuple(allocations)
+
+    def allocation_snapshot(
+        self,
+        quotes: dict[str, Quote],
+        targets: tuple[TargetAllocation, ...],
+        execution_residual_cash: float = 0.0,
+    ) -> AllocationSnapshot:
+        account = self.account_state(quotes)
+        target_map = {item.symbol.upper(): item.weight for item in targets}
+        if len(target_map) != len(targets):
+            raise ShadowPortfolioError("target allocation contains duplicate symbols")
+        if any(weight < 0 or weight > 1 for weight in target_map.values()):
+            raise ShadowPortfolioError("target weights must be between zero and one")
+        if sum(target_map.values()) > 1.0 + 1e-9:
+            raise ShadowPortfolioError("target weights exceed 100%")
+        missing = set(self.positions) - set(target_map)
+        if missing:
+            raise ShadowPortfolioError(
+                "complete target omits held symbols: " + ", ".join(sorted(missing))
+            )
+        symbols = sorted(set(target_map) | set(self.positions))
+        lines: list[AllocationLine] = []
+        for symbol in symbols:
+            position = self.position(symbol)
+            quote = quotes.get(symbol)
+            realized_value = 0.0
+            if position:
+                realized_value = position.quantity * (
+                    quote.midpoint if quote else position.average_cost
+                )
+            realized_weight = realized_value / account.value if account.value else 0.0
+            target_weight = target_map.get(symbol, 0.0)
+            lines.append(
+                AllocationLine(
+                    symbol=symbol,
+                    target_weight=target_weight,
+                    realized_weight=realized_weight,
+                    drift_weight=target_weight - realized_weight,
+                    target_value=account.value * target_weight,
+                    realized_value=realized_value,
+                )
+            )
+        return AllocationSnapshot(
+            portfolio_value=account.value,
+            cash=self.cash,
+            target_cash_weight=max(0.0, 1.0 - sum(target_map.values())),
+            realized_cash_weight=self.cash / account.value if account.value else 0.0,
+            target_cash_value=account.value * max(0.0, 1.0 - sum(target_map.values())),
+            realized_cash_value=self.cash,
+            execution_residual_cash=execution_residual_cash,
+            lines=tuple(lines),
+        )
+
     def execute(self, decision: Decision, quote: Quote) -> ShadowFill:
         if decision.action not in {Action.BUY, Action.SELL}:
             raise ShadowPortfolioError(f"cannot shadow-fill {decision.action.value}")
         slippage_rate = self.slippage_bps / 10_000
         midpoint = quote.midpoint
         realized_pnl = 0.0
+        target = target_for(decision, decision.symbol)
+
+        if target is not None:
+            planned = plan_allocation_order(
+                target=target,
+                account=self.account_state({quote.symbol: quote}),
+                quote=quote,
+                capabilities=BrokerCapabilities(supports_fractional_shares=True),
+            )
+            if planned is None:
+                raise ShadowPortfolioError("target allocation is already satisfied")
+            if planned.action is not decision.action:
+                raise ShadowPortfolioError(
+                    "decision action conflicts with target drift"
+                )
+        else:
+            planned = None
 
         if decision.action is Action.BUY:
             base_price = quote.ask
             fill_price = base_price * (1 + slippage_rate)
-            amount = min(decision.maximum_dollar_amount or 0, self.cash)
+            amount = min(
+                planned.estimated_value
+                if planned
+                else decision.maximum_dollar_amount or 0,
+                self.cash,
+            )
             if amount <= 0:
                 raise ShadowPortfolioError("no cash allocated to BUY")
             quantity = amount / fill_price
@@ -139,7 +250,9 @@ class ShadowPortfolio:
             if not item:
                 raise ShadowPortfolioError("cannot SELL a missing shadow position")
             quantity = min(
-                decision.share_quantity or float(item["quantity"]),
+                planned.quantity
+                if planned
+                else decision.share_quantity or float(item["quantity"]),
                 float(item["quantity"]),
             )
             if quantity <= 0:
@@ -154,6 +267,10 @@ class ShadowPortfolio:
             spread_cost = max(0.0, midpoint - base_price) * quantity
             slippage_cost = max(0.0, base_price - fill_price) * quantity
 
+        post_account = self.account_state({quote.symbol: quote})
+        post_position = self.position(decision.symbol)
+        post_value = (post_position.quantity * quote.midpoint) if post_position else 0.0
+        execution_residual = planned.residual_cash if planned else 0.0
         fill = ShadowFill(
             fill_id=str(uuid.uuid4()),
             decision_id=decision.idempotency_key,
@@ -166,6 +283,11 @@ class ShadowPortfolio:
             slippage_cost=slippage_cost,
             timestamp=datetime.now(timezone.utc),
             realized_pnl=realized_pnl,
+            target_weight=target.weight if target else None,
+            realized_weight_after=(
+                post_value / post_account.value if post_account.value else 0.0
+            ),
+            execution_residual_cash_after=execution_residual,
         )
         self.fills.append(
             {
@@ -179,6 +301,9 @@ class ShadowPortfolio:
                 "spread_cost": fill.spread_cost,
                 "slippage_cost": fill.slippage_cost,
                 "realized_pnl": fill.realized_pnl,
+                "target_weight": fill.target_weight,
+                "realized_weight_after": fill.realized_weight_after,
+                "execution_residual_cash_after": fill.execution_residual_cash_after,
                 "timestamp": fill.timestamp.isoformat().replace("+00:00", "Z"),
             }
         )

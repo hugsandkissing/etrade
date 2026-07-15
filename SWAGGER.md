@@ -21,7 +21,9 @@ Rule-based decision provider
         |
 Deterministic risk kernel
         |
-Hypothetical bid/ask fill
+Target allocation planner
+        |
+Broker-capability rounding + hypothetical bid/ask fill
         |
 Hash-chained JSONL ledger + report
 
@@ -138,7 +140,8 @@ withdrawal capability.
 
 Runtime files are local and gitignored:
 
-- `swagger_state/ledger.jsonl` — append-only, hash-chained audit events.
+- `swagger_state/ledger.jsonl` — active append-only, hash-chained audit segment.
+- `swagger_state/ledger_archive/` — immutable rotated ledger segments.
 - `swagger_state/shadow_state.json` — recoverable hypothetical portfolio state.
 - `swagger_state/KILL_SWITCH` — presence halts the engine.
 
@@ -157,6 +160,19 @@ rm swagger_state/KILL_SWITCH
 Corrections to the ledger must be appended as `correction` records. Never edit
 or delete prior JSONL lines.
 
+The engine does not persist every exchange tick. It records all bars, signals,
+decisions, risk verdicts, fills, health changes, and broker reconciliations;
+quotes are sampled once per symbol per configured interval, and raw trades are
+used in memory but not written. The active segment rotates at 100 MiB by
+default. Rotation renames the completed segment without rewriting it and starts
+the next segment with a hash-linked `ledger_segment_started` record.
+
+```dotenv
+LEDGER_QUOTE_SAMPLE_SECONDS=60
+LEDGER_MAX_BYTES=104857600
+SWAGGER_LEDGER_ARCHIVE_DIR=swagger_state/ledger_archive
+```
+
 ## Decision policy
 
 The default provider is deterministic and requires bullish confirmation from at
@@ -166,11 +182,22 @@ family. SELL proposals require immediate adverse evidence or confirmation from
 at least two bearish families. A per-symbol cooldown prevents repeated
 proposals.
 
-Every non-HOLD proposal is evaluated again by the independent risk kernel.
-Approved proposals are filled hypothetically at the ask for buys or bid for
-sells, plus configured slippage. Fractional quantities are permitted in the
-shadow book because the intended Robinhood cash account supports fractional
-equity orders; this does not imply broker integration.
+Every non-HOLD proposal is expressed as a **complete** target portfolio
+allocation and is evaluated again by the independent risk kernel. Strategy code
+says, for example, "VG 50%, QQQ 30%, cash 20%" rather than "buy 1.89 shares."
+All held symbols must be present, including a zero weight for a full exit. Cash
+is implicit and intentional: `1 - sum(symbol target weights)`. The execution
+adapter compares that target with the current realized allocation and translates
+`target weight - realized weight` into an order at the latest execution-side
+quote.
+
+The shadow adapter supports fractional shares, so approved target allocations
+are filled hypothetically at the ask for buys or bid for sells, plus configured
+slippage. A whole-share broker adapter rounds down to its supported quantity
+increment and reports the unexecuted rounding difference separately as
+`execution_residual_cash`. That value is not the portfolio's intentional cash
+allocation. This keeps portfolio intent broker-neutral: adapters own quantity
+rounding, while strategy and risk continue to reason in weights and dollars.
 
 The optional `OpenAIDecisionProvider` is a fail-closed placeholder and always
 returns HOLD. It has no tool or broker access.
@@ -189,9 +216,14 @@ Cumulative report:
 python -m swagger.report --cumulative
 ```
 
-Reports include proposals, risk outcomes, hypothetical fills, win rate,
+Reports stream the ledger rather than loading the full file into memory. By
+default they include rotated archives; use `--active-only` for a fast diagnostic
+of the current segment. They include evaluations, actionable proposals, risk outcomes, hypothetical fills, win rate,
 expectancy, drawdown, profit factor, holding period, transaction costs, and
-comparisons with VG and SPY when enough bar data exists.
+comparisons with VG and SPY when enough bar data exists. They also expose the
+latest target allocation, realized allocation, target-minus-realized drift,
+intentional target/realized cash, and execution-only residual cash. Allocation
+weights are decimal fractions (`0.50` means 50%).
 
 ## Verification
 

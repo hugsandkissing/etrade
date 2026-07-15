@@ -22,6 +22,9 @@ def calculate(records: list[dict[str, Any]]) -> dict[str, Any]:
     verdicts = [r for r in records if r["type"] == "risk_verdict"]
     fills = [r["payload"] for r in records if r["type"] == "shadow_fill"]
     snapshots = [r["payload"] for r in records if r["type"] == "shadow_snapshot"]
+    allocation_snapshots = [
+        r["payload"] for r in records if r["type"] == "allocation_snapshot"
+    ]
     realized = [
         float(fill.get("realized_pnl", 0))
         for fill in fills
@@ -70,8 +73,15 @@ def calculate(records: list[dict[str, Any]]) -> dict[str, Any]:
 
     gross_profit = sum(winners)
     gross_loss = abs(sum(losers))
+    actionable = [
+        item
+        for item in decisions
+        if item.get("payload", {}).get("action") in {"BUY", "SELL", "ROTATE"}
+    ]
+    latest_allocation = allocation_snapshots[-1] if allocation_snapshots else {}
     report = {
-        "total_proposals": len(decisions),
+        "total_evaluations": len(decisions),
+        "actionable_proposals": len(actionable),
         "action_counts": {
             action: sum(
                 1 for item in decisions if item["payload"].get("action") == action
@@ -97,6 +107,38 @@ def calculate(records: list[dict[str, Any]]) -> dict[str, Any]:
         else None,
         "spread_cost": sum(float(fill.get("spread_cost", 0)) for fill in fills),
         "slippage_cost": sum(float(fill.get("slippage_cost", 0)) for fill in fills),
+        "latest_target_allocation": (
+            {
+                line["symbol"]: line["target_weight"]
+                for line in latest_allocation.get("lines", [])
+            }
+            if allocation_snapshots
+            else {}
+        ),
+        "latest_realized_allocation": (
+            {
+                line["symbol"]: line["realized_weight"]
+                for line in latest_allocation.get("lines", [])
+            }
+            if allocation_snapshots
+            else {}
+        ),
+        "latest_allocation_drift": (
+            {
+                line["symbol"]: line["drift_weight"]
+                for line in latest_allocation.get("lines", [])
+            }
+            if allocation_snapshots
+            else {}
+        ),
+        "latest_cash": latest_allocation.get("cash"),
+        "latest_target_cash_weight": latest_allocation.get("target_cash_weight"),
+        "latest_realized_cash_weight": latest_allocation.get("realized_cash_weight"),
+        "latest_target_cash_value": latest_allocation.get("target_cash_value"),
+        "latest_realized_cash_value": latest_allocation.get("realized_cash_value"),
+        "latest_execution_residual_cash": latest_allocation.get(
+            "execution_residual_cash"
+        ),
         "shadow_return_pct": _return_pct(equity_curve[0], equity_curve[-1])
         if equity_curve
         else None,
@@ -115,12 +157,38 @@ def calculate(records: list[dict[str, Any]]) -> dict[str, Any]:
 def load_records(path: Path, date: str | None = None) -> list[dict[str, Any]]:
     if not path.exists():
         return []
-    records = [
-        json.loads(line) for line in path.read_text().splitlines() if line.strip()
-    ]
-    if date:
-        records = [record for record in records if record["timestamp"].startswith(date)]
+    relevant_types = {
+        "decision",
+        "risk_verdict",
+        "shadow_fill",
+        "shadow_snapshot",
+        "allocation_snapshot",
+        "market_event",
+    }
+    records: list[dict[str, Any]] = []
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            # Legacy ledgers contain millions of raw quotes and trades. Avoid
+            # decoding them; only bars are needed for benchmark calculation.
+            if '"type": "market_event"' in line and '"event_type": "bar"' not in line:
+                continue
+            record = json.loads(line)
+            if record.get("type") not in relevant_types:
+                continue
+            if date and not record.get("timestamp", "").startswith(date):
+                continue
+            records.append(record)
     return records
+
+
+def ledger_paths(active: Path, archive_dir: Path | None = None) -> list[Path]:
+    archive_dir = archive_dir or active.parent / "ledger_archive"
+    archives = (
+        sorted(archive_dir.glob("ledger-*.jsonl")) if archive_dir.exists() else []
+    )
+    return [*archives, active]
 
 
 def main() -> int:
@@ -131,8 +199,26 @@ def main() -> int:
     parser.add_argument(
         "--ledger", type=Path, default=Path("swagger_state/ledger.jsonl")
     )
+    parser.add_argument(
+        "--archive-dir",
+        type=Path,
+        default=None,
+        help="ledger archive directory (defaults beside the active ledger)",
+    )
+    parser.add_argument(
+        "--active-only",
+        action="store_true",
+        help="exclude rotated archives from this report",
+    )
     args = parser.parse_args()
-    records = load_records(args.ledger, None if args.cumulative else args.date)
+    paths = (
+        [args.ledger]
+        if args.active_only
+        else ledger_paths(args.ledger, args.archive_dir)
+    )
+    records: list[dict[str, Any]] = []
+    for path in paths:
+        records.extend(load_records(path, None if args.cumulative else args.date))
     print(json.dumps(calculate(records), indent=2, sort_keys=True))
     return 0
 

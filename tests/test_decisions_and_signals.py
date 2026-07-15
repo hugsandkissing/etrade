@@ -4,7 +4,15 @@ from datetime import datetime, timedelta, timezone
 from swagger.bar_aggregator import SignalAggregator
 from swagger.config import Settings
 from swagger.decision_engine import DecisionContext, RuleBasedDecisionProvider
-from swagger.models import Action, EventType, MarketEvent, Quote, Signal
+from swagger.models import (
+    Action,
+    EventType,
+    MarketEvent,
+    Position,
+    Quote,
+    Signal,
+    TargetAllocation,
+)
 
 
 NOW = datetime.now(timezone.utc)
@@ -64,8 +72,36 @@ def test_two_distinct_families_confirm_buy_and_cooldown():
         )
     )
     assert first.action is Action.BUY
+    assert first.target_allocations[0].symbol == "VG"
+    assert first.target_allocations[0].weight == 0.5
+    assert first.target_is_complete
     assert second.action is Action.HOLD
     assert "cooldown" in second.rationale.lower()
+
+
+def test_sell_target_preserves_other_portfolio_allocations():
+    provider = RuleBasedDecisionProvider(Settings())
+    sell_context = DecisionContext(
+        symbol="VG",
+        timestamp=NOW,
+        signals=(
+            signal("confirmed_stop", "risk", "bearish"),
+            signal("session_low_cross", "price", "bearish"),
+        ),
+        quote=Quote("VG", 10, 10.01, NOW, "test"),
+        position=Position("VG", 1, 11),
+        buying_power=10,
+        account_value=50,
+        current_allocations=(
+            TargetAllocation("QQQ", 0.3),
+            TargetAllocation("VG", 0.5),
+        ),
+    )
+    result = asyncio.run(provider.propose(sell_context))
+    targets = {item.symbol: item.weight for item in result.target_allocations}
+    assert result.action is Action.SELL
+    assert result.target_is_complete
+    assert targets == {"QQQ": 0.3, "VG": 0.0}
 
 
 def test_aggregator_emits_price_and_volume_families():

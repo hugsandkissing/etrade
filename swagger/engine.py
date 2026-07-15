@@ -30,7 +30,11 @@ class ShadowEngine:
         self.settings.validate(require_market_data=True)
         self.logger = configure_logging()
         self.health = health or HealthTracker()
-        self.ledger = AuditLedger(settings.ledger_path)
+        self.ledger = AuditLedger(
+            settings.ledger_path,
+            max_bytes=settings.ledger_max_bytes,
+            archive_dir=settings.ledger_archive_dir,
+        )
         self.portfolio = ShadowPortfolio(
             settings.state_path, settings.starting_cash, settings.shadow_slippage_bps
         )
@@ -49,12 +53,9 @@ class ShadowEngine:
         self.signal_buffer: dict[str, deque[Signal]] = defaultdict(
             lambda: deque(maxlen=32)
         )
-        self.seen_event_ids = {
-            record.get("payload", {}).get("event_id")
-            for record in self.ledger.records()
-            if record.get("type") == "market_event"
-        }
-        self.seen_event_ids.discard(None)
+        self.seen_event_ids: set[str] = set()
+        self._seen_event_order: deque[str] = deque()
+        self._last_quote_persisted: dict[str, datetime] = {}
         self.stop_event = asyncio.Event()
         for position in self.portfolio.account_state().positions:
             self.aggregator.set_position_average_cost(
@@ -74,6 +75,33 @@ class ShadowEngine:
             for symbol in self.settings.symbols
             if (quote := self.aggregator.current_quote(symbol)) is not None
         }
+
+    def _remember_event(self, event_id: str) -> bool:
+        if event_id in self.seen_event_ids:
+            return False
+        self.seen_event_ids.add(event_id)
+        self._seen_event_order.append(event_id)
+        while len(self._seen_event_order) > 50_000:
+            expired = self._seen_event_order.popleft()
+            self.seen_event_ids.discard(expired)
+        return True
+
+    def _persist_market_event(self, event) -> bool:
+        if event.event_type in {EventType.BAR, EventType.NEWS, EventType.STATUS}:
+            return True
+        if event.event_type is EventType.TRADE:
+            return False
+        if event.event_type is EventType.QUOTE:
+            previous = self._last_quote_persisted.get(event.symbol)
+            if (
+                previous is not None
+                and (event.timestamp - previous).total_seconds()
+                < self.settings.ledger_quote_sample_seconds
+            ):
+                return False
+            self._last_quote_persisted[event.symbol] = event.timestamp
+            return True
+        return False
 
     async def _stale_watchdog(self) -> None:
         while not self.stop_event.is_set():
@@ -147,12 +175,12 @@ class ShadowEngine:
             await self.stream.close()
 
     async def _handle_event(self, event) -> None:
-        if event.event_id in self.seen_event_ids:
+        if not self._remember_event(event.event_id):
             return
-        self.seen_event_ids.add(event.event_id)
         if self.health.state is HealthState.DEGRADED:
             await self._stream_status(HealthState.HEALTHY, "market data resumed")
-        self.ledger.append("market_event", event)
+        if self._persist_market_event(event):
+            self.ledger.append("market_event", event)
         signals = self.aggregator.process(event)
         if event.event_type is EventType.BAR:
             account = self.portfolio.account_state(self._quotes())
@@ -189,6 +217,7 @@ class ShadowEngine:
                 position=self.portfolio.position(event.symbol),
                 buying_power=account.buying_power,
                 account_value=account.value,
+                current_allocations=self.portfolio.realized_allocations(self._quotes()),
             )
         )
         duplicate_key = self.ledger.contains_idempotency_key(decision.idempotency_key)
@@ -222,6 +251,14 @@ class ShadowEngine:
             )
             return
         self.ledger.append("shadow_fill", fill)
+        self.ledger.append(
+            "allocation_snapshot",
+            self.portfolio.allocation_snapshot(
+                self._quotes(),
+                decision.target_allocations,
+                fill.execution_residual_cash_after or 0.0,
+            ),
+        )
         updated = self.portfolio.position(event.symbol)
         if updated:
             self.aggregator.set_position_average_cost(
@@ -267,9 +304,7 @@ class ShadowEngine:
             for task in tasks:
                 if not task.done():
                     task.cancel()
-            await asyncio.gather(
-                *tasks, return_exceptions=True
-            )
+            await asyncio.gather(*tasks, return_exceptions=True)
             await self.stream.close()
             self.ledger.append("engine_stopped", {"health": self.health.state.value})
 
