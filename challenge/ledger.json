@@ -1939,6 +1939,15 @@
       },
       "equity": 97.16,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-15T19:57:03Z",
+      "prices": {
+        "SOFI": 17.845,
+        "RIG": 5.21
+      },
+      "equity": 97.12,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
