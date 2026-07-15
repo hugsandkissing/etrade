@@ -149,3 +149,13 @@ PLAN FOR THE OPEN:
   threshold but MARA-friendly if it holds into the open. PROCESS NOTE:
   overnight checks should verify BTC via Yahoo BTC-USD (allowlisted feed)
   from now on, not web prints.
+
+## 2026-07-15 04:40 UTC (12:40am ET) — risk-on turn overnight
+- Futures green late Tue: Nasdaq +0.61%, S&P +0.18% — cool CPI winning out
+  over war headlines. Asia rebounding hard Wednesday: KOSPI +7% (full
+  reversal of Monday's semi rout), Nikkei/China/Australia all higher.
+- BTC firm at $64,767 (verified Yahoo feed), ~+3% from Tuesday evening's
+  base and holding. MARA-friendly setup building for the open.
+- Net read for Wednesday: risk-on tape favors SOFI (momentum leader) and
+  MARA; oil still elevated for RIG. Best combined setup of the challenge
+  so far — briefing confirms with PPI at 8:30am ET.
