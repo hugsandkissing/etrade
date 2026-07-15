@@ -159,3 +159,7 @@ PLAN FOR THE OPEN:
 - Net read for Wednesday: risk-on tape favors SOFI (momentum leader) and
   MARA; oil still elevated for RIG. Best combined setup of the challenge
   so far — briefing confirms with PPI at 8:30am ET.
+- 06:40 UTC (2:40am ET): BTC pushed to $65,018 (verified feed), overnight
+  high $65,176 — now testing the 50-day EMA (~$65,070) noted by analysts
+  as the trend gate. A clean break above = momentum signal for MARA at the
+  open; rejection here = rangebound continues. +5% off yesterday's lows.
