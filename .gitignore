@@ -1,5 +1,7 @@
 # Credentials and OAuth tokens — never commit these
 .env
+.env.*
+!.env.example
 tokens.json
 
 # Python
