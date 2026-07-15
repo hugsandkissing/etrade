@@ -1,5 +1,9 @@
 # E*TRADE API starter
 
+> The new shadow-only market monitor lives in `swagger/`. See
+> [SWAGGER.md](SWAGGER.md) for its independent setup and safety model. It does
+> not import or enable the E*TRADE order path described below.
+
 Minimal Python setup for calling the E*TRADE API: OAuth login, account
 listing, and quotes.
 

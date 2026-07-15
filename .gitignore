@@ -9,3 +9,6 @@ __pycache__/
 venv/
 dashboard.html
 challenge/.ledger.lock
+
+# Swagger Engine runtime state (append-only locally; never commit live state)
+swagger_state/

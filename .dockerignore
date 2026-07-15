@@ -1,0 +1,10 @@
+.git
+.env
+.venv
+venv
+tokens.json
+swagger_state
+challenge
+reports
+__pycache__
+*.pyc
