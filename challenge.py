@@ -11,7 +11,9 @@ is verifiable.
     python challenge.py mark SOFI=25.10 MARA=18.22   # valuation snapshot
     python challenge.py status
 
-Rules enforced: whole shares, long only, cash can never go negative.
+Rules enforced: long only, cash can never go negative. Fractional shares
+allowed (min 0.001 sh, 3 decimal places; buys need $5+ notional) —
+mirroring E*TRADE's real fractional terms, enabled by the owner 2026-07-15.
 """
 
 import argparse
@@ -80,26 +82,31 @@ def cmd_trade(args, action):
 def _do_trade(args, action):
     ledger = load()
     sym = args.symbol.upper()
-    qty, price = args.quantity, args.price
-    if qty <= 0:
-        raise SystemExit("Quantity must be positive.")
+    qty, price = round(args.quantity, 3), args.price
+    if qty < 0.001:
+        raise SystemExit("Quantity must be at least 0.001 shares.")
+    if qty != args.quantity:
+        raise SystemExit("Quantity precision is 3 decimal places (E*TRADE fractional terms).")
     cost = qty * price
 
     if action == "buy":
+        if cost < 5.0 - 1e-9:
+            raise SystemExit(f"Buy notional ${cost:.2f} below the $5 minimum "
+                             "(E*TRADE fractional terms).")
         if cost > ledger["cash"] + 1e-9:
             raise SystemExit(f"Insufficient cash: need ${cost:.2f}, have ${ledger['cash']:.2f}")
         ledger["cash"] -= cost
         pos = ledger["positions"].setdefault(sym, {"qty": 0, "avg_cost": 0.0})
         pos["avg_cost"] = (pos["avg_cost"] * pos["qty"] + cost) / (pos["qty"] + qty)
-        pos["qty"] += qty
+        pos["qty"] = round(pos["qty"] + qty, 3)
     else:
         pos = ledger["positions"].get(sym)
-        if not pos or pos["qty"] < qty:
+        if not pos or pos["qty"] + 1e-9 < qty:
             held = pos["qty"] if pos else 0
-            raise SystemExit(f"Cannot sell {qty} {sym}: hold {held}")
+            raise SystemExit(f"Cannot sell {qty:g} {sym}: hold {held:g}")
         ledger["cash"] += cost
-        pos["qty"] -= qty
-        if pos["qty"] == 0:
+        pos["qty"] = round(pos["qty"] - qty, 3)
+        if pos["qty"] < 0.001:
             del ledger["positions"][sym]
 
     ledger["trades"].append({
@@ -107,7 +114,7 @@ def _do_trade(args, action):
         "qty": qty, "price": price, "source": args.source, "note": args.note,
     })
     save(ledger)
-    print(f"{action.upper()} {qty} {sym} @ ${price:.2f} — cash ${ledger['cash']:.2f}")
+    print(f"{action.upper()} {qty:g} {sym} @ ${price:.2f} — cash ${ledger['cash']:.2f}")
 
 
 def record_mark(prices, source=""):
@@ -144,7 +151,7 @@ def cmd_status(args):
         px = last.get(sym, pos["avg_cost"])
         val = pos["qty"] * px
         gain = (px - pos["avg_cost"]) * pos["qty"]
-        print(f"  {sym}: {pos['qty']} @ avg ${pos['avg_cost']:.2f}, "
+        print(f"  {sym}: {pos['qty']:g} @ avg ${pos['avg_cost']:.2f}, "
               f"last ${px:.2f}, value ${val:.2f}, gain {gain:+.2f}")
     print(f"Trades: {len(ledger['trades'])}, marks: {len(ledger['marks'])}")
 
@@ -156,7 +163,7 @@ def main():
     p = sub.add_parser("init"); p.add_argument("--force", action="store_true")
     for name in ("buy", "sell"):
         p = sub.add_parser(name)
-        p.add_argument("symbol"); p.add_argument("quantity", type=int)
+        p.add_argument("symbol"); p.add_argument("quantity", type=float)
         p.add_argument("price", type=float)
         p.add_argument("--source", required=True, help="where the price came from")
         p.add_argument("--note", default="", help="trade rationale")

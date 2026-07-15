@@ -33,7 +33,7 @@ drive autonomous operation.
 | `example.py` | Smoke test: accounts + quote. |
 | `orders.py` | E*TRADE two-step order flow (preview → confirm → place). Sandbox returns canned responses regardless of input. |
 | `dashboard.py` | Generates `dashboard.html` (gitignored): E*TRADE account view + challenge panel. Published as a claude.ai artifact by the agent; the page self-reloads every 60s but data only changes when republished. |
-| `challenge.py` | Paper ledger CLI: `init`, `buy`, `sell`, `mark`, `status`. Enforces whole shares, long only, non-negative cash. All writes serialized via `flock` on `challenge/.ledger.lock`. `record_mark()` is importable. |
+| `challenge.py` | Paper ledger CLI: `init`, `buy`, `sell`, `mark`, `status`. Enforces long only, non-negative cash, fractional shares to 3 decimals ($5 min buy notional, per E*TRADE's real terms). All writes serialized via `flock` on `challenge/.ledger.lock`. `record_mark()` is importable. |
 | `watch.py` | Guardrail watcher daemon: polls Yahoo every `--interval` (30s), exits code 2 with JSON alert if any position crosses its stop/target band; auto-appends a ledger mark every `--mark-every` (300s). Runs as a background process during market hours. |
 | `report_data.py` | Dumps a day's marks/trades/moves as JSON for the daily report. |
 | `live_dashboard.py` | Localhost real-time viewer (owner runs it on their own machine): stdlib HTTP server, page polls `/quotes` every 10s, server proxies Yahoo. Falls back to last ledger mark with a loud STALE banner — never silently. |
@@ -88,7 +88,8 @@ All times UTC; ET offset is UTC-4 (EDT). DST note in README-MONITORING.md.
    Corrections are additive — `amended_from` + `amendment` fields, done in
    a dedicated commit that explains itself. The experiment's credibility
    is the git history.
-2. **Honest simulation**: whole shares, long only, cash never negative,
+2. **Honest simulation**: fractional shares only on E*TRADE's real terms
+   (3 decimals, $5 min buy notional), long only, cash never negative,
    no fills outside market hours, no options (option spreads can't be
    simulated honestly on delayed quotes).
 3. **Guardrail floor only ratchets up** (STRATEGY.md): stops may tighten,

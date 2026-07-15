@@ -17,7 +17,10 @@ monitoring loop; update it only on owner instruction.
 
 ## Instruments allowed (paper)
 
-- US-listed stocks and ETFs, whole shares only, long only.
+- US-listed stocks and ETFs, long only. Fractional shares allowed as of
+  2026-07-15 (owner-approved): min 0.001 sh, 3 decimal places, $5 minimum
+  buy notional — mirroring E*TRADE's real fractional-share terms. Verify
+  API fractional support in preview mode before the first real-money trade.
 - Leveraged/inverse ETFs explicitly allowed (2x/3x, e.g. TSLL, BITX, SOXS):
   this is the sanctioned leverage and the bear-side tool, since we cannot
   short. Prefer per-share price under ~$50 so the account can size them.
