@@ -240,3 +240,10 @@ PLAN:
      $25-35 each, keep ~$5-10 cash. No leverage (TQQQ still rejected).
   4. Guardrails: add entries for new symbols at default -10/+15 before
      first buy; floor recomputes after restructure.
+- 23:38 UTC (7:38pm ET): BTC $64,791 flat (verified feed) — no trigger,
+  MARA stays off the book. Deploy-candidate context for tomorrow: semis
+  led the day (SMH +1.2%, ASML raised its outlook a 2nd time this year;
+  NVDA CEO confirmed Vera Rubin in production, countering delay rumors —
+  NVDA ~$210-213 range). Supports the NVDA/SMH side of the fractional
+  deploy; memory names (Micron etc.) saw profit-taking, so prefer the
+  broad SMH or NVDA over memory-heavy exposure. No SOFI/RIG news.
