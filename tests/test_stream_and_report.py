@@ -1,3 +1,6 @@
+import asyncio
+import json
+
 from swagger.config import Settings
 from swagger.market_stream import AlpacaWebSocketStream
 from swagger.models import EventType
@@ -12,6 +15,30 @@ def test_alpaca_parser_and_duplicate_identity():
     assert event is not None
     assert event.event_type is EventType.QUOTE
     assert event.event_id == duplicate.event_id
+
+
+def test_alpaca_handshake_waits_for_connected_then_authenticated():
+    class FakeWebSocket:
+        def __init__(self):
+            self.replies = [
+                json.dumps([{"T": "success", "msg": "connected"}]),
+                json.dumps([{"T": "success", "msg": "authenticated"}]),
+            ]
+            self.sent = []
+
+        async def recv(self):
+            return self.replies.pop(0)
+
+        async def send(self, payload):
+            self.sent.append(json.loads(payload))
+
+    stream = AlpacaWebSocketStream(
+        Settings(alpaca_api_key="test-key", alpaca_api_secret="test-secret")
+    )
+    websocket = FakeWebSocket()
+    asyncio.run(stream._authenticate_and_subscribe(websocket))
+    assert websocket.sent[0]["action"] == "auth"
+    assert websocket.sent[1]["action"] == "subscribe"
 
 
 def test_report_calculates_costs_and_benchmarks():

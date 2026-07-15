@@ -71,6 +71,12 @@ class AlpacaWebSocketStream(MarketDataStream):
         )
 
     async def _authenticate_and_subscribe(self, websocket) -> None:
+        greeting = json.loads(await asyncio.wait_for(websocket.recv(), timeout=10))
+        if not any(
+            item.get("T") == "success" and item.get("msg") == "connected"
+            for item in greeting
+        ):
+            raise RuntimeError(f"Alpaca connection greeting failed: {greeting}")
         await websocket.send(
             json.dumps(
                 {
