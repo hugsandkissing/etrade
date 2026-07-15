@@ -225,3 +225,18 @@ PLAN:
   case (Equinor backlog, upgrade) that hasn't moved the price in 3
   sessions. Plan UNCHANGED: exit at the open; if it gaps up on this news,
   exit into the strength.
+- 22:55 UTC (6:55pm ET): FRACTIONAL SHARES ENABLED (owner: "Allow baby").
+  challenge.py + STRATEGY.md updated: 3 decimals, $5 min buy notional,
+  E*TRADE real terms. THURSDAY PLAN UPGRADED to a zero-based portfolio
+  re-eval — every position must justify itself as a fresh buy at the open:
+  1. RIG (4 sh, ~$21): FAILS the test — exit at open (unchanged; gap-up
+     on the insider-buy news = exit into strength).
+  2. SOFI (3 sh, ~$54, 55% of book): PARTIAL — the July 29 earnings
+     catalyst justifies a position, not a 55% concentration in a lagging
+     name. Trim 1 sh at open, keep 2 (~$36, ~37%).
+  3. Redeploy ~$60 into the actual leadership via fractional buys —
+     candidates NVDA / SMH / QQQ (1x, normal -10% stops, floor intact).
+     Split decided at open from pre-market momentum; target ~2 buys of
+     $25-35 each, keep ~$5-10 cash. No leverage (TQQQ still rejected).
+  4. Guardrails: add entries for new symbols at default -10/+15 before
+     first buy; floor recomputes after restructure.
