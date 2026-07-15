@@ -58,3 +58,26 @@ def test_engine_creates_only_a_hypothetical_fill(tmp_path):
     assert not any(
         record["type"] in {"order_preview", "order_placed"} for record in records
     )
+
+
+def test_engine_recovers_health_when_market_data_resumes(tmp_path):
+    settings = replace(
+        Settings(),
+        alpaca_api_key="unused-test-key",
+        alpaca_api_secret="unused-test-secret",
+        ledger_path=tmp_path / "ledger.jsonl",
+        state_path=tmp_path / "state.json",
+        kill_switch_path=tmp_path / "KILL_SWITCH",
+    )
+    engine = ShadowEngine(settings)
+    engine.health.set(HealthState.DEGRADED, "market data is stale")
+    event = MarketEvent(
+        "resume",
+        EventType.QUOTE,
+        "VG",
+        datetime(2026, 7, 14, 14, 0, tzinfo=timezone.utc),
+        bid=10,
+        ask=10.01,
+    )
+    asyncio.run(engine._handle_event(event))
+    assert engine.health.state is HealthState.HEALTHY

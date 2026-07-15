@@ -7,7 +7,7 @@ import asyncio
 import signal
 from collections import defaultdict, deque
 from dataclasses import replace
-from datetime import timedelta
+from datetime import datetime, timedelta, timezone
 
 from .bar_aggregator import SignalAggregator
 from .broker import FailClosedMockBroker
@@ -77,13 +77,20 @@ class ShadowEngine:
                 self.stop_event.set()
                 await self.stream.close()
                 return
-            if self.health.state is HealthState.HEALTHY and self.aggregator.stale():
+            now = datetime.now(timezone.utc)
+            if (
+                self.health.state is HealthState.HEALTHY
+                and is_regular_session(now)
+                and self.aggregator.stale(now)
+            ):
                 await self._stream_status(HealthState.DEGRADED, "market data is stale")
 
     async def _handle_event(self, event) -> None:
         if event.event_id in self.seen_event_ids:
             return
         self.seen_event_ids.add(event.event_id)
+        if self.health.state is HealthState.DEGRADED:
+            await self._stream_status(HealthState.HEALTHY, "market data resumed")
         self.ledger.append("market_event", event)
         signals = self.aggregator.process(event)
         if event.event_type is EventType.BAR:
