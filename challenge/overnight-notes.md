@@ -194,3 +194,27 @@ PLAN:
   $22.75 HELD deliberately. Deploy conditions: SOFI reclaims green with
   volume (add cautiously - concentration limit), or a verifiable-catalyst
   runner appears, or RIG confirms oil strength. Book now 3 SOFI, 4 RIG.
+
+## 2026-07-15 21:41 UTC (5:41pm ET Wed) — post-close check + RESTRUCTURE PLAN
+- BTC $64,788 (verified Yahoo feed), -0.3% on the day and flat vs last
+  night's ~$64.6-65k range. Held above the 50-EMA it broke this morning.
+  No trigger; MARA re-entry only if divergence stays closed AND the name
+  shows relative strength (it closed +1.2% while we watched from cash).
+- Day's close confirmed the narrow-leadership read: S&P +0.38% (7,572),
+  Nasdaq +0.62% (26,269), Apple record high — mega-cap tech absorbing the
+  soft-PPI rally while our small-caps bled.
+- SOFI: Q2 earnings July 29 pre-open; street looking for ~$1.116B revenue,
+  ~30% EBITDA margin, full-year guide watch. Holding 3 sh through the
+  print per plan.
+- RESTRUCTURE PLAN FOR THURSDAY OPEN (owner-reviewed after Day 3 report):
+  1. SELL 4 RIG at the open — dead-capital exit: three straight fades
+     despite $80 oil; the thesis (oil bid transmitting to drillers) is
+     not transmitting. Raises cash to ~$43.6.
+  2. HUNT: scan pre-market for the strongest affordable (<$43) momentum
+     name with a VERIFIABLE catalyst (earnings beat, upgrade, contract —
+     not rumor); deploy same day if found, else cash waits armed.
+  3. KEEP 3 SOFI through July 29 earnings (stop unchanged -10%).
+  4. TQQQ consolidation considered and REJECTED for now: 3x leverage
+     needs a -15/-20% stop, which lowers the portfolio floor to ~$82-85 —
+     conflicts with the owner's floor-above-$120 goal. Revisit only if
+     the owner explicitly accepts the lower floor.
