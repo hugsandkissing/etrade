@@ -188,3 +188,9 @@ PLAN:
   Notable divergence: BTC broke above the 50-EMA ($65,248, +0.4%) but MARA
   is NOT following — weak relative strength, no buy. Reassess if any name
   reclaims green with volume; otherwise cash waits for a real setup.
+- 14:40 UTC (10:40am ET): MARA exited entirely (1 sh @ 11.65, -4.8%) on
+  proxy-divergence thesis failure. Redeploy scan: LCID +17% = dead-cat
+  bounce off Ch.11 rumor (avoided); SNAP/BBAI catalysts unverified. Cash
+  $22.75 HELD deliberately. Deploy conditions: SOFI reclaims green with
+  volume (add cautiously - concentration limit), or a verifiable-catalyst
+  runner appears, or RIG confirms oil strength. Book now 3 SOFI, 4 RIG.

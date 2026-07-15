@@ -2,15 +2,11 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 11.099999999999998,
+  "cash": 22.75,
   "positions": {
     "SOFI": {
       "qty": 3,
       "avg_cost": 18.439999999999998
-    },
-    "MARA": {
-      "qty": 1,
-      "avg_cost": 12.24
     },
     "RIG": {
       "qty": 4,
@@ -90,6 +86,15 @@
       "price": 18.66,
       "source": "Yahoo v8 chart 14:42 UTC",
       "note": "Add to strongest momentum: +2.9% post-CPI (hike odds 42->17%), pressing day high 18.84, testing toward $20 with Jul 29 earnings catalyst; 3rd share at 18.66, avg 18.44"
+    },
+    {
+      "ts": "2026-07-15T14:26:20Z",
+      "action": "SELL",
+      "symbol": "MARA",
+      "qty": 1,
+      "price": 11.65,
+      "source": "Yahoo v8 chart 14:35 UTC",
+      "note": "Thesis-expiry exit per strategy: 2nd consecutive day of negative divergence from BTC (BTC +0.4% above 50-EMA while MARA -4.2%); the proxy correlation that justified the position has failed. Cut at -4.8% rather than ride to the -12% stop. Realized -$0.59"
     }
   ],
   "marks": [
@@ -1276,6 +1281,36 @@
       },
       "equity": 98.69,
       "source": "Yahoo v8 chart 14:15 UTC"
+    },
+    {
+      "ts": "2026-07-15T14:19:31Z",
+      "prices": {
+        "SOFI": 18.205,
+        "MARA": 11.84,
+        "RIG": 5.23
+      },
+      "equity": 98.47,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-15T14:24:47Z",
+      "prices": {
+        "SOFI": 18.085,
+        "MARA": 11.61,
+        "RIG": 5.235
+      },
+      "equity": 97.91,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-15T14:27:10Z",
+      "prices": {
+        "SOFI": 18.12,
+        "MARA": 11.65,
+        "RIG": 5.24
+      },
+      "equity": 98.07,
+      "source": "Yahoo v8 chart 14:38 UTC"
     }
   ]
 }
