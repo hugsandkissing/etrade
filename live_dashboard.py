@@ -15,6 +15,7 @@ decision log.
 
 import json
 import ssl
+import subprocess
 import time
 import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -22,6 +23,21 @@ from pathlib import Path
 
 PORT = 8741
 LEDGER = Path(__file__).parent / "challenge" / "ledger.json"
+REPO_DIR = Path(__file__).parent
+PULL_INTERVAL = 60  # auto-sync the ledger from git this often (seconds)
+_last_pull = [0.0]
+
+
+def maybe_git_pull():
+    """Keep the local ledger in sync so the viewer never shows a stale book."""
+    if time.time() - _last_pull[0] < PULL_INTERVAL:
+        return
+    _last_pull[0] = time.time()
+    try:
+        subprocess.run(["git", "pull", "--ff-only", "-q"], cwd=REPO_DIR,
+                       timeout=20, capture_output=True)
+    except Exception as e:
+        print(f"[git pull failed: {e!r} — book state may lag until fixed]")
 
 # macOS python.org installs ship without root CAs; use certifi's if available
 try:
@@ -134,6 +150,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/quotes":
+            maybe_git_pull()
             ledger = json.loads(LEDGER.read_text())
             prices, sources = {}, {}
             for sym in ledger["positions"]:
