@@ -163,3 +163,9 @@ PLAN FOR THE OPEN:
   high $65,176 — now testing the 50-day EMA (~$65,070) noted by analysts
   as the trend gate. A clean break above = momentum signal for MARA at the
   open; rejection here = rangebound continues. +5% off yesterday's lows.
+- 12:40 UTC (8:40am ET): PPI actual not yet indexed in search (just
+  printed at 8:30). Context for the briefing: May PPI was a hot 6.5% y/y;
+  futures were UP going in on the cool-CPI glow. Hot print = tech/risk
+  pressure (SOFI/MARA); soft print = confirmation rally. Briefing at 9:03
+  must fetch the actual number and pre-market reaction before setting the
+  plan. BTC steady ~$64.6k all night.
