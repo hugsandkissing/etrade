@@ -1,0 +1,24 @@
+[mcp_servers."robinhood-trading"]
+url = "https://agent.robinhood.com/mcp/trading"
+auth = "oauth"
+required = false
+tool_timeout_sec = 60
+default_tools_approval_mode = "prompt"
+enabled_tools = [
+  "get_accounts",
+  "get_portfolio",
+  "get_realized_pnl",
+  "get_pnl_trade_history",
+  "search",
+  "get_equity_historicals",
+  "get_equity_fundamentals",
+  "get_equity_technical_indicators",
+  "get_earnings_results",
+  "get_earnings_calendar",
+  "get_indexes",
+  "get_index_quotes",
+  "get_equity_positions",
+  "get_equity_quotes",
+  "get_equity_orders",
+  "get_equity_tradability",
+]
