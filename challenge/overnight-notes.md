@@ -130,3 +130,15 @@ PLAN FOR THE OPEN:
 - 22:40 UTC addendum: BTC conflict RESOLVED — trading ~$62.9-63k; the
   $64.5k print was stale noise. No ±5% move, no MARA plan needed. Range
   $59-66k intact, currently lower half.
+
+## 2026-07-15 01:40 UTC (9:40pm ET Tue) — escalation note
+- WAR FORMALIZED: Iran fired ballistic missiles at a US air base in Jordan
+  Tuesday; US struck Iranian targets for 5 hours in a battle over Hormuz.
+  Trump formally notified Congress of a "new war" (60-day War Powers
+  clock). Oil at four-week highs, Brent +4%; Hormuz effectively closed to
+  Iranian flows 136 days.
+- Implications for Wednesday: persistent oil bid supports RIG; risk-off +
+  2yr yield at 4.28% (rate-hike trade) pressures SOFI/MARA despite
+  yesterday's cool CPI. PPI 8:30am + Warsh Senate round are the gates.
+- BTC rangebound $61.8-63.2k — no trigger. Note commentary: BTC now tracks
+  Fed/liquidity more than war headlines (institutional ETF ownership).
