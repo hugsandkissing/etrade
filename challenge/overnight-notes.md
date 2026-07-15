@@ -142,3 +142,10 @@ PLAN FOR THE OPEN:
   yesterday's cool CPI. PPI 8:30am + Warsh Senate round are the gates.
 - BTC rangebound $61.8-63.2k — no trigger. Note commentary: BTC now tracks
   Fed/liquidity more than war headlines (institutional ETF ownership).
+- 02:40 UTC (10:40pm ET): CME futures print of "$59k -2.6%" was a stale/
+  expired-contract artifact — VERIFIED spot via Yahoo BTC-USD: $64,482
+  (-0.8% vs UTC prev close, tight range). BTC is actually UP ~+2.5% from
+  the ~$62.9k of our 22:40 note — a real drift higher, under the ±5%
+  threshold but MARA-friendly if it holds into the open. PROCESS NOTE:
+  overnight checks should verify BTC via Yahoo BTC-USD (allowlisted feed)
+  from now on, not web prints.
