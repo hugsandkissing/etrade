@@ -71,5 +71,5 @@ When clocks fall back (early November), shift the market-hours tick to
 > includes trades, execute them via challenge.py shortly after 9:35am ET at
 > real opening prices (the market-hours tick will handle it if you note the
 > plan clearly). Also re-arm the guardrail watcher for the session: run
-> `.venv/bin/python watch.py --duration 24000 --interval 30 --mark-every 300`
+> `.venv/bin/python watch.py --duration 25500 --interval 30 --mark-every 300`
 > in the background. Message the user only if the plan involves a trade.
