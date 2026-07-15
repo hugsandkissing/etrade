@@ -35,6 +35,10 @@ class Settings:
     alpaca_api_key: str | None = None
     alpaca_api_secret: str | None = None
     alpaca_stream_url: str = "wss://stream.data.alpaca.markets/v2/iex"
+    robinhood_account_number: str | None = None
+    robinhood_mcp_url: str = "https://agent.robinhood.com/mcp/trading"
+    robinhood_oauth_callback_port: int = 8765
+    broker_reconcile_seconds: int = 300
     max_capital: float = 50.0
     account_floor: float = 40.0
     account_goal: float = 65.0
@@ -76,6 +80,14 @@ class Settings:
             alpaca_stream_url=os.getenv(
                 "ALPACA_STREAM_URL", "wss://stream.data.alpaca.markets/v2/iex"
             ),
+            robinhood_account_number=os.getenv("ROBINHOOD_ACCOUNT_NUMBER"),
+            robinhood_mcp_url=os.getenv(
+                "ROBINHOOD_MCP_URL", "https://agent.robinhood.com/mcp/trading"
+            ),
+            robinhood_oauth_callback_port=_int(
+                "ROBINHOOD_OAUTH_CALLBACK_PORT", 8765
+            ),
+            broker_reconcile_seconds=_int("BROKER_RECONCILE_SECONDS", 300),
             max_capital=_float("MAX_CAPITAL", 50),
             account_floor=_float("ACCOUNT_FLOOR", 40),
             account_goal=_float("ACCOUNT_GOAL", 65),
@@ -107,8 +119,18 @@ class Settings:
     def validate(self, *, require_market_data: bool = True) -> None:
         if self.mode != "shadow":
             raise ConfigurationError("Only SWAGGER_MODE=shadow is implemented")
-        if self.broker_mode != "mock":
-            raise ConfigurationError("Only the fail-closed mock broker is implemented")
+        if self.broker_mode not in {"mock", "robinhood_readonly"}:
+            raise ConfigurationError(
+                "SWAGGER_BROKER_MODE must be mock or robinhood_readonly"
+            )
+        if self.robinhood_mcp_url != "https://agent.robinhood.com/mcp/trading":
+            raise ConfigurationError("only Robinhood's official MCP URL is allowed")
+        if not 1024 <= self.robinhood_oauth_callback_port <= 65535:
+            raise ConfigurationError(
+                "ROBINHOOD_OAUTH_CALLBACK_PORT must be between 1024 and 65535"
+            )
+        if self.broker_reconcile_seconds < 30:
+            raise ConfigurationError("BROKER_RECONCILE_SECONDS must be at least 30")
         if not self.symbols:
             raise ConfigurationError("SWAGGER_SYMBOLS cannot be empty")
         if require_market_data and (

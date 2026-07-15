@@ -4,8 +4,8 @@ Swagger Engine is an always-on **shadow trading** service. It watches live
 market data, generates structured hypothetical decisions, applies deterministic
 risk rules, and records the complete process in an append-only audit ledger.
 
-It cannot place, preview, cancel, or modify a real order. No live broker adapter
-exists in this version.
+It cannot place, preview, cancel, or modify a real order. An optional
+Robinhood MCP adapter reads the Agentic account for reconciliation only.
 
 ## Safety boundary
 
@@ -24,14 +24,22 @@ Deterministic risk kernel
 Hypothetical bid/ask fill
         |
 Hash-chained JSONL ledger + report
+
+Robinhood official MCP (optional, read-only)
+        |
+Pinned Agentic account snapshot
+        |
+Shadow-vs-real reconciliation ledger
 ```
 
 Hard startup rules:
 
 - `SWAGGER_MODE` must be `shadow`.
-- `SWAGGER_BROKER_MODE` must be `mock`.
+- `SWAGGER_BROKER_MODE` must be `mock` or `robinhood_readonly`.
 - Live mode is not implemented.
 - The mock broker refuses all broker calls.
+- The Robinhood client has a fixed six-tool read-only allowlist and no generic
+  tool-call or order path.
 - The engine halts new decisions when health is degraded or halted.
 - Shadow decisions and fills are restricted to 9:30am–4:00pm US Eastern on weekdays.
 - The filesystem kill switch halts the process.
@@ -48,7 +56,7 @@ Use Python 3.11 or newer:
 ```bash
 cd ~/etrade
 source .venv/bin/activate
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 ```
 
 Copy the example only if a local `.env` does not already exist:
@@ -84,6 +92,47 @@ curl http://127.0.0.1:8080/health
 ```
 
 Stop gracefully with `Control-C`.
+
+## Add read-only Robinhood reconciliation
+
+This is a separate OAuth grant for the persistent Python process. It does not
+copy, inspect, or reuse ChatGPT/Codex credentials. OAuth tokens, refresh tokens,
+dynamic client registration, and the pinned Agentic account number are stored
+in macOS Keychain.
+
+First run the Robinhood-only smoke test. It does not require Alpaca keys:
+
+```bash
+python -m swagger.robinhood_smoke_test
+```
+
+On first use, the default browser opens Robinhood's official OAuth page and the
+callback returns only to `127.0.0.1:8765`. Do not paste the authorization URL,
+callback, token, or full account number into chat. The test calls only:
+
+- `get_accounts`
+- `get_portfolio`
+- `get_equity_positions`
+- `get_equity_orders`
+- `get_equity_quotes`
+- `get_equity_tradability`
+
+The uniquely active, non-default Agentic cash account is pinned in Keychain.
+Subsequent runs reject a missing, changed, ambiguous, default, or non-cash
+account.
+
+After a passing smoke test, opt into reconciliation in the untracked `.env`:
+
+```dotenv
+SWAGGER_BROKER_MODE=robinhood_readonly
+BROKER_RECONCILE_SECONDS=300
+```
+
+Restart the shadow engine. It will append masked read-only snapshots and
+shadow-vs-real position discrepancies to the ledger. If broker verification
+fails, the engine halts new shadow decisions. This mode still has no order
+preview, placement, cancellation, options, watchlist, scanner, deposit, or
+withdrawal capability.
 
 ## Audit and state
 
@@ -172,7 +221,9 @@ keep the safer default `127.0.0.1`.
 - Alpaca news uses a separate stream and is not enabled in v0.1.
 - The regular-hours gate is DST-aware but does not yet include an explicit US
   exchange-holiday calendar; on holidays the feed should produce no eligible bars.
-- No real Robinhood authentication or broker connection exists.
+- Robinhood OAuth currently targets local macOS Keychain; container deployment
+  needs a separate supported secret-store design.
+- Read-only reconciliation does not authorize execution and is not a price feed.
 - No external notification delivery exists; events are logged locally.
 - The shadow state file is a cache; the append-only ledger is the audit source.
 

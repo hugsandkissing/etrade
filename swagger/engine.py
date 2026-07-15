@@ -20,6 +20,7 @@ from .market_stream import AlpacaWebSocketStream
 from .models import Action, EventType, HealthState, Quote, Signal
 from .notifier import configure_logging, emit
 from .risk import RiskContext, RiskKernel
+from .robinhood_mcp import RobinhoodMCPClient, RobinhoodMCPError
 from .shadow import ShadowPortfolio, ShadowPortfolioError
 
 
@@ -37,6 +38,13 @@ class ShadowEngine:
         self.provider = RuleBasedDecisionProvider(settings)
         self.risk = RiskKernel(settings)
         self.broker = FailClosedMockBroker()
+        self.robinhood: RobinhoodMCPClient | None = None
+        if settings.broker_mode == "robinhood_readonly":
+            self.robinhood = RobinhoodMCPClient(
+                account_number=settings.robinhood_account_number,
+                server_url=settings.robinhood_mcp_url,
+                callback_port=settings.robinhood_oauth_callback_port,
+            )
         self.stream = AlpacaWebSocketStream(settings, self._stream_status)
         self.signal_buffer: dict[str, deque[Signal]] = defaultdict(
             lambda: deque(maxlen=32)
@@ -84,6 +92,59 @@ class ShadowEngine:
                 and self.aggregator.stale(now)
             ):
                 await self._stream_status(HealthState.DEGRADED, "market data is stale")
+
+    def _broker_discrepancies(self, snapshot) -> list[dict[str, object]]:
+        shadow = {
+            position.symbol: position
+            for position in self.portfolio.account_state(self._quotes()).positions
+        }
+        real = {position.symbol: position for position in snapshot.positions}
+        discrepancies: list[dict[str, object]] = []
+        for symbol in sorted(set(shadow) | set(real)):
+            shadow_position = shadow.get(symbol)
+            real_position = real.get(symbol)
+            shadow_quantity = shadow_position.quantity if shadow_position else 0.0
+            real_quantity = real_position.quantity if real_position else 0.0
+            if abs(shadow_quantity - real_quantity) > 1e-8:
+                discrepancies.append(
+                    {
+                        "symbol": symbol,
+                        "shadow_quantity": shadow_quantity,
+                        "real_quantity": real_quantity,
+                    }
+                )
+        return discrepancies
+
+    async def _broker_reconciler(self) -> None:
+        if self.robinhood is None:
+            return
+        try:
+            async with self.robinhood as broker:
+                while not self.stop_event.is_set():
+                    snapshot = await broker.snapshot(self.settings.symbols)
+                    self.ledger.append(
+                        "robinhood_readonly_snapshot", snapshot.audit_payload()
+                    )
+                    discrepancies = self._broker_discrepancies(snapshot)
+                    if discrepancies:
+                        self.ledger.append(
+                            "broker_reconciliation_discrepancy",
+                            {"items": discrepancies},
+                        )
+                    try:
+                        await asyncio.wait_for(
+                            self.stop_event.wait(),
+                            timeout=self.settings.broker_reconcile_seconds,
+                        )
+                    except TimeoutError:
+                        continue
+        except (RobinhoodMCPError, OSError, ValueError) as exc:
+            await self._stream_status(
+                HealthState.HALTED,
+                f"read-only Robinhood reconciliation failed: {exc}",
+            )
+            self.stop_event.set()
+            await self.stream.close()
 
     async def _handle_event(self, event) -> None:
         if event.event_id in self.seen_event_ids:
@@ -178,6 +239,11 @@ class ShadowEngine:
             },
         )
         watchdog = asyncio.create_task(self._stale_watchdog())
+        broker_reconciler = (
+            asyncio.create_task(self._broker_reconciler())
+            if self.robinhood is not None
+            else None
+        )
 
         async def consume() -> None:
             async for event in self.stream.events():
@@ -195,11 +261,14 @@ class ShadowEngine:
                 await consumer
         finally:
             self.stop_event.set()
-            for task in (consumer, stop_waiter, watchdog):
+            tasks = [consumer, stop_waiter, watchdog]
+            if broker_reconciler is not None:
+                tasks.append(broker_reconciler)
+            for task in tasks:
                 if not task.done():
                     task.cancel()
             await asyncio.gather(
-                consumer, stop_waiter, watchdog, return_exceptions=True
+                *tasks, return_exceptions=True
             )
             await self.stream.close()
             self.ledger.append("engine_stopped", {"health": self.health.state.value})

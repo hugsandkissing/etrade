@@ -36,9 +36,16 @@ def test_live_mode_is_impossible():
         replace(Settings(), mode="live").validate(require_market_data=False)
 
 
-def test_non_mock_broker_is_impossible():
-    with pytest.raises(ConfigurationError, match="fail-closed mock broker"):
+def test_unknown_broker_is_impossible():
+    with pytest.raises(ConfigurationError, match="mock or robinhood_readonly"):
         replace(Settings(), broker_mode="robinhood").validate(require_market_data=False)
+
+
+def test_readonly_robinhood_is_allowed_but_live_mode_is_not():
+    replace(
+        Settings(),
+        broker_mode="robinhood_readonly",
+    ).validate(require_market_data=False)
 
 
 def test_buy_blocked_at_floor_but_sell_remains_possible():

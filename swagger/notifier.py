@@ -11,6 +11,10 @@ from .models import jsonable
 
 def configure_logging() -> logging.Logger:
     logging.basicConfig(level=logging.INFO, format="%(message)s")
+    # MCP/httpx debug logs can include ephemeral session identifiers. Keep the
+    # engine's own structured events at INFO while suppressing transport noise.
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("mcp").setLevel(logging.WARNING)
     return logging.getLogger("swagger")
 
 
