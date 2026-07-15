@@ -218,3 +218,10 @@ PLAN:
      needs a -15/-20% stop, which lowers the portfolio floor to ~$82-85 —
      conflicts with the owner's floor-above-$120 goal. Revisit only if
      the owner explicitly accepts the lower floor.
+- 22:38 UTC (6:38pm ET): BTC $64,883 flat (verified feed). Futures little
+  changed (S&P +0.05%, Nasdaq +0.11%) — no overnight signal. One item vs
+  tomorrow's RIG exit plan: director Chad Deaton bought 35k shares
+  (~$173k) — boardroom confidence, but it's part of the same known bull
+  case (Equinor backlog, upgrade) that hasn't moved the price in 3
+  sessions. Plan UNCHANGED: exit at the open; if it gaps up on this news,
+  exit into the strength.
