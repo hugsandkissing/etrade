@@ -169,3 +169,17 @@ PLAN FOR THE OPEN:
   pressure (SOFI/MARA); soft print = confirmation rally. Briefing at 9:03
   must fetch the actual number and pre-market reaction before setting the
   plan. BTC steady ~$64.6k all night.
+
+## 2026-07-15 13:05 UTC (9:05am ET) — DAY 3 PLAN
+PPI actual not yet indexed (consensus: flat m/m, 6.2% y/y vs May 6.5%).
+Futures green pre-print: Nasdaq +0.44%, S&P +0.13%. Setup per overnight
+notes: risk-on (KOSPI +7%, BTC ~$64.6k near 50-EMA, oil ~$80).
+
+PLAN:
+1. HOLD all positions into the open — no exits.
+2. Cash ($11.10) deploys ~10:00am ET if the PPI reaction is benign:
+   whichever of RIG (2 sh affordable) or MARA (1 sh if BTC breaks 50-EMA)
+   shows better momentum with catalyst intact. Both red = hold cash.
+3. Stops unchanged (SOFI -10%, MARA -12%, RIG -10% from cost).
+4. Risk branch: hot PPI (>6.2% y/y) flips the tape — hold cash, let stops
+   govern, no panic exits.
