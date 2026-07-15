@@ -183,3 +183,8 @@ PLAN:
 3. Stops unchanged (SOFI -10%, MARA -12%, RIG -10% from cost).
 4. Risk branch: hot PPI (>6.2% y/y) flips the tape — hold cash, let stops
    govern, no panic exits.
+- 14:17 UTC (10:17am ET) DEPLOY DECISION: both-red branch fired — cash
+  HELD. Green open faded; SOFI/MARA/RIG all -1.6 to -1.8% on the day.
+  Notable divergence: BTC broke above the 50-EMA ($65,248, +0.4%) but MARA
+  is NOT following — weak relative strength, no buy. Reassess if any name
+  reclaims green with volume; otherwise cash waits for a real setup.
