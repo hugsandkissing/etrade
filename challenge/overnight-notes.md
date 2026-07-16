@@ -305,3 +305,10 @@ PLAN:
   than auto-(c): if NVDA/SMH pre-market is merely soft (not gapping),
   branch (b) staged entry is viable. BTC $64,244 (-0.7%), no trigger.
   No fresh SOFI/MARA/RIG news (search returning stale items only).
+- 08:38 UTC Thu (4:38am ET): Futures drifting lower through the European
+  morning — NQ -0.57% (was -0.25% at 3:38am), ES -0.20%. Chip-led but
+  the index bleed is widening. BTC $64,259 (-0.7%), no trigger. SOFI
+  after-hours ticked +$0.05; no fresh news on the book. Briefing take
+  shaping up: RIG exit + SOFI trim at open as planned; deploy leans
+  branch (c) — broad QQQ fraction only if the tape stabilizes after
+  9:45am, else hold cash into the afternoon and reassess.
