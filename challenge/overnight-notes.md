@@ -335,3 +335,12 @@ PLAN:
   RIG exit + SOFI trim at the open, HOLD the ~$60 cash until the tape
   proves a bottom (first green 30-min candle on QQQ/NVDA), then stage in.
   NQ futs -0.66%, ES -0.15%. BTC $64,155 (-0.9%), no trigger.
+- 12:37 UTC Thu (8:37am ET): Post-8:30-data check — actual retail sales/
+  claims prints not yet indexed in search; the tape's verdict so far is
+  negative: NQ -1.00% (from -0.66%), ES -0.38%, NVDA $208.80 (-1.4%),
+  QQQ $709.89 (-1.4%) pre-market. Second wrinkle: Mideast escalation
+  spiking crude — secondary-inflation worry pressuring the tape, but a
+  possible RIG gap-up tailwind. If RIG opens green, exit into strength
+  per plan (do not reconsider the hold — the 3-fade thesis stands).
+  Deploy stays branch (c): cash waits for a proven bottom. BTC $63,940
+  (-1.2%), drifting lower with risk assets, no trigger.
