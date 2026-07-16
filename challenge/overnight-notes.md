@@ -263,3 +263,11 @@ PLAN:
   Nasdaq futures" on a "$622M number" — unverified source, but if SOFI
   shows real pre-market strength tomorrow it bears on HOW MUCH we trim
   (plan: sell 1 of 3). Trim decision stays, size confirmed at 9:03am.
+- 02:38 UTC Thu (10:38pm ET Wed): BTC $64,591 flat (verified feed) — no
+  trigger. Futures softened slightly (Nasdaq -0.23%, S&P -0.04%). SOFI
+  datum for the trim decision: ARK's ARKK bought another ~$1M SOFI, a
+  4th straight day of accumulation — institutional bid under the name.
+  Doesn't reverse the trim (concentration is the reason), but supports
+  keeping the full 2 sh remainder through earnings rather than cutting
+  deeper. YUM watch Routine armed at :55 hourly (state:
+  challenge/yum-watch.md).
