@@ -271,3 +271,15 @@ PLAN:
   keeping the full 2 sh remainder through earnings rather than cutting
   deeper. YUM watch Routine armed at :55 hourly (state:
   challenge/yum-watch.md).
+- 04:38 UTC Thu (12:38am ET): DEPLOY-PLAN CAUTION. Asia in a fresh semi
+  rout: KOSPI -7.3% (SK Hynix/Samsung leading, Seoul holiday Friday),
+  Nikkei -3% — AI-valuation skepticism, a full reversal of Wednesday's
+  +7% KOSPI bounce. US futures resilient so far (+0.1% across the board)
+  but this hits EXACTLY where today's deploy is aimed (NVDA/SMH). BTC
+  $64,557 flat, no trigger. Briefing directive for 9:03am: do NOT blind-
+  deploy into semis at the open — check whether US chips gap down in
+  pre-market. Options by branch: (a) semis flat/green pre-market =
+  proceed as planned; (b) gap down but stabilizing = stage entry (half
+  at open, half ~11am); (c) hard gap down = favor broad QQQ fraction
+  over NVDA/SMH or hold cash and reassess 10am. RIG exit + SOFI trim
+  proceed regardless — they are not semi-dependent.
