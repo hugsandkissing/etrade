@@ -283,3 +283,11 @@ PLAN:
   at open, half ~11am); (c) hard gap down = favor broad QQQ fraction
   over NVDA/SMH or hold cash and reassess 10am. RIG exit + SOFI trim
   proceed regardless — they are not semi-dependent.
+- 05:38 UTC Thu (1:38am ET): Semi rout deepening — SK Hynix -11% in
+  Seoul, headlines cite Samsung results / AI-spend skepticism spilling
+  into US chip names. US index futures still holding ~+0.1% per CNBC,
+  but several outlets already frame Thursday as "stocks set to open
+  lower" on the chip selloff. Reinforces the 04:38 directive: expect
+  branch (b) or (c) at the briefing — staged entry or broad-QQQ/hold
+  instead of straight NVDA/SMH at the open. BTC $64,884 (+0.5%), no
+  trigger.
