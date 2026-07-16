@@ -317,3 +317,12 @@ PLAN:
   bought, not chased; if this holds into pre-market, deploy branch (b)
   staged entry regains the edge over (c). BTC $64,039 (-1.05% on the
   day, drifting) — still no trigger. No fresh book news.
+- 10:38 UTC Thu (6:38am ET): Futures see-sawing — NQ back down to -0.58%,
+  ES -0.16%. TWO-SIDED chip signal now: TSM posted blowout June-quarter
+  earnings on AI demand + formalized $100B US fab expansion (bullish
+  fundamental counterweight to the Samsung/SK Hynix valuation rout), and
+  NVDA announced Japan partnerships (Mitsubishi Heavy, Toyota). The semi
+  selloff is a MEMORY/valuation story, not an AI-demand story — favors
+  NVDA/SMH over memory names if we deploy. Gates before the briefing:
+  8:30am ET retail sales (f'cast +0.2%), jobless claims (216K), Philly
+  Fed. Netflix reports after the bell. BTC $64,143 (-0.9%), no trigger.
