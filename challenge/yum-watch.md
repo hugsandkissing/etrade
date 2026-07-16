@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-16 10:57 UTC
+- checked: 2026-07-16 11:57 UTC
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
@@ -18,8 +18,9 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
   recurring exposure. No grower/supplier/chain identified.
 - sector contagion: Sweetgreen and Chipotle stocks also fell on the
   outbreak (Forbes) — this is now a salad-chain sector story, not just YUM.
-- YUM price: $152.57 close Jul 15 (Yahoo verified); path 161.68 → 158.18
-  → 152.57, two accelerating down days. Expect further pressure Thu.
+- YUM price: $152.57 close Jul 15; pre-market Jul 16 printing ~$154.00
+  (+0.9%, verified feed) — first green print, tentative stabilization;
+  trigger 2 needs a green CLOSE, not a pre-market tick. Expect further pressure Thu.
 - entry triggers (BOTH required before any buy): (1) case-growth peak,
   or link resolved either way; (2) first flat-or-green YUM close
 - position cap if triggered: fractional starter $15-20; event risk: YUM
