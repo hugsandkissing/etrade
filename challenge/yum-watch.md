@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-16 20:45 UTC (YUM closed $152.10, -0.3% — just missed the flat/green close for trigger 2). LEAD TO VERIFY: a Medical Daily piece headlines 'Two Outbreak Peaks Identified' by CDC — if onset curves have peaked, trigger 1 may be близко; verify against primary sources next checks (aggregator-only so far, CDC still expects cases rising into August).
+- checked: 2026-07-16 20:45 UTC (YUM closed $152.10, -0.3% — just missed the flat/green close for trigger 2). LEAD TO VERIFY: a Medical Daily piece headlines 'Two Outbreak Peaks Identified' by CDC — if onset curves have peaked, trigger 1 may be close; verify against primary sources next checks (aggregator-only so far, CDC still expects cases rising into August).
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
