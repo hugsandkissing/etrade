@@ -2,15 +2,11 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 22.75,
+  "cash": 61.22,
   "positions": {
     "SOFI": {
-      "qty": 3,
+      "qty": 2.0,
       "avg_cost": 18.439999999999998
-    },
-    "RIG": {
-      "qty": 4,
-      "avg_cost": 5.28
     }
   },
   "trades": [
@@ -95,6 +91,24 @@
       "price": 11.65,
       "source": "Yahoo v8 chart 14:35 UTC",
       "note": "Thesis-expiry exit per strategy: 2nd consecutive day of negative divergence from BTC (BTC +0.4% above 50-EMA while MARA -4.2%); the proxy correlation that justified the position has failed. Cut at -4.8% rather than ride to the -12% stop. Realized -$0.59"
+    },
+    {
+      "ts": "2026-07-16T13:35:40Z",
+      "action": "SELL",
+      "symbol": "RIG",
+      "qty": 4.0,
+      "price": 5.17,
+      "source": "Yahoo 1m candle 13:34 UTC vol 25276",
+      "note": "Day 4 plan: dead-capital exit after 3 straight fades despite $80 oil; thesis (backlog/day-rates transmitting to price) failed on time. Crude +1.1% today and RIG still red = final confirmation. Realized -$0.44 on position"
+    },
+    {
+      "ts": "2026-07-16T13:35:40Z",
+      "action": "SELL",
+      "symbol": "SOFI",
+      "qty": 1.0,
+      "price": 17.79,
+      "source": "Yahoo 1m candle 13:34 UTC vol 244718",
+      "note": "Day 4 plan: concentration trim 3->2 (was 55% of book). Keep 2 through Jul 29 earnings (ARKK accumulating). Realized -$0.65 on this share"
     }
   ],
   "marks": [
@@ -1992,6 +2006,15 @@
         "RIG": 5.2
       },
       "equity": 97.16,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-16T13:31:42Z",
+      "prices": {
+        "SOFI": 17.73,
+        "RIG": 5.18
+      },
+      "equity": 96.66,
       "source": "Yahoo via watch.py auto-mark"
     }
   ]
