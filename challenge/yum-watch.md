@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-16 15:40 UTC (YUM $151.86, -0.5%, real volume — quiet; no news change)
+- checked: 2026-07-16 15:58 UTC (YUM $151.67, -0.6%, quiet; officials expect cases to keep rising through end of August — trigger 1 far off)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
