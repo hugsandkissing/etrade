@@ -291,3 +291,10 @@ PLAN:
   branch (b) or (c) at the briefing — staged entry or broad-QQQ/hold
   instead of straight NVDA/SMH at the open. BTC $64,884 (+0.5%), no
   trigger.
+- 06:38 UTC Thu (2:38am ET): Rout escalated — KOSPI hit a brief circuit-
+  breaker trading suspension with Samsung and SK Hynix down as much as
+  10%; Nasdaq futures now SLIPPING (no longer +0.1%), memory names (MU/
+  SNDK/WDC) leading US pre-market pressure. Branch (c) of the deploy plan
+  is now the base case: at the briefing, favor broad QQQ fraction or
+  hold-cash-past-open over NVDA/SMH unless chips reverse hard pre-market.
+  RIG exit + SOFI trim unaffected. BTC $64,599 flat, no trigger.
