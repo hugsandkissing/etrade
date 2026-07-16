@@ -247,3 +247,12 @@ PLAN:
   NVDA ~$210-213 range). Supports the NVDA/SMH side of the fractional
   deploy; memory names (Micron etc.) saw profit-taking, so prefer the
   broad SMH or NVDA over memory-heavy exposure. No SOFI/RIG news.
+- 00:15 UTC Thu (8:15pm ET Wed): WATCHLIST ADD — YUM (owner flagged).
+  Taco Bell lettuce/cyclospora probe: 1,645 cases, 141 hospitalizations,
+  34 states, link NOT yet confirmed; lettuce pulled from some stores.
+  YUM $161.68->$158.18->$152.57 (-5.6% in 2 days, accelerating). NO BUY
+  while the knife falls: entry requires BOTH (1) case-growth peak or
+  link resolved either way, AND (2) first flat/green close. Then small
+  fractional starter $15-20 max. Event risk: YUM earnings early Aug.
+  Precedent: MCD Oct-24 E.coli bottomed on CDC containment signal
+  (weeks to recover); CMG 2015 bled for years. Wait for the signal.
