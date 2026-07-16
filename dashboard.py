@@ -251,7 +251,8 @@ def build_html(sandbox, accounts, positions):
 def page_template(sandbox, accounts, challenge, etrade_html):
     acct_names = ", ".join(
         f"{a.get('accountDesc') or a.get('accountType')} ({a['accountId']})"
-        for a in accounts) or "account data unavailable"
+        for a in accounts) or ("E*TRADE section dormant — awaiting production "
+        "API key; challenge data below is LIVE")
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     env_badge = "SANDBOX — simulated data" if sandbox else "PRODUCTION"
 
