@@ -381,3 +381,12 @@ PLAN (owner-agreed restructure + fractional deploy):
   stable tape; SOFI trim 2->1 below $17.00; cash waits for green-tape
   confirmation. YUM triggers both unmet (case growth still rising, close
   not green) — no entry, watch continues.
+- 22:37 UTC Thu (6:37pm ET): Netflix earnings tell = mildly NEGATIVE for
+  tech sentiment. NFLX beat EPS ($0.80 vs $0.79) but revenue just light
+  ($12.56B vs $12.58B) and growth decelerated (11% vs 12% prior) — stock
+  -8.5% after hours. Read-through: high-multiple tech getting no forgiveness
+  for "in-line," growth-decel punished. Caution for NVDA/QQQ at Friday open,
+  but NOT a semi-specific signal. Index futures barely moved (NQ -0.26%,
+  ES -0.12%) — the NFLX drop is idiosyncratic, not contagious so far.
+  BTC $64,080 (-1.0%), no trigger. Friday plan unchanged: stage-2 NVDA
+  only >208.68 on stable tape; SOFI trim <17.00; cash patient.
