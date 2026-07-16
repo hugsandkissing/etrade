@@ -326,3 +326,12 @@ PLAN:
   NVDA/SMH over memory names if we deploy. Gates before the briefing:
   8:30am ET retail sales (f'cast +0.2%), jobless claims (216K), Philly
   Fed. Netflix reports after the bell. BTC $64,143 (-0.9%), no trigger.
+- 11:37 UTC Thu (7:37am ET): First direct PRE-MARKET prints (verified
+  feed, includePrePost): NVDA $209.26 (-1.2%), SMH $574.92 (thin ETF
+  print, -4.2% — treat with caution but direction is down), QQQ $712.10
+  (-1.06%). A stocktwits headline claims NVDA "climbing" on China chip
+  approvals — the feed says otherwise; trust the feed. Chips are gapping
+  DOWN into the open. Deploy call hardening toward branch (c): execute
+  RIG exit + SOFI trim at the open, HOLD the ~$60 cash until the tape
+  proves a bottom (first green 30-min candle on QQQ/NVDA), then stage in.
+  NQ futs -0.66%, ES -0.15%. BTC $64,155 (-0.9%), no trigger.
