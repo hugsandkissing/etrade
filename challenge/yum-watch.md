@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-16 21:56 UTC. After-hours feed shows YUM bouncing $146-153 on ZERO volume (147.93 = -2.7% phantom); NO news catalyst behind it (no downgrade/recall/new case data). Per data-quality rule, not an alertable move — regular close was $152.10. No entry.
+- checked: 2026-07-16 22:55 UTC (after-hours still zero-volume, no news change, no recall; both triggers unmet)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
