@@ -256,3 +256,10 @@ PLAN:
   fractional starter $15-20 max. Event risk: YUM earnings early Aug.
   Precedent: MCD Oct-24 E.coli bottomed on CDC containment signal
   (weeks to recover); CMG 2015 bled for years. Wait for the signal.
+- 00:38 UTC Thu (8:38pm ET Wed): BTC $64,512 (verified feed), -0.4% vs
+  the 23:38 note and drifting at the low end of the week's range — no
+  trigger. Futures little changed (S&P +0.05%, Nasdaq +0.11%). One item
+  for the briefing to verify: an aggregator piece claims SOFI is "bucking
+  Nasdaq futures" on a "$622M number" — unverified source, but if SOFI
+  shows real pre-market strength tomorrow it bears on HOW MUCH we trim
+  (plan: sell 1 of 3). Trim decision stays, size confirmed at 9:03am.
