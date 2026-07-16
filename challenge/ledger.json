@@ -2,11 +2,15 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 61.22,
+  "cash": 31.17008,
   "positions": {
     "SOFI": {
       "qty": 2.0,
       "avg_cost": 18.439999999999998
+    },
+    "NVDA": {
+      "qty": 0.144,
+      "avg_cost": 208.68
     }
   },
   "trades": [
@@ -109,6 +113,15 @@
       "price": 17.79,
       "source": "Yahoo 1m candle 13:34 UTC vol 244718",
       "note": "Day 4 plan: concentration trim 3->2 (was 55% of book). Keep 2 through Jul 29 earnings (ARKK accumulating). Realized -$0.65 on this share"
+    },
+    {
+      "ts": "2026-07-16T14:40:09Z",
+      "action": "BUY",
+      "symbol": "NVDA",
+      "qty": 0.144,
+      "price": 208.68,
+      "source": "Yahoo 1m candle 14:38 UTC vol 170297",
+      "note": "Day 4 staged deploy 1/2: leadership entry after trigger \u2014 first completed green 30m candle on BOTH QQQ (709.09->712.47) and NVDA (207.48->208.97) at 10:30am. NVDA over QQQ/SMH: TSM blowout confirms AI demand, rout is memory-led. ~$30 of ~$61 cash; stage 2 ~11:30am only if entry holds"
     }
   ],
   "marks": [
@@ -2105,6 +2118,14 @@
         "RIG": 5.195
       },
       "equity": 96.52,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-16T14:39:42Z",
+      "prices": {
+        "SOFI": 17.765
+      },
+      "equity": 96.75,
       "source": "Yahoo via watch.py auto-mark"
     }
   ]
