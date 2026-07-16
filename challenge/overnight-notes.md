@@ -365,3 +365,19 @@ PLAN (owner-agreed restructure + fractional deploy):
    into Friday. $5+ notional per buy (fractional minimum).
 4. Guardrails: new symbols at default -10/+15 before first buy.
 5. YUM: triggers unmet; watch continues, no entry.
+
+## 2026-07-16 21:38 UTC (5:38pm ET Thu) — Day 4 close + overnight setup
+- Close confirmed: equity $95.68 (-4.3% overall), matched Nasdaq on the
+  first red tape day (book -1.5% vs Nasdaq -1.5%, S&P -0.5%). RIG exited,
+  SOFI trimmed to 2, first fractional buy 0.144 NVDA @ 208.68.
+- BTC $64,150 (-0.9%), no trigger. NQ futs showing -1.73% but this spans
+  the day's decline; the after-hours driver is NETFLIX earnings (reported
+  after the bell, options priced an ~8% swing). Not a position, but a
+  tech-sentiment tell for tomorrow's semis/NVDA — watch the NFLX reaction
+  overnight. Seoul closed Friday = one fewer Asia semi input.
+- No SOFI/MARA/RIG-specific news. SOFI closed on its low ($17.32, -3.1%);
+  Friday open is the read on whether the $17.00 trim line gets tested.
+- Standing plan into Friday unchanged: stage-2 NVDA only >208.68 on a
+  stable tape; SOFI trim 2->1 below $17.00; cash waits for green-tape
+  confirmation. YUM triggers both unmet (case growth still rising, close
+  not green) — no entry, watch continues.
