@@ -344,3 +344,24 @@ PLAN:
   per plan (do not reconsider the hold — the 3-fade thesis stands).
   Deploy stays branch (c): cash waits for a proven bottom. BTC $63,940
   (-1.2%), drifting lower with risk assets, no trigger.
+
+## 2026-07-16 13:08 UTC (9:08am ET) — DAY 4 PLAN (restructure day)
+Pre-market (verified feed, all zero-volume indications — treat as
+directional only): SOFI ~$17.78 (≈flat vs 17.845 close), RIG ~$5.23
+(≈+0.4%, crude +1.1% to $80.51), NVDA ~$209.27 (-1.5%), QQQ ~$710.98
+(-1.2%), SMH thin print -4%. NQ futs -0.95%, ES -0.34%. BTC $63,925
+(-1.2%), no MARA trigger. 8:30 data verdict per tape: negative tilt.
+
+PLAN (owner-agreed restructure + fractional deploy):
+1. ~9:36am: SELL 4 RIG at real opening print (dead capital, 3 fades;
+   crude tailwind = exit into strength if green).
+2. ~9:36am: SELL 1 SOFI (trim 3→2, cut concentration; ARKK accumulation
+   supports keeping the remainder through Jul 29 earnings).
+3. Proceeds (~$60.5 total cash): STAGED leadership deploy, branch (c) —
+   wait for first green 30-min candle on QQQ AND NVDA with tape stable;
+   then buy ~$30 fractional NVDA (preferred; TSM blowout = AI demand
+   intact, rout is memory-led) or QQQ if breadth leads. Second ~$25
+   only if entry holds by ~11:30am. No green candle by 2pm = hold cash
+   into Friday. $5+ notional per buy (fractional minimum).
+4. Guardrails: new symbols at default -10/+15 before first buy.
+5. YUM: triggers unmet; watch continues, no entry.
