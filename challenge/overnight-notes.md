@@ -298,3 +298,10 @@ PLAN:
   is now the base case: at the briefing, favor broad QQQ fraction or
   hold-cash-past-open over NVDA/SMH unless chips reverse hard pre-market.
   RIG exit + SOFI trim unaffected. BTC $64,599 flat, no trigger.
+- 07:38 UTC Thu (3:38am ET): Direct futures read via verified Yahoo feed
+  (NQ=F/ES=F — better than headline reads, use this going forward):
+  Nasdaq futs -0.25%, S&P futs -0.06% — soft but NOT an index-level rout;
+  the damage is chip-specific. Keeps deploy branch decision live rather
+  than auto-(c): if NVDA/SMH pre-market is merely soft (not gapping),
+  branch (b) staged entry is viable. BTC $64,244 (-0.7%), no trigger.
+  No fresh SOFI/MARA/RIG news (search returning stale items only).
