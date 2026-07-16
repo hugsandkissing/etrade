@@ -312,3 +312,8 @@ PLAN:
   shaping up: RIG exit + SOFI trim at open as planned; deploy leans
   branch (c) — broad QQQ fraction only if the tape stabilizes after
   9:45am, else hold cash into the afternoon and reassess.
+- 09:38 UTC Thu (5:38am ET): Futures recovering — NQ back to -0.24%
+  (from -0.57% an hour ago), ES -0.04%. The chip-rout bleed is being
+  bought, not chased; if this holds into pre-market, deploy branch (b)
+  staged entry regains the edge over (c). BTC $64,039 (-1.05% on the
+  day, drifting) — still no trigger. No fresh book news.
