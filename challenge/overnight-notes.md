@@ -415,3 +415,27 @@ PLAN (owner-agreed restructure + fractional deploy):
   official (trigger 1 cleanly met); a risk-off tape argues for MORE YUM
   downside at the open = keep waiting for stabilize-into-green, don't
   catch the knife. BTC $62,644 (-1.8%), no trigger. Cash $31.17 patient.
+
+## 2026-07-17 13:05 UTC (9:05am ET Fri) — DAY 5 PLAN (risk-off open)
+Pre-market (verified feed, ALL zero-volume indications — directional
+only): SOFI ~$16.91, NVDA ~$202.03 (-5% gap), QQQ ~$692 (-3.5%),
+YUM ~$152.49 (≈flat, relatively strong vs a red tape). NQ futs -1.90%,
+ES -0.95%. BTC $62,934 (-1.3%), no trigger. Broad risk-off / tech
+de-risking — NOT position-specific news.
+
+PLAN — HOLD ALL, no forced exits at the open:
+1. SOFI ($16.91 pre-mkt, below the $17.00 trim line): DO NOT trim into
+   the gap-down open. This is a market-wide flush (NVDA -5%, QQQ -3.5%),
+   not SOFI-specific deterioration — selling here locks the low. Reassess
+   after ~10:15am ET: if SOFI can't reclaim $17 once the tape steadies,
+   THEN trim 2->1. Stop unchanged.
+2. NVDA (0.144 @ 208.68, ~-3% pre-mkt): HOLD, far above $187.81 stop.
+   Stage-2 add stays gated (>208.68 stable) — not remotely in play today.
+3. Cash $31.17: stays FULLY patient. A -3.5% QQQ open is not a deploy
+   point; wait for a stabilization signal (green 30m candle) as before.
+4. YUM (trigger 1 met): watch for gap-down-then-stabilize into green on
+   real volume = trigger 2. If it holds green mid-session, a $15-20
+   fractional starter is authorized (tick cron carries this).
+Risk posture: floor ~$91 intact; today is about NOT panic-selling a
+broad flush. Discipline = hold quality, let stops govern, deploy cash
+only on proven stabilization.
