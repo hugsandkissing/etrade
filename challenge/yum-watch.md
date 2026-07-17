@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 01:56 UTC — MATERIAL: link CONFIRMED (see alert log)
+- checked: 2026-07-17 02:55 UTC — refinements to the linked story (below); posture unchanged, no re-alert
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
@@ -46,6 +46,16 @@ on trigger 2 = first flat/green YUM regular-session close. Friday open may
 gap DOWN on the confirmation headline; the setup to buy is gap-down-then-
 stabilize into a flat/green close, then a $15-20 fractional starter. If it
 keeps bleeding, keep waiting. Watch Friday 9:30am ET closely.
+
+02:55 UTC refinements (no re-alert, posture unchanged): (a) FDA advisory
+PENDING recommending consumers avoid Taco Bell lettuce in MI/OH/WV/KY/IN —
+incremental negative, a fresh headline risk for Friday's open. (b) WaPo
+frames Taylor Farms as 'potential source' (slightly softer than a clean
+confirmation). (c) Int'l Fresh Produce Assoc PUSHBACK: produce link rests
+on patient recollections that 'explain at most half' of cases — keeps a
+sliver of link-uncertainty open, so trigger 1 is 'largely' not 'cleanly'
+met. Bottom line for Friday: expect a gap-down on the FDA-advisory headline;
+still want stabilize-into-green before any starter.
 
 
 - 2026-07-16 02:58 UTC — ALERTED owner: case count exploded (1,645
