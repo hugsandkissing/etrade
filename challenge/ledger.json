@@ -2914,6 +2914,17 @@
       },
       "equity": 93.74,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-17T20:12:45Z",
+      "prices": {
+        "SOFI": 17.28,
+        "NVDA": 202.81,
+        "YUM": 147.925,
+        "QQQ": 695.33
+      },
+      "equity": 93.58,
+      "source": "Yahoo close prints ~20:12 UTC"
     }
   ]
 }
