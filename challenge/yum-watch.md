@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 06:55 UTC — OFFICIAL: FDA+CDC joint statement names Taylor Farms (trigger 1 now CLEANLY met). Owner alerted (firm-up). Trigger 2 still the gate = Friday open.
+- checked: 2026-07-17 07:55 UTC (analyst color, NO downgrade: JPM reiterates durable TB/KFC growth >85% op income, 'does not alter central catalyst'; vs eMarketer 'perception weighs near-term'. Supports bounded thesis. Trigger 2 = Friday open ~90min.)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
