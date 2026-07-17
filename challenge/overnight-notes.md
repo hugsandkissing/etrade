@@ -439,3 +439,20 @@ PLAN — HOLD ALL, no forced exits at the open:
 Risk posture: floor ~$91 intact; today is about NOT panic-selling a
 broad flush. Discipline = hold quality, let stops govern, deploy cash
 only on proven stabilization.
+
+## 2026-07-17 21:37 UTC (5:37pm ET Fri) — weekend open (Day 5 close)
+- BTC $64,068, +2.3% off the overnight lows (~$62.6k), no trigger. Index
+  futures closed for the weekend (reopen Sun evening). MARA/RIG both
+  exited — this check's legacy tickers are vestigial; book is now SOFI /
+  NVDA / QQQ / YUM.
+- YUM thesis CONFIRMATION (constructive): CNBC + Axios both frame the
+  outbreak as unlikely to have major long-term stock impact, citing how
+  restaurant chains recover from past health scares. Analysts see the
+  crisis as a near-term brand/sales dent, not a structural break — which
+  is exactly the bounded/"known & fixable" read behind our $18 entry.
+  YUM closed the week down ~7% over 5 sessions; our entry at $155.30 is
+  -4.8% and inside its band. No new negative catalyst beyond price drift.
+- Weekend watch: whether the 2-day tech/semi selloff bottoms or continues
+  Monday (NVDA/QQQ need the tape to steady); any escalation in YUM
+  outbreak (new states/case spikes/recall) vs de-escalation (source
+  contained, cases peaking). SOFI grinds toward Jul 29 earnings.
