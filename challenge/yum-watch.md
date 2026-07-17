@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 09:55 UTC. NEW (logged, no alert — below materiality bar): first lawsuit filed, Ayyad v. Pacific Bells LLC (single plaintiff vs a Taco Bell FRANCHISEE, Ohio). Expected/immaterial to YUM franchisor thesis; escalate only if it becomes multistate/class. Trigger 2 = open (~3.5h). YUM pre-mkt ~151.5 zero-vol.
+- checked: 2026-07-17 10:55 UTC (no new development; FDA/CDC link + case counts unchanged, no recall. Trigger 2 = open ~2.5h. YUM pre-mkt $151.50 zero-vol)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
