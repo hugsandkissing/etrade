@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 11:55 UTC (no new development; no recall/downgrade. Trigger 2 = open ~1.6h. YUM pre-mkt $151.12 zero-vol — watching real-volume open print for the stabilize-into-green setup)
+- checked: 2026-07-17 12:55 UTC (no new development; no recall. Open ~35min — watching first real-volume prints for gap-down-then-stabilize into green = trigger 2)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
