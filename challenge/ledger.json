@@ -2,10 +2,10 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 13.155279999999998,
+  "cash": 30.065279999999998,
   "positions": {
     "SOFI": {
-      "qty": 2.0,
+      "qty": 1.0,
       "avg_cost": 18.439999999999998
     },
     "NVDA": {
@@ -135,6 +135,15 @@
       "price": 155.3,
       "source": "Yahoo 1m candle 13:55 UTC vol 8406",
       "note": "YUM watch entry: both triggers met. T1: FDA/CDC officially named Taylor Farms lettuce (single supplier, pulled+replaced nationwide) = uncertainty resolved constructively. T2: opened GREEN +2.1% on real volume AGAINST a -3% Nasdaq tape (13:30 candle 151.00->155.30) \u2014 no gap-down materialized, bad-news-out confirmed by relative strength. $18 starter per plan cap; earnings early Aug = event risk, sized accordingly"
+    },
+    {
+      "ts": "2026-07-17T14:27:31Z",
+      "action": "SELL",
+      "symbol": "SOFI",
+      "qty": 1.0,
+      "price": 16.91,
+      "source": "Yahoo 1m candle 14:25 UTC vol 100462",
+      "note": "Day 5 plan trim: SOFI persistently below $17.00 trim line after the 10:15am reassess window (16.89-16.91 on real volume, 55min past the open flush) \u2014 tape has steadied but SOFI hasn't reclaimed. Cut 2->1: keep 1 sh through Jul 29 earnings, reduce bleed. Realized -$1.53 on this share"
     }
   ],
   "marks": [
@@ -2419,6 +2428,26 @@
       },
       "equity": 94.05,
       "source": "Yahoo via watch.py --once 13:42 UTC"
+    },
+    {
+      "ts": "2026-07-17T14:27:22Z",
+      "prices": {
+        "SOFI": 16.895,
+        "NVDA": 204.35,
+        "YUM": 155.44
+      },
+      "equity": 94.4,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-17T14:27:31Z",
+      "prices": {
+        "SOFI": 16.91,
+        "NVDA": 204.42,
+        "YUM": 155.145
+      },
+      "equity": 94.41,
+      "source": "Yahoo 14:26 UTC"
     }
   ]
 }
