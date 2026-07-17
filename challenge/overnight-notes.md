@@ -405,3 +405,13 @@ PLAN (owner-agreed restructure + fractional deploy):
   could pressure our 0.144 NVDA (stop $187.81, far off). BTC $63,311
   (-0.7%), no trigger. Cash $31.17 patient. YUM: watch the open for the
   gap-down-then-stabilize setup per yum-watch.md.
+- 08:38 UTC Fri (4:38am ET): Weakness deepening into the European morning
+  — NQ futs -2.10% (was -1.63% an hour ago). Friday now setting up as a
+  clearly RISK-OFF open, not just soft. Implications: (a) NVDA stage-2 add
+  stays firmly gated; a -2% Nasdaq open likely pressures our 0.144 NVDA
+  (still far above its $187.81 stop). (b) SOFI closed on its low $17.32;
+  a risk-off open could test the $17.00 trim line early — the tick cron
+  carries the auto-trim-to-1 rule. (c) YUM: FDA/CDC confirmation is now
+  official (trigger 1 cleanly met); a risk-off tape argues for MORE YUM
+  downside at the open = keep waiting for stabilize-into-green, don't
+  catch the knife. BTC $62,644 (-1.8%), no trigger. Cash $31.17 patient.
