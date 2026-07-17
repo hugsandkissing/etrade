@@ -89,6 +89,10 @@ def main():
     last_mark = 0.0
     while True:
         try:
+            # Reload each cycle so trades made mid-session (new/closed
+            # positions) don't strand the auto-mark on a stale book.
+            positions = load_positions() or positions
+            bands = load_bands()
             status, alerts = check(positions, bands)
         except Exception as e:
             print(f"quote fetch failed: {e}", file=sys.stderr)
