@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 04:55 UTC (no new development — FDA advisory still pending, no formal recall; triggers unchanged: 1 largely met, 2 awaits Friday open)
+- checked: 2026-07-17 05:55 UTC (no new development; FDA advisory still pending, no recall, no analyst action; triggers unchanged — Friday open is the read)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
