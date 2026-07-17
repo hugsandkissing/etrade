@@ -2,7 +2,7 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 31.17008,
+  "cash": 13.155279999999998,
   "positions": {
     "SOFI": {
       "qty": 2.0,
@@ -11,6 +11,10 @@
     "NVDA": {
       "qty": 0.144,
       "avg_cost": 208.68
+    },
+    "YUM": {
+      "qty": 0.116,
+      "avg_cost": 155.3
     }
   },
   "trades": [
@@ -122,6 +126,15 @@
       "price": 208.68,
       "source": "Yahoo 1m candle 14:38 UTC vol 170297",
       "note": "Day 4 staged deploy 1/2: leadership entry after trigger \u2014 first completed green 30m candle on BOTH QQQ (709.09->712.47) and NVDA (207.48->208.97) at 10:30am. NVDA over QQQ/SMH: TSM blowout confirms AI demand, rout is memory-led. ~$30 of ~$61 cash; stage 2 ~11:30am only if entry holds"
+    },
+    {
+      "ts": "2026-07-17T13:56:59Z",
+      "action": "BUY",
+      "symbol": "YUM",
+      "qty": 0.116,
+      "price": 155.3,
+      "source": "Yahoo 1m candle 13:55 UTC vol 8406",
+      "note": "YUM watch entry: both triggers met. T1: FDA/CDC officially named Taylor Farms lettuce (single supplier, pulled+replaced nationwide) = uncertainty resolved constructively. T2: opened GREEN +2.1% on real volume AGAINST a -3% Nasdaq tape (13:30 candle 151.00->155.30) \u2014 no gap-down materialized, bad-news-out confirmed by relative strength. $18 starter per plan cap; earnings early Aug = event risk, sized accordingly"
     }
   ],
   "marks": [
