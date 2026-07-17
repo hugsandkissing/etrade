@@ -7,7 +7,7 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 05:55 UTC (no new development; FDA advisory still pending, no recall, no analyst action; triggers unchanged — Friday open is the read)
+- checked: 2026-07-17 06:55 UTC — OFFICIAL: FDA+CDC joint statement names Taylor Farms (trigger 1 now CLEANLY met). Owner alerted (firm-up). Trigger 2 still the gate = Friday open.
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
@@ -46,6 +46,15 @@ on trigger 2 = first flat/green YUM regular-session close. Friday open may
 gap DOWN on the confirmation headline; the setup to buy is gap-down-then-
 stabilize into a flat/green close, then a $15-20 fractional starter. If it
 keeps bleeding, keep waiting. Watch Friday 9:30am ET closely.
+
+06:55 UTC — OFFICIAL CONFIRMATION (firm-up alert sent): FDA + CDC issued
+a JOINT statement naming Taylor Farms shredded iceberg lettuce (single
+Mexican supplier) as the source; consumer warning for Taco Bell in
+MI/IN/KY/OH/WV. 1,644 confirmed among TB diners, 94 hospitalized, 0 deaths.
+Trigger 1 upgraded press-reported -> REGULATOR-CONFIRMED = cleanly met.
+Constructive: single identified/contained/remediated supplier item.
+Trigger 2 (flat/green close) still the sole gate; Friday open is the read.
+No trade until stabilize-into-green.
 
 02:55 UTC refinements (no re-alert, posture unchanged): (a) FDA advisory
 PENDING recommending consumers avoid Taco Bell lettuce in MI/OH/WV/KY/IN —
