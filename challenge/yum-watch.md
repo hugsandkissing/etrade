@@ -7,15 +7,17 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 
 ## Last known state (update every check that finds news)
 
-- checked: 2026-07-17 00:55 UTC (no news change, after-hours zero-volume; both triggers unmet)
+- checked: 2026-07-17 01:56 UTC — MATERIAL: link CONFIRMED (see alert log)
 - cases: ~7,000 potential nationally (CDC: 1,645 lab-confirmed + ~5,100
   under investigation). Michigan alone: 3,762 (MDHHS, +453 vs prior
   3,309), 44 hospitalized in MI. CDC links 400+ across MI/OH/WV/KY,
   onsets from June 22. One of the largest US foodborne outbreaks in years.
-- link status: still NOT confirmed to Taco Bell. BUT lettuce/salad greens
-  now the leading suspected vehicle — Michigan test results point to
-  lettuce; MDHHS cites 1,000+ patient interviews with lettuce as the
-  recurring exposure. No grower/supplier/chain identified.
+- link status: LINKED as of 2026-07-17 (CNN/Bloomberg). Source identified
+  = Taylor Farms shredded ICEBERG lettuce sold at some Taco Bell locations.
+  Taco Bell indefinitely removing that supplier's lettuce NATIONWIDE,
+  replaced within 24h in select states. CDC ties ~400 cases across
+  MI/OH/WV/KY to affected Taco Bell locations. Single-supplier, bounded,
+  remediated — the 'known & fixable' resolution shape.
 - sector contagion: Sweetgreen and Chipotle stocks also fell on the
   outbreak (Forbes) — this is now a salad-chain sector story, not just YUM.
 - YUM price: $152.57 close Jul 15. DATA-QUALITY RULE (12:57 UTC): YUM
@@ -37,7 +39,14 @@ Routine (delete_trigger) once a YUM move is made or the owner says stop.
 - YUM price move >3% intraday in either direction
 - BOTH entry triggers satisfied (say so explicitly and propose the trade)
 
-## Alert log
+## Alert log — TRIGGER 1 NOW MET (link resolved 2026-07-17)
+
+Reframe: uncertainty overhang lifting (bad-news-out). Entry now gated ONLY
+on trigger 2 = first flat/green YUM regular-session close. Friday open may
+gap DOWN on the confirmation headline; the setup to buy is gap-down-then-
+stabilize into a flat/green close, then a $15-20 fractional starter. If it
+keeps bleeding, keep waiting. Watch Friday 9:30am ET closely.
+
 
 - 2026-07-16 02:58 UTC — ALERTED owner: case count exploded (1,645
   confirmed → ~7,000 potential; MI 3,762), lettuce now leading suspect
