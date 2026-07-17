@@ -22,5 +22,9 @@
   "YUM": {
     "stop_pct": -10.0,
     "target_pct": 15.0
+  },
+  "QQQ": {
+    "stop_pct": -10.0,
+    "target_pct": 15.0
   }
 }

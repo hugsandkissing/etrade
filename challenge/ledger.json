@@ -2,7 +2,7 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 30.065279999999998,
+  "cash": 9.769049999999996,
   "positions": {
     "SOFI": {
       "qty": 1.0,
@@ -15,6 +15,10 @@
     "YUM": {
       "qty": 0.116,
       "avg_cost": 155.3
+    },
+    "QQQ": {
+      "qty": 0.029,
+      "avg_cost": 699.87
     }
   },
   "trades": [
@@ -144,6 +148,15 @@
       "price": 16.91,
       "source": "Yahoo 1m candle 14:25 UTC vol 100462",
       "note": "Day 5 plan trim: SOFI persistently below $17.00 trim line after the 10:15am reassess window (16.89-16.91 on real volume, 55min past the open flush) \u2014 tape has steadied but SOFI hasn't reclaimed. Cut 2->1: keep 1 sh through Jul 29 earnings, reduce bleed. Realized -$1.53 on this share"
+    },
+    {
+      "ts": "2026-07-17T16:01:23Z",
+      "action": "BUY",
+      "symbol": "QQQ",
+      "qty": 0.029,
+      "price": 699.87,
+      "source": "Yahoo 1m candle 16:00 UTC vol 181228",
+      "note": "Day 5 deploy stage 1: trigger fired \u2014 11:30-12:00 30m candle closed GREEN on both QQQ (695.14->699.49) and NVDA (203.93->205.12), tape stabilizing off the risk-off lows (QQQ 692 low -> 700). QQQ over NVDA add: NVDA's own gate (>208.68) unmet; broad leadership at 1x is the plan's default. ~$20 of $30 cash; keep $10 for stage 2 only if this holds"
     }
   ],
   "marks": [
@@ -2528,6 +2541,27 @@
       },
       "equity": 94.41,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-17T15:56:58Z",
+      "prices": {
+        "SOFI": 17.165,
+        "NVDA": 205.21,
+        "YUM": 153.32
+      },
+      "equity": 94.57,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-17T16:01:23Z",
+      "prices": {
+        "SOFI": 17.22,
+        "NVDA": 205.2,
+        "YUM": 153.315,
+        "QQQ": 699.87
+      },
+      "equity": 94.62,
+      "source": "Yahoo 16:00 UTC"
     }
   ]
 }
