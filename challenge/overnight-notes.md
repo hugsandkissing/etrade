@@ -390,3 +390,11 @@ PLAN (owner-agreed restructure + fractional deploy):
   ES -0.12%) — the NFLX drop is idiosyncratic, not contagious so far.
   BTC $64,080 (-1.0%), no trigger. Friday plan unchanged: stage-2 NVDA
   only >208.68 on stable tape; SOFI trim <17.00; cash patient.
+- 02:37 UTC Fri (10:37pm ET Thu): Nasdaq futures softening steadily
+  overnight — NQ now -1.05% (was -0.43% at 8:38pm, -0.73% at 9:37pm),
+  Netflix drag plus general tech de-risking building into Friday's open.
+  Reinforces patience on the NVDA stage-2 add (only >208.68 on a stable
+  tape). BTC $63,400 (-0.6%), no trigger. NEW for Friday: YUM outbreak
+  LINKED to Taylor Farms lettuce at Taco Bell overnight (see yum-watch.md)
+  — trigger 1 met, watching Friday's open for a stabilize-into-green setup
+  before any fractional starter. Cash $31.17 stays patient across the board.
