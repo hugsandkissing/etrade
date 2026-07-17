@@ -1,4 +1,9 @@
-# YUM / Taco Bell cyclospora watch — alert state
+# YUM / Taco Bell cyclospora watch — CLOSED 2026-07-17 (position entered)
+
+ENTRY EXECUTED 13:57 UTC: BUY 0.116 YUM @ $155.30 ($18 starter). Both
+triggers met. Hourly Routine trig_01PtGADFsSVokzUYWPg9Vujx DELETED per
+owner's removal condition. Position now managed by the standard
+challenge machinery (guardrails -10/+15, watcher, ticks).
 
 Owner-requested standing alert (2026-07-16). An hourly cloud Routine
 compares fresh search results against the LAST KNOWN STATE below and

@@ -23,13 +23,9 @@ restarts:
    close, writes reports/YYYY-MM-DD.md scoring last night's signals against
    the day's actual outcome (format: reports/2026-07-13.md) and messages it
    to the owner.
-6. **YUM/Taco Bell outbreak watch** — CCR Routine `55 * * * *` (UTC, 24/7),
-   trigger id `trig_01PtGADFsSVokzUYWPg9Vujx`. TEMPORARY, owner-requested:
-   compares news/CDC developments and YUM price against
-   `challenge/yum-watch.md`, messages the owner immediately on material
-   change, silent otherwise. DELETE (delete_trigger) once a YUM move is
-   made or the owner says stop. CDC/FDA pages 403 automated fetches —
-   sourcing is WebSearch (national + local outlets carry gov updates).
+6. **YUM/Taco Bell outbreak watch** — CLOSED 2026-07-17: entry executed
+   (0.116 YUM @ 155.30), Routine deleted per the owner's removal
+   condition. History in `challenge/yum-watch.md`.
 
 Guardrail bands per position live in `challenge/guardrails.json`; `watch.py`
 polls them every 30s when stooq.com is network-allowlisted. Overnight notes
