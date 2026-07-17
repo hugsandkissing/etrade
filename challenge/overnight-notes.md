@@ -398,3 +398,10 @@ PLAN (owner-agreed restructure + fractional deploy):
   LINKED to Taylor Farms lettuce at Taco Bell overnight (see yum-watch.md)
   — trigger 1 met, watching Friday's open for a stabilize-into-green setup
   before any fractional starter. Cash $31.17 stays patient across the board.
+- 04:38 UTC Fri (12:38am ET): Nasdaq futures weakening again — NQ -1.41%
+  (was -0.70% an hour ago). Asia session pressuring tech; Netflix drag +
+  semi caution compounding. Friday shaping up as another defensive open —
+  NVDA stage-2 add stays gated (>208.68 stable only), and a soft open
+  could pressure our 0.144 NVDA (stop $187.81, far off). BTC $63,311
+  (-0.7%), no trigger. Cash $31.17 patient. YUM: watch the open for the
+  gap-down-then-stabilize setup per yum-watch.md.
