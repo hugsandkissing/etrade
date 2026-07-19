@@ -456,3 +456,19 @@ only on proven stabilization.
   Monday (NVDA/QQQ need the tape to steady); any escalation in YUM
   outbreak (new states/case spikes/recall) vs de-escalation (source
   contained, cases peaking). SOFI grinds toward Jul 29 earnings.
+
+## 2026-07-19 22:38 UTC (6:38pm ET Sun) — futures reopen, first Monday read
+- Index futures reopened FLAT after Thursday/Friday's two-day selloff:
+  NQ -0.02%, ES -0.13% — NOT continuing to bleed. Mildly constructive:
+  the risk-off flush isn't gapping further to start the week, which is
+  the first (tentative) sign the tech/semi rout may be steadying. Matters
+  for the book (NVDA/QQQ need the tape to stabilize) and for whether the
+  $9.77 cash finally gets a durable-stabilization signal (vs Friday's
+  one-candle head-fake). BTC $64,645 (-0.2%), no trigger — held ~$64-65k
+  all weekend, MARA-quiet (MARA exited anyway).
+- No fresh SOFI/YUM news over the weekend beyond the Fri analyst reads
+  (outbreak = near-term dent, not structural — supports YUM hold).
+- Monday watch: does the flat futures open hold into the cash session, or
+  fade like Friday? SOFI grinds toward Jul 29 earnings. YUM recovery
+  thesis intact. Briefing at 9:03am ET sets the plan; deploy the residual
+  cash only on PROVEN stabilization (higher-low structure, not one candle).
