@@ -8,6 +8,11 @@ from enum import Enum
 from typing import Any
 
 
+# Weight calculations combine broker values rounded at different precisions.
+# Treat sub-basis-point machine noise as zero while rejecting real over-allocation.
+ALLOCATION_WEIGHT_EPSILON = 1e-6
+
+
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
 

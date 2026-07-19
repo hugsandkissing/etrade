@@ -1,4 +1,5 @@
 import asyncio
+from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 
 from swagger.bar_aggregator import SignalAggregator
@@ -102,6 +103,25 @@ def test_sell_target_preserves_other_portfolio_allocations():
     assert result.action is Action.SELL
     assert result.target_is_complete
     assert targets == {"QQQ": 0.3, "VG": 0.0}
+
+
+def test_buy_target_uses_remaining_weight_without_floating_overallocation():
+    provider = RuleBasedDecisionProvider(Settings())
+    buy_context = replace(
+        context(
+            [
+                signal("session_high_cross", "price"),
+                signal("relative_volume", "volume"),
+            ]
+        ),
+        symbol="QQQ",
+        buying_power=24.533316604200696,
+        account_value=49.501412,
+        current_allocations=(TargetAllocation("VG", 0.5043918550047808),),
+    )
+    result = asyncio.run(provider.propose(buy_context))
+    assert result.action is Action.BUY
+    assert sum(item.weight for item in result.target_allocations) <= 1.0
 
 
 def test_aggregator_emits_price_and_volume_families():

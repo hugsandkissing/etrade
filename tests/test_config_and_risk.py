@@ -125,3 +125,48 @@ def test_complete_target_must_preserve_existing_positions():
     )
     assert not verdict.approved
     assert "complete target omits an existing position" in verdict.reasons
+
+
+def test_risk_accepts_observed_sub_basis_point_weight_noise():
+    settings = Settings()
+    proposal = replace(
+        decision(symbol="SPY"),
+        target_allocations=(
+            TargetAllocation("SPY", 0.4927847229670909),
+            TargetAllocation("VG", 0.507215294643086),
+        ),
+        target_is_complete=True,
+    )
+    account = AccountState(
+        50,
+        25,
+        positions=(Position("VG", 2.5, 10),),
+    )
+    quote = Quote("SPY", 10, 10.01, datetime.now(timezone.utc), "test")
+    verdict = RiskKernel(settings).evaluate(
+        proposal, RiskContext(account, quote, HealthState.HEALTHY, True)
+    )
+    assert verdict.approved
+
+
+def test_risk_still_rejects_material_overallocation():
+    settings = Settings(max_capital=100)
+    proposal = replace(
+        decision(symbol="SPY"),
+        target_allocations=(
+            TargetAllocation("SPY", 0.501),
+            TargetAllocation("VG", 0.5),
+        ),
+        target_is_complete=True,
+    )
+    account = AccountState(
+        50,
+        25,
+        positions=(Position("VG", 2.5, 10),),
+    )
+    quote = Quote("SPY", 10, 10.01, datetime.now(timezone.utc), "test")
+    verdict = RiskKernel(settings).evaluate(
+        proposal, RiskContext(account, quote, HealthState.HEALTHY, True)
+    )
+    assert not verdict.approved
+    assert "target weights exceed 100%" in verdict.reasons

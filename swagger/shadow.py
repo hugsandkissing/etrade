@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 
 from .broker import BrokerCapabilities, plan_allocation_order, target_for
 from .models import (
+    ALLOCATION_WEIGHT_EPSILON,
     Action,
     AccountState,
     AllocationLine,
@@ -157,7 +158,7 @@ class ShadowPortfolio:
             raise ShadowPortfolioError("target allocation contains duplicate symbols")
         if any(weight < 0 or weight > 1 for weight in target_map.values()):
             raise ShadowPortfolioError("target weights must be between zero and one")
-        if sum(target_map.values()) > 1.0 + 1e-9:
+        if sum(target_map.values()) > 1.0 + ALLOCATION_WEIGHT_EPSILON:
             raise ShadowPortfolioError("target weights exceed 100%")
         missing = set(self.positions) - set(target_map)
         if missing:

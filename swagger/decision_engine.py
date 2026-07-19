@@ -118,11 +118,17 @@ class RuleBasedDecisionProvider:
             if action is Action.SELL:
                 target_map[context.symbol.upper()] = 0.0
             elif action in {Action.BUY, Action.ROTATE}:
+                other_target_weight = sum(
+                    weight
+                    for symbol, weight in target_map.items()
+                    if symbol != context.symbol.upper()
+                )
                 target_map[context.symbol.upper()] = min(
                     1.0 / self.settings.max_positions,
                     (maximum_dollar_amount or 0) / context.account_value
                     if context.account_value > 0
                     else 0.0,
+                    max(0.0, 1.0 - other_target_weight),
                 )
             targets = tuple(
                 TargetAllocation(symbol, weight)

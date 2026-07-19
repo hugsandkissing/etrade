@@ -6,7 +6,15 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 
 from .config import Settings
-from .models import Action, AccountState, Decision, HealthState, Quote, RiskVerdict
+from .models import (
+    ALLOCATION_WEIGHT_EPSILON,
+    Action,
+    AccountState,
+    Decision,
+    HealthState,
+    Quote,
+    RiskVerdict,
+)
 
 
 @dataclass(frozen=True)
@@ -41,7 +49,7 @@ class RiskKernel:
                 reasons.append("portfolio target is not marked complete")
             if any(weight < 0 or weight > 1 for weight in target_map.values()):
                 reasons.append("target weights must be between zero and one")
-            if sum(target_map.values()) > 1.0 + 1e-9:
+            if sum(target_map.values()) > 1.0 + ALLOCATION_WEIGHT_EPSILON:
                 reasons.append("target weights exceed 100%")
             held_symbols = {position.symbol.upper() for position in account.positions}
             missing = held_symbols - set(target_map)
