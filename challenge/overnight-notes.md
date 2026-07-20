@@ -472,3 +472,24 @@ only on proven stabilization.
   fade like Friday? SOFI grinds toward Jul 29 earnings. YUM recovery
   thesis intact. Briefing at 9:03am ET sets the plan; deploy the residual
   cash only on PROVEN stabilization (higher-low structure, not one candle).
+
+## 2026-07-20 13:07 UTC (9:07am ET Mon) — DAY 6 PLAN (steadying open)
+Pre-market (verified feed, zero-volume indications — directional):
+SOFI ~$17.39 (+0.4%), NVDA ~$205.20 (-1.1%), QQQ ~$702.30 (-0.5%),
+YUM ~$150.08 (-1.3%). NQ futs +0.81%, ES +0.34% — GREEN, continuing the
+weekend's steadying read after Thu/Fri's 2-day rout. BTC $64,603 (flat),
+no trigger.
+
+PLAN — HOLD ALL, no trades at the open:
+1. Every position above its stop and thesis-intact: SOFI (Jul 29 earnings),
+   NVDA (stop 187.81 far off; stage-2 only >208.68 stable), QQQ (leadership),
+   YUM (recovery, stop 139.77). Nothing triggering.
+2. Cash $9.77: stays patient. Green futures are constructive but Friday's
+   lesson stands — deploy the last cash only on PROVEN stabilization
+   (higher-low or 2 consecutive green 30m candles), not a one-candle
+   bounce. With only ~$10 left it's a small lever anyway; no rush.
+3. Watch: does the green open hold into the cash session (vs Friday's
+   fade)? If the tape confirms a real bottom, the $9.77 tops up NVDA/QQQ.
+   SOFI grinds toward earnings; YUM recovery thesis intact.
+Risk posture: floor ~$88, all stops live, worst case bounded. Day 6 is a
+hold-and-watch for genuine stabilization after the week's washout.
