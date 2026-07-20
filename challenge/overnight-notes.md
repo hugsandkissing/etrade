@@ -493,3 +493,23 @@ PLAN — HOLD ALL, no trades at the open:
    SOFI grinds toward earnings; YUM recovery thesis intact.
 Risk posture: floor ~$88, all stops live, worst case bounded. Day 6 is a
 hold-and-watch for genuine stabilization after the week's washout.
+
+## 2026-07-20 21:37 UTC (5:37pm ET Mon) — Day 6 close + MATERIAL YUM update
+- YUM DOUBLE DEVELOPMENT (owner messaged): (1) FDA WALKED BACK the Taylor
+  Farms link — the positive lettuce test was a FALSE POSITIVE; as of Mon
+  no samples test positive for the parasite. The "regulator-confirmed
+  source" (our Thu trigger-1) is partially RETRACTED = net POSITIVE for
+  the YUM thesis (worst-case "definitive poisoner" scenario weakened).
+  (2) Taco Bell visits PLUMMETED 19% post-outbreak = the near-term sales
+  dent, now quantified. (3) TIMING CORRECTION: YUM Q2 earnings JULY 30
+  (not "early Aug") — event risk 10 days out; Q2 is pre-outbreak but
+  guidance will address traffic. Net: mixed, leans constructive for our
+  bounded-thesis entry. HOLD, stop unchanged 139.77.
+- BTC $65,385, +1.9% from Mon morning / ~+1.3% from weekend — drifting to
+  a new local high but under the 5% threshold, no MARA trigger (MARA
+  exited anyway). No fresh SOFI news; SOFI Q2 earnings Jul 29.
+- Day 6 closed equity $93.34 (-6.7%), zero trades, cash-discipline held.
+- Tue watch: does the flat tape resolve up (frees the $9.77 on a real
+  higher-low) or down? YUM reaction to the false-positive walk-back at
+  Tue open worth watching — could be a relief pop. SOFI Jul 29 / YUM Jul
+  30 earnings now both on the near calendar.
