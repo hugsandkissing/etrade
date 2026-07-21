@@ -529,3 +529,27 @@ hold-and-watch for genuine stabilization after the week's washout.
   higher-low / 2 green 30m candles on QQQ/NVDA (not a Friday-style faded
   open), the last $9.77 tops up leadership. Deploy discipline unchanged —
   proven stabilization only. No pre-market trades (paper fills in RTH).
+
+## 2026-07-21 13:05 UTC (9:05am ET Tue) — DAY 7 PLAN (green tape, hold-then-confirm)
+Pre-market (verified feed; position prints thin/zero-volume = DIRECTIONAL):
+SOFI ~17.01 (-1.6%), NVDA ~203.3 (+0.2%), QQQ ~696 (+0.1%), YUM ~147.4
+(-0.4%). NQ futs +1.38%, ES +0.43% — GREEN for the 4th consecutive signal
+(held firm all overnight). BTC $66,495 (+1.96%), no trigger.
+
+PLAN — HOLD ALL at the open; NO trade at 9:35:
+1. Every position above its stop, thesis intact: SOFI (Jul 29 earnings,
+   stop 16.60), NVDA (stop 187.81 far off; stage-2 add only >208.68 stable),
+   QQQ (leadership, stop 629.88), YUM (recovery, stop 139.77). Nothing
+   triggering an exit.
+2. Cash $9.77: the deploy decision. Futures are green for a 4th time, but
+   Fri AND Mon both gapped green then FADED — the rule exists for exactly
+   this. Deploy the last cash ONLY on PROVEN cash-session stabilization:
+   a higher-low structure OR 2 consecutive green 30m candles on QQQ/NVDA,
+   NOT the opening gap. If confirmed by ~11am ET and not fading, top up
+   whichever of NVDA/QQQ shows the cleaner higher-low. If the open fades
+   again (3rd repeat), cash stays dry — no forcing the last $10.
+3. Watch: NVDA into its 208.68 stage-2 gate; QQQ higher-low; YUM relief
+   reaction to the FDA false-positive walk-back; SOFI grind toward Jul 29.
+Risk posture: floor ~$88, all stops live, worst case bounded ~-12%. Day 7
+is hold-and-confirm — let the cash session prove the turn before spending
+the last lever.
