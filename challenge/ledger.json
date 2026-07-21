@@ -3858,6 +3858,17 @@
       },
       "equity": 94.47,
       "source": "Yahoo v8 market tick"
+    },
+    {
+      "ts": "2026-07-21T16:11:20Z",
+      "prices": {
+        "SOFI": 17.378,
+        "NVDA": 206.095,
+        "YUM": 147.4,
+        "QQQ": 708.76
+      },
+      "equity": 94.5,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
