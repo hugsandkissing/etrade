@@ -2,7 +2,7 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 9.769049999999996,
+  "cash": 0.576749999999997,
   "positions": {
     "SOFI": {
       "qty": 1.0,
@@ -17,8 +17,8 @@
       "avg_cost": 155.3
     },
     "QQQ": {
-      "qty": 0.029,
-      "avg_cost": 699.87
+      "qty": 0.042,
+      "avg_cost": 702.1078571428571
     }
   },
   "trades": [
@@ -157,6 +157,15 @@
       "price": 699.87,
       "source": "Yahoo 1m candle 16:00 UTC vol 181228",
       "note": "Day 5 deploy stage 1: trigger fired \u2014 11:30-12:00 30m candle closed GREEN on both QQQ (695.14->699.49) and NVDA (203.93->205.12), tape stabilizing off the risk-off lows (QQQ 692 low -> 700). QQQ over NVDA add: NVDA's own gate (>208.68) unmet; broad leadership at 1x is the plan's default. ~$20 of $30 cash; keep $10 for stage 2 only if this holds"
+    },
+    {
+      "ts": "2026-07-21T15:00:59Z",
+      "action": "BUY",
+      "symbol": "QQQ",
+      "qty": 0.013,
+      "price": 707.1,
+      "source": "Yahoo v8 chart API",
+      "note": "Day 7 deploy: 2 consecutive green 30m candles on QQQ confirmed (14:00-14:30 + 14:30-15:00 both green, candle 3 closed at session high 707.03), higher-low from 703.24 held, tape NOT fading into midday unlike Fri/Mon. Proven stabilization trigger met. Last cash into leadership."
     }
   ],
   "marks": [
@@ -3541,6 +3550,28 @@
       },
       "equity": 93.99,
       "source": "Yahoo v8 market tick"
+    },
+    {
+      "ts": "2026-07-21T14:57:36Z",
+      "prices": {
+        "SOFI": 17.2,
+        "NVDA": 205.56,
+        "YUM": 145.82,
+        "QQQ": 706.77
+      },
+      "equity": 93.98,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-21T15:01:10Z",
+      "prices": {
+        "SOFI": 17.205,
+        "NVDA": 206.47,
+        "YUM": 145.99,
+        "QQQ": 707.0
+      },
+      "equity": 94.14,
+      "source": "Yahoo v8 post-deploy mark"
     }
   ]
 }
