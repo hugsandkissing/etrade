@@ -513,3 +513,19 @@ hold-and-watch for genuine stabilization after the week's washout.
   higher-low) or down? YUM reaction to the false-positive walk-back at
   Tue open worth watching — could be a relief pop. SOFI Jul 29 / YUM Jul
   30 earnings now both on the near calendar.
+
+## 2026-07-21 08:40 UTC (4:40am ET Tue) — overnight check (pre-dawn)
+- Futures FIRMING: NQ +1.34%, ES +0.52% — green tape has strengthened
+  overnight (NQ was +0.81% Mon AM, +1.13% earlier this session → now
+  +1.34%). Third consecutive constructive signal. This is the setup the
+  Day-6 deploy rule was waiting for.
+- BTC $66,297 (+1.66% since Mon close) — new local high, under 5%, no
+  trigger.
+- Position pre-market prints (thin/zero-volume, DIRECTIONAL only): SOFI
+  ~17.01, NVDA ~203.3, QQQ ~696, YUM ~147.4. No fresh position news
+  overnight (no SOFI/YUM headlines; YUM false-positive walk-back already
+  logged Mon).
+- SETUP into the 13:03 UTC briefing: IF the cash open confirms a real
+  higher-low / 2 green 30m candles on QQQ/NVDA (not a Friday-style faded
+  open), the last $9.77 tops up leadership. Deploy discipline unchanged —
+  proven stabilization only. No pre-market trades (paper fills in RTH).
