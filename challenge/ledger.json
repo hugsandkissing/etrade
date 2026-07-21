@@ -4133,6 +4133,17 @@
       },
       "equity": 94.5,
       "source": "Yahoo v8 market tick"
+    },
+    {
+      "ts": "2026-07-21T18:13:16Z",
+      "prices": {
+        "SOFI": 17.33,
+        "NVDA": 206.28,
+        "YUM": 147.98,
+        "QQQ": 709.54
+      },
+      "equity": 94.58,
+      "source": "Yahoo v8 watchdog recovery mark (57min gap)"
     }
   ]
 }
