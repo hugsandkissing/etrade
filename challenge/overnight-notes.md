@@ -553,3 +553,26 @@ PLAN — HOLD ALL at the open; NO trade at 9:35:
 Risk posture: floor ~$88, all stops live, worst case bounded ~-12%. Day 7
 is hold-and-confirm — let the cash session prove the turn before spending
 the last lever.
+
+## 2026-07-22 13:06 UTC (9:06am ET Wed) — DAY 8 PLAN (mild red open, hold-and-manage)
+Overnight: BTC held ~$66k all night, now $65,589 (-1.38%, no trigger).
+Nasdaq futs drifted from flat → -1% overnight; at the briefing NQ -0.93%,
+ES -0.36% — a modestly RED open that gives back part of Tuesday's +1.68%,
+NOT a reversal. Positions at Tuesday closes (no fresh pre-market gaps on
+feed): SOFI 17.64, NVDA 207.29, QQQ 708.97, YUM 147.17. No dated position
+news overnight (SOFI Q2 Jul 29, YUM Q2 Jul 30 still the calendar).
+
+PLAN — HOLD ALL; manage exits only (FULLY INVESTED, cash $0.58):
+1. No cash to deploy — Tuesday's confirmed-trigger deploy used the last of
+   it. NVDA stage-2 gate (>208.68) is moot without cash.
+2. Every position above its stop, thesis intact: SOFI (17.64, +3.7% Tue,
+   stop 16.60, into Jul 29 earnings), NVDA (207.29, stop 187.81, pressing
+   its 208.68 gate), QQQ (708.97, stop 629.88, leadership), YUM (147.17,
+   stop 139.77, recovery into Jul 30). Nothing near a stop.
+3. A red open after an up day is normal digestion. Only act if a position
+   breaks its stop (none close) or fresh position news hits. The job today
+   is to let Tuesday's winners hold toward their catalysts, not to churn.
+Watch: does the red open stabilize (Tue turn holds) or give back all of
+Tue's gains? NVDA at the 208.68 gate; SOFI holding its Tue pop; YUM drift
+into Jul 30. Floor ~$88, all stops live, worst case bounded. No trade
+planned at the open.
