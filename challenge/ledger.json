@@ -4507,6 +4507,17 @@
       },
       "equity": 95.44,
       "source": "Yahoo v8 dashboard refresh"
+    },
+    {
+      "ts": "2026-07-22T18:26:53Z",
+      "prices": {
+        "SOFI": 17.043,
+        "NVDA": 213.638,
+        "YUM": 149.17,
+        "QQQ": 706.95
+      },
+      "equity": 95.38,
+      "source": "Yahoo v8 dashboard refresh"
     }
   ]
 }
