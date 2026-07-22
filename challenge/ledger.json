@@ -4485,6 +4485,17 @@
       },
       "equity": 95.7,
       "source": "Yahoo v8 watchdog recovery mark"
+    },
+    {
+      "ts": "2026-07-22T17:40:49Z",
+      "prices": {
+        "SOFI": 17.16,
+        "NVDA": 214.19,
+        "YUM": 149.56,
+        "QQQ": 708.735
+      },
+      "equity": 95.7,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
