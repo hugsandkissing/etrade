@@ -4364,6 +4364,17 @@
       },
       "equity": 94.38,
       "source": "Yahoo v8 watchdog RTH check"
+    },
+    {
+      "ts": "2026-07-22T13:41:04Z",
+      "prices": {
+        "SOFI": 17.55,
+        "NVDA": 205.38,
+        "YUM": 147.45,
+        "QQQ": 704.104
+      },
+      "equity": 94.38,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
