@@ -600,3 +600,17 @@ PLAN — HOLD ALL; manage exits/defend (FULLY INVESTED, cash $0.58):
 Risk posture: floor ~$88, all stops live, worst case bounded ~-12%. Day 9
 is hold-and-defend: protect NVDA's gains, honor SOFI's stop if hit, let
 the two earnings catalysts approach. No trade planned at the open.
+
+## 2026-07-23 15:07 UTC (11:07am ET Thu) — SOFI STOP EXECUTED (intra-day)
+SOFI broke its 16.60 stop on real volume (15:00-15:06 5m candle lows
+16.54-16.55, sustained not a wick) and simultaneously hit the -10%
+guardrail band. Per the Day 9 defend plan, executed the mechanical
+stop-loss: SOLD 1 SOFI @ 16.535 (cost 18.44, realized ~-1.90/sh, -10.3%).
+Cash freed to $17.11. SOFI was the persistent laggard held for Jul 29
+earnings; the stop broke before the catalyst, so the thesis is
+invalidated — no averaging down into a stopped-out name.
+Book now: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11 (~18%), equity
+~$93.19 (-6.8%). Cash does NOT redeploy today — red trending tape
+(QQQ -1.6%); deploy only on PROVEN stabilization per the standing rule.
+This is the first cash raised since going fully invested; it restores
+optionality for a better entry when a real setup appears.
