@@ -576,3 +576,27 @@ Watch: does the red open stabilize (Tue turn holds) or give back all of
 Tue's gains? NVDA at the 208.68 gate; SOFI holding its Tue pop; YUM drift
 into Jul 30. Floor ~$88, all stops live, worst case bounded. No trade
 planned at the open.
+
+## 2026-07-23 13:06 UTC (9:06am ET Thu) — DAY 9 PLAN (red open, hold-and-defend)
+Overnight: BTC slid from ~$66k to $65,027 (-1.59%, no trigger). Nasdaq
+futs deepened overnight to NQ -1.33%, ES -0.96% — a clearly RED open,
+bigger than Wed's mild -0.9% dip. Positions at Wed closes (no fresh pre-
+market gaps on feed): SOFI 17.07, NVDA 212.06, QQQ 705.35, YUM 147.57.
+No dated position news (SOFI Q2 Jul 29, YUM Q2 Jul 30 the calendar).
+
+PLAN — HOLD ALL; manage exits/defend (FULLY INVESTED, cash $0.58):
+1. No cash to deploy. This is a defend-the-gains day, not add.
+2. Watch two things on the red tape:
+   - NVDA (212.06, +1.6% vs cost, cleared its 208.68 gate Wed): a -1.3%
+     tape could pull it back toward the gate. A close back below 208.68
+     would flip it red vs cost again — a warning, but stop is far (187.81),
+     so HOLD; just note if the breakout fails.
+   - SOFI (17.07, stop 16.60 = only ~2.8% cushion, the tightest leash):
+     a hard red open could pressure it. If SOFI breaks 16.60 intraday on
+     real volume, the stop executes per rule. Otherwise HOLD into Jul 29
+     earnings (6 sessions out — the catalyst the position exists for).
+3. QQQ (705.35, stop 629.88) and YUM (147.57, stop 139.77) both have wide
+   cushions; normal red-tape drift, no action.
+Risk posture: floor ~$88, all stops live, worst case bounded ~-12%. Day 9
+is hold-and-defend: protect NVDA's gains, honor SOFI's stop if hit, let
+the two earnings catalysts approach. No trade planned at the open.
