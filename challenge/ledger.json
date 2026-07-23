@@ -2,12 +2,8 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 0.576749999999997,
+  "cash": 17.111749999999997,
   "positions": {
-    "SOFI": {
-      "qty": 1.0,
-      "avg_cost": 18.439999999999998
-    },
     "NVDA": {
       "qty": 0.144,
       "avg_cost": 208.68
@@ -166,6 +162,15 @@
       "price": 707.1,
       "source": "Yahoo v8 chart API",
       "note": "Day 7 deploy: 2 consecutive green 30m candles on QQQ confirmed (14:00-14:30 + 14:30-15:00 both green, candle 3 closed at session high 707.03), higher-low from 703.24 held, tape NOT fading into midday unlike Fri/Mon. Proven stabilization trigger met. Last cash into leadership."
+    },
+    {
+      "ts": "2026-07-23T15:06:36Z",
+      "action": "SELL",
+      "symbol": "SOFI",
+      "qty": 1.0,
+      "price": 16.535,
+      "source": "Yahoo v8 chart API",
+      "note": "STOP EXECUTED: SOFI broke its 16.60 stop on real volume (15:00-15:06 candle lows 16.54-16.55, current 16.535, all below 16.60), also hit -10% guardrail band (-10.3% vs cost). Per Day 9 defend plan, mechanical stop-loss. Realized -1.90/sh vs 18.44 cost. Frees ~16.54 cash. Thesis (Jul 29 earnings hold) invalidated by the stop break before the catalyst."
     }
   ],
   "marks": [
@@ -5123,6 +5128,16 @@
       },
       "equity": 93.19,
       "source": "Yahoo v8 market tick"
+    },
+    {
+      "ts": "2026-07-23T15:06:52Z",
+      "prices": {
+        "NVDA": 206.955,
+        "YUM": 149.01,
+        "QQQ": 690.25
+      },
+      "equity": 93.19,
+      "source": "Yahoo v8 post-stop mark"
     }
   ]
 }
