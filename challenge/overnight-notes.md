@@ -614,3 +614,28 @@ Book now: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11 (~18%), equity
 (QQQ -1.6%); deploy only on PROVEN stabilization per the standing rule.
 This is the first cash raised since going fully invested; it restores
 optionality for a better entry when a real setup appears.
+
+## 2026-07-24 13:06 UTC (9:06am ET Fri) — DAY 10 PLAN (flat open post-selloff, hold + cash-ready)
+Overnight: BTC held ~$65k all night, now $64,528 (-0.80%, no trigger).
+Futures FLAT after Thursday's -2.15% Nasdaq selloff: NQ -0.06%, ES +0.09%
+— the selloff stopped going down but is NOT bouncing. Positions at Thu
+closes (no fresh pre-market gaps): NVDA 208.76, QQQ 691.96, YUM 147.37.
+No dated position news (YUM Q2 Jul 30 is the calendar; SOFI exited).
+
+PLAN — HOLD all; manage exits; cash stays READY but dry:
+1. Book: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11 (~18%). All stops
+   wide-cushioned (NVDA 187.81, QQQ 629.88, YUM 139.77) after the tight-
+   leash SOFI was stopped Thursday.
+2. The $17 cash decision: a FLAT open after a red day is NOT proven
+   stabilization. Deploy only on a genuine cash-session turn — higher-low
+   OR 2 consecutive green 30m candles on QQQ/NVDA (the same rule that
+   worked Tuesday, avoided Fri/Mon head-fakes). If Friday chops flat or
+   rolls over, cash stays dry into the weekend — no forcing it, especially
+   ahead of a weekend (gap risk).
+3. NVDA closed right on its 208.68 gate Thu; watch whether it reclaims
+   (constructive) or loses it (stays red vs cost). YUM into Jul 30 earnings
+   — the marquee catalyst now.
+Risk posture: floor ~$88, all stops live, worst case bounded. Day 10 is
+hold-and-watch: let Friday's tape show whether Thursday's selloff was a
+one-day flush (deploy the cash on a proven higher-low) or the start of
+more (stay dry). No trade planned at the open.
