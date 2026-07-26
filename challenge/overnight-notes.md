@@ -639,3 +639,21 @@ Risk posture: floor ~$88, all stops live, worst case bounded. Day 10 is
 hold-and-watch: let Friday's tape show whether Thursday's selloff was a
 one-day flush (deploy the cash on a proven higher-low) or the start of
 more (stay dry). No trade planned at the open.
+
+## 2026-07-26 22:38 UTC (6:38pm ET Sun) — weekend check / futures reopen
+- BTC held ~$64-65k all weekend (no MARA trigger; MARA exited anyway).
+  Now $65,387 (+1.67%), quiet.
+- FUTURES REOPENED GREEN into the new week: NQ +1.19%, ES +0.63% — the
+  first constructive signal after Thu/Fri's 2-day tech selloff (Nasdaq
+  -0.6%/-2.15%... wait, Thu -2.15%, Fri -0.64%). Sets up Monday as a
+  possible stabilization/bounce.
+- Relevance to the book: this is the setup the $17.11 cash is waiting on.
+  BUT the deploy rule stands — a green futures reopen is NOT proven
+  stabilization; need a higher-low or 2 green 30m candles in Monday's cash
+  session before deploying. Green futures after a selloff have head-faked
+  before (Fri/Mon two weeks ago). Watch the Monday open, don't pre-commit.
+- No position news over the weekend (NVDA/QQQ/YUM). YUM Q2 earnings THU
+  JUL 30 — the week's marquee catalyst, 4 sessions out.
+- Book into Monday: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11, equity
+  ~$92.9 (-7.1%). All stops wide-cushioned. Monday pre-market briefing
+  makes the deploy/hold call on the real open.
