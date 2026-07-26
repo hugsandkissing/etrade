@@ -39,6 +39,7 @@ def plan_allocation_order(
     account: AccountState,
     quote: Quote,
     capabilities: BrokerCapabilities,
+    max_notional: float | None = None,
 ) -> ExecutionOrder | None:
     """Translate target-weight drift into an adapter-specific executable order."""
     if not 0 <= target.weight <= 1:
@@ -52,7 +53,13 @@ def plan_allocation_order(
         return None
     action = Action.BUY if delta > 0 else Action.SELL
     price = quote.ask if action is Action.BUY else quote.bid
-    raw_quantity = abs(delta) / price
+    desired_value = abs(delta)
+    executable_value = (
+        min(desired_value, max_notional)
+        if max_notional is not None
+        else desired_value
+    )
+    raw_quantity = executable_value / price
     if capabilities.supports_fractional_shares:
         quantity = raw_quantity
     else:
@@ -63,7 +70,8 @@ def plan_allocation_order(
     if quantity <= 0:
         return None
     estimated_value = quantity * price
-    residual = max(0.0, abs(delta) - estimated_value)
+    residual = max(0.0, executable_value - estimated_value)
+    remaining_target = max(0.0, desired_value - estimated_value)
     return ExecutionOrder(
         symbol=target.symbol,
         action=action,
@@ -72,6 +80,7 @@ def plan_allocation_order(
         estimated_value=estimated_value,
         target_weight=target.weight,
         residual_cash=residual,
+        remaining_target_value=remaining_target,
     )
 
 

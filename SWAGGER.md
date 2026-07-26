@@ -1,11 +1,12 @@
 # Swagger Engine v0.1
 
-Swagger Engine is an always-on **shadow trading** service. It watches live
+Swagger Engine is an always-on, staged **shadow/preview/live** service. It watches live
 market data, generates structured hypothetical decisions, applies deterministic
 risk rules, and records the complete process in an append-only audit ledger.
 
-It cannot place, preview, cancel, or modify a real order. An optional
-Robinhood MCP adapter reads the Agentic account for reconciliation only.
+Shadow mode cannot touch orders. Preview mode can ask Robinhood to review a
+proposed order but cannot place it. Live placement code exists behind explicit,
+independent startup gates and is disabled by default.
 
 ## Safety boundary
 
@@ -23,11 +24,11 @@ Deterministic risk kernel
         |
 Target allocation planner
         |
-Broker-capability rounding + hypothetical bid/ask fill
+Broker-capability rounding + per-order notional cap
         |
 Hash-chained JSONL ledger + report
 
-Robinhood official MCP (optional, read-only)
+Robinhood official MCP (mode-scoped)
         |
 Pinned Agentic account snapshot
         |
@@ -36,20 +37,27 @@ Shadow-vs-real reconciliation ledger
 
 Hard startup rules:
 
-- `SWAGGER_MODE` must be `shadow`.
-- `SWAGGER_BROKER_MODE` must be `mock` or `robinhood_readonly`.
-- Live mode is not implemented.
+- Valid pairs are `shadow` + (`mock` or `robinhood_readonly`),
+  `preview` + `robinhood_preview`, and `live` + `robinhood_live`.
 - The mock broker refuses all broker calls.
-- The Robinhood client has a fixed six-tool read-only allowlist and no generic
-  tool-call or order path.
+- Robinhood tool access is fixed at process startup. Preview adds only
+  `review_equity_order`; live adds only placement and cancellation. There is no
+  generic public tool-call method.
+- Live startup requires an explicit enable flag, passage of the launch
+  date/time, and a local 0600 arming file containing `SWAGGER_LIVE_V1`.
+- Before an order, the engine refreshes broker account, position, open-order,
+  quote, tradability, and fractional-tradability state.
+- Each entry/rotation order is capped at $10; protective exits may close the
+  full fractional position. Every order is reviewed first, given a
+  deterministic UUID, polled to a terminal state, and reconciled afterward.
 - The engine halts new decisions when health is degraded or halted.
 - Shadow decisions and fills are restricted to 9:30am–4:00pm US Eastern on weekdays.
 - The filesystem kill switch halts the process.
 - Missing credentials, stale quotes, duplicate proposals, wide spreads,
   breached loss limits, and unwritable audit storage fail closed.
 
-External prices can trigger an evaluation, but they cannot authorize a real
-fill. All fills in this version are hypothetical.
+External prices can trigger an evaluation, but only fresh Robinhood data can
+authorize preview or execution.
 
 ## Local setup
 
@@ -136,6 +144,37 @@ fails, the engine halts new shadow decisions. This mode still has no order
 preview, placement, cancellation, options, watchlist, scanner, deposit, or
 withdrawal capability.
 
+## Preview stage
+
+Preview mode uses the real Agentic account as portfolio truth and asks Robinhood
+to review allocation-derived orders. It never calls placement or cancellation:
+
+```dotenv
+SWAGGER_MODE=preview
+SWAGGER_BROKER_MODE=robinhood_preview
+MAX_ORDER_NOTIONAL=10
+```
+
+Each clear or alerted preview is written to the ledger and surfaced as a local
+macOS notification. Restore the two shadow defaults to leave preview mode.
+
+## Live safety gates
+
+Live execution remains off unless every startup gate passes. Defaults:
+
+```dotenv
+SWAGGER_LIVE_ENABLED=false
+SWAGGER_LIVE_NOT_BEFORE=2026-08-10T13:30:00Z
+SWAGGER_LIVE_ARMING_FILE=swagger_state/LIVE_ARMED
+```
+
+Do not create the arming file until `swagger.readiness` passes. Live orders are
+regular-hours market orders with fractional quantities rounded down to six
+decimal places. A preview containing any alert is rejected. Duplicate or open
+orders, stale data, reconciliation failure, or an unwritable ledger halt the
+execution path. Options, watchlist/scanner mutation, deposits, and withdrawals
+are absent from every allowlist.
+
 ## Audit and state
 
 Runtime files are local and gitignored:
@@ -191,9 +230,16 @@ adapter compares that target with the current realized allocation and translates
 `target weight - realized weight` into an order at the latest execution-side
 quote.
 
-The shadow adapter supports fractional shares, so approved target allocations
+Entry and rotation execution is deliberately chunked: a target can remain 50%
+while a single buy is capped by `MAX_ORDER_NOTIONAL` (hard-limited to $10 in
+v1). The unfilled distance remains explicit as `remaining_target_value`; the
+cap never silently changes the strategy target. SELL targets may close the
+entire fractional position so the account floor and goal are not protected in
+slow $10 increments.
+
+The shadow and Robinhood adapters support fractional shares. Shadow allocations
 are filled hypothetically at the ask for buys or bid for sells, plus configured
-slippage. A whole-share broker adapter rounds down to its supported quantity
+slippage. A whole-share adapter rounds down to its supported quantity
 increment and reports the unexecuted rounding difference separately as
 `execution_residual_cash`. That value is not the portfolio's intentional cash
 allocation. This keeps portfolio intent broker-neutral: adapters own quantity
@@ -231,7 +277,33 @@ weights are decimal fractions (`0.50` means 50%).
 python -m pytest -q
 python -m compileall swagger tests
 python -m swagger.report --cumulative
+python -m swagger.readiness --since 2026-07-27
 ```
+
+Readiness requires ten full clean sessions (at least 100 evaluations each),
+three clear real broker previews, at least one broker-reconciliation day, no
+preview alerts or failed terminal live orders, and passage of the time lock. A
+nonzero exit status means no-go.
+
+## Start automatically on macOS
+
+The LaunchAgent contains no keys or account values. It starts this repository's
+virtual-environment Python, which reads the gitignored `.env`:
+
+```bash
+python -m swagger.service install
+python -m swagger.service status
+```
+
+Logs are in `swagger_state/service.stdout.log` and
+`swagger_state/service.stderr.log`. Remove automatic startup with:
+
+```bash
+python -m swagger.service uninstall
+```
+
+Unexpected fail-closed halts restart after a throttle interval. A graceful stop
+or filesystem kill-switch stop stays stopped.
 
 ## Container
 
@@ -256,9 +328,8 @@ keep the safer default `127.0.0.1`.
 - Robinhood OAuth currently targets local macOS Keychain; container deployment
   needs a separate supported secret-store design.
 - Read-only reconciliation does not authorize execution and is not a price feed.
-- No external notification delivery exists; events are logged locally.
+- Notifications are local macOS alerts only; no remote/mobile channel exists.
 - The shadow state file is a cache; the append-only ledger is the audit source.
 
-Do not add live execution until shadow sessions, restart recovery, data-source
-comparisons, and broker read-only reconciliation have been independently
-validated.
+Do not arm live execution until the readiness command passes and the preview
+ledger has been reviewed.

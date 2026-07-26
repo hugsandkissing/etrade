@@ -60,11 +60,6 @@ class RiskKernel:
                 > self.settings.max_positions
             ):
                 reasons.append("target exceeds maximum open positions")
-            if (
-                account.value * sum(target_map.values())
-                > self.settings.max_capital + 0.01
-            ):
-                reasons.append("target invested value exceeds maximum capital")
             symbol_target = target_map.get(decision.symbol.upper())
             if symbol_target is None:
                 reasons.append("target omits the decision symbol")
@@ -82,8 +77,6 @@ class RiskKernel:
                 )
                 target_delta = account.value * symbol_target - current_value
 
-        if self.settings.mode != "shadow":
-            reasons.append("live mode is not implemented")
         if context.health is not HealthState.HEALTHY:
             reasons.append(f"engine health is {context.health.value}")
         if not context.ledger_writable:
@@ -98,12 +91,22 @@ class RiskKernel:
         ):
             reasons.append("leveraged or inverse instruments are forbidden")
         if decision.action in {Action.BUY, Action.ROTATE}:
+            invested_cost = sum(
+                position.quantity * position.average_cost
+                for position in account.positions
+            )
+            missing_cost_basis = any(
+                position.quantity > 0 and position.average_cost <= 0
+                for position in account.positions
+            )
             if account.value <= self.settings.account_floor:
                 reasons.append("account floor reached")
             if account.value >= self.settings.account_goal:
                 reasons.append("account goal reached")
             if account.daily_pnl_pct <= -self.settings.daily_loss_limit_pct:
                 reasons.append("daily loss limit reached")
+            if missing_cost_basis:
+                reasons.append("position cost basis is unavailable")
             if decision.target_allocations:
                 if target_delta is not None and target_delta <= 0.01:
                     reasons.append("BUY target has no positive allocation drift")
@@ -114,9 +117,10 @@ class RiskKernel:
                     reasons.append("target drift exceeds buying power")
                 if (
                     target_delta is not None
-                    and target_delta > self.settings.max_capital + 0.01
+                    and min(target_delta, self.settings.max_order_notional)
+                    > max(0.0, self.settings.max_capital - invested_cost) + 0.01
                 ):
-                    reasons.append("target drift exceeds maximum capital")
+                    reasons.append("target drift exceeds remaining funded capital")
             else:
                 if len(account.positions) >= self.settings.max_positions:
                     reasons.append("maximum open positions reached")
@@ -125,8 +129,8 @@ class RiskKernel:
                     reasons.append("buy proposal has no positive maximum amount")
                 if amount > account.buying_power:
                     reasons.append("proposal exceeds buying power")
-                if amount > self.settings.max_capital:
-                    reasons.append("proposal exceeds maximum capital")
+                if amount > self.settings.max_order_notional:
+                    reasons.append("proposal exceeds maximum order notional")
 
         if decision.action is Action.SELL and decision.target_allocations:
             if target_delta is not None and target_delta >= -0.01:

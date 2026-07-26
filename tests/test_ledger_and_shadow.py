@@ -125,6 +125,32 @@ def test_allocation_drift_is_target_minus_realized(tmp_path):
     assert snapshot.lines[0].drift_weight == 0.25
 
 
+def test_entry_is_chunked_but_protective_exit_sells_full_fractional_position(
+    tmp_path,
+):
+    portfolio = ShadowPortfolio(
+        tmp_path / "state.json",
+        50,
+        slippage_bps=0,
+        max_order_notional=10,
+        max_capital=50,
+    )
+    quote = Quote("VG", 10, 10, datetime.now(timezone.utc), "test")
+    buy = portfolio.execute(
+        make_decision(Action.BUY, "chunked-buy", amount=10, target=1.0),
+        quote,
+    )
+    assert buy.gross_value == 10
+    held = portfolio.position("VG")
+    assert held is not None
+    sell = portfolio.execute(
+        make_decision(Action.SELL, "full-exit", quantity=held.quantity, target=0.0),
+        quote,
+    )
+    assert sell.quantity == held.quantity
+    assert portfolio.position("VG") is None
+
+
 def test_ledger_rotates_without_breaking_hash_continuity(tmp_path):
     path = tmp_path / "ledger.jsonl"
     archive_dir = tmp_path / "archive"

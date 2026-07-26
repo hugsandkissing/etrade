@@ -45,21 +45,60 @@ def context(settings, *, account_value=50.0, quote=None, daily_pnl=0.0):
     return RiskContext(account, quote, HealthState.HEALTHY, True)
 
 
-def test_live_mode_is_impossible():
-    with pytest.raises(ConfigurationError, match="Only SWAGGER_MODE=shadow"):
+def test_live_mode_requires_matching_broker_and_explicit_enablement():
+    with pytest.raises(ConfigurationError, match="cannot use mock"):
         replace(Settings(), mode="live").validate(require_market_data=False)
+    with pytest.raises(ConfigurationError, match="SWAGGER_LIVE_ENABLED"):
+        replace(
+            Settings(), mode="live", broker_mode="robinhood_live"
+        ).validate(require_market_data=False)
 
 
 def test_unknown_broker_is_impossible():
-    with pytest.raises(ConfigurationError, match="mock or robinhood_readonly"):
+    with pytest.raises(ConfigurationError, match="robinhood_preview"):
         replace(Settings(), broker_mode="robinhood").validate(require_market_data=False)
 
 
-def test_readonly_robinhood_is_allowed_but_live_mode_is_not():
+def test_readonly_robinhood_is_allowed_in_shadow_mode():
     replace(
         Settings(),
         broker_mode="robinhood_readonly",
     ).validate(require_market_data=False)
+
+
+def test_preview_is_allowed_but_live_requires_local_arming(tmp_path):
+    replace(
+        Settings(),
+        mode="preview",
+        broker_mode="robinhood_preview",
+    ).validate(require_market_data=False)
+
+    armed = tmp_path / "LIVE_ARMED"
+    armed.write_text("SWAGGER_LIVE_V1\n")
+    armed.chmod(0o600)
+    replace(
+        Settings(),
+        mode="live",
+        broker_mode="robinhood_live",
+        live_enabled=True,
+        live_not_before="2020-01-01T00:00:00Z",
+        live_arming_path=armed,
+    ).validate(require_market_data=False)
+
+
+def test_live_rejects_weak_arming_file_permissions(tmp_path):
+    armed = tmp_path / "LIVE_ARMED"
+    armed.write_text("SWAGGER_LIVE_V1\n")
+    armed.chmod(0o644)
+    with pytest.raises(ConfigurationError, match="permissions"):
+        replace(
+            Settings(),
+            mode="live",
+            broker_mode="robinhood_live",
+            live_enabled=True,
+            live_not_before="2020-01-01T00:00:00Z",
+            live_arming_path=armed,
+        ).validate(require_market_data=False)
 
 
 def test_buy_blocked_at_floor_but_sell_remains_possible():
@@ -170,3 +209,25 @@ def test_risk_still_rejects_material_overallocation():
     )
     assert not verdict.approved
     assert "target weights exceed 100%" in verdict.reasons
+
+
+def test_funded_capital_uses_cost_basis_not_market_gains():
+    settings = Settings(max_capital=50, max_order_notional=10)
+    proposal = replace(
+        decision(symbol="SPY", amount=10),
+        target_allocations=(
+            TargetAllocation("SPY", 0.5),
+            TargetAllocation("VG", 0.5),
+        ),
+    )
+    quote = Quote("SPY", 10, 10.01, datetime.now(timezone.utc), "test")
+    account = AccountState(
+        65,
+        20,
+        positions=(Position("VG", 4.5, 10),),
+    )
+    verdict = RiskKernel(settings).evaluate(
+        proposal, RiskContext(account, quote, HealthState.HEALTHY, True)
+    )
+    assert not verdict.approved
+    assert "target drift exceeds remaining funded capital" in verdict.reasons

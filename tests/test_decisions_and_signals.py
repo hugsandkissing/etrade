@@ -80,6 +80,25 @@ def test_two_distinct_families_confirm_buy_and_cooldown():
     assert "cooldown" in second.rationale.lower()
 
 
+def test_buy_fails_closed_when_funded_capital_is_fully_deployed():
+    provider = RuleBasedDecisionProvider(Settings(max_capital=50))
+    result = asyncio.run(
+        provider.propose(
+            replace(
+                context(
+                    [
+                        signal("session_high_cross", "price"),
+                        signal("relative_volume", "volume"),
+                    ]
+                ),
+                invested_cost=50,
+            )
+        )
+    )
+    assert result.action is Action.HOLD
+    assert "no room" in result.rationale
+
+
 def test_sell_target_preserves_other_portfolio_allocations():
     provider = RuleBasedDecisionProvider(Settings())
     sell_context = DecisionContext(
@@ -103,6 +122,25 @@ def test_sell_target_preserves_other_portfolio_allocations():
     assert result.action is Action.SELL
     assert result.target_is_complete
     assert targets == {"QQQ": 0.3, "VG": 0.0}
+
+
+def test_account_floor_signal_proposes_immediate_full_exit_target():
+    provider = RuleBasedDecisionProvider(Settings())
+    floor_context = DecisionContext(
+        symbol="VG",
+        timestamp=NOW,
+        signals=(signal("account_floor_threat", "risk", "bearish"),),
+        quote=Quote("VG", 10, 10.01, NOW, "test"),
+        position=Position("VG", 3.5, 13),
+        buying_power=0,
+        account_value=40,
+        invested_cost=45.5,
+        current_allocations=(TargetAllocation("VG", 1.0),),
+    )
+    result = asyncio.run(provider.propose(floor_context))
+    assert result.action is Action.SELL
+    assert result.target_allocations == (TargetAllocation("VG", 0.0),)
+    assert "floor" in result.rationale.lower()
 
 
 def test_buy_target_uses_remaining_weight_without_floating_overallocation():

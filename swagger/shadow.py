@@ -30,10 +30,19 @@ class ShadowPortfolioError(RuntimeError):
 
 
 class ShadowPortfolio:
-    def __init__(self, path: Path, starting_cash: float, slippage_bps: float):
+    def __init__(
+        self,
+        path: Path,
+        starting_cash: float,
+        slippage_bps: float,
+        max_order_notional: float | None = None,
+        max_capital: float | None = None,
+    ):
         self.path = path
         self.starting_cash = starting_cash
         self.slippage_bps = slippage_bps
+        self.max_order_notional = max_order_notional
+        self.max_capital = max_capital
         self.cash = starting_cash
         self.positions: dict[str, dict[str, float]] = {}
         self.fills: list[dict] = []
@@ -207,11 +216,34 @@ class ShadowPortfolio:
         target = target_for(decision, decision.symbol)
 
         if target is not None:
+            funded_room = (
+                max(
+                    0.0,
+                    self.max_capital
+                    - sum(
+                        item.quantity * item.average_cost
+                        for item in self.account_state({quote.symbol: quote}).positions
+                    ),
+                )
+                if self.max_capital is not None
+                else None
+            )
+            order_limit = self.max_order_notional
+            if decision.action is Action.SELL:
+                order_limit = None
+            if funded_room is not None:
+                if decision.action is not Action.SELL:
+                    order_limit = (
+                        funded_room
+                        if order_limit is None
+                        else min(order_limit, funded_room)
+                    )
             planned = plan_allocation_order(
                 target=target,
                 account=self.account_state({quote.symbol: quote}),
                 quote=quote,
                 capabilities=BrokerCapabilities(supports_fractional_shares=True),
+                max_notional=order_limit,
             )
             if planned is None:
                 raise ShadowPortfolioError("target allocation is already satisfied")

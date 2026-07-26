@@ -21,6 +21,7 @@ class DecisionContext:
     position: Position | None
     buying_power: float
     account_value: float
+    invested_cost: float = 0.0
     current_allocations: tuple[TargetAllocation, ...] = ()
 
 
@@ -53,16 +54,39 @@ class RuleBasedDecisionProvider:
         bullish = distinct_families(context.signals, "bullish")
         bearish = distinct_families(context.signals, "bearish")
         adverse = any(
-            signal.name in {"material_adverse_news", "confirmed_stop"}
+            signal.name
+            in {
+                "material_adverse_news",
+                "confirmed_stop",
+                "account_floor_threat",
+                "account_goal_reached",
+            }
             for signal in context.signals
         )
 
+        account_guard = next(
+            (
+                signal.name
+                for signal in context.signals
+                if signal.name in {"account_floor_threat", "account_goal_reached"}
+            ),
+            None,
+        )
         if context.position and (adverse or len(bearish) >= 2):
+            rationale = (
+                "Account floor requires a protective exit"
+                if account_guard == "account_floor_threat"
+                else (
+                    "Account goal reached; lock the experiment"
+                    if account_guard == "account_goal_reached"
+                    else "Independent bearish evidence threatens the shadow position"
+                )
+            )
             decision = self._decision(
                 context,
                 Action.SELL,
                 min(0.95, 0.60 + 0.10 * len(bearish)),
-                "Independent bearish evidence threatens the shadow position",
+                rationale,
                 None,
                 context.position.quantity,
                 "Immediate risk exit",
@@ -75,8 +99,13 @@ class RuleBasedDecisionProvider:
         if not context.position and len(bullish) >= 2:
             amount = min(
                 context.buying_power,
-                self.settings.max_capital / self.settings.max_positions,
+                max(0.0, self.settings.max_capital - context.invested_cost),
+                self.settings.max_order_notional,
             )
+            if amount < 0.01:
+                return self._hold(
+                    context, "Funded-capital limit leaves no room for a new buy"
+                )
             decision = self._decision(
                 context,
                 Action.BUY,
@@ -125,9 +154,6 @@ class RuleBasedDecisionProvider:
                 )
                 target_map[context.symbol.upper()] = min(
                     1.0 / self.settings.max_positions,
-                    (maximum_dollar_amount or 0) / context.account_value
-                    if context.account_value > 0
-                    else 0.0,
                     max(0.0, 1.0 - other_target_weight),
                 )
             targets = tuple(

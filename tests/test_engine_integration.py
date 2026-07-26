@@ -5,6 +5,15 @@ from datetime import datetime, timedelta, timezone
 from swagger.config import Settings
 from swagger.engine import ShadowEngine
 from swagger.models import EventType, HealthState, MarketEvent
+from swagger.models import (
+    Action,
+    AccountState,
+    BrokerOrderPreview,
+    Decision,
+    Quote,
+    TargetAllocation,
+)
+from swagger.robinhood_mcp import RobinhoodReadOnlySnapshot
 
 
 def test_engine_creates_only_a_hypothetical_fill(tmp_path):
@@ -18,7 +27,7 @@ def test_engine_creates_only_a_hypothetical_fill(tmp_path):
         min_five_minute_volume=100,
         # Synthetic events use a fixed date; keep quote freshness out of this
         # allocation-flow integration test.
-        stale_seconds=7 * 86_400,
+        stale_seconds=30 * 86_400,
     )
     engine = ShadowEngine(settings)
     engine.health.set(HealthState.HEALTHY, "synthetic integration test")
@@ -103,3 +112,81 @@ def test_engine_recovers_health_when_market_data_resumes(tmp_path):
     )
     asyncio.run(engine._handle_event(event))
     assert engine.health.state is HealthState.HEALTHY
+
+
+def test_preview_mode_reviews_but_never_places_an_order(tmp_path):
+    settings = replace(
+        Settings(),
+        mode="preview",
+        broker_mode="robinhood_preview",
+        alpaca_api_key="unused-test-key",
+        alpaca_api_secret="unused-test-secret",
+        notifications_enabled=False,
+        ledger_path=tmp_path / "ledger.jsonl",
+        state_path=tmp_path / "state.json",
+        kill_switch_path=tmp_path / "KILL_SWITCH",
+    )
+    engine = ShadowEngine(settings)
+    engine.health.set(HealthState.HEALTHY, "test")
+    now = datetime.now(timezone.utc)
+    quote = Quote("VG", 10.0, 10.01, now, "robinhood-mcp")
+    snapshot = RobinhoodReadOnlySnapshot(
+        account_masked="••••4444",
+        account_type="individual",
+        portfolio_value=50.0,
+        buying_power=50.0,
+        positions=(),
+        open_order_symbols=(),
+        quotes=(quote,),
+        tradability={"VG": True},
+        fractional_tradability={"VG": True},
+        verified_at=now,
+    )
+
+    class PreviewOnlyBroker:
+        def __init__(self):
+            self.reviewed = []
+
+        async def review_order(self, order, *, ref_id=None):
+            self.reviewed.append(order)
+            return BrokerOrderPreview(
+                ref_id=ref_id,
+                symbol=order.symbol,
+                side="buy",
+                quantity="0.999",
+                estimated_notional=order.estimated_value,
+                alerts=(),
+            )
+
+    broker = PreviewOnlyBroker()
+    engine.robinhood = broker
+    engine._broker_snapshot = snapshot
+    decision = Decision(
+        action=Action.BUY,
+        symbol="VG",
+        timestamp=now,
+        confidence=0.8,
+        triggering_signals=("session_high_cross", "relative_volume"),
+        rationale="test",
+        maximum_dollar_amount=10.0,
+        share_quantity=None,
+        expected_holding_period="test",
+        invalidation_condition="test",
+        suggested_protective_exit_pct=-7.0,
+        idempotency_key="preview-only",
+        target_allocations=(TargetAllocation("VG", 0.5),),
+        target_is_complete=True,
+    )
+
+    asyncio.run(
+        engine._handle_broker_decision(
+            decision,
+            AccountState(50.0, 50.0, verified_at=now),
+            quote,
+        )
+    )
+    assert len(broker.reviewed) == 1
+    assert broker.reviewed[0].estimated_value <= settings.max_order_notional
+    types = [record["type"] for record in engine.ledger.records()]
+    assert "broker_order_preview" in types
+    assert "broker_order_submitted" not in types

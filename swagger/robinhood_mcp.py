@@ -1,4 +1,4 @@
-"""Official, read-only Robinhood MCP client with OAuth stored in Keychain."""
+"""Official Robinhood MCP client with mode-scoped tools and Keychain OAuth."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import json
 import queue
 import threading
 import time
+import uuid
 import webbrowser
 from contextlib import AsyncExitStack
 from dataclasses import dataclass
@@ -28,7 +29,14 @@ from mcp.shared.auth import (
 )
 from pydantic import AnyUrl
 
-from .models import AccountState, Position, Quote
+from .models import (
+    AccountState,
+    BrokerOrderPreview,
+    BrokerOrderResult,
+    ExecutionOrder,
+    Position,
+    Quote,
+)
 
 
 ROBINHOOD_MCP_URL = "https://agent.robinhood.com/mcp/trading"
@@ -45,6 +53,9 @@ READ_ONLY_TOOLS = frozenset(
         "get_equity_tradability",
     }
 )
+
+PREVIEW_TOOLS = frozenset({"review_equity_order"})
+LIVE_TOOLS = frozenset({"place_equity_order", "cancel_equity_order"})
 
 OPEN_ORDER_STATES = frozenset(
     {
@@ -271,6 +282,7 @@ class RobinhoodReadOnlySnapshot:
     open_order_symbols: tuple[str, ...]
     quotes: tuple[Quote, ...]
     tradability: dict[str, bool]
+    fractional_tradability: dict[str, bool]
     verified_at: datetime
 
     def audit_payload(self) -> dict[str, Any]:
@@ -299,12 +311,13 @@ class RobinhoodReadOnlySnapshot:
                 for quote in self.quotes
             ],
             "tradability": self.tradability,
+            "fractional_tradability": self.fractional_tradability,
             "verified_at": self.verified_at.isoformat(),
         }
 
 
 class RobinhoodMCPClient:
-    """Fixed-method client for the six verified Robinhood read tools."""
+    """Fixed-method client whose MCP allowlist is selected at startup."""
 
     def __init__(
         self,
@@ -314,6 +327,7 @@ class RobinhoodMCPClient:
         callback_port: int = 8765,
         storage: TokenStorage | None = None,
         auto_select_account: bool = True,
+        access_mode: str = "readonly",
     ) -> None:
         if server_url != ROBINHOOD_MCP_URL:
             raise RobinhoodMCPError("only Robinhood's official MCP URL is allowed")
@@ -322,10 +336,23 @@ class RobinhoodMCPClient:
         self.callback = LocalOAuthCallback(callback_port)
         self.storage = storage or KeychainTokenStorage(server_url)
         self.auto_select_account = auto_select_account
+        if access_mode not in {"readonly", "preview", "live"}:
+            raise RobinhoodMCPError("Robinhood access mode is invalid")
+        self.access_mode = access_mode
         self._stack: AsyncExitStack | None = None
         self._session: ClientSession | None = None
         self._available_tools: frozenset[str] = frozenset()
         self._selected_account: dict[str, Any] | None = None
+        self._call_lock = asyncio.Lock()
+
+    @property
+    def allowed_tools(self) -> frozenset[str]:
+        allowed = set(READ_ONLY_TOOLS)
+        if self.access_mode in {"preview", "live"}:
+            allowed.update(PREVIEW_TOOLS)
+        if self.access_mode == "live":
+            allowed.update(LIVE_TOOLS)
+        return frozenset(allowed)
 
     async def __aenter__(self) -> "RobinhoodMCPClient":
         self._stack = AsyncExitStack()
@@ -333,7 +360,7 @@ class RobinhoodMCPClient:
             oauth = PersistentOAuthClientProvider(
                 server_url=self.server_url,
                 client_metadata=OAuthClientMetadata(
-                    client_name="Swagger Engine read-only broker client",
+                    client_name=f"Swagger Engine {self.access_mode} broker client",
                     redirect_uris=[AnyUrl(self.callback.redirect_uri)],
                     grant_types=["authorization_code", "refresh_token"],
                     response_types=["code"],
@@ -359,10 +386,10 @@ class RobinhoodMCPClient:
             await self._session.initialize()
             listed = await self._session.list_tools()
             self._available_tools = frozenset(tool.name for tool in listed.tools)
-            missing = READ_ONLY_TOOLS - self._available_tools
+            missing = self.allowed_tools - self._available_tools
             if missing:
                 raise RobinhoodMCPError(
-                    f"Robinhood MCP is missing required read tools: {sorted(missing)}"
+                    f"Robinhood MCP is missing required tools: {sorted(missing)}"
                 )
             if self.auto_select_account:
                 await self.select_account()
@@ -382,13 +409,16 @@ class RobinhoodMCPClient:
         self._stack = None
 
     async def _call(self, name: str, arguments: dict[str, Any] | None = None) -> dict[str, Any]:
-        if name not in READ_ONLY_TOOLS:
-            raise RobinhoodMCPError(f"tool is not in the read-only allowlist: {name}")
+        if name not in self.allowed_tools:
+            raise RobinhoodMCPError(
+                f"tool is not in the {self.access_mode} allowlist: {name}"
+            )
         if self._session is None:
             raise RobinhoodMCPError("Robinhood MCP client is not connected")
         if name not in self._available_tools:
             raise RobinhoodMCPError(f"read tool is unavailable: {name}")
-        return _tool_data(await self._session.call_tool(name, arguments or {}))
+        async with self._call_lock:
+            return _tool_data(await self._session.call_tool(name, arguments or {}))
 
     async def select_account(self) -> dict[str, Any]:
         data = await self._call("get_accounts")
@@ -493,6 +523,15 @@ class RobinhoodMCPClient:
             for row in tradability.get("results", [])
             if row and row.get("symbol")
         }
+        fractional = {
+            str(row["symbol"]): bool(
+                row.get("fractional_tradable")
+                or row.get("fractional_tradeable")
+                or row.get("fractional")
+            )
+            for row in tradability.get("results", [])
+            if row and row.get("symbol")
+        }
         buying_power = portfolio.get("buying_power") or {}
         return RobinhoodReadOnlySnapshot(
             account_masked=mask_account_number(number),
@@ -503,6 +542,7 @@ class RobinhoodMCPClient:
             open_order_symbols=open_symbols,
             quotes=tuple(parsed_quotes),
             tradability=tradeable,
+            fractional_tradability=fractional,
             verified_at=datetime.now(timezone.utc),
         )
 
@@ -526,5 +566,118 @@ class RobinhoodMCPClient:
         snapshot = await self.snapshot((symbol,))
         return symbol in snapshot.open_order_symbols
 
-    async def place_order(self, decision: Any) -> None:
-        raise RobinhoodMCPError("order placement does not exist in the read-only client")
+    @staticmethod
+    def _quantity(value: float) -> str:
+        # Fractional market orders support at most six decimal places. Always
+        # round down so serialization cannot increase order notional.
+        units = int(value * 1_000_000)
+        rendered = f"{units / 1_000_000:.6f}".rstrip("0").rstrip(".")
+        if not rendered or rendered == "0":
+            raise RobinhoodMCPError("order quantity rounds to zero")
+        return rendered
+
+    def _order_arguments(self, order: ExecutionOrder) -> dict[str, Any]:
+        account = self._account()
+        return {
+            "account_number": str(account["account_number"]),
+            "symbol": order.symbol,
+            "side": order.action.value.lower(),
+            "type": "market",
+            "market_hours": "regular_hours",
+            "time_in_force": "gfd",
+            "quantity": self._quantity(order.quantity),
+        }
+
+    async def review_order(
+        self, order: ExecutionOrder, *, ref_id: str | None = None
+    ) -> BrokerOrderPreview:
+        if self.access_mode not in {"preview", "live"}:
+            raise RobinhoodMCPError("order review requires preview or live access")
+        ref_id = ref_id or str(uuid.uuid4())
+        data = await self._call("review_equity_order", self._order_arguments(order))
+        raw_alerts = data.get("alerts") or data.get("warnings") or []
+        alerts: list[str] = []
+        for alert in raw_alerts:
+            if isinstance(alert, str):
+                alerts.append(alert)
+            elif isinstance(alert, dict):
+                alerts.append(
+                    str(
+                        alert.get("message")
+                        or alert.get("title")
+                        or alert.get("code")
+                        or "unspecified broker alert"
+                    )
+                )
+            else:
+                alerts.append(str(alert))
+        return BrokerOrderPreview(
+            ref_id=ref_id,
+            symbol=order.symbol,
+            side=order.action.value.lower(),
+            quantity=self._quantity(order.quantity),
+            estimated_notional=order.estimated_value,
+            alerts=tuple(alerts),
+        )
+
+    async def place_reviewed_order(
+        self, order: ExecutionOrder, preview: BrokerOrderPreview
+    ) -> BrokerOrderResult:
+        if self.access_mode != "live":
+            raise RobinhoodMCPError("real order placement requires live access")
+        if not preview.clear:
+            raise RobinhoodMCPError("broker preview contains alerts")
+        if preview.symbol != order.symbol or preview.side != order.action.value.lower():
+            raise RobinhoodMCPError("preview does not match the proposed order")
+        arguments = self._order_arguments(order)
+        arguments["ref_id"] = preview.ref_id
+        data = await self._call("place_equity_order", arguments)
+        order_payload = data.get("order") if isinstance(data.get("order"), dict) else data
+        order_id = str(order_payload.get("order_id") or order_payload.get("id") or "")
+        if not order_id:
+            raise RobinhoodMCPError("Robinhood placement response omitted order id")
+        return BrokerOrderResult(
+            ref_id=preview.ref_id,
+            order_id=order_id,
+            symbol=order.symbol,
+            state=str(order_payload.get("state") or "submitted"),
+        )
+
+    async def get_order(self, order_id: str) -> BrokerOrderResult:
+        account = self._account()
+        data = await self._call(
+            "get_equity_orders",
+            {
+                "account_number": str(account["account_number"]),
+                "order_id": order_id,
+            },
+        )
+        orders = [item for item in data.get("orders", []) if item]
+        if len(orders) != 1:
+            raise RobinhoodMCPError("broker order was missing or ambiguous")
+        item = orders[0]
+        return BrokerOrderResult(
+            ref_id=str(item.get("ref_id") or ""),
+            order_id=str(item.get("order_id") or item.get("id") or order_id),
+            symbol=str(item.get("symbol") or ""),
+            state=str(item.get("state") or "unknown"),
+            filled_quantity=float(item.get("cumulative_quantity") or item.get("filled_quantity") or 0),
+            average_price=(
+                float(item.get("average_price"))
+                if item.get("average_price") is not None
+                else None
+            ),
+        )
+
+    async def cancel_order(self, order_id: str) -> BrokerOrderResult:
+        if self.access_mode != "live":
+            raise RobinhoodMCPError("order cancellation requires live access")
+        account = self._account()
+        await self._call(
+            "cancel_equity_order",
+            {
+                "account_number": str(account["account_number"]),
+                "order_id": order_id,
+            },
+        )
+        return await self.get_order(order_id)

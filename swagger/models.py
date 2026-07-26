@@ -184,6 +184,33 @@ class ExecutionOrder:
     estimated_value: float
     target_weight: float
     residual_cash: float
+    remaining_target_value: float = 0.0
+
+
+@dataclass(frozen=True)
+class BrokerOrderPreview:
+    ref_id: str
+    symbol: str
+    side: str
+    quantity: str
+    estimated_notional: float
+    alerts: tuple[str, ...]
+    reviewed_at: datetime = field(default_factory=utc_now)
+
+    @property
+    def clear(self) -> bool:
+        return not self.alerts
+
+
+@dataclass(frozen=True)
+class BrokerOrderResult:
+    ref_id: str
+    order_id: str
+    symbol: str
+    state: str
+    filled_quantity: float = 0.0
+    average_price: float | None = None
+    updated_at: datetime = field(default_factory=utc_now)
 
 
 def jsonable(value: Any) -> Any:
