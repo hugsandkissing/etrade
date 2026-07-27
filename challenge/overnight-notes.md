@@ -683,3 +683,22 @@ PLAN — HOLD at the open; NO trade at 9:35. LIVE DEPLOY TRIGGER on the $17:
 Risk posture: floor ~$88, all stops live. Day 11 is hold-then-confirm with
 a REAL deploy trigger armed — let the cash session prove the bounce, then
 put the last cash to work. No trade planned AT the open.
+
+## 2026-07-27 21:38 UTC (5:38pm ET Mon) — NVDA -5% CATALYST FOUND (post-close)
+The unexplained NVDA -5% today has a clear cause: reports NVDA is in talks
+to BACKSTOP ~$250B in financing for OpenAI's next data-center project.
+This revived "CIRCULAR FINANCING" fears (Nvidia funding its own customers
+= supplier also bankrolling the buyer) plus broader AI-capex ROI
+skepticism and a semis selloff. Apple passed NVDA as most valuable company.
+- Nature of the drop: NOT a fundamentals/demand problem (no bad earnings,
+  no chip-demand collapse) — it's a VALUATION/SENTIMENT re-rating on
+  financial-engineering risk + AI-bubble doubts. But this is a multi-day
+  THEME, not a one-headline blip; it can persist/worsen.
+- Position impact: NVDA cost 208.68, close 196.51 (-5.8%), stop 187.81
+  (~4.5% below). No further after-hours drop (stable 196.51 post-close).
+  The leadership thesis is dented; odds NVDA tests its stop are up. No
+  action tonight (paper fills RTH only) — the 187.81 stop is the backstop.
+- BTC $64,792 (-0.83%, no trigger). NQ futs ~flat post-close.
+- Tue watch: does the circular-financing theme keep pressing NVDA (toward
+  its stop) or does it stabilize? Stop executes on a real break of 187.81.
+  YUM Jul 30 earnings now 2 sessions out — the book's offense.
