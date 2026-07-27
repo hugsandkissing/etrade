@@ -657,3 +657,29 @@ more (stay dry). No trade planned at the open.
 - Book into Monday: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11, equity
   ~$92.9 (-7.1%). All stops wide-cushioned. Monday pre-market briefing
   makes the deploy/hold call on the real open.
+
+## 2026-07-27 13:14 UTC (9:14am ET Mon) — DAY 11 PLAN (green open, hold-then-confirm; live deploy trigger)
+Overnight/weekend: futures held green the whole way, now NQ +1.43%, ES
++0.88% — a strong bounce setup after Thu/Fri's 2-day tech selloff. BTC
+$64,951 (-0.59%, no trigger). Positions at Fri closes (no fresh pre-market
+gaps): NVDA 206.84, QQQ 684.23, YUM 148.92. No dated position news over
+the weekend. YUM Q2 earnings THU JUL 30 — 3 sessions out, the marquee
+catalyst.
+
+PLAN — HOLD at the open; NO trade at 9:35. LIVE DEPLOY TRIGGER on the $17:
+1. Book: 0.144 NVDA, 0.042 QQQ, 0.116 YUM, cash $17.11 (~18%). All stops
+   wide-cushioned (NVDA 187.81, QQQ 629.88, YUM 139.77).
+2. THE $17 CASH — this is the first genuine deploy setup since Thursday's
+   SOFI stop. Green futures = constructive, BUT a green open is NOT proven
+   stabilization (Fri and two-weeks-ago both gapped green then FADED).
+   DEPLOY ONLY on cash-session confirmation: a higher-low structure OR 2
+   consecutive green 30m candles on QQQ/NVDA — same rule that nailed the
+   Jul 21 QQQ deploy and dodged the fakes. If confirmed (likely by ~11am
+   ET), deploy the $17 into whichever of NVDA/QQQ shows the cleaner
+   higher-low. If the open fades again, cash stays dry.
+3. NVDA closed just under its 208.68 pivot Fri; a reclaim-and-hold on this
+   green tape would be the leadership confirmation + a clean deploy signal.
+   YUM firm into Jul 30 earnings.
+Risk posture: floor ~$88, all stops live. Day 11 is hold-then-confirm with
+a REAL deploy trigger armed — let the cash session prove the bounce, then
+put the last cash to work. No trade planned AT the open.
