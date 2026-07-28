@@ -702,3 +702,18 @@ skepticism and a semis selloff. Apple passed NVDA as most valuable company.
 - Tue watch: does the circular-financing theme keep pressing NVDA (toward
   its stop) or does it stabilize? Stop executes on a real break of 187.81.
   YUM Jul 30 earnings now 2 sessions out — the book's offense.
+
+## 2026-07-28 06:38 UTC (2:38am ET Tue) — overnight: futures softening, NVDA-stop risk elevated
+- Nasdaq futs softened steadily overnight: -0.45% → -0.67% → -0.96% →
+  now -1.10%. Points to a RED Tue open. The NVDA circular-financing /
+  AI-capex-ROI theme from Mon (-5%) appears to be pressing tech lower.
+- BTC $63,467 (flat vs last note, ~$63.5k) — no trigger.
+- KEY RISK into Tue: NVDA closed 196.51 (-5.8% vs 208.68 cost), stop
+  187.81 (~4.4% cushion). A red open on continued AI-bubble selling could
+  push NVDA toward its stop. Rule stands: if NVDA breaks 187.81 intraday
+  on real volume, the stop executes (verify 5m candle lows first). No
+  pre-emptive action — paper fills RTH only.
+- YUM Q2 earnings THU JUL 30 (2 sessions out) — the book's offense; still
+  ~$147-148, holding.
+- Tue briefing: assess whether to keep holding NVDA into the theme or
+  whether the stop does the work; $17 cash still dry (no stabilization).
