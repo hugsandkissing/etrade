@@ -8448,6 +8448,26 @@
       },
       "equity": 91.35,
       "source": "Yahoo v8 via tick"
+    },
+    {
+      "ts": "2026-07-28T18:11:47Z",
+      "prices": {
+        "NVDA": 196.82,
+        "YUM": 150.865,
+        "QQQ": 675.765
+      },
+      "equity": 91.34,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-28T18:12:37Z",
+      "prices": {
+        "NVDA": 196.87,
+        "YUM": 150.99,
+        "QQQ": 675.705
+      },
+      "equity": 91.36,
+      "source": "Yahoo v8 via dashboard refresh"
     }
   ]
 }
