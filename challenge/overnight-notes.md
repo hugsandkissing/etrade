@@ -717,3 +717,29 @@ skepticism and a semis selloff. Apple passed NVDA as most valuable company.
   ~$147-148, holding.
 - Tue briefing: assess whether to keep holding NVDA into the theme or
   whether the stop does the work; $17 cash still dry (no stabilization).
+
+## 2026-07-28 13:08 UTC (9:08am ET Tue) — DAY 12 PLAN (mild red open, hold-to-stop on NVDA)
+Pre-market: NQ futs -0.64%, ES +0.13% (MIXED, mild red — not a broad
+crash; the NVDA circular-financing theme softened tech but selling isn't
+broadening). BTC $63,500 (-0.32%, no trigger). Positions at Mon closes:
+NVDA 196.51, QQQ 682.12, YUM 147.80. No NEW position news overnight (NVDA
+theme from Mon already logged; no fresh NVDA headline).
+
+PLAN — HOLD ALL; manage exits (cash $17.11 dry):
+1. NVDA is the decision. It's -5.8% vs 208.68 cost, 32% of book, source of
+   the drawdown, thesis dented by the OpenAI-financing/circular concern.
+   DECISION: HOLD to the stop, do NOT pre-emptively trim. Reasoning: (a)
+   the $187.81 stop (~4.4% below) IS our risk management — trimming into a
+   -5.8% sentiment-driven dip near the lows is the discretionary panic-sell
+   the stop system exists to prevent (Day 5 lesson: don't sell the flush);
+   (b) the drop is VALUATION/SENTIMENT (financing-structure worry), not a
+   demand/fundamentals break — the kind of dip that can bounce; (c) the
+   stop caps downside at ~-10% on the position. If NVDA breaks 187.81
+   intraday on real volume, the stop executes (verify 5m candle lows).
+2. $17 cash stays DRY — no proven stabilization; a mild red open is not a
+   deploy setup.
+3. QQQ (-0.3% pre, wide stop 629.88) and YUM (147.80, stop 139.77, EARNINGS
+   THU JUL 30 — the offense) both hold. YUM into earnings is the one
+   catalyst that can move the book up.
+Risk posture: floor ~$88, all stops live. NVDA stop the live line. No
+trade planned at the open.
