@@ -743,3 +743,23 @@ PLAN — HOLD ALL; manage exits (cash $17.11 dry):
    catalyst that can move the book up.
 Risk posture: floor ~$88, all stops live. NVDA stop the live line. No
 trade planned at the open.
+
+## 2026-07-28 20:35 UTC (4:35pm ET Tue, post-close) — Day 12 close; FOMC Wed, NVDA theme persists
+Book closed +0.10% ($91.29, −8.7% overall), flat but beat the Nasdaq
+(−0.22%) vs S&P +0.21%. NVDA stabilized (+0.25% to 197.01, low 193.88 —
+never near its 187.81 stop); YUM +1.72% into Thu earnings; QQQ −0.97%.
+- **FOMC decision WEDNESDAY** (two-day meeting started today). This is the
+  week's macro swing factor for QQQ/NVDA — rate-path signal moves growth/
+  tech. Not a position-specific catalyst but sets Wed's tape. No pre-emptive
+  action; watch the open reaction. Guardrails/stops unchanged.
+- NVDA circular-financing / AI-capex theme PERSISTS but no fresh escalation:
+  after-hours/overnight ~195.1 (slightly below the 197.01 close, roughly in
+  line). Still a multi-day sentiment overhang, not a new headline. Stop
+  187.81 remains the live line (~5% cushion after today's firming).
+- BTC $63,442 (−2.7% 24h, but ~flat vs our last note's ~$63.5k) — no
+  trigger; crypto soft ahead of the Fed. (MARA not in book regardless.)
+- YUM Q2 earnings THURSDAY JUL 30 — now 1 session out. The book's marquee
+  catalyst and only real shot at offense; hold into it.
+- Wed plan preview: hold all; NVDA to its stop; $17 cash dry (no
+  stabilization setup); manage the FOMC-reaction tape but don't trade it
+  pre-emptively. YUM the thing that matters, one day out.
