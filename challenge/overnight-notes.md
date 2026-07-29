@@ -807,3 +807,25 @@ WED PLAN (unchanged in posture): hold all; expect possible red/volatile open
 from Asia-chip-rout + FOMC; do NOT pre-empt — NVDA stop does the work if
 187.81 breaks on real volume (verify 5m lows); $17 cash DRY (a risk-off/FOMC
 day is not a proven-stabilization setup); YUM into Thu the thing that matters.
+
+## 2026-07-29 05:37 UTC (1:37am ET Wed) — update: US futures only mildly red despite Kospi rout; MSFT/META + FOMC today
+Fresher data refines the picture — the US read-through is MILDER than the
+Asian panic:
+- Kospi hit a circuit breaker a SECOND day (−8%; SK Hynix −13%, Samsung
+  −8%); Nikkei −2.2%. Severe Asian chip rout continues.
+- BUT **US futures only mildly red: Nasdaq-100 −0.49%, S&P −0.12%.** The
+  US is NOT pricing the Asian panic 1:1 — a modestly soft open, not a crash.
+  This tempers (doesn't cancel) the NVDA-stop worry; ~5% cushion vs a
+  −0.5% futures tape is comfortable barring an intraday air-pocket.
+- **BIG catalyst day: Microsoft + Meta earnings TODAY** (after close) plus
+  the **FOMC decision (2pm ET)** — both move mega-cap/AI-tech sentiment and
+  thus QQQ/NVDA. SK Hynix also reported.
+- Middle East headlines remain CONFLICTING (one source cites a fresh "Iran
+  attacked US forces / oil spiked," others cite deescalation) — treat as
+  noise/two-sided, not a clean signal.
+- BTC ~$63,199 (−2.9% 24h, flat vs notes) — NO trigger.
+- NVDA no new headline; YUM Q2 earnings THURSDAY unchanged.
+NET for Wed: soft-but-not-crashing open likely; hold all, NVDA stop the live
+line (187.81) but comfortable at ~5% vs a mild-red tape; $17 cash DRY
+(FOMC/earnings-day volatility ≠ proven stabilization); watch the 2pm FOMC
+reaction and don't pre-empt it. YUM into Thu the thing that matters.
