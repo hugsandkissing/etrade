@@ -846,3 +846,30 @@ NET: open sets up flat/quiet, not the feared gap-down; NVDA stop (187.81,
 ~5% cushion) comfortable barring an intraday FOMC air-pocket. Plan unchanged:
 hold all, don't pre-empt the 2pm FOMC, $17 cash dry, YUM into Thu. The
 9:03am briefing will finalize.
+
+## 2026-07-29 13:08 UTC (9:08am ET Wed) — DAY 13 PLAN (hold all; FOMC 2pm, NVDA resilient)
+Pre-market (real Yahoo pre/post candles): NVDA $196.65 (+0.07% vs Tue
+close — FLAT, holding, NOT in the chip-selloff epicenter that hit
+Micron/AMD/Sandisk); QQQ $674.65 (−1.10%, wide stop cushion); YUM $150.53
+(+1.85% — firming into THU earnings, the book's offense). BTC $64,194
+(+0.5% via Yahoo BTC-USD, no trigger). US index futures fractionally
+green — the feared Asian-chip-rout gap-down did NOT materialize.
+
+PLAN — HOLD ALL; no trade at the open (cash $17.11 dry):
+1. NVDA — hold to its $187.81 stop (~5% cushion). Premarket flat and our
+   name is conspicuously OUTSIDE the memory/laggard chip carnage
+   (Micron −8.8%, AMD −8.1%, Sandisk −14%); the circular-financing theme is
+   an overhang but not re-escalating. Stop is the backstop; no pre-emptive
+   trim (Day 5 rule).
+2. $17 cash stays DRY. Today is FOMC day — 2pm ET decision (FedWatch ~36%
+   HIKE odds, hawkish tail, not a cut) PLUS MSFT/META earnings after close.
+   Event-driven volatility is the OPPOSITE of the proven-stabilization
+   (higher-low / 2 green 30m candles) the deploy rule demands. Do NOT force
+   the cash into an FOMC-day tape.
+3. QQQ (−1.1% pre, stop 629.88) and YUM (stop 139.77, EARNINGS THU) hold.
+   YUM is the one catalyst that moves the book up — hold into tomorrow.
+KEY EVENTS TODAY: 2pm ET FOMC decision (watch the reaction, don't pre-empt
+it — NVDA stop does the work if 187.81 breaks on real volume, verify 5m
+lows); MSFT/META earnings after close (mega-cap AI read-through to NVDA/QQQ).
+Risk posture: floor ~$88, all stops live, NVDA the live line. No trade
+planned. Manage, don't force.
