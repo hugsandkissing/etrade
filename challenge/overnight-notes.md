@@ -873,3 +873,29 @@ it — NVDA stop does the work if 187.81 breaks on real volume, verify 5m
 lows); MSFT/META earnings after close (mega-cap AI read-through to NVDA/QQQ).
 Risk posture: floor ~$88, all stops live, NVDA the live line. No trade
 planned. Manage, don't force.
+
+## 2026-07-29 21:40 UTC (5:40pm ET Wed, post-close) — Day 13 close; YUM earnings PRE-OPEN tomorrow
+Book closed −1.53% ($89.89, −10.1% overall — first double-digit drawdown,
+but above the ~$88 floor). NVDA −3.55% ($190.01, pulled into the chip
+rout but held its 187.81 stop, ~1.2% cushion); QQQ −2.04%; YUM +1.09%
+($151.92), the lone green. FOMC read as a hawkish hold → broad risk-off
+(S&P −1.52%, Nasdaq −1.74%); post-2pm pop faded fast (cash-dry rule
+validated).
+- **KEY TIMING CORRECTION: YUM reports Q2 BEFORE the open Thursday Jul 30 at
+  7:00am ET** (not after close). Conf call 8:15am ET. Consensus adj EPS
+  **$1.59 (+10.4% YoY)**. So the reaction hits AT THURSDAY'S OPEN — the
+  pre-market briefing must plan for a gap. YUM is 20% of the book and its
+  only offense; a beat is the clearest path off the −10% low, a miss likely
+  tests the ~$88 floor. Hold into the print (already positioned); do NOT
+  pre-empt — paper fills RTH only, and the ledger already holds YUM.
+- NVDA 187.81 stop is the tightest leash (~1.2% at the close). A red Thu
+  open (chip rout extends) could trigger it — execute on a real break of
+  187.81 on volume (verify 5m lows). No pre-emptive trim.
+- BTC ~$64.2-64.4k — flat vs last note (~$64k), NO trigger. FedWatch had
+  ~36% hike odds; outcome read hawkish-hold.
+- Middle East headlines flared again (airstrikes) but remain two-sided
+  noise; oil the transmission, not our direct risk.
+THU PLAN PREVIEW: the open is about YUM's 7am print — hold, let the gap
+happen, reassess after. NVDA stop the live tripwire on any chip-rout
+continuation. $17 cash still dry (no proven stabilization; a gap open is not
+the setup). YUM decides whether the book gets offense.
