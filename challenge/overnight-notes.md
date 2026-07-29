@@ -829,3 +829,20 @@ NET for Wed: soft-but-not-crashing open likely; hold all, NVDA stop the live
 line (187.81) but comfortable at ~5% vs a mild-red tape; $17 cash DRY
 (FOMC/earnings-day volatility ≠ proven stabilization); watch the 2pm FOMC
 reaction and don't pre-empt it. YUM into Thu the thing that matters.
+
+## 2026-07-29 11:37 UTC (7:37am ET Wed) — premarket update: red open NOT materializing
+Honest calibration vs my overnight "red open risk" calls — premarket is
+resilient, not red:
+- **US futures flat-to-GREEN: S&P +0.2%, Nasdaq-100 flat.** QQQ premarket
+  ~$675.59 (flat vs our marks), SPY +0.24%. Despite the Asian rout, the US
+  is NOT following it down at the open.
+- Sector chip carnage IS real but concentrated in memory/laggards: Micron
+  −8.8%, AMD −8.1%, Intel −5.9%, Sandisk −14.2%. NVDA is holding far better
+  (~197, ~flat) — our name is not in the epicenter. Good for the stop watch.
+- BTC ~$64,364 (flat, in $60-66k range) — NO trigger.
+- Today: MSFT earnings (after close) + FOMC 2pm ET (35.8% hike odds per
+  FedWatch — hawkish tail, not a cut). YUM earnings THURSDAY.
+NET: open sets up flat/quiet, not the feared gap-down; NVDA stop (187.81,
+~5% cushion) comfortable barring an intraday FOMC air-pocket. Plan unchanged:
+hold all, don't pre-empt the 2pm FOMC, $17 cash dry, YUM into Thu. The
+9:03am briefing will finalize.
