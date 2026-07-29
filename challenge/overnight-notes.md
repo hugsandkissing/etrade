@@ -784,3 +784,26 @@ make for a red/volatile open — do NOT pre-empt it, let the NVDA stop do its
 work if 187.81 breaks on real volume; $17 cash stays dry (a risk-off/FOMC
 day is not a proven-stabilization deploy setup); YUM into Thu earnings the
 one thing that matters. Manage, don't force.
+
+## 2026-07-29 04:37 UTC (12:37am ET Wed) — clarification: Asian CHIP selloff is the dominant overnight driver
+Refining the 02:38 note (which flagged Middle East risk-off, but sources on
+that were muddled/possibly DE-escalating — oil actually tumbled ~16% over 3
+days on a Hormuz pause). The CLEARER, dominant overnight signal:
+- **South Korea's Kospi tanked ~10%** overnight (chip-heavy index),
+  Nikkei also down — a sharp Asian tech/semiconductor rout. **Nasdaq
+  futures remain under pressure.** This is the direct read-through to our
+  book: a semis-led selloff pressures NVDA/QQQ into Wed's open. Sharpens the
+  NVDA-stop watch (187.81, ~5% cushion) — a red chip-driven open is exactly
+  the tape that could test it.
+- Combined with **today's FOMC decision** (hawkish-hold risk; some sources
+  cite inflation ~4.1% and a ~30% priced HIKE probability — NOT a cut), Wed
+  sets up as a potentially red/volatile session for tech.
+- BTC ~$63.5k (recovered from $63,065 Asia low; −3% 24h but flat vs last
+  note) — NO trigger.
+- NVDA ~197 flat in post/pre; no new NVDA-specific headline (circular-
+  financing theme still the overhang).
+- YUM Q2 earnings THURSDAY — unchanged, still the book's one catalyst.
+WED PLAN (unchanged in posture): hold all; expect possible red/volatile open
+from Asia-chip-rout + FOMC; do NOT pre-empt — NVDA stop does the work if
+187.81 breaks on real volume (verify 5m lows); $17 cash DRY (a risk-off/FOMC
+day is not a proven-stabilization setup); YUM into Thu the thing that matters.
