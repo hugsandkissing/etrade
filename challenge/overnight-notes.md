@@ -763,3 +763,24 @@ never near its 187.81 stop); YUM +1.72% into Thu earnings; QQQ −0.97%.
 - Wed plan preview: hold all; NVDA to its stop; $17 cash dry (no
   stabilization setup); manage the FOMC-reaction tape but don't trade it
   pre-emptively. YUM the thing that matters, one day out.
+
+## 2026-07-29 02:38 UTC (10:38pm ET Tue) — NEW: Middle East risk-off overlay on FOMC day
+Two overlapping macro drivers now set up Wednesday (Jul 29):
+- **NEW — geopolitical risk-off:** fighting erupted in the Middle East;
+  crude oil jumped and US equity-index futures turned DOWN on revived
+  energy-supply fears. This is a fresh risk-off catalyst on top of the Fed,
+  and it points to a potentially RED Wed open. Higher oil + risk-off tends
+  to pressure high-beta tech (our NVDA/QQQ tilt) — directly relevant to the
+  NVDA-stop watch (187.81 line, ~5% cushion).
+- **FOMC decision TODAY (Wed Jul 29):** expected HOLD at 3.50-3.75%; the
+  market wants the forward-path signal more than the decision. Afternoon
+  decision = potential 2pm-ET volatility.
+- BTC ~$63.8k (ranged $63.3-63.8k) — flat vs last note, NO trigger.
+- NVDA held ~197 in post/pre (flat vs 197.01 close); circular-financing
+  theme still an overhang, no new escalation.
+- YUM Q2 earnings THURSDAY (tomorrow) — still the book's marquee catalyst.
+WED PLAN PREVIEW: hold all; the combo of FOMC + Middle East risk-off could
+make for a red/volatile open — do NOT pre-empt it, let the NVDA stop do its
+work if 187.81 breaks on real volume; $17 cash stays dry (a risk-off/FOMC
+day is not a proven-stabilization deploy setup); YUM into Thu earnings the
+one thing that matters. Manage, don't force.
