@@ -899,3 +899,28 @@ THU PLAN PREVIEW: the open is about YUM's 7am print — hold, let the gap
 happen, reassess after. NVDA stop the live tripwire on any chip-rout
 continuation. $17 cash still dry (no proven stabilization; a gap open is not
 the setup). YUM decides whether the book gets offense.
+
+## 2026-07-30 09:38 UTC (5:38am ET Thu) — YUM earnings 7am: TACO BELL OUTBREAK OVERHANG (important)
+New material context ahead of YUM's 7:00am print, not previously logged:
+- **YUM's Q2 is overshadowed by a Taco Bell FOOD-SAFETY CRISIS** — a
+  multistate cyclospora outbreak linked to contaminated lettuce has sickened
+  **~1,947 people across 9 states.** This is a real overhang on the print
+  and (more importantly) the GUIDANCE/commentary — the outbreak's demand and
+  brand impact could drive the stock's reaction more than the EPS line.
+  Reframes YUM from "clean beat candidate / the book's offense" to "a catalyst
+  with genuine two-sided risk." A strong print + reassuring outbreak-response
+  commentary = the upside path; a miss or ugly Taco Bell guidance = downside,
+  and YUM is 20% of the book.
+- Consensus: adj EPS **$1.59 (+10.4% YoY)**, revenue **$2.18B (+12.8%)**.
+  Report 7:00am ET, call 8:15am ET. Reaction hits AT the open.
+- Futures modestly GREEN (S&P +0.1%, NQ +0.2%, Dow +0.2%) — a calmer setup
+  than yesterday's risk-off, but NQ is in a correction (>10% off highs).
+- BTC ~$63.9-64.0k — flat vs last note, NO trigger.
+- NVDA still the tightest stop leash (187.81, ~1.2% at Wed close $190.01);
+  a green futures open helps, but chip-rout continuation remains the risk.
+THU PLAN (for the 9am briefing): the open is dominated by YUM's 7am print +
+the Taco Bell outbreak angle — HOLD into it (already positioned; paper fills
+RTH only), let the gap happen, reassess after. Do NOT pre-empt. NVDA stop the
+live tripwire. $17 cash dry (a gap open is not proven stabilization).
+Note to self: don't over-anchor on the EPS beat/miss — read the Taco Bell
+guidance, that's the swing factor.
