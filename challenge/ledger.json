@@ -2,15 +2,11 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 17.111749999999997,
+  "cash": 35.85619,
   "positions": {
     "NVDA": {
       "qty": 0.144,
       "avg_cost": 208.68
-    },
-    "YUM": {
-      "qty": 0.116,
-      "avg_cost": 155.3
     },
     "QQQ": {
       "qty": 0.042,
@@ -171,6 +167,15 @@
       "price": 16.535,
       "source": "Yahoo v8 chart API",
       "note": "STOP EXECUTED: SOFI broke its 16.60 stop on real volume (15:00-15:06 candle lows 16.54-16.55, current 16.535, all below 16.60), also hit -10% guardrail band (-10.3% vs cost). Per Day 9 defend plan, mechanical stop-loss. Realized -1.90/sh vs 18.44 cost. Frees ~16.54 cash. Thesis (Jul 29 earnings hold) invalidated by the stop break before the catalyst."
+    },
+    {
+      "ts": "2026-07-30T13:41:16Z",
+      "action": "SELL",
+      "symbol": "YUM",
+      "qty": 0.116,
+      "price": 161.59,
+      "source": "Yahoo v8",
+      "note": "owner-approved profit-take into earnings pop (Q2 EPS beat); catalyst complete, selling strength ahead of unquantified Taco Bell Q3 cyclospora outbreak overhang"
     }
   ],
   "marks": [
@@ -9588,6 +9593,24 @@
       },
       "equity": 89.89,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-30T13:41:25Z",
+      "prices": {
+        "NVDA": 192.53,
+        "QQQ": 675.22
+      },
+      "equity": 91.94,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-07-30T13:41:25Z",
+      "prices": {
+        "NVDA": 192.49,
+        "QQQ": 674.96
+      },
+      "equity": 91.92,
+      "source": "Yahoo v8 post-YUM-sale"
     }
   ]
 }
