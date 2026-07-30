@@ -947,3 +947,30 @@ the 9:03am briefing decides whether the unquantified Taco Bell Q3 risk
 changes the hold-thesis. Do NOT pre-empt. NVDA stop (187.81) still the other
 live line. Messaging the owner now — this is major position news.
 Also: BTC ~$64k flat (no trigger); futures modestly green pre-YUM.
+
+## 2026-07-30 13:06 UTC (9:06am ET Thu) — DAY 14 PLAN: SELL ALL YUM at open (owner-approved profit-take)
+Pre-market: YUM stably ~$158 (+5.1% vs Wed $150.28 close, and ABOVE our
+$155.30 cost — GREEN for the first time) on the Q2 beat + reassuring call.
+NVDA $194.45 (−1.3%, ~3.5% above 187.81 stop); QQQ $674.28 (−0.18%). BTC
+$64,813 (+1.4% via Yahoo, no trigger). Futures modestly green.
+
+PLAN — **SELL ALL 0.116 YUM at the open** (owner-approved via AskUserQuestion
+this morning). Rationale: the "hold for the earnings catalyst" thesis has
+FULLY played out — the catalyst is in and popped YUM green vs cost. The pop
+is on "clean" Q2 numbers that PRE-DATE the Taco Bell cyclospora outbreak
+(traffic down double-digits, management gave no detail); the next known
+catalyst is the NEGATIVE, unquantified Q3 outbreak impact. Selling strength
+ahead of a known downside event = disciplined profit-take + de-risk. This
+books the challenge's FIRST genuine winning trade and frees ~$18 cash.
+- Execute: at the first market-hours tick after 9:35am ET, SELL 0.116 YUM at
+  the real current price via challenge.py (source "Yahoo v8", note the
+  owner-approved profit-take + outbreak-overhang rationale). Then message the
+  user (trade executed).
+- After the sale: cash ≈ $35 (the freed ~$18 + existing $17.11). Keep it DRY
+  until PROVEN stabilization (higher-low / 2 green 30m candles on QQQ or
+  NVDA) — a green open is not the trigger. The larger cash gives more
+  optionality for a real NVDA/QQQ re-entry later.
+- HOLD NVDA (stop 187.81, the live tripwire) and QQQ (stop 629.88). NVDA
+  remains the concentration risk on any chip-rout continuation.
+Risk posture: booking YUM lifts realized P&L and cuts the book's exposure to
+the outbreak tail. Post-sale book = NVDA + QQQ + ~$35 cash.
