@@ -924,3 +924,26 @@ RTH only), let the gap happen, reassess after. Do NOT pre-empt. NVDA stop the
 live tripwire. $17 cash dry (a gap open is not proven stabilization).
 Note to self: don't over-anchor on the EPS beat/miss — read the Taco Bell
 guidance, that's the swing factor.
+
+## 2026-07-30 12:38 UTC (8:38am ET Thu) — YUM Q2 REPORTED: mixed print, stock -1.6% pre-mkt, Taco Bell Q3 overhang UNADDRESSED (MAJOR POSITION NEWS)
+Verified results (CNBC / StockStory / Qz — credible, post-7am official):
+- **Adj EPS $1.62 — BEAT** ($1.58 consensus). Modest beat.
+- **Revenue $2.17B (+12% YoY) — slight MISS** (~$2.2B est).
+- **Global same-store sales +3% — roughly IN LINE** (2.9% est).
+- **Stock reaction: −1.6% to ~$149.50 pre-market.**
+- **THE KEY POINT:** Q2 ended June 30 — BEFORE the Taco Bell cyclospora
+  outbreak was FDA-linked (mid-July). So these numbers carry ZERO outbreak
+  impact, and management gave NO detail on it. Meanwhile Taco Bell daily
+  traffic has reportedly plunged double-digit % since the linkage. The real
+  damage is a Q3 forward story that today's print did not address or
+  quantify — an open-ended overhang.
+IMPACT ON BOOK: YUM is 20% of the book and was the designated "offense." The
+catalyst delivered a MIXED result (beat EPS, miss rev, in-line comps) and,
+worse, left the Q3 outbreak risk unquantified — so the clean-upside path
+didn't materialize. BUT at ~$149.50 YUM is still ~7% above its $139.77 stop
+(cost $155.30) — no stop action, modest −1.6% reaction, not a disaster.
+PLAN: no trade now (pre-market; paper fills RTH only). HOLD into the open;
+the 9:03am briefing decides whether the unquantified Taco Bell Q3 risk
+changes the hold-thesis. Do NOT pre-empt. NVDA stop (187.81) still the other
+live line. Messaging the owner now — this is major position news.
+Also: BTC ~$64k flat (no trigger); futures modestly green pre-YUM.
