@@ -1035,3 +1035,25 @@ HOLD NVDA (stop 187.81, ~4% cushion after the bounce) and QQQ (stop 629.88).
 Caveats today: month-end (Jul 31) rebalancing + possible data = extra
 volatility; the confirmation filter handles it. No trade at the open; the
 market-hours tick executes the deploy IF the trigger fires, then messages.
+
+## 2026-07-31 21:38 UTC (5:38pm ET Fri, post-close/weekend) — Day 15 close; NVDA earnings Aug 26 (calendar)
+Week closed: equity $93.70 (−6.3%), book +1.13% Fri (beat both indexes).
+Book: 0.144 NVDA @ 208.68 (close $200.75, reclaimed $200), 0.068 QQQ @
+696.06 avg (close $687.99, deploy in green), $18.01 cash reserve. Stops
+NVDA 187.81 (~6.5% cushion), QQQ 629.88.
+- **NEW CALENDAR ITEM: NVIDIA reports Q2 FY2027 earnings WED AUG 26, 5pm ET**
+  (conf call). Real forward catalyst for our largest position (~31%), ~3.5
+  weeks out. Not actionable now; flag it as the next NVDA event to plan
+  around. No YUM-style pre-positioning decision needed yet.
+- BTC $62,947 (−1.2% via Yahoo BTC-USD, in $62-64k range) — NO trigger.
+- (Unverified/discarded: a web headline said "NVDA −4% Monday on weekend
+  mega-deals" — can't describe a future Monday and reads as recycled from
+  the late-July circular-financing episode; NOT logging as fact. Will verify
+  against real pre-market Monday.)
+- Weekend = no futures until Sun eve. Middle East/macro quiet in the check.
+WEEKEND POSTURE / MON PLAN PREVIEW: hold NVDA + QQQ into Monday. The question
+is whether Fri's recovery has legs or was a month-end bounce — Monday's tone
+decides. $18 reserve stays dry unless a fresh confirmed setup appears (same
+2-green-30m / higher-low bar that worked Fri). NVDA holding $200 = the
+leadership-reclaim tell to watch. Sunday-eve futures + Mon pre-market briefing
+will set the concrete plan.
