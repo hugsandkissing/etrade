@@ -1011,3 +1011,27 @@ the "opening gap" the rule says NOT to chase — so the discipline is to let
 the open establish a higher-low first, THEN deploy, rather than buying the
 gap at 9:30. The 9:03am briefing sets the plan; the market-hours tick
 executes on confirmation. Don't chase; confirm then act.
+
+## 2026-07-31 13:06 UTC (9:06am ET Fri) — DAY 15 PLAN: hold the open, DEPLOY cash on confirmation (not the gap)
+Pre-market (real vs Thu closes): NVDA $197.14 (+1.08% vs $195.04), QQQ
+$690.09 (+0.96% vs $683.55) — both extending the rebound. Futures +1.1%
+(MSFT +15%, AMZN beat, Big-Tech AI capex robust, Kospi +14%, chip panic
+reversed). BTC $63,701 (−1.6% via Yahoo, no trigger).
+
+PLAN — HOLD at the open; NO trade at 9:30 (do not chase the +1% gap).
+Then DEPLOY part of the $35.86 cash ON CONFIRMED STABILIZATION:
+- TRIGGER (either): QQQ prints 2 consecutive green 30m candles that hold, OR
+  a clear higher-low forms above the opening-range low (i.e., the gap HOLDS
+  and builds rather than fading — the exact Jul 21 pattern that worked). A
+  green gap alone is NOT the trigger.
+- ACTION on trigger: BUY ~$18 QQQ (about half the cash) at the then-current
+  price; KEEP ~$18 dry (don't go 0% cash again — preserve optionality and
+  stop-management flexibility). QQQ chosen over NVDA as the cleaner
+  "market-stabilizing" vehicle and to avoid adding to NVDA concentration
+  (already 30%).
+- If NO confirmation (gap fades / rolls over), cash STAYS fully dry — a fade
+  after a +1% gap is the head-fake the rule exists to dodge.
+HOLD NVDA (stop 187.81, ~4% cushion after the bounce) and QQQ (stop 629.88).
+Caveats today: month-end (Jul 31) rebalancing + possible data = extra
+volatility; the confirmation filter handles it. No trade at the open; the
+market-hours tick executes the deploy IF the trigger fires, then messages.
