@@ -992,3 +992,22 @@ decides — but the setup is finally forming after a week of the cash correctly
 sitting out. Deploy on a CONFIRMED higher-low, not a chase of the gap.
 NVDA stop 187.81 (~3.7% cushion) and QQQ stop 629.88 both wide after the
 bounce.
+
+## 2026-07-31 11:37 UTC (7:37am ET Fri) — rebound ACCELERATING into the open: NQ futs +1.1%, MSFT +15%, AMZN beat
+The Thursday bounce is turning into a broad risk-on move — strengthening
+premarket vs the overnight (+0.5% → now +1.1%):
+- **Nasdaq-100 futures +1.1-1.2%** (S&P +0.47%, Dow +0.53%). Tech leads.
+- **Microsoft +15% (historic rally)** and **Amazon beat** on earnings;
+  Apple also moved. Big-Tech AI capex "shows no sign of letting up" — a
+  direct positive read-through to NVDA/QQQ.
+- Kospi +14% overnight (SK Hynix/Samsung ripping) — the chip-rout panic that
+  drove the week's weakness has fully reversed.
+- BTC ~$64.7k (+1.3% 24h) — flat vs notes, NO trigger.
+DEPLOY SETUP (book: NVDA + QQQ + $35.86 cash, 39% cash): this is the
+constructive follow-through the deploy rule waits for. A green open that
+HOLDS and prints a higher-low / 2 green 30m candles on QQQ or NVDA = the
+first genuine deploy trigger in a week. BUT a +1.1% futures gap is exactly
+the "opening gap" the rule says NOT to chase — so the discipline is to let
+the open establish a higher-low first, THEN deploy, rather than buying the
+gap at 9:30. The 9:03am briefing sets the plan; the market-hours tick
+executes on confirmation. Don't chase; confirm then act.
