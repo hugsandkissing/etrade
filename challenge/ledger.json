@@ -2,15 +2,15 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 35.85619,
+  "cash": 18.01265,
   "positions": {
     "NVDA": {
       "qty": 0.144,
       "avg_cost": 208.68
     },
     "QQQ": {
-      "qty": 0.042,
-      "avg_cost": 702.1078571428571
+      "qty": 0.068,
+      "avg_cost": 696.0598529411765
     }
   },
   "trades": [
@@ -176,6 +176,15 @@
       "price": 161.59,
       "source": "Yahoo v8",
       "note": "owner-approved profit-take into earnings pop (Q2 EPS beat); catalyst complete, selling strength ahead of unquantified Taco Bell Q3 cyclospora outbreak overhang"
+    },
+    {
+      "ts": "2026-07-31T16:27:38Z",
+      "action": "BUY",
+      "symbol": "QQQ",
+      "qty": 0.026,
+      "price": 686.29,
+      "source": "Yahoo v8",
+      "note": "deploy on confirmed stabilization: 2 consecutive green 30m candles (11:30-12:00, 12:00-12:30) holding + rising higher-low (680.94->684.02), Jul 21 pattern; half-deploy, ~$18 kept dry"
     }
   ],
   "marks": [
@@ -10403,6 +10412,15 @@
       },
       "equity": 92.95,
       "source": "Yahoo v8 via dashboard refresh"
+    },
+    {
+      "ts": "2026-07-31T16:27:49Z",
+      "prices": {
+        "NVDA": 197.34,
+        "QQQ": 686.29
+      },
+      "equity": 93.1,
+      "source": "Yahoo v8 post-deploy"
     }
   ]
 }
