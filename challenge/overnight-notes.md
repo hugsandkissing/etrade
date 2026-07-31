@@ -974,3 +974,21 @@ books the challenge's FIRST genuine winning trade and frees ~$18 cash.
   remains the concentration risk on any chip-rout continuation.
 Risk posture: booking YUM lifts realized P&L and cuts the book's exposure to
 the outbreak tail. Post-sale book = NVDA + QQQ + ~$35 cash.
+
+## 2026-07-31 04:38 UTC (12:38am ET Fri) — rebound extending: NQ futs +0.5%, AMZN earnings, Kospi +13%
+Constructive follow-through to Thursday's +2-3% rebound:
+- **Nasdaq-100 futures +0.5%** (S&P +0.1%, Dow +0.2%) — green continuation,
+  not a fade. **Amazon earnings** added optimism (mega-cap AI/cloud read-
+  through, tailwind for QQQ/NVDA).
+- Korea's **Kospi soared +13%**, recovering from this week's chip-rout
+  circuit breakers — the semis panic that drove the week's weakness is
+  unwinding. Constructive for NVDA sentiment.
+- BTC ~$64.5k (ranged $63.3-65k) — flat vs notes, NO trigger.
+RELEVANCE TO OUR BOOK (NVDA + QQQ + $35.86 cash, 39% cash): this is the
+follow-through that could turn Thursday's bounce into "proven stabilization."
+IF Friday opens/holds green with a higher-low (not just a gap), the $35.86
+cash finally has a real deploy setup into QQQ or NVDA. The 9am briefing
+decides — but the setup is finally forming after a week of the cash correctly
+sitting out. Deploy on a CONFIRMED higher-low, not a chase of the gap.
+NVDA stop 187.81 (~3.7% cushion) and QQQ stop 629.88 both wide after the
+bounce.
