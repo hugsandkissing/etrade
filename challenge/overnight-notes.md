@@ -1057,3 +1057,20 @@ decides. $18 reserve stays dry unless a fresh confirmed setup appears (same
 2-green-30m / higher-low bar that worked Fri). NVDA holding $200 = the
 leadership-reclaim tell to watch. Sunday-eve futures + Mon pre-market briefing
 will set the concrete plan.
+
+## 2026-08-02 22:37 UTC (6:37pm ET Sun) — futures reopen mildly green; Monday setup
+Sunday-evening futures reopened GREEN but modestly: NQ=F ~28,620, ES=F
+~7,551. (CAUTION: Yahoo's % vs chartPreviousClose printed +2.5% NQ / +1.2%
+ES — that's a STALE prior-close reference, NOT real. Vs Friday's actual
+~28,552 NQ premarket level, the true move is only ~+0.2-0.3%.) So: a mildly
+green Monday setup, continuing Friday's recovery, not a big gap.
+- BTC $63,387 (−0.8% via Yahoo, in $62-64k range all weekend) — NO trigger.
+- No breaking weekend news on our names (NVDA/QQQ). NVDA Q2 earnings still
+  AUG 26 (calendar item).
+MON PLAN PREVIEW (book: 0.144 NVDA @ 208.68, 0.068 QQQ @ 696.06, $18.01
+cash): HOLD into the open. The $18 reserve stays DRY unless a fresh CONFIRMED
+setup appears (same 2-green-30m / higher-low bar that worked Fri — and
+recall Fri's +1% gap FADED before the real midday confirmation, so a green
+Mon open is NOT itself a deploy trigger). Watch: does the recovery extend
+(NVDA hold/reclaim $200, QQQ hold $688) or was Fri a month-end bounce. NVDA
+stop 187.81 (~6.5% cushion), QQQ 629.88. The 9:03am briefing sets the plan.
