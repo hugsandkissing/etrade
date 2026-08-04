@@ -1097,3 +1097,30 @@ QQQ build a confirmed higher-low midday (the only thing that would put the $18
 to work); (3) NVDA $187.81 stop stays the live line (executes only on a HARD
 break on real volume — verify 5m lows first). Manage the exits; no offense
 forced. Fri's playbook (refuse the gap, wait for real confirmation) stands.
+
+## 2026-08-04 13:28 UTC (9:28am ET Tue) — PRE-MARKET BRIEFING: HOLD, reserve dry
+Overnight was quiet and constructive — futures ground higher all night (NQ
+28,900→29,220), BTC flat in the low-$60Ks (no trigger the whole session).
+Now pre-market, the recovery is EXTENDING into a green Tuesday:
+- **NVDA $210.19 pre-mkt = +1.54% vs Mon's $207.01 close** — now ABOVE our
+  $208.68 cost for the first time since the drawdown. The Monday leadership
+  reclaim is following through, not fading — exactly the "holds a 2nd day"
+  tell yesterday's report flagged.
+- **QQQ $708.15 pre-mkt = +1.05% vs Mon's $700.79** — comfortably above our
+  $696.06 blended cost.
+- BTC $63,832 (flat vs the ~$63.5k overnight range) — NO trigger.
+- No dated news on NVDA/QQQ. NVDA Q2 earnings still AUG 26 (calendar).
+PLAN — **HOLD NVDA + QQQ, NO trade at the open. $18.01 reserve stays DRY.**
+Reasoning: this is a gap-up open, and per the standing rule a green/gapping
+tape is NOT a deploy trigger — the reserve buys a CONFIRMED pullback
+higher-low, not strength. Both holdings are now in the green vs cost; the
+right move on a leader that's following through is to let it run, not trim
+(we're still −4.5% overall, and NVDA leading is precisely the recovery
+thesis working). No reason to touch a winning position on day 2 of a
+recovery. Watch today: (1) does NVDA HOLD above $208.68 cost into the close
+(a close above cost would be the first since the swoon — a real milestone);
+(2) does QQQ hold $700+; (3) NVDA $187.81 stop stays the live line, now
+~10.7% below — the widest cushion of the challenge (executes only on a hard
+break, verify 5m lows). Manage the exits; no offense forced. If a genuine
+intraday pullback-and-higher-low forms, THAT is when the $18 deploys — not
+the gap.
