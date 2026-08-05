@@ -1124,3 +1124,29 @@ recovery. Watch today: (1) does NVDA HOLD above $208.68 cost into the close
 break, verify 5m lows). Manage the exits; no offense forced. If a genuine
 intraday pullback-and-higher-low forms, THAT is when the $18 deploys — not
 the gap.
+
+## 2026-08-05 13:15 UTC (9:15am ET Wed) — PRE-MARKET BRIEFING: HOLD, reserve dry
+Overnight was quiet and firmly risk-on — futures ground higher most of the
+night (NQ held ~29,800-29,950), BTC flat in the mid-$60Ks (~$64k, no trigger
+all session). Pre-market, the recovery is extending into a THIRD green day:
+- **NVDA $215.12 pre-mkt = +1.17% vs Tue's $212.64 close, +3.09% above our
+  $208.68 cost** — a third straight session of leadership, exactly the
+  "third day makes it a trend, not a bounce" tell yesterday's report flagged.
+- **QQQ $725.36 pre-mkt = +0.13% vs Tue, +4.21% above our $696.06 cost** —
+  flat-to-green, holding Tuesday's gains.
+- BTC $64,416 (flat vs the mid-$60Ks overnight range) — NO trigger.
+- Futures firm (ES 7804, NQ ~29,933). No dated news on NVDA/QQQ. NVDA Q2
+  earnings still AUG 26 (calendar).
+- Book ~$98.3 pre-mkt (−1.7%), approaching the $100 breakeven line.
+PLAN — **HOLD NVDA + QQQ, NO trade at the open. $18.01 reserve stays DRY.**
+Reasoning: both holdings are extending above cost; a leader up a third day is
+to be held and let run, not trimmed (we're still under the $100 start — no
+reason to cut winners short of even, let alone the $200 mandate). The reserve
+deploys only on a fresh CONFIRMED pullback higher-low — NOT a gap-up/strength.
+After three straight vertical-ish days with no real pullback, the reserve has
+kept sitting out; that's the honest cost of a pullback-only rule in a melt-up,
+and it stays dry until a genuine dip-that-holds appears. Watch today: (1) does
+NVDA hold $210+ a THIRD close (trend confirmation); (2) does the book tag/cross
+$100 breakeven — first time since the drawdown; (3) NVDA $187.81 stop, now
+~12% below (widest cushion of the challenge; executes only on a hard break,
+verify 5m lows). Manage the exits; no offense forced.
