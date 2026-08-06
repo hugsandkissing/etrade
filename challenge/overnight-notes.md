@@ -1150,3 +1150,28 @@ NVDA hold $210+ a THIRD close (trend confirmation); (2) does the book tag/cross
 $100 breakeven — first time since the drawdown; (3) NVDA $187.81 stop, now
 ~12% below (widest cushion of the challenge; executes only on a hard break,
 verify 5m lows). Manage the exits; no offense forced.
+
+## 2026-08-06 13:32 UTC (9:32am ET Thu) — PRE-MARKET BRIEFING: HOLD open; WATCH QQQ for the deploy setup
+Overnight drifted mildly lower — futures eased all night (NQ ~29,900 Wed day →
+~29,450 now, ~−1.5%), BTC flat in the mid-$60Ks (~$64.5k, no trigger). This is
+showing up at the open as a QQQ pullback while NVDA holds:
+- **NVDA $221.68 = +0.35% vs Wed's $220.91, +6.23% above our $208.68 cost** —
+  steady; its leadership isn't cracking on a soft-tape morning.
+- **QQQ $710.55 = −1.31% vs Wed's $719.97, +2.08% above our $696.06 cost** —
+  the broad-market softness is hitting QQQ, our larger/laggier position.
+- BTC $64,474 (flat) — NO trigger. No dated news on NVDA/QQQ. NVDA earnings
+  AUG 26 (calendar).
+- Book ~$98.3 pre-mkt (−1.7%), a hair below Wed's close on QQQ's dip.
+PLAN — **HOLD NVDA + QQQ, NO trade at the open. $18.01 reserve stays DRY at
+9:30 — but this is the first real pullback in days, so it's the first
+legitimate DEPLOY-SETUP WATCH.** Reasoning: a −1.3% QQQ open is NOT a buy — that's
+catching the knife, exactly the chase the rule forbids. BUT the deploy rule has
+been starved for weeks precisely because the tape only melted up; a genuine
+pullback is what it needs. So today the job is: watch QQQ for a CONFIRMED
+higher-low — it bases, stops making new lows, then prints 2 consecutive green
+30m candles / a rising higher-low that HOLDS above the intraday base. THAT is
+the $18 deploy trigger the reserve has waited for (same structure as the Jul 21
+and Jul 31 deploys). If it just keeps bleeding, stay dry — no knife-catch. NVDA:
+hold, +6% above cost, stop $187.81 ~12% away (executes only on a hard break,
+verify 5m lows). Manage exits; the one live decision today is whether QQQ hands
+the reserve a real setup.
