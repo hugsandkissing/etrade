@@ -1175,3 +1175,20 @@ and Jul 31 deploys). If it just keeps bleeding, stay dry — no knife-catch. NVD
 hold, +6% above cost, stop $187.81 ~12% away (executes only on a hard break,
 verify 5m lows). Manage exits; the one live decision today is whether QQQ hands
 the reserve a real setup.
+
+## 2026-08-06 14:12 UTC (10:12am ET Thu) — DEPLOY-WATCH RESOLVED: declined, stayed dry
+The QQQ deploy-setup watch (from the 9:32am briefing) triggered mechanically
+but I DECLINED it. What happened: QQQ opened −1.3% ($710, low $708.50), then
+V-recovered in ONE 30m candle — 13:30-14:00 closed green ($715.48), 14:00-14:30
+green with a rising higher-low ($714.52). By the mechanical 2-green-30m rule
+that's a "confirmed higher-low." BUT QQQ was by then at $717+ — the SESSION
+HIGH, having erased the entire dip. Deploying there = buying the day's high /
+chasing strength, which the standing rule explicitly forbids ("strength-at-highs
+is NOT a trigger"). The pullback I wanted (a real base below that offers a
+discounted higher-low entry) never formed — it was a shallow open-dip that
+round-tripped to new highs on a soft-tape day where QQQ could just as easily
+roll back over. Low-conviction chase, not the high-conviction dip-buy the $18
+reserve is for. So: RESERVE STAYS DRY. This is declining to buy the high, not
+goalpost-moving — a genuine no-good-setup outcome. The reserve waits for a
+pullback that actually bases at a favorable level (or NVDA-earnings-driven
+volatility on Aug 26). NVDA ~$222 (+6.3% above cost) holding; book ~$98.7.
