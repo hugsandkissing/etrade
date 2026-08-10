@@ -1214,3 +1214,29 @@ $220+ (a green close confirms Thu was just a one-day rest, not a top); (3)
 stops far (NVDA $187.81 ~15% away). Manage the exits; no offense forced.
 Friday = weekend gap risk after, but nothing pending. The one milestone in
 reach: first close above $100.
+
+## 2026-08-10 13:52 UTC (9:52am ET Mon) — PRE-MARKET BRIEFING (late): HOLD, reserve dry
+Weekend passed quietly — no gap. Overnight into Monday: index futures firmed
+modestly all night (NQ peaked ~+0.46%, eased to ~flat by the open), BTC pinned
+$64.7k–$65.3k the entire weekend (no trigger any check). At/just after the open
+(briefing fired late, ~9:50am ET, market already open):
+- **NVDA $222.45 = −0.29% vs Fri's $223.10, +6.60% above $208.68 cost** —
+  slipped a touch in the first 20 min after opening ~$223.30; leadership intact,
+  normal give-back of the Friday firmness.
+- **QQQ $721.92 = −0.09% vs Fri's $722.56, +3.71% above $696.06 cost** — flat,
+  holding Friday's level.
+- BTC $64,483 (~−1% vs Fri, no trigger). No dated news on NVDA/QQQ. NVDA
+  earnings WED AUG 26 (calendar, ~2.5 wks out).
+- Book ~$99.1 (−0.9%), essentially flat with Friday's $99.27 close.
+PLAN — **HOLD NVDA + QQQ, NO trade. $18.01 reserve stays DRY.** Reasoning: a
+flat open with both names green vs cost is a hold, not an action — no based
+pullback to deploy into (a flat/soft tape that hasn't *based* is not the
+rising-higher-low the reserve waits for), nothing to trim, stop ~15% away. The
+one milestone in reach is unchanged: the FIRST CLOSE ABOVE $100 (book's been
+$98–99 for a full week, tagged $99.55 Fri). Watch today: (1) does the book
+finally close above $100 — needs ~+0.75% from here; (2) NVDA holds $220+ (a
+green close keeps the leadership trend); (3) whether a *real* QQQ pullback bases
+and finally hands the reserve a setup. Manage the exits; no offense forced.
+NOTE: pre-market briefing Routine fired late today and the session had restarted
+— the watchdog had already rebuilt the mark/watcher/cron; this briefing re-armed
+the watcher (--duration 25500) and recreated the tick cron cleanly.
