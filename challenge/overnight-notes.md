@@ -1240,3 +1240,24 @@ and finally hands the reserve a setup. Manage the exits; no offense forced.
 NOTE: pre-market briefing Routine fired late today and the session had restarted
 — the watchdog had already rebuilt the mark/watcher/cron; this briefing re-armed
 the watcher (--duration 25500) and recreated the tick cron cleanly.
+
+## 2026-08-11 13:56 UTC (9:56am ET Tue) — PRE-MARKET BRIEFING (late): HOLD, reserve dry
+Briefing fired ~23min after the open. Overnight was quiet: BTC drifted to ~$64.1k
+(−1.6% vs the ~$65.2k Fri reference, NO trigger — well under the ±5% MARA line);
+index futures were mildly firm all night (NQ +0.3%) then flat at the cash open.
+At the open (live 5m candles):
+- **NVDA $219.32 = +0.81% vs Mon's $217.55 close, +5.1% above our $208.68 cost** —
+  bouncing back from Monday's −2% rest-day fade; leadership intact, no give-back.
+- **QQQ $719.91 = −0.13% vs Mon's $720.87, +3.4% above our $696.06 cost** — flat,
+  holding above cost as the steady anchor.
+- BTC $64,100 (no trigger). No dated news on NVDA/QQQ. NVDA earnings AUG 26 (calendar).
+- Book ~$98.55 (−1.5%), a hair below Mon's close on the flat QQQ open.
+PLAN — **HOLD NVDA + QQQ, NO trade. $18.01 reserve stays DRY.** Reasoning: NVDA is
+bouncing back green (+0.8%), which is strength, not the based pullback the reserve
+deploys into — a green rebound open is explicitly NOT a trigger. Both holdings green
+vs cost; NVDA's Monday rest didn't turn into a give-back, which is the constructive
+read. Watch today: (1) does the book finally CLOSE above $100 — it's ~$1.45 away, and
+needs NVDA to hold its bounce AND QQQ to firm; (2) NVDA holds $217+ (Monday's low) —
+a green day confirms Monday was just a one-day rest; (3) stops far (NVDA $187.81
+~17% away, executes only on a hard break, verify 5m lows). Manage the exits; no
+offense forced. The one milestone in reach remains the first close above $100.
