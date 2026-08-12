@@ -1261,3 +1261,25 @@ needs NVDA to hold its bounce AND QQQ to firm; (2) NVDA holds $217+ (Monday's lo
 a green day confirms Monday was just a one-day rest; (3) stops far (NVDA $187.81
 ~17% away, executes only on a hard break, verify 5m lows). Manage the exits; no
 offense forced. The one milestone in reach remains the first close above $100.
+
+## 2026-08-12 13:34 UTC (9:34am ET Wed) — PRE-MARKET BRIEFING: HOLD, reserve dry; best shot at $100 yet
+Overnight the futures built the strongest green bid of the week (NQ +0.7-0.9%),
+and it delivered a firm green open. BTC recovered to ~$64.0k (−1.8% vs the
+~$65.2k reference, NO trigger — well under ±5%). At the open (live 5m candles):
+- **NVDA $221.87 = +2.01% vs Tue's $217.50 close, +6.3% above our $208.68 cost** —
+  a clean gap-up, breaking out of the three-session $217-223 chop to the upside.
+- **QQQ $724.98 = +0.91% vs Tue's $718.45 close, +4.2% above our $696.06 cost** —
+  green, reclaiming $720+ and leading with the firm Nasdaq.
+- BTC $64,030 (no trigger). No dated news on NVDA/QQQ. NVDA earnings AUG 26 (calendar).
+- **Book ~$99.26 (−0.7%), just $0.74 of position value from the $100 line** — the
+  closest and highest-quality setup to finally close above breakeven in 8 sessions.
+PLAN — **HOLD NVDA + QQQ, NO trade. $18.01 reserve stays DRY.** Reasoning: this is
+a +2% NVDA gap-up = strength/breakout, the exact opposite of the based pullback
+the reserve deploys into — chasing a gap-up is explicitly forbidden. Both holdings
+green vs cost and NVDA finally breaking the chop higher. Watch today: (1) THE
+milestone — does the book CLOSE above $100 for the first time? It's within a
+single good hour; a green NVDA hold does it; (2) does NVDA hold $220+ (a close
+above confirms the breakout, not a fakeout); (3) stops far (NVDA $187.81 ~18%
+away). Manage the exits; let the leaders run. First close above $100 is finally
+in genuine reach — but it's a MILESTONE to note, not a message trigger (bands
+remain $120/$80).
