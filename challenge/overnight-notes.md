@@ -1305,3 +1305,16 @@ line; any green hold does it; (2) NVDA holds $224+ (a second breakout close ceme
 the trend into earnings); (3) stops far (NVDA $187.81 ~20% away, the widest of the
 challenge). Manage the exits; let the leaders run. First close above $100 is finally
 at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
+
+## 2026-08-13 21:39 UTC (Thu evening) — MILESTONE day close-out + firm futures into Fri
+- Book CLOSED $100.32 today — FIRST close above $100 in 24 sessions, book now
+  positive overall (+0.32%). Recovery from the −10.1% low is complete.
+- After-close: NQ futures **+1.21%** (30,214) — a notably strong bid vs the usual
+  flat evenings; extends today's green tape and is constructive for Friday.
+  ES green too. Could carry the book further above $100 at Fri's open.
+- BTC $63,400 (−2.7% vs the ~$65.2k reference, NO trigger). No position news on
+  NVDA/QQQ. NVDA Q2 earnings AUG 26 (calendar) — NVDA broke out INTO it (+8.2%
+  above cost), so real two-way gap risk building for the ~32% position.
+- Posture into Fri unchanged: HOLD both, reserve DRY, stops far (NVDA ~20% above
+  $187.81). Watch whether QQQ keeps participating (it led today) and NVDA holds
+  its $224+ breakout. Next objective: put real distance above $100.
