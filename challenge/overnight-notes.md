@@ -1318,3 +1318,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - Posture into Fri unchanged: HOLD both, reserve DRY, stops far (NVDA ~20% above
   $187.81). Watch whether QQQ keeps participating (it led today) and NVDA holds
   its $224+ breakout. Next objective: put real distance above $100.
+
+## 2026-08-14 17:10 UTC (Fri intraday briefing — fired late, mid-session) — HOLD
+- Briefing Routine landed ~1pm ET (post-open), so open/exit decisions are moot; the
+  day has traded HOLD throughout and the plan stands. Documenting for the record.
+- Book **~$100.15**, hovering right at the line all session (opened $100.38, dipped
+  to $99.98, back to ~$100.1) — the first full session *above* breakeven, holding.
+- **NVDA $225.28** — flat vs Thu close ($225.30), range $224.82–$226.67. Holding the
+  mid-$220s breakout for a third session; consolidating above the old $217–223 chop
+  is healthy, +8% above cost. No give-back toward $220 (the warning line).
+- **QQQ $729.27** — −0.4% vs Thu close ($732.07); the 50% anchor is soft again today
+  while NVDA holds. Same two-engine pattern: book goes nowhere fast when QQQ idles.
+  Still +4.8% above cost, well clear of its $629.88 stop.
+- **BTC $63,054** (−0.6% vs prior close; ~−3.3% vs the ~$65.2k ref) — no MARA/message
+  trigger. No dated news on NVDA/QQQ.
+- **Plan: HOLD both. Reserve $18.01 DRY** — a flat-to-soft chop day offers no based
+  higher-low; nothing to deploy into, nothing to chase. Stops far (NVDA ~20% above
+  $187.81). Let the leaders sit. Objective unchanged: hold the line above $100 into
+  the weekend and build distance — NVDA Q2 earnings AUG 26 is the next real catalyst.
