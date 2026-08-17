@@ -1336,3 +1336,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   higher-low; nothing to deploy into, nothing to chase. Stops far (NVDA ~20% above
   $187.81). Let the leaders sit. Objective unchanged: hold the line above $100 into
   the weekend and build distance — NVDA Q2 earnings AUG 26 is the next real catalyst.
+
+## 2026-08-17 13:35 UTC (Mon pre-market briefing) — HOLD
+- Weekend was quiet; futures firmed steadily Sun night→Mon AM. Pre-market both green:
+  **NVDA +0.18% ($225.57)** vs Fri close $225.16, **QQQ +0.23% ($732.72)** vs $731.07.
+  Book opens ~$100.4, third straight session holding above $100.
+- **BTC $63.5k (+1.1% overnight, ~−2.5% vs the ~$65.2k ref)** — no MARA/message
+  trigger. Index futures firm-green into the open (NQ +0.3–0.5%, ES +0.03–0.17%).
+  No dated news on NVDA/QQQ.
+- **Plan: HOLD both. Reserve $18.01 DRY** — a green-open continuation is strength,
+  not the based higher-low the rule deploys into; nothing to chase. Stops far (NVDA
+  ~20% above $187.81, QQQ wide). Let the leaders run.
+- Watch today: (1) whether QQQ finally *participates* on an up day rather than idling —
+  that's the gate on putting real distance above $100; (2) NVDA holding its $224+
+  breakout into a fourth session (base-building into earnings); (3) broad tape follow-
+  through on the firm futures. **NVDA Q2 earnings WED AUG 26 (after close)** now ~1.5
+  weeks out — the dominant catalyst; NVDA broke out into it (+8% above cost), two-way
+  gap risk. Objective unchanged: build distance above $100, which still waits on QQQ.
