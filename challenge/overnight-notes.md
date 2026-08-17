@@ -1353,3 +1353,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   through on the firm futures. **NVDA Q2 earnings WED AUG 26 (after close)** now ~1.5
   weeks out — the dominant catalyst; NVDA broke out into it (+8% above cost), two-way
   gap risk. Objective unchanged: build distance above $100, which still waits on QQQ.
+
+## 2026-08-17 21:40 UTC (Mon evening) — BTC firms, futures soften into Tue
+- **BTC $64,285 (+2.3% vs prior close)** — biggest move in a week, back toward the
+  ~$65.2k reference (now only ~−1.4% below it). No MARA/message trigger (<±5/8%), but
+  a notable risk-on tick in crypto.
+- **Index futures RED into Tuesday: NQ=F −0.21%, ES=F −0.51%** — a give-back after
+  Monday's afternoon fade; first mildly-negative overnight read in a few sessions.
+  Watch for a soft open Tue.
+- No dated news on NVDA/QQQ. Book closed $100.05 (third straight close above $100).
+- Posture unchanged: HOLD both, reserve DRY, stops far. If Tuesday opens red and NVDA
+  finally *bases* a rising higher-low (not just a flush), that's the first reserve-
+  deploy candidate in weeks — watch, don't pre-commit. NVDA Q2 earnings AUG 26 (9d).
