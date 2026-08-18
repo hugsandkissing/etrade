@@ -2,15 +2,15 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 18.01265,
+  "cash": 10.07659,
   "positions": {
     "NVDA": {
       "qty": 0.144,
       "avg_cost": 208.68
     },
     "QQQ": {
-      "qty": 0.068,
-      "avg_cost": 696.0598529411765
+      "qty": 0.079,
+      "avg_cost": 699.596582278481
     }
   },
   "trades": [
@@ -185,6 +185,15 @@
       "price": 686.29,
       "source": "Yahoo v8",
       "note": "deploy on confirmed stabilization: 2 consecutive green 30m candles (11:30-12:00, 12:00-12:30) holding + rising higher-low (680.94->684.02), Jul 21 pattern; half-deploy, ~$18 kept dry"
+    },
+    {
+      "ts": "2026-08-18T13:43:22Z",
+      "action": "BUY",
+      "symbol": "QQQ",
+      "qty": 0.011,
+      "price": 721.46,
+      "source": "Yahoo v8",
+      "note": "based-dip deploy: confirmed rising higher-low off the -2% open flush (QQQ 718.79->719.82->721.06->721.87), 4x 5m candles holding; partial $8 of the $18 reserve, chose QQQ over NVDA to avoid adding single-name risk 8d before NVDA earnings"
     }
   ],
   "marks": [
@@ -15442,6 +15451,15 @@
         "QQQ": 720.58
       },
       "equity": 98.79,
+      "source": "Yahoo v8"
+    },
+    {
+      "ts": "2026-08-18T13:43:22Z",
+      "prices": {
+        "NVDA": 221.18,
+        "QQQ": 721.46
+      },
+      "equity": 98.92,
       "source": "Yahoo v8"
     }
   ]
