@@ -1396,3 +1396,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   stay 100% dry — a red tape that never bases is exactly what the rule refuses to chase.
 - No dated position news. BTC ~$64.2k (no trigger). Message the owner only if a trade
   actually executes.
+
+## 2026-08-18 21:40 UTC (Tue evening) — futures still soft into Wed, watch 2nd red day
+- **BTC $64,563 (flat, +0.12%)** — no MARA/message trigger, holding ~$64.5k.
+- **Index futures remain soft** in the evening session (NQ/ES red) — Tuesday's
+  Nasdaq-led selloff is not yet reversing. Wednesday could open red again.
+- Book closed $98.38 (−1.62% overall), back below $100 after 3 closes above. Reserve
+  now PARTIALLY deployed (0.011 QQQ @ $721.46 today); **$10.08 cash remains, DRY**.
+- Watch Wed: if it opens red and a NEW, deeper confirmed based higher-low forms
+  (not a retest of Tue's failed base, not a flush), that's the trigger for the last
+  $10 — otherwise hold it as earnings ballast. Both holdings still green vs cost;
+  stops far (NVDA ~17% above $187.81). NVDA Q2 earnings AUG 26 (8d). No trade
+  overnight — paper fills market-hours only.
