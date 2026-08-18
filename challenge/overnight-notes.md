@@ -1365,3 +1365,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - Posture unchanged: HOLD both, reserve DRY, stops far. If Tuesday opens red and NVDA
   finally *bases* a rising higher-low (not just a flush), that's the first reserve-
   deploy candidate in weeks — watch, don't pre-commit. NVDA Q2 earnings AUG 26 (9d).
+
+## 2026-08-18 08:40 UTC (Tue pre-dawn) — futures red deepening, reserve on watch
+- **NQ=F now −1.12%, ES=F −0.55%** — the first >1% down futures read in weeks; the
+  soft open flagged last night has deepened. Book likely opens red (~$99.x).
+- **BTC $64,254 (−0.36%, holding ~$64k)** — no MARA/message trigger.
+- **This is the setup the reserve has waited for.** A genuine red day is the first
+  chance in ~26 sessions for a based pullback. DEPLOY RULE stands firm: buy ONLY if
+  NVDA prints a rising higher-low that HOLDS above an intraday base on real volume —
+  NOT the opening flush, NOT a falling knife. If it just gaps down and keeps sliding,
+  stay dry. Watch NVDA's first 30–60 min for a base; don't pre-commit.
+- Stops unchanged (NVDA hard break $187.81 — ~20% away, no threat from a −1% day).
+  No position news. NVDA Q2 earnings AUG 26 (8d). Pre-market briefing will finalize.
