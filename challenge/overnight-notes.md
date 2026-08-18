@@ -1377,3 +1377,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   stay dry. Watch NVDA's first 30–60 min for a base; don't pre-commit.
 - Stops unchanged (NVDA hard break $187.81 — ~20% away, no threat from a −1% day).
   No position news. NVDA Q2 earnings AUG 26 (8d). Pre-market briefing will finalize.
+
+## 2026-08-18 13:21 UTC (Tue pre-market briefing) — HOLD + reserve on ACTIVE STANDBY
+- **The first real red open in ~26 sessions.** NVDA **−2.19% ($220.24)** pre-mkt vs
+  Mon close $225.16; QQQ **−1.44% ($720.52)**. Nasdaq-led broad selloff (NQ futures
+  −1.2%), not NVDA-specific news. Est. book open **~$98.7** — back below $100 for the
+  first time since Aug 13, but both still green vs cost (NVDA +5.5%, QQQ +3.5%) and
+  stops far (NVDA $220 vs $187.81 = ~17% cushion; a −2% day is no stop threat).
+- **Plan: HOLD both. Reserve $18.01 on ACTIVE STANDBY — do NOT buy the opening flush.**
+  This is finally a pullback, but the deploy rule is strict: buy ONLY on a rising
+  higher-low that HOLDS above an intraday base on real 5m volume. A −2% gap-down at
+  the bell is a falling knife until it bases. Watch the first 30–60 min.
+- **Instrument preference if a base forms: QQQ over NVDA.** NVDA Q2 earnings is 8 days
+  out (Aug 26 AMC) and the book is already ~32% NVDA — adding NVDA-specific risk right
+  into its print is the wrong kind of bet. If QQQ carves a higher-low that holds,
+  deploy a partial ($5–10) into QQQ (the diversifier). Only add NVDA if it bases
+  *convincingly* and even then keep it small. If neither bases and both keep sliding,
+  stay 100% dry — a red tape that never bases is exactly what the rule refuses to chase.
+- No dated position news. BTC ~$64.2k (no trigger). Message the owner only if a trade
+  actually executes.
