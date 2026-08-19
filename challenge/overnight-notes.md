@@ -1424,3 +1424,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   days and puts $100 back in reach) and whether QQQ holds above ~$718; if instead it
   fades back to new lows and THEN bases a rising higher-low, that's the last-$10 setup.
   Stops far (NVDA ~17% above $187.81). NVDA Q2 earnings AUG 26 (7d). Msg only on a trade.
+
+## 2026-08-19 21:40 UTC (Wed evening) — BTC +7.6% rip (no book exposure), NVDA drift continues
+- **BTC $69,600, +7.6% on the day** (Aug 18 close $64,681 → $69,600; confirmed via Yahoo
+  daily candles, matches intraday). A genuine breakout above the $62–65k range it held
+  for two weeks — over the ±5% "MARA action plan" line but **under the ±8% message line**,
+  and the book holds **no BTC proxy** (MARA is not a position), so there is nothing to
+  act on. Noting it because it's the largest single-day crypto move in weeks and a risk-on
+  tell; if it holds, it's mildly supportive of a risk-on tape into Thursday.
+- **Index futures flat/mixed into Thursday:** ES=F +0.21%, NQ=F −0.08% — no strong overnight
+  direction after today's quiet-green cash close (S&P +0.21%, Nasdaq +0.16%).
+- **NVDA: no breaking news, just pre-earnings drift.** Closed ~$217.6 (third straight down
+  day); consensus Q2 EPS $2.08, Strong Buy (36 analysts), avg target ~$303. The three-day
+  de-risk into the **Aug 26 AMC print (7 days out)** is positioning, not a dated headline.
+  The ~32% NVDA weight carries the full two-way gap risk — known and unchanged.
+- Book closed **$97.98 (−2.02% overall)**, in a genuine ~2% drawdown; both holdings still
+  green vs cost (NVDA +4.3%, QQQ +2.4%), stops far (NVDA ~14% above $187.81). Reserve
+  remainder **$10.08 DRY** — no based dip appeared today (bounce-then-fade, no rising
+  higher-low). No trade overnight (paper fills market-hours only). No owner message
+  (BTC under 8%, no major position news).
