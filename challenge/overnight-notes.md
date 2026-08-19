@@ -1408,3 +1408,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $10 — otherwise hold it as earnings ballast. Both holdings still green vs cost;
   stops far (NVDA ~17% above $187.81). NVDA Q2 earnings AUG 26 (8d). No trade
   overnight — paper fills market-hours only.
+
+## 2026-08-19 13:26 UTC (Wed pre-market briefing) — HOLD, reserve remainder DRY
+- **Bounce open, not a second red day.** Vs Tuesday's actual closes: **NVDA +0.98%
+  ($221.78)**, **QQQ +0.57% ($721.56)** pre-market (Yahoo's prevClose meta is stale/
+  showing Mon). Est. book open **~$99.0** — recovering off Tue's $98.38 close, both
+  green vs cost. QQQ back above my $721.46 add (roughly breakeven now).
+- **BTC $64.7k (flat, no trigger).** Index futures flat into the open (NQ ~0, ES +0.1%).
+  No dated news on NVDA/QQQ.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** A green bounce off a
+  selloff is STRENGTH, not the deeper based higher-low the last $10 waits for. The
+  rule deploys into a *based dip that confirms a rising higher-low* — a bounce-open is
+  the opposite. Keep it as earnings ballast unless a genuine new based dip appears.
+- Watch today: whether NVDA reclaims/holds **$220+** (a green close reverses two red
+  days and puts $100 back in reach) and whether QQQ holds above ~$718; if instead it
+  fades back to new lows and THEN bases a rising higher-low, that's the last-$10 setup.
+  Stops far (NVDA ~17% above $187.81). NVDA Q2 earnings AUG 26 (7d). Msg only on a trade.
