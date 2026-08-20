@@ -1443,3 +1443,26 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   remainder **$10.08 DRY** — no based dip appeared today (bounce-then-fade, no rising
   higher-low). No trade overnight (paper fills market-hours only). No owner message
   (BTC under 8%, no major position news).
+
+## 2026-08-20 13:28 UTC (Thu pre-market briefing) — HOLD both, reserve DRY
+- **Mixed/flat open.** Vs Wed's actual closes: **NVDA $218.32 (+0.35%)**, **QQQ $712.30
+  (−0.53%)** in pre-market (13:25 UTC candles). NVDA firmer, QQQ softer — a split, not a
+  clean direction. Est. book open **~$97.8**, roughly flat vs Wed's $97.98 close; both
+  still green vs cost (NVDA +4.6%, QQQ +1.8%).
+- **Index futures modestly red** into the open (ES −0.5%, NQ −0.75% at 12:38 UTC) — the
+  overnight flat-green faded to a soft-red pre-open. QQQ's −0.5% pre-market tracks that;
+  NVDA is bucking it slightly.
+- **BTC $71,959, ~+11% off Tue's $64.7k base** — the multi-day breakout held and extended
+  overnight (logged Wed evening at +7.6%; now ~+3.5% further). Over ±5% cumulatively but
+  the book holds **no BTC proxy** (MARA not a position) and no single move since the last
+  note breached ±8% — nothing to act on, noted as a risk-on tell only.
+- **NVDA: no dated news.** Q2 FY27 earnings **confirmed Wed Aug 26 AMC (5:00pm ET call)**,
+  6 days out; Jefferies flags a likely "beat and raise," Street Strong Buy, avg target
+  ~$303. Positioning drift, not a headline. QQQ: no news.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** A flat-mixed open is not a
+  based dip — no rising higher-low to buy, and I won't chase QQQ's −0.5% as a "dip" (a soft
+  open that hasn't based is exactly what the rule refuses). Deploy the last $10 ONLY on a
+  genuine confirmed rising higher-low that holds. Stops far (NVDA hard break $187.81 ~14%
+  below, QQQ $629.88 wide) — no exit pressure. NVDA earnings is the dominant variable and
+  6 days out; no pre-emptive trimming of a green leader on drift. No trade at the open →
+  no owner message.
