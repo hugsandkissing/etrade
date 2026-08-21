@@ -17918,6 +17918,15 @@
       },
       "equity": 97.49,
       "source": "Yahoo v8"
+    },
+    {
+      "ts": "2026-08-21T18:05:35Z",
+      "prices": {
+        "NVDA": 216.08,
+        "QQQ": 713.5
+      },
+      "equity": 97.56,
+      "source": "Yahoo v8"
     }
   ]
 }
