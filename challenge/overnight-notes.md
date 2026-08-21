@@ -1499,3 +1499,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   far (NVDA ~13% above $187.81). NVDA Q2 earnings **AUG 26 AMC (4 trading days out)** — the
   dominant variable; the range likely breaks on the print. Pre-market briefing (~13:03 UTC)
   will finalize Friday's plan. No trade overnight.
+
+## 2026-08-21 13:28 UTC (Fri pre-market briefing) — HOLD both, reserve DRY
+- **Green-open bounce.** Vs Thu's actual closes: **NVDA $217.49 (+0.30%)**, **QQQ $714.61
+  (+0.52%)** in pre-market (13:24 UTC). Both green, tracking the green futures (NQ +0.72%,
+  ES +0.49%). Est. book open **~$97.85**, up off Thu's $97.47 drawdown-low close; both still
+  green vs cost (NVDA +4.2%, QQQ +2.1%).
+- **BTC ~$77k, ~+18% off Tue's base** — the near-parabolic rip cooled slightly from $78k but
+  holds; **under ±8% since the last note**, no book proxy, no message. Risk-on tell only.
+- **NVDA: no dated news.** Q2 FY27 earnings **Wed Aug 26 AMC (4 trading days out)**; Street
+  est. EPS $2.08, revenue ~$91.9B (+96% YoY), Strong Buy, avg target ~$305. Positioning
+  drift, not a headline. QQQ: no news.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** A green-open bounce off a
+  drawdown low is STRENGTH, not the based higher-low the last $10 waits for — the rule
+  deploys into a *confirmed rising higher-low that holds*, the opposite of a bounce-open.
+  Keep it as earnings ballast. Stops far (NVDA hard break $187.81 ~13% below, QQQ $629.88
+  wide) — no exit pressure. NVDA earnings is the dominant variable, 4 days out; no
+  pre-emptive trimming of a green leader on drift. No trade at the open → no owner message.
+- **Watch today:** whether NVDA reclaims/holds **$217–220** (a green Friday close reverses
+  the 3-day drift and puts $100 back in a day's reach) and whether QQQ holds **$713+**; if
+  instead it fades to new lows and THEN bases a rising higher-low, that's the last-$10 setup.
