@@ -1484,3 +1484,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   tape (beat both indexes). Both holdings green vs cost (NVDA +3.9%, QQQ +1.6%); stops far
   (NVDA ~13% above $187.81). NVDA Q2 earnings **AUG 26 AMC (5 trading days out)** — the range
   almost certainly breaks on the print. No trade overnight; no owner message (BTC <8%, no news).
+
+## 2026-08-21 08:40 UTC (Fri pre-dawn) — BTC near-parabolic ~+20% off base, futures green into Fri
+- **BTC $77,594, +6.3% on the day, ~+20% off Tue's $64.7k base** over four sessions — the
+  breakout has accelerated into a near-parabolic run (logged Wed +7.6%, Thu ~+12.5%, now
+  ~+20%). Intraday +6.3% is over ±5% but the move **since the last note (~$72.8k) is +6.6%,
+  under ±8%**, and the book holds **NO BTC proxy** (MARA not a position) — nothing to act on,
+  no owner message. Logged because the level/pace is now a notable macro risk-on event.
+- **Index futures firming green into Friday: ES=F +0.28%, NQ=F +0.41%** — reversed Thursday
+  evening's red; Friday now leans toward a green/flat open after Thu's −1% cash selloff.
+- **Reserve unchanged: DRY $10.08.** A green-leaning open is strength, not the based dip the
+  last $10 waits for. Deploy ONLY on a confirmed rising higher-low that HOLDS (not a bounce,
+  not a grind). Book last close $97.47 (−2.53% overall), both holdings green vs cost, stops
+  far (NVDA ~13% above $187.81). NVDA Q2 earnings **AUG 26 AMC (4 trading days out)** — the
+  dominant variable; the range likely breaks on the print. Pre-market briefing (~13:03 UTC)
+  will finalize Friday's plan. No trade overnight.
