@@ -1519,3 +1519,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Watch today:** whether NVDA reclaims/holds **$217–220** (a green Friday close reverses
   the 3-day drift and puts $100 back in a day's reach) and whether QQQ holds **$713+**; if
   instead it fades to new lows and THEN bases a rising higher-low, that's the last-$10 setup.
+
+## 2026-08-24 13:30 UTC (Mon pre-market briefing) — HOLD both, reserve DRY; NVDA earnings in 2 days
+- **Soft/mixed open.** Vs Fri's actual closes: **NVDA $215.75 (+0.48%)** — firming a touch —
+  **QQQ $709.57 (−0.54%)** — leading down with the soft NQ futures. Est. book open **~$97.21**,
+  marginally below Fri's $97.36. Both still green vs cost (NVDA +3.4%, QQQ +1.4%).
+- **Index futures soft into Monday: ES −0.14%, NQ −0.55%** (Nasdaq-led). **BTC ~$78.7k, +1.2%**
+  (~+21% off Tue's base) — extended, no book proxy, under ±8%, no message.
+- **NVDA earnings CONFIRMED Wed Aug 26 ~4:20pm ET (AMC), 2 trading days out.** Consensus **$2.09
+  EPS on $91.7B rev (+96% YoY)**, whisper $2.12; mgmt guided $1.93–2.10 / $89.2–92.8B; **83%
+  expect a beat.** KEY: **options price a ~6.2% swing** (vs ~3.8% recent-quarter actual) — the
+  market is bracing for an outsized move. Also **Jackson Hole (Fed) this week** = macro wildcard.
+  No dated NVDA-specific breaking news. QQQ: no news.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** A soft/mixed open is not a based
+  higher-low — nothing to buy. And with a binary ±6%-implied catalyst 2 days out, no pre-emptive
+  moves: cutting a green leader on pre-earnings drift is the flinch the rules exist to prevent,
+  and the NVDA stop ($187.81) is ~13% below. The ~32% NVDA weight carries the full two-way gap
+  risk — a ±6% NVDA move ≈ ±1.9% on the book from NVDA alone on Wed. Known, not actionable.
+- **Watch today/this week:** whether NVDA holds $214–217 into the print or keeps drifting; QQQ
+  ~$708–713 as ballast; the tape around Jackson Hole; and the fact that the range the book's been
+  stuck in almost certainly breaks Wednesday night. No trade at the open → no owner message.
