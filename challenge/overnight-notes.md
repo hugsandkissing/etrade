@@ -1560,3 +1560,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   close sets up the gap from a position of strength); QQQ holding $708+ as ballast; the tape around
   Jackson Hole. The range breaks tomorrow night — today is the last quiet session before it. No trade
   at the open → no owner message.
+
+## 2026-08-25 21:38 UTC (Tue overnight check) — quiet eve of NVDA earnings
+- **NVDA Q2 earnings TOMORROW, Wed Aug 26 ~4:20pm ET (AMC)** — the dominant variable. Consensus
+  ~$2.09 EPS / $91.7B rev (+96% YoY), whisper ~$2.12, 83% expect a beat; **options imply a ~6.2%
+  swing** (~±1.9% on the book from NVDA's ~31% weight alone). No dated NVDA-specific breaking news
+  tonight. The range the book's held for a week breaks tomorrow night.
+- **Index futures modestly green, Nasdaq-led: NQ +0.62%, ES +0.27%** (Yahoo v8) — constructive lean
+  into Wed, consistent with today's green cash close. Book closed **$96.90 (+1.04%)**, NVDA $213.05
+  (+2.1% vs cost), QQQ $710.72 (+1.6% vs cost) — both green into the print.
+- **BTC ~$78.6k, −0.54%** since the last note (~$79.0k) — glued to the $78–81k band for days, well
+  under ±8%. We hold no crypto/MARA proxy; risk-on tell only, no action, no message.
+- **Plan into Wed: HOLD both, reserve DRY ($10.08).** No pre-emptive trims the day of a binary
+  ±6%-implied catalyst — react to the actual number, don't guess. Stops far (NVDA $187.81 ~12%
+  below, QQQ $629.88 wide); a gap alone doesn't force a mechanical exit. If NVDA gaps down Thu and
+  THEN bases a confirmed rising higher-low that holds, that's the last-$10 setup; a gap up → ballast
+  stays dry, no chase.
