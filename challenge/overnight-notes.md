@@ -1539,3 +1539,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Watch today/this week:** whether NVDA holds $214–217 into the print or keeps drifting; QQQ
   ~$708–713 as ballast; the tape around Jackson Hole; and the fact that the range the book's been
   stuck in almost certainly breaks Wednesday night. No trade at the open → no owner message.
+
+## 2026-08-25 13:30 UTC (Tue pre-market briefing) — HOLD both, reserve DRY; NVDA earnings TOMORROW
+- **Green bounce at the open.** Vs Mon's actual closes: **NVDA $210.51 (+0.97%)** — bouncing off
+  the $208.48 close (right at my $208.68 cost) — **QQQ $710.97 (+0.66%)**. Est. book open **~$96.56**,
+  up off Mon's $95.90 drawdown-low close. Both green vs cost again (NVDA +0.9%, QQQ +1.6%).
+- **Index futures green, Nasdaq-led: ES +0.34%, NQ +0.74%.** **BTC ~$79.0k, flat** (glued to
+  $79–81k for days; well under ±8%, no book proxy, no message). Risk-on lean, constructive tape.
+- **NVDA Q2 earnings TOMORROW — Wed Aug 26 ~4:20pm ET (AMC), 1 trading day out.** Consensus **$2.09
+  EPS / $91.7B rev (+96% YoY)**, whisper ~$2.12; 83% expect a beat. **Options price a ~6.2% swing**
+  (vs ~3.8% recent actual). Jackson Hole macro backdrop this week. No dated NVDA-specific breaking
+  news overnight. QQQ: no news.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** A green bounce off a drawdown low is
+  STRENGTH, not the based rising-higher-low the last $10 waits for — and I do not deploy the earnings
+  ballast the day before a ±6%-implied binary catalyst. No pre-emptive trims of a green leader into
+  the print: reacting to the *actual* number beats flinching at the fear of it. The ~32% NVDA weight
+  carries the full two-way gap risk tomorrow night (a ±6% NVDA move ≈ ±1.9% on the book from NVDA
+  alone). Known, not actionable. Stops far (NVDA $187.81 ~11% below, QQQ $629.88 wide) — no exit pressure.
+- **Watch today:** whether NVDA holds/extends the $209–212 cost zone into the print (a green Tuesday
+  close sets up the gap from a position of strength); QQQ holding $708+ as ballast; the tape around
+  Jackson Hole. The range breaks tomorrow night — today is the last quiet session before it. No trade
+  at the open → no owner message.
