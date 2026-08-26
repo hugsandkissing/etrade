@@ -1600,3 +1600,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   initial move. If NVDA gaps DOWN Thu and THEN bases a confirmed rising higher-low that holds, that's
   the textbook last-$10 setup (a based dip, not a knife-catch on the gap). If it gaps UP, ballast
   stays dry, no chase. Tonight is the catalyst; the number and Thursday's tape are the signal.
+
+## 2026-08-26 21:38 UTC (Wed post-earnings overnight check) — NVDA BEAT-AND-RAISE, +4.4% AH
+- **The catalyst resolved — cleanly to the upside.** NVDA Q2 FY27 (reported ~4:20pm ET) was a
+  beat-and-raise: guided **current-quarter revenue to ~$108B vs ~$104.2B expected**, data-center
+  hyperscaler revenue ~doubled to ~$48.7B, gross margin held ~75%. After-hours NVDA **~$218.80,
+  +4.36% vs the $209.66 regular close** (Yahoo v8 incl. pre/post, last AH candle 21:38 UTC; the
+  $209–213 week-long range broke UP as planned-for).
+- **Book read:** NVDA is ~31% of the book, so a +4.4% hold ≈ **+1.4% on equity** → est. book opens
+  Thu ~**$97.8** if the AH gain sticks (vs today's $96.47 close). Not actionable tonight — no
+  after-hours paper fills; marks resume at Thursday's open on verified Yahoo v8 prices.
+- **Corroborating tape:** index futures GREEN post-print — **NQ=F +0.53%, ES=F +0.23%** (Nasdaq-led,
+  as the AI-capex read would predict). **BTC ~$78.8k**, still glued to the $78–81k band, well under
+  ±8%, no proxy, no action.
+- **Plan into Thursday — the last-$10 decision, mechanical:** the reserve ($10.08) deploys ONLY on a
+  based dip that confirms a **rising higher-low that holds** on real 5m volume. A **gap UP at the open
+  is NOT a trigger — no chase**; a green earnings pop is exactly the setup the no-chasing rule exists
+  for. Two paths tomorrow: (a) NVDA opens strong and runs → ballast stays dry, ride the two names, the
+  drawdown simply heals; (b) NVDA gaps up then pulls back and BASES a rising higher-low that holds
+  above a real intraday floor → THAT based dip is the last-$10 trigger, not the initial pop. Watch
+  whether Thu's open HOLDS the after-hours gain or fades it. Stops unchanged and far (NVDA $187.81,
+  QQQ $629.88). NO pre-emptive adds on the gap.
