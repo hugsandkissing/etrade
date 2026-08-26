@@ -1576,3 +1576,27 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   below, QQQ $629.88 wide); a gap alone doesn't force a mechanical exit. If NVDA gaps down Thu and
   THEN bases a confirmed rising higher-low that holds, that's the last-$10 setup; a gap up → ballast
   stays dry, no chase.
+
+## 2026-08-26 13:36 UTC (Wed pre-market briefing) — HOLD both, reserve DRY; NVDA EARNINGS TONIGHT
+- **Soft open into the print.** At the open (13:36 UTC): **NVDA $211.64 (−0.66%** vs Tue's $213.05
+  close) — mild de-risking into its own report — **QQQ $710.68 (−0.01%, flat)**. Est. book open
+  **~$96.70**, ~flat to Tue's $96.90 close. Both still green vs cost (NVDA +1.4% vs $208.68, QQQ
+  +1.6% vs $699.60).
+- **BTC ~$78.4k, −0.22%** (Yahoo v8) — glued to the $78–81k band all week, well under ±8%, no proxy,
+  no message. Index futures were near-flat overnight (ES ~−0.1%, NQ ~−0.3%, Nasdaq-led soft).
+- **NVDA Q2 FY27 earnings TONIGHT — Wed Aug 26 ~4:20pm ET (AMC), 0 trading days out.** Consensus
+  **~$2.09 EPS / $91.7B rev (+96% YoY)**, whisper ~$2.12, 83% expect a beat; **options price a ~6.2%
+  swing** (~±1.9% on the book from NVDA's ~31% weight alone). The range the book's held for a week
+  breaks after tonight's close. No dated NVDA-specific breaking news pre-market.
+- **Plan: HOLD both. Reserve remainder ($10.08) stays DRY.** This is the day the discipline is built
+  for: I do NOT trim a green leader into a binary ±6%-implied catalyst — reacting to the *actual*
+  number beats flinching at the fear of it, and a pre-emptive cut just locks in the drift-discount
+  before the event that resolves it. The ~31% NVDA weight carries the full two-way gap risk tonight;
+  known, not actionable. Stops far (NVDA hard break $187.81 ~11% below, QQQ $629.88 wide) — no exit
+  pressure into the print. No trade at the open → no owner message.
+- **Watch today & tonight:** whether NVDA holds the $209–213 zone through the regular session (a firm
+  close into the print is the position of strength); QQQ $708+ as ballast; then the **after-hours
+  reaction at ~4:20pm ET** and — more decisive — **Thursday's open**, whether it holds or fades the
+  initial move. If NVDA gaps DOWN Thu and THEN bases a confirmed rising higher-low that holds, that's
+  the textbook last-$10 setup (a based dip, not a knife-catch on the gap). If it gaps UP, ballast
+  stays dry, no chase. Tonight is the catalyst; the number and Thursday's tape are the signal.
