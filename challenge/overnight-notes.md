@@ -1621,3 +1621,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   above a real intraday floor → THAT based dip is the last-$10 trigger, not the initial pop. Watch
   whether Thu's open HOLDS the after-hours gain or fades it. Stops unchanged and far (NVDA $187.81,
   QQQ $629.88). NO pre-emptive adds on the gap.
+
+## 2026-08-27 00:37 UTC (Thu overnight baseline) — post-NVDA risk-on holding/building
+- **NVDA's beat-and-raise gain held through the after-hours session** (~$218, ~+4% vs the $209.66
+  reg close). Overnight risk-on is now *building*, not fading: **NQ=F +0.96%** (Nasdaq-led, up from
+  +0.53% right after the print), **BTC ~$78.8k** flat and range-bound (no proxy, no action).
+- **Constructive into Thursday's open.** Est. book opens ~$97.8 if NVDA's gain sticks (vs $96.47
+  Wed close) — the drawdown heals. Plan unchanged and mechanical: HOLD both; the $10.08 reserve does
+  NOT chase a gap-up. Deploy only if NVDA gaps up, then pulls back and BASES a confirmed rising
+  higher-low that holds on real 5m volume. Watch whether the open HOLDS the AH gain or fades it.
+  Stops far (NVDA $187.81, QQQ $629.88).
