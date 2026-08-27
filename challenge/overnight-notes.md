@@ -1651,3 +1651,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Watch today:** whether NVDA HOLDS the gap or fades it (a hold above ~$218–220 = strength; a fade
   back toward $214 = the gap filling, reassess); QQQ $711+ as ballast. Stops unchanged and far (NVDA
   hard break $187.81, QQQ $629.88). No pre-emptive adds, no trims — let the position work.
+
+## 2026-08-27 21:37 UTC (Thu post-close overnight check) — NVDA gain holding, BTC reclaims $80k
+- **The earnings gain is sticking.** NVDA after-hours **~$226.8, −0.5%** vs the $227.98 reg close —
+  essentially flat, digesting the +8.7% day rather than giving it back. Book closed $99.87 (breakeven
+  restored). **BTC ~$80.1k** (reclaimed $80k, ~+1% since last note, well under ±5% — no proxy, no action).
+- **Plan into Friday unchanged: HOLD both, reserve DRY ($10.08).** Chasing NVDA at $227 (+9% extended)
+  is exactly what the no-chase rule forbids. The last $10 deploys ONLY on a based dip — a rising
+  higher-low that holds on real 5m volume — not a further melt-up. Watch whether NVDA holds the
+  $225–228 zone Fri (consolidation that holds = strength; fade toward the $218 gap-fill = digestion,
+  reassess, and a based higher-low there would be the setup). Stops far (NVDA $187.81, QQQ $629.88).
