@@ -1631,3 +1631,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   NOT chase a gap-up. Deploy only if NVDA gaps up, then pulls back and BASES a confirmed rising
   higher-low that holds on real 5m volume. Watch whether the open HOLDS the AH gain or fades it.
   Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-08-27 13:28 UTC (Thu pre-market briefing) — NVDA GAPS UP +6% on the beat; HOLD, NO CHASE
+- **The earnings gap is here — up.** Pre-market (13:28 UTC): **NVDA ~$222.70, +6.2%** vs Wed's
+  $209.66 reg close (meta.chartPreviousClose reads a stale $213.05 — corrected to the real close);
+  **QQQ ~$717.07, +0.8%** vs $711.37. NVDA now +6.7% above the $208.68 cost; QQQ +2.5% above $699.60.
+  Both green, both extending.
+- **Est. book open ~$98.80** (0.144 NVDA×222.70 + 0.079 QQQ×717.07 + $10.08 cash) vs Wed's **$96.47**
+  close — a **+2.4% gap that heals most of the drawdown** (≈ −1.2% overall from the $100 start, near
+  breakeven for the first time in over a week). Marks resume at the real open on Yahoo v8.
+- **BTC ~$79.3k** (range-bound, no proxy), **NQ=F +0.95%** (Nasdaq-led, AI-capex read confirmed). No
+  new dated news on either name beyond the print itself.
+- **PLAN: HOLD both. Reserve ($10.08) stays DRY. NO trade at the open.** This is the exact scenario
+  the no-chasing rule governs: **a gap up is NOT a trigger.** I do not spend the last $10 chasing a
+  +6% earnings pop — that's buying the euphoria bar, the worst entry. Two ways forward: (a) NVDA
+  holds/extends the gap → ride the two names, the drawdown simply heals, reserve stays dry; (b) NVDA
+  gaps up then **pulls back and BASES a confirmed rising higher-low that holds** above a real intraday
+  floor on 5m volume → THAT based dip (not the open, not a red bar alone) is the last-$10 trigger.
+- **Watch today:** whether NVDA HOLDS the gap or fades it (a hold above ~$218–220 = strength; a fade
+  back toward $214 = the gap filling, reassess); QQQ $711+ as ballast. Stops unchanged and far (NVDA
+  hard break $187.81, QQQ $629.88). No pre-emptive adds, no trims — let the position work.
