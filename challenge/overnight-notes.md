@@ -1689,3 +1689,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   strength) or fades toward $218 (digestion — watch for a based higher-low there); QQQ $718+ as ballast.
   Friday, month-end — some rebalancing chop possible. Stops far (NVDA $187.81, QQQ $629.88). No trims
   of a winning position, no chase.
+
+## 2026-08-28 21:37 UTC (Fri post-close / weekend baseline) — NVDA digested the pop, book near breakeven
+- **Day 35 closed:** NVDA gave back ~4% from ~$226.7 to **$217.55** (into the $218 gap-fill zone) but faded
+  straight through without basing a rising higher-low — reserve correctly stayed DRY, no knife-catch. QQQ
+  −0.4% to $716.43 (ballast). **Book closed $98.00 (−2.0% overall)**, still hugging breakeven after the full
+  earnings week. Book lagged the indexes today (−1.55% vs S&P −0.25% / Nasdaq −0.52%) on the NVDA give-back,
+  but is comfortably ahead over the two-day earnings cycle.
+- **BTC ~$77.5k** (−1.85% d/d, down ~$1.8k from Friday's ~$79.3k pre-market read) — mild risk-off into the
+  weekend, well under ±5%, no proxy position, no action. Futures closed for the weekend.
+- **Plan into Monday unchanged: HOLD both, reserve DRY ($10.08).** NVDA now sits IN the $218 zone after the
+  fade — that's where the last-$10 trigger COULD form, but ONLY on a based rising higher-low that HOLDS on
+  real 5m volume (a continued fade, a flat tape, or a lone green bounce bar is NOT the trigger). Watch the
+  $215–218 shelf: a clean hold-and-turn = constructive; a break below $215 = digestion has further to run,
+  reserve stays parked. No chase, no trims. Stops far (NVDA $187.81, QQQ $629.88).
