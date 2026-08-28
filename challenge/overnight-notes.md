@@ -1671,3 +1671,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   last $10 deploys ONLY on a based rising higher-low that holds. Watch the Fri open: NVDA holding
   $225–228 = strength; a fade toward the $218 gap-fill that then bases a higher-low = the setup.
   Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-08-28 13:28 UTC (Fri pre-market briefing) — HOLD both, reserve DRY; NVDA digesting the gap
+- **The earnings gain is sticking into Friday.** Pre-market (13:28 UTC): **NVDA ~$227.13** (−0.4% vs
+  Thu's $227.98 close, still +8.4% above the $208.68 cost), **QQQ ~$720.05** (−0.15% vs $721.11, +2.9%
+  above cost). Both flat, digesting — not giving back the move. **Est. book open ~$99.67**, essentially
+  at breakeven (−0.3% overall), the week's drawdown fully healed and holding.
+- **BTC ~$79.3k** (range-bound, no proxy, no action). **NQ=F −0.2%** — mildly soft, a normal breather
+  after Thursday's AI-capex-led surge. No dated news on either name pre-market.
+- **PLAN: HOLD both. Reserve ($10.08) stays DRY. No trade at the open.** NVDA at $227 is +8% extended
+  off Wed's close — chasing it here is exactly what the no-chase rule forbids. The last $10 deploys
+  ONLY on a genuine based dip: a rising higher-low that holds on real 5m volume. Two paths: (a) NVDA
+  keeps holding $225–228 and the book rides at/above breakeven → reserve stays dry, no action; (b) NVDA
+  pulls back toward the $218 gap-fill and THEN bases a rising higher-low that holds → THAT based dip is
+  the last-$10 trigger, not the flat tape or a red bar alone.
+- **Watch today:** whether NVDA holds the $225–228 consolidation (holding = the gap is accepted =
+  strength) or fades toward $218 (digestion — watch for a based higher-low there); QQQ $718+ as ballast.
+  Friday, month-end — some rebalancing chop possible. Stops far (NVDA $187.81, QQQ $629.88). No trims
+  of a winning position, no chase.
