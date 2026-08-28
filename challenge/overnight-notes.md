@@ -1661,3 +1661,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   higher-low that holds on real 5m volume — not a further melt-up. Watch whether NVDA holds the
   $225–228 zone Fri (consolidation that holds = strength; fade toward the $218 gap-fill = digestion,
   reassess, and a based higher-low there would be the setup). Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-08-28 00:38 UTC (Fri overnight baseline) — NVDA gain held the full AH session; quiet tape
+- **NVDA held the +8.7% earnings day through the entire after-hours session** (~$226 at the 00:00 UTC
+  AH close, ~−0.8% off the $227.98 reg close — digestion, not a give-back). Book stays at breakeven
+  (~$99.87). **BTC ~$80.5k** (holding above $80k, quiet, no proxy). **NQ=F −0.18%** — flat/slightly
+  soft, a normal breather after a big AI-capex-led session.
+- **Plan into Friday unchanged: HOLD both, reserve DRY ($10.08).** No chase of the extended pop; the
+  last $10 deploys ONLY on a based rising higher-low that holds. Watch the Fri open: NVDA holding
+  $225–228 = strength; a fade toward the $218 gap-fill that then bases a higher-low = the setup.
+  Stops far (NVDA $187.81, QQQ $629.88).
