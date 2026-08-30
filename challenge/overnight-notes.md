@@ -1703,3 +1703,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   real 5m volume (a continued fade, a flat tape, or a lone green bounce bar is NOT the trigger). Watch the
   $215–218 shelf: a clean hold-and-turn = constructive; a break below $215 = digestion has further to run,
   reserve stays parked. No chase, no trims. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-08-30 21:37 UTC (Sun eve, trading-week baseline) — quiet weekend, mild risk-on drift, plan unchanged
+- **Weekend was rock-steady.** BTC held a tight $77.4k–$78.7k range the whole weekend and closed it at
+  **~$78.7k (+~1.5% since Fri's ~$77.5k baseline)** — mild risk-on drift, well under ±5%, no proxy, no
+  action. Index futures just reopened Sunday evening flat at Friday's settlement (**NQ=F 29,492, ES=F
+  7,722**, both ~0% — no gap read yet). No breaking news on NVDA or QQQ over the weekend.
+- **Plan into Monday (Aug 31) unchanged: HOLD both, reserve DRY ($10.08).** Book closed Fri at $98.00
+  (−2.0% overall) with NVDA sitting IN the $218 gap-fill zone after Friday's −4% digestion. The last-$10
+  trigger COULD form here but ONLY on a based rising higher-low that HOLDS on real 5m volume — a continued
+  fade, a flat tape, or a lone green bounce bar is NOT the trigger. Watch the $215–218 shelf at Monday's
+  open: a clean hold-and-turn = constructive; a break below $215 = digestion has further to run, reserve
+  stays parked. No chase, no trims. Stops far (NVDA $187.81, QQQ $629.88). Month-end Monday — some
+  rebalancing chop possible.
