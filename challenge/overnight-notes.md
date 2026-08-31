@@ -1716,3 +1716,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   open: a clean hold-and-turn = constructive; a break below $215 = digestion has further to run, reserve
   stays parked. No chase, no trims. Stops far (NVDA $187.81, QQQ $629.88). Month-end Monday — some
   rebalancing chop possible.
+
+## 2026-08-31 13:31 UTC (Mon pre-market briefing) — HOLD both, reserve DRY; NVDA opens flat in the $218 shelf
+- **Quiet open, no gap.** Pre-market/open: **NVDA ~$218.34** (+0.36% vs Fri's $217.55 close, still +4.6%
+  above the $208.68 cost), **QQQ ~$716.95** (+0.07% vs $716.43, +2.5% above cost). Both essentially flat,
+  a hair green. **Est. book open ~$98.16** (~−1.8% overall), holding near breakeven. NVDA is sitting right
+  in the **$215–218 gap-fill shelf** flagged Friday — digesting, not breaking.
+- **BTC ~$77.9k** (range-bound all weekend $77.4k–$78.7k, mild risk-on drift, no proxy, no action).
+  **NQ=F ~−0.3%, ES=F flat** — mildly soft into the open, a normal month-end-Monday breather. No dated
+  news on NVDA or QQQ over the weekend.
+- **PLAN: HOLD both. Reserve ($10.08) stays DRY. No trade at the open.** A flat open sitting AT the $218
+  level is NOT the last-$10 trigger — the trigger is a genuine based rising higher-low that HOLDS on real
+  5m volume, and a flat tape parked at the shelf is exactly what the discipline says to wait through. Two
+  paths: (a) NVDA bases here and turns up off the $215–218 shelf on real volume → THAT based higher-low is
+  the deploy trigger; (b) NVDA loses $215 → digestion has further to run, reserve stays parked, no
+  knife-catch. No chase, no trims of a winning position.
+- **Watch today:** whether NVDA holds/turns off the $215–218 shelf (a based higher-low = the setup) or
+  breaks below $215 (more digestion); QQQ $716+ as ballast. Month-end Monday — some rebalancing chop
+  possible. Stops far and unthreatened (NVDA hard break $187.81, QQQ $629.88).
