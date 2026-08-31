@@ -1734,3 +1734,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Watch today:** whether NVDA holds/turns off the $215–218 shelf (a based higher-low = the setup) or
   breaks below $215 (more digestion); QQQ $716+ as ballast. Month-end Monday — some rebalancing chop
   possible. Stops far and unthreatened (NVDA hard break $187.81, QQQ $629.88).
+
+## 2026-08-31 21:37 UTC (Mon post-close / first overnight fully invested) — reserve deployed, book best close since earnings
+- **Day 36 = the deploy day.** After 10+ sessions holding the last $10 dry, NVDA printed the setup the
+  reserve was earmarked for: based in the $218 gap-fill shelf, put in a $216.78 morning low, pulled back
+  to a $219.55 higher-low that HELD, turned up and reclaimed $220 (held 14:25-14:30) on relative strength
+  vs a soft QQQ. **Bought 0.045 NVDA @ $220.14** (~$9.91); book now FULLY INVESTED, cash $0.17.
+- **NVDA closed +1.7% at $220.50** (day's high) while both indexes FELL ~0.6% — book rose **+0.75% to
+  $98.47** (−1.5% overall), best close since the earnings pop. Book vs market: +0.75% vs S&P −0.58% /
+  Nasdaq −0.64%, a ~1.3pt beat. Holdings: 0.189 NVDA (avg $211.41, +4.3%) + 0.079 QQQ (avg $699.60, +2.5%).
+- **BTC ~$79.0k** (+1.7% d/d, mild risk-on, no proxy, no action). **NQ=F +0.1%, flat** — quiet, no gap.
+  No dated news on NVDA/QQQ post-close.
+- **Plan into Tuesday: HOLD both — no dry powder left, so the levers are HOLD or trim, not add.** NVDA
+  closed at the day's high after reclaiming the shelf — constructive. Near-term line: the $219.55 intraday
+  higher-low that validated the deploy; back into $215-218 = digestion (uncomfortable, not a thesis break);
+  a break of $215 = gap-fill has further to run. Upside, a hold above $220 opens room toward the $228
+  post-earnings high. No trims of a winner on a green close, no action on headlines alone. Stops far
+  (NVDA $187.81, QQQ $629.88). Book now ~74% NVDA / 26% QQQ — larger two-way single-name risk by design.
