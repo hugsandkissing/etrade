@@ -2,11 +2,11 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 10.07659,
+  "cash": 0.1702899999999996,
   "positions": {
     "NVDA": {
-      "qty": 0.144,
-      "avg_cost": 208.68
+      "qty": 0.189,
+      "avg_cost": 211.40857142857143
     },
     "QQQ": {
       "qty": 0.079,
@@ -194,6 +194,15 @@
       "price": 721.46,
       "source": "Yahoo v8",
       "note": "based-dip deploy: confirmed rising higher-low off the -2% open flush (QQQ 718.79->719.82->721.06->721.87), 4x 5m candles holding; partial $8 of the $18 reserve, chose QQQ over NVDA to avoid adding single-name risk 8d before NVDA earnings"
+    },
+    {
+      "ts": "2026-08-31T14:33:03Z",
+      "action": "BUY",
+      "symbol": "NVDA",
+      "qty": 0.045,
+      "price": 220.14,
+      "source": "Yahoo v8 2026-08-31 14:32 UTC",
+      "note": "Reserve deploy: based higher-low that holds in the $215-218 gap-fill shelf \u2014 NVDA put in the $216.78 morning low, pulled back to a $219.55 higher-low that held, turned up and reclaimed $220 (held 14:25-14:30) on relative strength vs a soft QQQ. Confirmed rising higher-low, not a flat tape/pop. Last $10 deployed."
     }
   ],
   "marks": [
@@ -20446,6 +20455,15 @@
         "QQQ": 714.69
       },
       "equity": 98.23,
+      "source": "Yahoo v8"
+    },
+    {
+      "ts": "2026-08-31T14:33:10Z",
+      "prices": {
+        "NVDA": 220.14,
+        "QQQ": 713.72
+      },
+      "equity": 98.16,
       "source": "Yahoo v8"
     }
   ]
