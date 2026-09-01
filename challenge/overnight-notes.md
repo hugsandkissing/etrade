@@ -1751,3 +1751,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   a break of $215 = gap-fill has further to run. Upside, a hold above $220 opens room toward the $228
   post-earnings high. No trims of a winner on a green close, no action on headlines alone. Stops far
   (NVDA $187.81, QQQ $629.88). Book now ~74% NVDA / 26% QQQ — larger two-way single-name risk by design.
+
+## 2026-09-01 13:32 UTC (Tue pre-market briefing) — soft risk-off open, NVDA tests the $215 shelf floor; HOLD
+- **Broad-market red open, not name-specific.** Pre-market: **NVDA ~$215.60** (−2.2% vs Mon's $220.50
+  close, still +2.0% above the $211.41 blended cost), **QQQ ~$706.49** (−1.4% vs $716.76, +1.0% above
+  cost). NQ=F was −1.1% overnight, BTC ~$77.7k (−1.0%, mild risk-off) — the whole tape is soft, and NVDA
+  is moving WITH it (slightly more on beta), not on any dated news. **Est. book open ~$96.73** (~−3.3%
+  overall). No headlines on NVDA or QQQ.
+- **PLAN: HOLD both. No trade.** Cash is $0.17 — there's no powder to deploy on the dip anyway, and the
+  levers are HOLD or trim, not add. NVDA is testing the **$215 shelf floor** flagged Monday ("break below
+  = gap-fill digestion has further to run") — a −2% gap in a −1.4% market is normal volatility, NOT a
+  thesis break, and NVDA at $215.60 is still ~15% above the $187.81 hard stop. Trimming a winner into a
+  broad-market dip at support would be selling weakness — exactly what the discipline forbids. Ride it.
+- **Watch today:** whether NVDA HOLDS ~$215 (a hold-and-turn off the shelf floor = the dip was just
+  market beta) or LOSES it decisively on volume (digestion extends toward the $208-210 lower gap — still
+  far above the stop, still a HOLD, but a weaker tape). QQQ $706 as the market read. Stops far and
+  unthreatened (NVDA hard break $187.81, QQQ $629.88). No panic-sell of a broad dip, no action on the
+  gap alone.
