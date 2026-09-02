@@ -1800,3 +1800,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $208-210 lower gap, still far above the $187.81 stop) and whether NVDA can **reclaim and hold $220**
   (reopens room toward the $228 post-earnings high). QQQ $706 as the market read. No panic on a soft tape,
   no action on headlines alone. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-02 21:37 UTC (Wed post-close) — constructive tone after the breakout; HOLD, watch $228/$220
+- **Day 38 closed a green breakout day.** NVDA broke the top of the $215-220 digestion range, reclaimed
+  $220 early and ran to **$227.52** (a point under the $228 post-earnings high) before settling **$224.41
+  (+3.2% close-to-close)**. QQQ +0.23% to $709.24. **Book closed $98.61 (+1.48% c/c, −1.4% overall)**,
+  **beating both indexes by ~1pp** (S&P +0.46%, Nasdaq +0.45%) — the mirror of Tuesday's ~1pp lag. 0 trades.
+- **Overnight opens constructive.** **BTC ~$77.3k** (flat, +0.6% vs the ~$76.8k AM baseline — well under
+  ±5%, no proxy, no action). **Futures mildly green: NQ=F ~flat, ES=F +0.35%** — a steady-to-firm read
+  after the green cash session, no risk-off carryover. NVDA headlines are chatter (unconfirmed Hugging
+  Face talks, MediaTek stake) — no dated hard catalyst, nothing that changes the book.
+- **Plan into Thursday: HOLD both, no powder (cash $0.17) — HOLD or trim only.** The breakout is intact
+  and the tone is firm. Key levels flipped up: **$228** is the line overhead (post-earnings high — clean
+  break/hold = blue sky above the gap; rejection = base-build in $220-228), and **$220** is now first
+  support (the reclaimed breakout — hold it and the uptrend off the shelf stands; lose it = back toward the
+  $215 shelf, still a HOLD). No reason to trim a winner holding its breakout; no action on chatter. Stops
+  far (NVDA $187.81, QQQ $629.88).
