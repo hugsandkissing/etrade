@@ -1783,3 +1783,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (still ~10%+ above the $187.81 hard stop — a HOLD, not a mechanical exit). Watch whether the risk-off
   deepens overnight or stabilizes; no panic-sell of a winner defending its support, no action on headlines
   alone. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-02 13:25 UTC (Wed pre-market briefing) — tape steadies, NVDA holds the $215-220 range; HOLD
+- **Quiet/flat open after two soft days.** Live pre-market: **NVDA ~$218.21** (+0.35% vs Tue's $217.44
+  close, still +3.2% above the $211.41 blended cost), **QQQ ~$706.70** (~flat vs $707.64). NVDA a touch
+  green, holding comfortably ABOVE the $215 shelf that defended Tuesday and inside the $215-220 digestion
+  range. **Est. book open ~$97.24** (~−2.8% overall).
+- **Overnight was mildly soft but stabilized.** BTC drifted to **~$76.8k** (−0.8% d/d, low end of its
+  recent range but well under ±5%, no proxy, no action); **NQ=F flat** into the open after being −0.5%
+  overnight. No dated news on NVDA or QQQ. The two-day risk-off looks like a pause, not an accelerating
+  pullback — for now.
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder to deploy, levers are HOLD or trim, and a flat
+  open in the digestion range gives no reason to trim a winner. The $215 shelf held its test Tuesday and
+  NVDA is back near the top of the range; let it work.
+- **Watch today:** the $215 shelf (still the line — hold = digestion intact; a decisive break = toward the
+  $208-210 lower gap, still far above the $187.81 stop) and whether NVDA can **reclaim and hold $220**
+  (reopens room toward the $228 post-earnings high). QQQ $706 as the market read. No panic on a soft tape,
+  no action on headlines alone. Stops far (NVDA $187.81, QQQ $629.88).
