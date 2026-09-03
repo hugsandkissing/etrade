@@ -1834,3 +1834,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   above the gap; a rejection here = base-build in the $220-228 zone) and **$220** (reclaimed breakout, now
   first support — holding it keeps the uptrend intact). QQQ $716 as the market read. No action on chatter.
   Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-03 21:37 UTC (Thu post-close) — risk-on shift: BTC breaks out +5.9%, futures green; HOLD
+- **Day 39 closed a broad green day.** NVDA cleared the $228 post-earnings high, tagged $230.20 and closed
+  right on the line at **$228.45 (+1.80% c/c)**. QQQ +1.19% to $717.67. **Book closed $100.04 (+1.45% c/c,
+  breakeven overall)** — the two-day drawdown fully erased in two sessions. Matched the Nasdaq (+1.40%),
+  beat S&P (+1.06%) by ~0.4pp — in line with a broad up-tape, not ahead of it. 0 trades.
+- **Overnight turns risk-on.** **BTC ~$81.8k (+5.9% d/d)** — a real breakout above the $77-78k range it held
+  all week; over ±5% but no BTC proxy in the book (NVDA/QQQ only), so no action, and under the ±8%
+  message threshold. **Futures firmly green: NQ=F +1.1%, ES=F +1.0%** — the strong tape is carrying into
+  the evening, not fading. No dated hard catalyst on NVDA/QQQ (Hugging Face / MediaTek chatter only).
+- **Plan into Friday: HOLD both, no powder (cash $0.17) — HOLD or trim only.** The breakout is intact and
+  the broad tone just firmed (risk-on BTC + green futures = tailwind, not a warning). Key levels: **$230**
+  (today's high / extension level — a clean break and hold is the blue-sky continuation; another rejection
+  = base-build in $228-230) and **$228** (post-earnings high, now first support — NVDA closed on it; hold
+  it = breakout valid, lose it = back toward the $220 shelf, still a HOLD). No reason to trim a winner
+  holding its breakout; no action on BTC (no proxy) or chatter. Stops far (NVDA $187.81, QQQ $629.88).
