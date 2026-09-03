@@ -1816,3 +1816,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   support (the reclaimed breakout — hold it and the uptrend off the shelf stands; lose it = back toward the
   $215 shelf, still a HOLD). No reason to trim a winner holding its breakout; no action on chatter. Stops
   far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-03 15:20 UTC (Thu — late briefing after a session reclaim) — green open, NVDA retests $228; HOLD
+- **Note:** the session was reclaimed overnight; the pre-market briefing/watchdog/refresh Routines queued
+  and were caught up in one pass at ~15:16 UTC. In-session crons + watcher were wiped and have been
+  rebuilt (tick `*/5 13-19`, closing-bell `0 20`, watcher re-armed through the close). No marks were lost —
+  origin held the Wed close; first mark of the day taken at 15:16.
+- **Green open, breakout intact.** NVDA **$226.88** (+1.1% vs Wed's $224.41 close, back near the $228
+  post-earnings high it kissed yesterday), QQQ **$716.09** (+1.0% vs $709.24 — a firm broad tape).
+  **Book $99.62 (−0.4% overall)** — recovered nearly the full drawdown, best level since the deploy.
+- **Overnight was calm and constructive.** BTC held ~$77-78k all night (last ~$78.3k, +1.3%, well within
+  range — no proxy, no action); index futures flat-to-firm into the open, no risk-off. No dated hard
+  catalyst on NVDA/QQQ (Hugging Face / MediaTek chatter only).
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder, levers are HOLD or trim, and a green push toward
+  the range high is no reason to trim a winner. Let the breakout work.
+- **Watch today:** **$228** (the post-earnings high overhead — a clean break and hold reopens blue-sky
+  above the gap; a rejection here = base-build in the $220-228 zone) and **$220** (reclaimed breakout, now
+  first support — holding it keeps the uptrend intact). QQQ $716 as the market read. No action on chatter.
+  Stops far (NVDA $187.81, QQQ $629.88).
