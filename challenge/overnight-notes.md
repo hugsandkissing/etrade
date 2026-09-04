@@ -1871,3 +1871,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   under $228 = the breakout stalls and rebases in $228-230) and the $228/$220 support tiers below. QQQ
   $717-719 as the broad read (it's the majority of the book — the Nasdaq tape matters most here). Post-jobs
   volatility possible. No panic on a fade, no action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-04 21:37 UTC (Fri post-close) — weekend baseline; week closed at a fresh high, HOLD
+- **Week (Day 36-40) closed green at a fresh high.** Book **$100.51 (+0.5% overall)** — the entire two-day
+  drawdown recovered and then some. Fri was the divergent-day payoff: NVDA held its $230 breakout (spiked
+  to $234.49, faded to $230.36 close, +0.84% c/c) while the broad market slipped red (S&P −0.38%, Nasdaq
+  −0.29%) — book beat both indexes by ~0.8pp. 0 trades on the day/week beyond Mon's reserve deploy.
+- **Weekend baseline.** **BTC ~$79.8k (−1.8%)** — eased off the week's $81.8k spike but still above the
+  $77-78k base it held all week; no proxy in the book, no action, well under ±8%. Index futures closed for
+  the weekend (reopen Sun ~22:00 UTC). No dated hard catalyst on NVDA/QQQ into the weekend.
+- **Plan into Monday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** Book is ~43% NVDA /
+  57% QQQ. NVDA is basing in the $230-234 zone after clearing the $228 post-earnings high. Key levels:
+  **$234** (Fri spike high / extension ceiling — reclaim and hold = the delayed blue-sky leg) and **$230**
+  (breakout, now confirmed support — held twice Fri). A decisive loss of $230 rebases toward the $228/$220
+  shelf tiers (all HOLDs, all far above the $187.81 stop). Watch the weekend BTC tape and Sunday-night
+  futures for the Monday risk read; a soft/red Fri close is the thing to watch for follow-through. No
+  action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
