@@ -1850,3 +1850,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   = base-build in $228-230) and **$228** (post-earnings high, now first support — NVDA closed on it; hold
   it = breakout valid, lose it = back toward the $220 shelf, still a HOLD). No reason to trim a winner
   holding its breakout; no action on BTC (no proxy) or chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-04 13:25 UTC (Fri pre-market briefing) — NVDA extends breakout to $231.5 pre-market; HOLD
+- **Book weighting correction (verified via challenge.py status):** the book is **~43% NVDA ($43.18) /
+  ~57% QQQ ($56.70)** by value — QQQ is the LARGER dollar position, not NVDA. Earlier notes loosely called
+  this an "NVDA-concentrated" book; the accurate picture is a QQQ-majority (broad-Nasdaq) book with NVDA as
+  the smaller high-beta sleeve — which is exactly why the book tracked the Nasdaq so tightly Thursday.
+- **NVDA extends the breakout pre-market.** Live pre-market: **NVDA ~$231.50** (+1.3% vs Thu's $228.45
+  close, now ABOVE Thursday's $230.20 intraday high — the blue-sky extension the breakout was coiling for
+  is starting pre-open), **QQQ ~$719.09** (+0.2% vs $717.67). **Est. book open ~$100.7** (~+0.7% overall —
+  a fresh challenge high). NVDA is +9.5% above the $211.41 blended cost.
+- **Overnight was risk-on, softened slightly into the jobs print.** BTC ran to $81.8k, held ~$80-81k
+  overnight, eased to **~$79.8k (−1.9%)** after the 8:30am ET jobs report — still above the week's
+  $77-78k base, no proxy in the book, no action. Index futures stayed green through the print (NQ=F +0.5%,
+  ES=F flat). No dated hard catalyst on NVDA/QQQ.
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder, levers are HOLD or trim. A gap-up extension of a
+  valid breakout is no reason to trim a winner; let it run. (Session infra rebuilt after an overnight
+  reclaim: tick + closing-bell crons recreated, watcher re-armed through the close.)
+- **Watch today:** whether NVDA can **hold above $230** (a clean hold = blue-sky continuation; a fade back
+  under $228 = the breakout stalls and rebases in $228-230) and the $228/$220 support tiers below. QQQ
+  $717-719 as the broad read (it's the majority of the book — the Nasdaq tape matters most here). Post-jobs
+  volatility possible. No panic on a fade, no action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
