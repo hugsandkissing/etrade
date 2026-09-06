@@ -1887,3 +1887,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   shelf tiers (all HOLDs, all far above the $187.81 stop). Watch the weekend BTC tape and Sunday-night
   futures for the Monday risk read; a soft/red Fri close is the thing to watch for follow-through. No
   action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-06 21:37 UTC (Sun evening) — quiet weekend, Labor Day Mon (markets CLOSED); HOLD, real week starts Tue
+- **Heads-up: Monday Sep 7 is Labor Day — US equity markets are CLOSED.** No open, no ticks, no daily
+  report Monday; the market-hours/pre-market/watchdog routines should self-skip on the holiday. The trading
+  week effectively starts **Tuesday Sep 8** — that's when the next pre-market briefing matters.
+- **Weekend was dead quiet.** BTC held **~$80k** the entire weekend (currently $79.9k, flat vs Fri's ~$79.8k
+  close — no risk event, no proxy in the book, no action). Index futures just reopened Sunday evening flat
+  at Friday's levels (NQ=F ~29565, ES=F ~7722, both ~0.0%). No dated hard catalyst on NVDA/QQQ over the
+  weekend.
+- **Plan unchanged into Tuesday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** Book closed
+  Friday at a fresh high **$100.51 (+0.5% overall)**, ~43% NVDA / 57% QQQ. NVDA is basing in the $230-234
+  zone after clearing the $228 post-earnings high. Levels into Tuesday: **$234** (Fri spike high / extension
+  ceiling — reclaim and hold = the delayed blue-sky leg) and **$230** (breakout, now confirmed support). A
+  decisive loss of $230 rebases toward the $228/$220 shelf tiers (all HOLDs, far above the $187.81 stop).
+  Watch Monday's holiday BTC tape and Mon-night/Tue-AM futures for the Tuesday risk read. Stops far (NVDA
+  $187.81, QQQ $629.88).
