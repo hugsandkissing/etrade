@@ -1920,3 +1920,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   repeatedly Fri; a decisive loss rebases toward the $228/$220 shelf tiers, all still HOLDs far above the
   $187.81 stop). QQQ ~$721 as the broad read (it's the majority of the book). No panic on a fade, no action
   on chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-08 21:37 UTC (Tue post-close) — breakout gave back, NVDA re-enters $220-228 zone; HOLD, watch $220
+- **Day 41 closed red.** NVDA opened near $233 (just under the $234 ceiling) and faded all day, losing the
+  $230 breakout and the $228 shelf, to close **$225.73 (−2.0% c/c)** — back inside the $220-228 digestion
+  zone. QQQ held ~flat (**$718.36, −0.08% c/c**). **Book $99.58 (−0.93% c/c, −0.4% overall)** — lagged both
+  indexes (S&P −0.58%, Nasdaq −0.32%) as the NVDA sleeve dragged; QQQ's flatness kept it from being worse.
+  0 trades.
+- **No stock-specific catalyst.** The fade was broad-tape softness (both indexes red) + profit-taking on a
+  gap-up into the $234 resistance ceiling on the first day back from the holiday, with rising Fed
+  rate-hike chatter pressuring high-beta tech. No dated hard news on NVDA/QQQ — thesis intact, this is a
+  breakout digesting back into its base. **BTC ~$78.5k** (flat, above the $77-78k base; no proxy, no
+  action). Index futures mildly red into the evening (NQ=F −0.1%, ES=F −0.6%).
+- **Plan into Wednesday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** A breakout pulling
+  back into its base is not a sell trigger; NVDA is ~7% above the $211.41 cost and far above the $187.81
+  stop. Key level: **$220** (next shelf tier / base of the prior breakout — hold = normal digestion, a
+  decisive loss opens the $215 gap-fill shelf, still a HOLD). Recapture levels **$228/$230** put NVDA back
+  in the breakout. QQQ ~$718 as the broad read (majority of the book, the ballast today). No panic on the
+  pullback, no action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
