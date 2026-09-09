@@ -1956,3 +1956,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   stop). Recapture of **$228/$230** puts NVDA back in the breakout. QQQ ~$715 as the broad read (majority
   of the book — watch whether it holds up if the tape stays soft). No panic on a soft tape, no action on
   chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-09 21:38 UTC (Wed post-close / overnight) — quiet fade holds; NVDA ex-div + GS conference tomorrow
+- **Day 42 closed red but orderly.** NVDA closed **$223.67 (−0.88% intraday, −0.55% book c/c)**, drifting to
+  the lower half of the $220-228 digestion zone; QQQ flat **$716.31 (−0.09%)** as ballast. **Book $99.03
+  (−0.97% overall)** — landed between the indexes (S&P −0.48%, Nasdaq −0.64%), a beta day. 0 trades. NVDA
+  after-hours quiet (~flat, minimal movement).
+- **Overnight quiet, mildly risk-off.** BTC **~$78.2k** (−0.4% since this morning's ~$79.5k note; eased back
+  toward the low end of the $77-79k range, no proxy in book, well under ±5% — no action). Index futures
+  mildly red into the evening: **NQ=F −0.27%, ES=F −0.42%** — soft, not a break. No new stock-specific
+  catalyst behind the two-day fade; still broad-tape digestion.
+- **TWO DATED CATALYSTS TOMORROW (Thu Sep 10):** (1) **NVDA ex-dividend** — $0.25/sh cash dividend, ex-date
+  Sep 10. The stock opens ~$0.25 lower *mechanically* (~0.11%); do NOT misread that as weakness. On our
+  0.189 shares the dividend is ~$0.05 — negligible to the book, and paper ledger won't credit it, so a ~$0.25
+  gap-down at the open is expected and benign. (2) **NVDA presents at the Goldman Sachs tech conference
+  Sep 10** — a potential intraday catalyst either direction; watch for headlines but no pre-positioning.
+- **Plan unchanged into Thursday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** $220 the key
+  shelf (held all day, untested); $228/$230 recapture into the breakout. QQQ ~$716 the broad read/ballast.
+  No panic on the mechanical ex-div gap or on a soft tape; no action on conference chatter. Stops far
+  (NVDA $187.81, QQQ $629.88).
