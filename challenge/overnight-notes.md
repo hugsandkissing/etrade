@@ -1938,3 +1938,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   decisive loss opens the $215 gap-fill shelf, still a HOLD). Recapture levels **$228/$230** put NVDA back
   in the breakout. QQQ ~$718 as the broad read (majority of the book, the ballast today). No panic on the
   pullback, no action on chatter. Stops far (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-09 13:20 UTC (Wed pre-market briefing) — soft open, NVDA digesting lower in the zone; HOLD
+- **Soft/risk-off pre-market.** Live pre-market: **NVDA ~$224.40** (−0.6% vs Tue's $225.73 close, drifting
+  toward the lower half of the $220-228 digestion zone), **QQQ ~$715.46** (−0.4% vs $718.36). **Est. book
+  open ~$99.1** (~−0.9% overall). NVDA still ~6% above the $211.41 blended cost. Index futures were soft
+  overnight (NQ=F −0.6%), a mild risk-off tone into the open.
+- **Overnight quiet.** BTC held the $78-79k range all night (currently ~$79.5k; no proxy in the book, no
+  action, well under ±8%). No dated hard catalyst on NVDA/QQQ — Tuesday's fade was broad-tape softness +
+  gap-into-resistance profit-taking, not stock-specific, and nothing new overnight changes that.
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder, levers are HOLD or trim. A soft open inside the
+  digestion zone is not a sell trigger; a breakout digesting back into its base is normal. Let it work.
+  (Session infra rebuilt after an overnight reclaim: tick + closing-bell crons recreated, watcher
+  re-armed through the close.)
+- **Watch today:** **$220** — the key shelf tier and base of the prior breakout. Hold = normal digestion;
+  a decisive loss on volume opens the $215 gap-fill shelf (still a HOLD, still ~14% above the $187.81
+  stop). Recapture of **$228/$230** puts NVDA back in the breakout. QQQ ~$715 as the broad read (majority
+  of the book — watch whether it holds up if the tape stays soft). No panic on a soft tape, no action on
+  chatter. Stops far (NVDA $187.81, QQQ $629.88).
