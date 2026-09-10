@@ -1989,3 +1989,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   mechanical ex-div gap is not a sell trigger. Watch **$220** (key shelf, held all Wed), **$228/$230**
   recapture. QQQ ~$716 the ballast/broad read. Stops far (NVDA $187.81, QQQ $629.88). Full plan at the
   ~9:03am ET pre-market briefing.
+
+## 2026-09-10 13:17 UTC (Thu pre-market briefing) — broad risk-off open, NVDA testing $220 shelf; HOLD
+- **Risk-off open, softened materially in the last hour.** Live pre-market: **NVDA ~$220.58** (−1.4% vs
+  Wed's $223.67 close — but ~$0.25 of that is the ex-dividend, so the real economic move is ~−1.3%; NVDA is
+  sitting right on the **$220 key shelf**). **QQQ ~$706.79** (−1.6% vs $718.36 — a real broad-tape gap).
+  **Est. book open ~$97.7** (~−2.3% overall, −1.4% vs Wed close). BTC **~$76.8k (−1.9%)**, index futures
+  red (**NQ=F −1.3%, ES=F −0.55%**). This is a broader risk-off morning than the overnight flat suggested.
+- **NVDA ex-dividend today** ($0.25/sh) — the small mechanical piece of the gap is NOT weakness; paper
+  ledger won't credit the ~$0.05 on our 0.189 shares. NVDA also presents at the **Goldman Sachs conference**
+  today (possible intraday headline; no pre-positioning). No dated hard negative catalyst on NVDA/QQQ — this
+  is broad-tape risk-off, not stock-specific.
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder, levers are HOLD or trim only. A broad-market dip is
+  NOT a sell trigger; NVDA is still ~4% above the $211.41 blended cost and ~18% above the $187.81 stop, QQQ
+  far above its $629.88 stop. NVDA testing $220 in thin pre-market is exactly the level I flagged — the real
+  read is the 9:30 cash open, not the pre-market print.
+- **Watch today:** **$220** — the key shelf and base of the prior breakout, being tested at the open. Hold
+  it = normal digestion; a **decisive loss on real volume** opens the **$215 gap-fill shelf** below (still a
+  HOLD, still far above the stop) — I do not chase or panic-sell into a gap. **$228/$230** recapture if it
+  reverses up. QQQ ~$707 as the broad read/ballast — a −1.6% gap means the whole tape is risk-off today.
+  Stops far and unthreatened. Session infra rebuilt: tick + closing-bell crons recreated, watcher re-armed
+  through the close.
