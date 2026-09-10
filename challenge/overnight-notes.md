@@ -1975,3 +1975,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   shelf (held all day, untested); $228/$230 recapture into the breakout. QQQ ~$716 the broad read/ballast.
   No panic on the mechanical ex-div gap or on a soft tape; no action on conference chatter. Stops far
   (NVDA $187.81, QQQ $629.88).
+
+## 2026-09-10 12:37 UTC (Thu pre-open) — mild risk-off drift into the open; NVDA ex-div today
+- **Quiet all night, softened in the last hour before the open.** BTC drifted to **~$77.3k (−1.3% on the
+  day, ~−1.1% vs the 21:38 note's $78.2k)** — still deep in the $77-79k range, well under ±5%, no proxy/no
+  action. Index futures turned mildly red into the open: **NQ=F −0.78%, ES=F −0.25%** — a soft-tape tilt,
+  not a break.
+- **Reminder — NVDA ex-dividend today (Thu Sep 10):** $0.25/sh, so NVDA opens ~$0.25 lower *mechanically*
+  (~0.11%); do NOT misread as weakness. Paper ledger won't credit the ~$0.05 dividend on our 0.189 shares —
+  a small gap-down at the open is expected and benign. NVDA also presents at the Goldman Sachs conference
+  today (possible intraday headline, no pre-positioning).
+- **Plan into the open: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** A soft-red open plus a
+  mechanical ex-div gap is not a sell trigger. Watch **$220** (key shelf, held all Wed), **$228/$230**
+  recapture. QQQ ~$716 the ballast/broad read. Stops far (NVDA $187.81, QQQ $629.88). Full plan at the
+  ~9:03am ET pre-market briefing.
