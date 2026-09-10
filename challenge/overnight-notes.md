@@ -2010,3 +2010,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   reverses up. QQQ ~$707 as the broad read/ballast — a −1.6% gap means the whole tape is risk-off today.
   Stops far and unthreatened. Session infra rebuilt: tick + closing-bell crons recreated, watcher re-armed
   through the close.
+
+## 2026-09-10 21:37 UTC (Thu post-close / overnight) — 2nd red day, GS conf constructive-no-surprise; HOLD
+- **Day 43 closed red on the open, flat intraday.** NVDA **$218.36 (−2.37% c/c**, ~$0.25 of it the ex-div),
+  QQQ **$708.69 (−1.06% c/c** but +0.12% intraday — cushioned). **Book $97.43 (−1.62% c/c, −2.57% overall)**
+  — lagged the indexes (S&P −0.58%, Nasdaq −0.65%) by ~1pp on the NVDA sleeve. The whole c/c loss was the
+  gap-down open; the session itself was a flat base at $217–218. 0 trades. NVDA after-hours flat (~$218.4).
+- **GS Communacopia conference (the day's flagged catalyst) — constructive, no surprise.** Jensen Huang
+  reaffirmed the **$3–4T AI-infrastructure spend by 2030** thesis, Vera Rubin production/deliveries, CPU
+  growth, HBM supply, export-control effects. Supportive of the long thesis but nothing that moved the
+  stock — NVDA didn't react. No dated negative catalyst; the two-day fade remains broad-tape risk-off, not
+  stock-specific.
+- **Overnight mildly risk-off.** BTC **~$77.2k (−1.4% on the day**, ~flat vs the pre-open $77.3k note; deep
+  in range, no proxy, well under ±5%). Index futures soft into the evening: **NQ=F −1.0%, ES=F −0.55%** — a
+  continued soft tone, not a break.
+- **Plan into Friday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** NVDA basing at $217–218,
+  ~3% above the $211.41 cost and ~17% above the $187.81 stop; a broad dip is not a sell trigger and the GS
+  read reinforces the thesis. **$220** now overhead (reclaim = back into mid-zone); **$215** gap-fill the
+  next shelf below (still a HOLD). **$228/$230** recapture distant. QQQ ~$709 the ballast. Stops far
+  (NVDA $187.81, QQQ $629.88). No panic on a 2nd red day, no action on conference chatter.
