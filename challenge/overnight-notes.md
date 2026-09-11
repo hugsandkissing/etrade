@@ -2041,3 +2041,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **$220 reclaim** (now overhead) in play — reclaiming it gets NVDA back into the middle of its zone;
   **$228/$230** the breakout recapture above. Below, **$215** gap-fill the next shelf (still a HOLD). QQQ
   ~$709 the ballast. Stops far. Full plan at the ~9:03am ET pre-market briefing.
+
+## 2026-09-11 13:18 UTC (Fri pre-market briefing) — constructive bounce, NVDA reclaiming $220; HOLD
+- **Risk-on bounce after two red days.** Live pre-market: **NVDA ~$221.11** (+1.3% vs Thu's $218.36 close —
+  reclaiming above the **$220 shelf**, back toward the middle of the $220-228 zone), **QQQ ~$716.15** (+1.1%
+  vs $708.69). **Est. book open ~$98.5** (~−1.5% overall, +1.1% vs Thu close). BTC **~$77.7k (+1.5%)**,
+  index futures green (**NQ=F +1.1%, ES=F +0.97%**). The tape is bouncing back broadly — the first up-tilt in
+  three sessions, validating the hold-through-the-dip discipline.
+- **No new catalyst.** GS conference (Thu) was constructive/no-surprise; nothing dated overnight on NVDA/QQQ.
+  The Wed/Thu fade was broad-tape risk-off, and today it's reversing. Ex-div was yesterday — no distortion
+  today.
+- **PLAN: HOLD both. No trade.** Cash $0.17 — no powder, levers are HOLD or trim only. Riding the bounce; no
+  reason to trim a winner coming back off its base. NVDA is ~5% above the $211.41 cost, far above the
+  $187.81 stop.
+- **Watch today:** **$220** — reclaiming and holding it (pre-market back above) keeps NVDA in the middle of
+  its zone; **$228/$230** the breakout recapture overhead — a green day that clears them would re-open the
+  breakout. Below, **$217-218** (Thu base) then the **$215** gap-fill (still HOLDs). QQQ ~$716 the broad
+  read/ballast. BTC ~$77.7k (rangebound, no proxy). Stops far (NVDA $187.81, QQQ $629.88). Session infra
+  rebuilt: tick + closing-bell crons recreated, watcher re-armed through the close.
