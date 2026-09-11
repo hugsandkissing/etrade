@@ -2029,3 +2029,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   read reinforces the thesis. **$220** now overhead (reclaim = back into mid-zone); **$215** gap-fill the
   next shelf below (still a HOLD). **$228/$230** recapture distant. QQQ ~$709 the ballast. Stops far
   (NVDA $187.81, QQQ $629.88). No panic on a 2nd red day, no action on conference chatter.
+
+## 2026-09-11 12:37 UTC (Fri pre-open) — constructive bid returning after two red days; HOLD
+- **Green setup into the Friday open — a tone shift.** After Wed/Thu's broad risk-off, index futures firmed
+  steadily overnight: **NQ=F +0.79%, ES=F +0.68%**, BTC back up to **~$77.4k (+1.1%**, deep in range, no
+  proxy, under ±5%). A modest risk-on bid returning, not a rip — but the first up-tilt in three sessions.
+- **No new catalyst overnight.** GS conference (Thu) was constructive/no-surprise; nothing dated since on
+  NVDA/QQQ. The two-day fade was broad-tape, and the tape is trying to stabilize into Friday.
+- **Plan into the open: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** NVDA closed $218.36
+  basing at $217-218, ~3% above the $211.41 cost, ~17% above the $187.81 stop. A green open would put the
+  **$220 reclaim** (now overhead) in play — reclaiming it gets NVDA back into the middle of its zone;
+  **$228/$230** the breakout recapture above. Below, **$215** gap-fill the next shelf (still a HOLD). QQQ
+  ~$709 the ballast. Stops far. Full plan at the ~9:03am ET pre-market briefing.
