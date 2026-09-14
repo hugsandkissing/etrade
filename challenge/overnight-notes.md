@@ -2092,3 +2092,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   shelf), **$218** (Fri close). QQQ ~$705 the ballast (down less, cushioning). BTC risk-on (no proxy). This
   is the concentration edge cutting hard against the book on an AI-specific risk-off day — the honest cost of
   the NVDA sleeve. Watching for stabilization vs. continuation. Session infra rebuilt (crons/watcher).
+
+## 2026-09-14 21:37 UTC (Mon post-close / overnight) — AI-safety gap held & recovered; futures stabilize
+- **Day 45: AI-safety sentiment gap, held and partly recovered.** NVDA closed **$210.96 (−3.36% c/c**, opened
+  −4% at $209, bounced to a $212.52 high, +0.41% intraday). QQQ **$709.18 (−0.80% c/c)** cushioned. **Book
+  $96.07 (−1.87% c/c, −3.93% overall)** — fresh challenge low, lagged indexes (S&P −0.48%, Nasdaq −0.56%) by
+  ~1.3pp as the AI trade specifically derated. 0 trades. HELD through the gap (no panic-sell into an
+  opinion-driven move); NVDA far above the $187.81 stop.
+- **Catalyst recap:** weekend AI-slowdown commentary (Anthropic/OpenAI CEOs) → broad AI/semis repricing
+  (MRVL −7%, INTC −5%, AVGO −3%). NOT NVDA-specific; order book/guidance/$3-4T capex thesis intact.
+- **Overnight stabilizing.** Post-close futures **flat: NQ=F +0.01%, ES=F +0.03%** — NO continuation of the
+  selloff, a tentative sign the weekend scare is settling rather than accelerating. BTC **~$78.6k (+2.3%**,
+  risk-on, deep in range, no proxy, under ±5%). NVDA after-hours flat (~$211).
+- **Plan into Tuesday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** Watch whether the
+  AI-safety narrative fades (futures flat overnight is encouraging) or re-intensifies. **$209** today's low
+  (holds = one-day gap); **$187.81** the hard stop (~12% below, the only sell trigger on a hard break on
+  volume). **$215/$218** the reclaim levels that would confirm the scare is being faded; NVDA closed $210.96,
+  just under the $211.41 cost. QQQ ~$709 ballast. No adds; no reason to sell quality into a gap it's bouncing
+  from.
