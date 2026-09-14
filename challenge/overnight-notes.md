@@ -2071,3 +2071,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   sell trigger. **$220** the reclaim level (Fri's intraday high $221.75, closed just below); **$217-218** the
   base, **$215** the gap-fill shelf below (all HOLDs). **$228/$230** the breakout recapture. QQQ ~$715 the
   ballast. Stops far (NVDA $187.81, QQQ $629.88). Full plan at Monday's ~9:03am ET pre-market briefing.
+
+## 2026-09-14 13:16 UTC (Mon pre-market briefing) — AI-safety sector selloff hits NVDA; HOLD (far above stop)
+- **NVDA gapped down hard on an AI-sector sentiment shock, not company news.** Open **$209.16 (−4.2%)**,
+  recovered to **~$210 (−3.8%)** by 9:56am; QQQ **~$705 (−1.4%)**, BTC **~$78k (+1.6%, risk-on in crypto)**.
+  Est. book **~$95.6 (−4.4% overall)** — a fresh challenge low, but well above the $80 floor.
+- **Catalyst = broad AI/semis repricing over the weekend.** AI-industry leaders called for a slowdown:
+  Anthropic's CEO published an AI-safety essay (Sat) arguing labs should pull back on the most powerful
+  models; OpenAI's CEO called a near-term IPO "ill-advised." The whole semi complex sold off — **MRVL −7%,
+  INTC −5%, AVGO −3%, NVDA −4%** (middle of the pack, NOT NVDA-specific weakness). No change to NVDA's order
+  book, guidance, or the $3-4T AI-capex thesis Jensen reaffirmed Thu at GS. This is sentiment/positioning,
+  not a fundamental break.
+- **PLAN: HOLD both. No trade.** This is a sector-sentiment gap, and the standing rule is explicit: a broad
+  dip is not a sell trigger; stop only on a **hard break of $187.81 on real volume**. NVDA $210 is ~11% above
+  that stop. NVDA is ~1% below the $211.41 blended cost now, but selling into a sentiment-driven gap near the
+  lows — with no powder to re-enter — would crystallize a loss on what may be an overreaction to opinion
+  pieces. The thesis (AI infrastructure buildout) is intact. Fully invested, cash $0.17 — HOLD or trim only.
+- **Watch today:** **$209** (today's low / round-ish support), then **$200** (psychological) — a decisive
+  loss toward **$187.81** on heavy volume is the only stop trigger. Upside reclaim levels: **$215** (gap-fill
+  shelf), **$218** (Fri close). QQQ ~$705 the ballast (down less, cushioning). BTC risk-on (no proxy). This
+  is the concentration edge cutting hard against the book on an AI-specific risk-off day — the honest cost of
+  the NVDA sleeve. Watching for stabilization vs. continuation. Session infra rebuilt (crons/watcher).
