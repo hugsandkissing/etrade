@@ -2059,3 +2059,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   breakout. Below, **$217-218** (Thu base) then the **$215** gap-fill (still HOLDs). QQQ ~$716 the broad
   read/ballast. BTC ~$77.7k (rangebound, no proxy). Stops far (NVDA $187.81, QQQ $629.88). Session infra
   rebuilt: tick + closing-bell crons recreated, watcher re-armed through the close.
+
+## 2026-09-14 01:37 UTC (Sun eve / Mon pre-open) — weekend quiet; futures reopen red into Monday; HOLD
+- **Weekend was a non-event.** BTC held the **$76.7-77.4k** range all Sat/Sun (currently ~$76.7k, flat, no
+  proxy, well under ±5% — no action). No dated hard catalyst on NVDA/QQQ over the weekend.
+- **Sunday-night futures reopened red:** **NQ=F −1.26%, ES=F −0.47%** — a soft-to-risk-off setup into
+  Monday's open, giving back some of Friday's bounce. Early in the overnight session (lots can change by the
+  9:30 open); flagging the tone, not trading it.
+- **Plan into Monday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** NVDA closed Fri $218.29
+  basing at $217-221, ~3% above the $211.41 cost, ~17% above the $187.81 stop. A red futures open is not a
+  sell trigger. **$220** the reclaim level (Fri's intraday high $221.75, closed just below); **$217-218** the
+  base, **$215** the gap-fill shelf below (all HOLDs). **$228/$230** the breakout recapture. QQQ ~$715 the
+  ballast. Stops far (NVDA $187.81, QQQ $629.88). Full plan at Monday's ~9:03am ET pre-market briefing.
