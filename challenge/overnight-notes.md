@@ -2125,3 +2125,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   fading and reopens the $220 zone. Below, **$209** (Mon low) then **$200**; hard stop $187.81 (~12% below).
   QQQ ~$705 the broad read/ballast — a bit soft today, watch it. BTC ~$77-78k (no proxy). Session infra
   rebuilt: tick + closing-bell crons recreated, watcher up, venv OK.
+
+## 2026-09-15 21:38 UTC (Tue post-close / overnight) — mild risk-off drift; futures soft, BTC pulls back
+- **Post-close tape softening slightly.** Index futures modestly red: **NQ=F −0.59%, ES=F −0.38%** — a
+  gentle give-back after Tuesday's quiet stabilization, not a fresh leg down. BTC **~$75.7k (−3.2%** since
+  last note, risk-off drift but **under the ±5% threshold**, no proxy — NVDA/QQQ are the book).
+- **No new NVDA/QQQ-specific catalyst.** NVDA closed $212.17 (back above the $211.41 cost); after-hours
+  quotes noisy/flat (~$212-213). The only recurring headline is the same AI-capex/agentic-demand narrative
+  (Huang: agentic AI needs 15-100x more compute) plus unconfirmed chatter of an NVDA-Anthropic investment —
+  nothing dated or actionable, and nothing that changes the thesis.
+- **Plan into Wednesday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** Soft futures + a BTC
+  dip are a mild risk-off tell to watch at the open, not a trigger. **$215/$218** the reclaim levels that
+  confirm the AI-safety scare is fully faded; **$211/$209** the base to hold; **$187.81** the hard stop
+  (~13% below, the only sell trigger on a hard break on volume). QQQ ~$704 the ballast/swing factor. Plan
+  finalizes at the ~9:03am ET pre-market briefing.
