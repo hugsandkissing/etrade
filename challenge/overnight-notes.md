@@ -2154,3 +2154,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   the scare is done and reopens the $220 zone. **$211/$209** the base below (cost / Mon gap low); hard stop
   **$187.81** (~13% below, the only sell trigger on a hard break on volume). QQQ ~$708 firming back toward
   $709, the ballast/swing factor. BTC ~$75.7k (no proxy). Session infra rebuilt: tick cron + watcher.
+
+## 2026-09-16 21:38 UTC (Wed post-close / overnight) — pop-and-fade day, quiet overnight
+- **Day 47: reclaim tagged, not held; book still green.** NVDA cleared $215 and ran to a **$216.20 high**,
+  then faded to close **$213.90 (+0.82% c/c)**. QQQ round-tripped $708→$711→$700, closed **$704.72 (flat)**.
+  **Book $96.27 (+0.35% c/c, −3.7% overall)** — beat both indexes (S&P −0.45%, Nasdaq −0.01%) for a 2nd
+  straight day as NVDA rose on a flat-to-red tape. 0 trades, HELD.
+- **Overnight quiet.** BTC **~$76.0k (+0.5%**, stable, risk-on, no proxy, well under ±5%). Post-close
+  futures mixed/flat: **NQ=F +0.06%, ES=F −0.44%** — no continuation of either the morning pop or the
+  afternoon fade. No new dated NVDA/QQQ catalyst.
+- **Plan into Thursday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** The unfinished
+  business is **$215/$216** — reclaimed and tagged intraday but not held; getting back above and holding it
+  reopens the **$220** zone. **$211/$209** the base (held comfortably today, low $212.61); hard stop
+  **$187.81** (~12% below, the only sell trigger on a hard break on volume). QQQ ~$705 the ballast/swing
+  factor. Plan finalizes at the ~9:03am ET pre-market briefing.
