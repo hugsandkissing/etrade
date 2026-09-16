@@ -2139,3 +2139,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   confirm the AI-safety scare is fully faded; **$211/$209** the base to hold; **$187.81** the hard stop
   (~13% below, the only sell trigger on a hard break on volume). QQQ ~$704 the ballast/swing factor. Plan
   finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-16 13:14 UTC (Wed pre-market briefing) — constructive follow-through; NVDA firming toward $215, HOLD
+- **Bounce continuing.** Pre-market: **NVDA ~$213.8** (+0.77% vs Tue's $212.17 close — firming above the
+  $211.41 cost and pressing toward the $215 reclaim level), **QQQ ~$708.3** (+0.54%, recovering back toward
+  $709). Index futures modestly green all night (NQ=F +0.4-0.6%, ES=F +0.25-0.33%); BTC steady **~$75.7k**
+  (flat overnight, risk-on, no proxy). Est. book **~$96.5-97 (−3.5% overall)** if the open holds these gaps.
+- **AI-safety scare fully fading, no new catalyst.** No dated negative news on NVDA/QQQ overnight; the only
+  recurring headlines are the same AI-capex/agentic-demand narrative. Two sessions of basing at cost are
+  resolving higher — the constructive path the Tue report flagged.
+- **PLAN: HOLD both. No trade.** Fully invested, cash $0.17 — HOLD or trim only. NVDA reclaiming toward $215
+  is the recovery extending; no reason to sell quality that's working. Far above the $187.81 stop.
+- **Watch today:** **$215/$218** — the reclaim levels now in reach; NVDA clearing and holding $215 confirms
+  the scare is done and reopens the $220 zone. **$211/$209** the base below (cost / Mon gap low); hard stop
+  **$187.81** (~13% below, the only sell trigger on a hard break on volume). QQQ ~$708 firming back toward
+  $709, the ballast/swing factor. BTC ~$75.7k (no proxy). Session infra rebuilt: tick cron + watcher.
