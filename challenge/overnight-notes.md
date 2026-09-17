@@ -2168,3 +2168,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   reopens the **$220** zone. **$211/$209** the base (held comfortably today, low $212.61); hard stop
   **$187.81** (~12% below, the only sell trigger on a hard break on volume). QQQ ~$705 the ballast/swing
   factor. Plan finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-17 13:12 UTC (Thu pre-market briefing) — post-Fed relief rally; NVDA gaps toward $220, HOLD
+- **Strong gap up on a broad relief rally.** Pre-market: **NVDA ~$218.5** (+2.1% vs Wed's $213.90 close —
+  clearing the $215/$218 reclaim levels and pushing toward the $220 zone), **QQQ ~$716** (+1.6%). Index
+  futures firm all morning (NQ=F +1.1-1.5%, ES=F +0.8-1.2%); BTC **~$76.9k** (+1%, risk-on, no proxy).
+  Est. book **~$98.3-98.5 (−1.7% overall)** if the open holds these gaps — best level since early September.
+- **Catalyst: post-FOMC digestion.** The Fed hiked 25bp Wed (to 3.75-4.00%, first hike since 2023); after an
+  initial mixed-to-lower Wed close, futures are rallying today as Chair Warsh's inflation resolve reassured
+  markets. Broad risk-on move, NOT NVDA-specific — NVDA riding the tape. No new company catalyst; thesis
+  intact.
+- **PLAN: HOLD both. No trade.** Fully invested, cash $0.17 — HOLD or trim only. NVDA finally extending the
+  reclaim toward $220 is the bounce completing; no reason to sell into strength. Far above the $187.81 stop.
+- **Watch today:** **$220** — the breakout-zone recapture now in reach; clearing it puts NVDA back in the
+  $220-228 base it broke down from in early Sept. Below, **$215** (now support if it holds the gap), then
+  **$211** cost; hard stop **$187.81**. QQQ ~$716 the ballast, participating today. BTC ~$76.9k (no proxy).
+  Watch whether the gap holds or fades (Wed was a pop-and-fade — same risk today). Session infra: tick +
+  closing-bell crons ensured, watcher re-armed.
