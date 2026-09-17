@@ -2185,3 +2185,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **$211** cost; hard stop **$187.81**. QQQ ~$716 the ballast, participating today. BTC ~$76.9k (no proxy).
   Watch whether the gap holds or fades (Wed was a pop-and-fade — same risk today). Session infra: tick +
   closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-17 21:38 UTC (Thu post-close / overnight) — post-Fed rally held; strong up-day, quiet overnight
+- **Day 48: post-Fed relief rally held all day.** NVDA gapped up and extended to close **$219.34 (+2.54%
+  c/c)**, recapturing to the $220 doorstep (high $219.72); QQQ **$716.92 (+1.73% c/c)**. **Book $98.26
+  (+2.07% c/c, −1.7% overall)** — beat both indexes (S&P +1.14%, Nasdaq +1.69%) for a **3rd straight day**;
+  best level since early Sept. 0 trades, HELD. Unlike Wed's pop-and-fade, today's gap stuck (closed at the
+  high). The Sep 14 AI-safety drawdown is now nearly erased (3-day arc: Tue $95.93 → Thu $98.26, +2.4%).
+- **Catalyst recap:** Fed hiked 25bp Wed (first since 2023); markets took Warsh's inflation resolve as
+  reassuring → broad relief rally. NOT NVDA-specific. Thesis intact.
+- **Overnight quiet/risk-on.** BTC **~$76.5k (+0.5%**, stable, no proxy, under ±5%); tape firm. No new dated
+  NVDA/QQQ catalyst.
+- **Plan into Friday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** The unfinished business
+  is **$220** — recaptured to the doorstep (closed $219.34); a close *above* it confirms re-entry into the
+  $220-228 base NVDA broke down from. **$215/$211** now support (gap + cost); hard stop **$187.81** (~15%
+  below, the only sell trigger on a hard break on volume). QQQ ~$717 the ballast, participating. Watch for
+  post-rally follow-through vs. a Friday give-back. Plan finalizes at the ~9:03am ET pre-market briefing.
