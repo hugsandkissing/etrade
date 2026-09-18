@@ -2201,3 +2201,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $220-228 base NVDA broke down from. **$215/$211** now support (gap + cost); hard stop **$187.81** (~15%
   below, the only sell trigger on a hard break on volume). QQQ ~$717 the ballast, participating. Watch for
   post-rally follow-through vs. a Friday give-back. Plan finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-18 13:15 UTC (Fri pre-market briefing) — consolidating the rally at $219; HOLD
+- **Quiet, flat open after Thu's big up-day.** Pre-market: **NVDA ~$219.2** (−0.06% vs Thu's $219.34 close —
+  holding the gains right at the $220 doorstep), **QQQ ~$718.1** (+0.16%, firm). Index futures flat-to-mixed
+  overnight (NQ=F flat to +0.4%, ES=F flat); BTC firm **~$78k** (+2% since last note, risk-on, no proxy,
+  under ±5%). Est. book **~$98.3 (−1.7% overall)** if the open holds — best level since early Sept.
+- **No new catalyst; consolidation.** No dated NVDA/QQQ news overnight; the post-Fed relief rally is simply
+  digesting Thursday's move. Thesis intact, NVDA ~$8 above the $211.41 cost.
+- **PLAN: HOLD both. No trade.** Fully invested, cash $0.17 — HOLD or trim only. NVDA holding $219 after a
+  +2.5% day is healthy consolidation; no reason to sell into strength. Far above the $187.81 stop.
+- **Watch today:** **$220** — the recapture level, one good tick away (closed $219.34 Thu); a close *above*
+  confirms re-entry into the $220-228 base NVDA broke down from. **$215/$211** the support (gap + cost) below;
+  hard stop **$187.81** (~15% below, the only sell trigger on a hard break on volume). QQQ ~$718 the ballast,
+  firm. BTC ~$78k (no proxy). Friday after a big up-day — watch for follow-through vs. a give-back into the
+  weekend. Session infra: tick + closing-bell crons ensured, watcher re-armed.
