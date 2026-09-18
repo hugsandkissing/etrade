@@ -2216,3 +2216,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   hard stop **$187.81** (~15% below, the only sell trigger on a hard break on volume). QQQ ~$718 the ballast,
   firm. BTC ~$78k (no proxy). Friday after a big up-day — watch for follow-through vs. a give-back into the
   weekend. Session infra: tick + closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-18 21:38 UTC (Fri post-close / weekend) — $220 recaptured on close-on-high; BTC surges +6%
+- **Day 49: $220 recapture confirmed.** NVDA chopped $219-220 all day then surged into the bell to close at
+  its **$222.27 high (+1.34% c/c)**, decisively back inside the $220-228 base it broke down from. QQQ closed
+  at its **$721.45 high (+0.63% c/c)**. **Book $99.17 (+0.93% c/c, −0.8% overall)** — beat both indexes
+  (S&P +0.17%, Nasdaq +0.39%) for a **4th straight day**; all but back to break-even. 0 trades, HELD.
+- **The week: +3.2%** ($96.07 Mon → $99.17 Fri). AI-safety gap Mon → based at cost Tue → reclaimed $215 Wed
+  (faded) → post-Fed rally held Thu → $220 recaptured Fri. Drawdown nearly erased. Fed's 25bp hike (first
+  since 2023) proved a relief catalyst, not a headwind.
+- **BTC surged to ~$81.2k (+6.3%** vs prior close, **+6% since last note)** — a notable weekend risk-on move,
+  **over the ±5% mark but under ±8%** (no owner message). No direct BTC proxy in the book (we hold NVDA/QQQ),
+  so no action to plan; noting it as a risk-on tell into next week. Weekend — no futures.
+- **Plan into Monday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** **$220** now flips from
+  resistance to support; holding it keeps NVDA inside the $220-228 base, with **$228** the next resistance
+  (top of the base / late-Aug breakout level). **$215/$211** the deeper support; hard stop **$187.81** (~15%
+  below, the only sell trigger on a hard break on volume). QQQ ~$721 firm, closed at its high. Watch weekend
+  follow-through (BTC risk-on) vs. a Monday give-back after a strong week. Plan finalizes at Mon's ~9:03am ET
+  briefing.
