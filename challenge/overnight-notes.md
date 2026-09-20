@@ -2234,3 +2234,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   below, the only sell trigger on a hard break on volume). QQQ ~$721 firm, closed at its high. Watch weekend
   follow-through (BTC risk-on) vs. a Monday give-back after a strong week. Plan finalizes at Mon's ~9:03am ET
   briefing.
+
+## 2026-09-20 21:38 UTC (Sun evening / futures reopen) — quiet weekend, futures reopen flat
+- **Weekend was quiet.** BTC held its Friday surge all weekend, ranging **~$80.3-81.3k** (now ~$80.9k),
+  never threatening the ±8% message line; eased ~1% off the weekend high but still up big on the week. No
+  breaking NVDA/QQQ news over the weekend.
+- **Sunday-evening futures reopened FLAT:** NQ=F ~29917 (0.0%), ES=F ~7712 (0.0%) — right at Friday's close,
+  no weekend gap. Points to a roughly flat Monday open barring an overnight catalyst.
+- **Plan into Monday: HOLD both, fully invested (cash $0.17) — HOLD or trim only.** Book closed Fri **$99.17
+  (−0.8% overall)**, back at break-even after fully recovering the AI-safety drawdown; NVDA closed $222.27
+  inside the $220-228 base. **$220** is now support (hold it = base intact), **$228** the next resistance
+  (top of the base). **$215/$211** deeper support; hard stop **$187.81**. QQQ ~$721. Watch the Monday open
+  for follow-through vs. a give-back after a strong week. Plan finalizes at the ~9:03am ET pre-market briefing.
