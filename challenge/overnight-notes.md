@@ -2262,3 +2262,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **$215/$211** the deeper support. Hard stop **$187.81** (~16% below, the only sell trigger on a hard break
   on volume). QQQ ~$728 at new highs, leading. BTC ~$85k (risk-on, no proxy). Session infra: tick +
   closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-21 ~21:37 UTC (Mon post-close overnight check) — BTC pushes to new high; futures firm into Tue, HOLD
+- **Risk-on continuation into the evening after the Day-50 milestone** (book closed $101.72, +1.7% overall —
+  positive for the first time; NVDA $227.38 having tagged $228.10, QQQ all-time-high $741.47). **BTC surged
+  to ~$86.8k (+6.94%)** — a fresh high, ~+7% since the last note (Sun-eve ~$81k): over ±5% but **under the
+  ±8% owner-message threshold**, and **no book proxy** (we hold NVDA/QQQ), so no owner msg and no plan
+  change. Just a clean risk-on tell.
+- **Index futures firm into Tuesday:** NQ=F **+2.89%**, ES=F **+1.51%** — the broad AI/risk bid carrying
+  overnight, no give-back after the strong session.
+- **PLAN unchanged: HOLD both.** Fully invested, cash $0.17. Nothing here changes the HOLD — futures green,
+  BTC pushing, thesis intact, stops (NVDA $187.81 / QQQ $629.88) far off. Watch at Tue pre-market whether
+  NVDA can **close above $228** (reopens the $228-234 breakout zone) vs. consolidating the base top after
+  five straight up-days. Plan finalizes at the ~9:03am ET pre-market briefing.
