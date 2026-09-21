@@ -2246,3 +2246,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   inside the $220-228 base. **$220** is now support (hold it = base intact), **$228** the next resistance
   (top of the base). **$215/$211** deeper support; hard stop **$187.81**. QQQ ~$721. Watch the Monday open
   for follow-through vs. a give-back after a strong week. Plan finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-21 13:21 UTC (Mon pre-market briefing) — risk-on continuation; NVDA extends into base, HOLD
+- **Constructive gap up on a broad risk-on Monday.** Pre-market: **NVDA ~$223.5** (+0.57% vs Fri's $222.27
+  close — extending deeper into the $220-228 base, toward $228), **QQQ ~$728** (+0.92%, new high). Index
+  futures firm all morning (NQ=F +1.0-1.1%, ES=F +0.65%); BTC **surged to ~$85k (+5%** over the weekend,
+  over ±5% but under ±8%, no owner msg; risk-on tell, no book proxy). Est. book **~$99.9 (~break-even)** if
+  the open holds — fully recovered from the AI-safety drawdown.
+- **Catalyst: broad AI-semis rally.** NVDA/AMD/INTC all rising; no NVDA-specific news, just risk-on momentum
+  continuing after Friday's strong close. Thesis intact, NVDA ~$12 above the $211.41 cost.
+- **PLAN: HOLD both. No trade.** Fully invested, cash $0.17 — HOLD or trim only. NVDA extending into the base
+  on broad strength; no reason to sell into momentum. Far above the $187.81 stop.
+- **Watch today:** **$228** — the next resistance, top of the $220-228 base and the late-Aug breakout level;
+  clearing it would reopen the $228-234 breakout zone. **$220** now support (the reclaimed level); below,
+  **$215/$211** the deeper support. Hard stop **$187.81** (~16% below, the only sell trigger on a hard break
+  on volume). QQQ ~$728 at new highs, leading. BTC ~$85k (risk-on, no proxy). Session infra: tick +
+  closing-bell crons ensured, watcher re-armed.
