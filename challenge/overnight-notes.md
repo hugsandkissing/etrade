@@ -2324,3 +2324,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (~18% below, the only sell trigger on a hard break on volume). QQQ ~$746 near ATH — watch extend vs.
   consolidate. BTC ~$85k (risk-on, no proxy). After six up-days, a down/flat day would be normal. Session
   infra: tick + closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-23 ~21:37 UTC (Wed post-close overnight check) — pullback day digests; risk-off tinge, HOLD
+- **Post-close after the streak-pausing pullback** (NVDA closed $225.51, −1.47% c/c, back at the top of the
+  $220-228 base; QQQ $741.21; book $101.35, +1.3% overall — first day lagging both indexes after six leading
+  ones). **BTC ~$84.5k**, −~2% vs the Tue-eve ~$86.3k note (under ±5%, no owner msg, no book proxy) — the
+  same broad risk-off tinge that pressured stocks.
+- **Index futures soft:** NQ=F **~$30,776** (off ~$31k), ES=F **~$7,773** (off ~$7,830) — carrying the down
+  day into the evening, no bounce yet. Nothing dramatic; a normal give-back after a six-day run.
+- **PLAN unchanged: HOLD both.** Fully invested, cash $0.17. A single down day that held the base is
+  digestion, not a thesis change; stops (NVDA $187.81 / QQQ $629.88) far off. Watch at Thu pre-market
+  whether NVDA **reclaims $228** (re-opens the $228-234 zone) or holds the **$224.17 low / $220 base** vs.
+  follow-through lower. Either is normal. Plan finalizes at the ~9:03am ET pre-market briefing.
