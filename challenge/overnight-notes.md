@@ -2355,3 +2355,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   a hard break on volume). **$228** now overhead resistance (reclaim re-opens $228-234). QQQ ~$735 off its
   ATH. BTC ~$84k (risk-off tinge, no proxy). Watch for a yields-driven bounce vs. more follow-through — both
   normal. Session infra: tick + closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-24 ~21:37 UTC (Thu post-close overnight check) — base held, dip bought; rates the swing factor, HOLD
+- **Post-close after a resilient session** (NVDA tested the $220 shelf at a $221.52 low, held, and bounced to
+  close $224.58 ~flat; QQQ $741.10 flat; book $101.16, +1.2% overall — closed at the day high, +0.8%
+  intraday). **BTC ~$84.4k**, flat vs the Wed-eve ~$84.5k note (under ±5%, no owner msg, no book proxy).
+- **Index futures steady:** NQ=F **~$30,736**, ES=F **~$7,760** — holding the level, no fresh direction into
+  Friday. The two-day rates pullback tested the base and it held both times.
+- **PLAN unchanged: HOLD both.** Fully invested, cash $0.17. The pullback is rates-driven (Treasury yields /
+  rate-hike odds on high-multiple AI names), not an AI-thesis break — mgmt AI-capex guidance intact, stops
+  (NVDA $187.81 / QQQ $629.88) far off. **Swing factor = yields:** a stabilization is the catalyst for the
+  $220-228 base to resolve up toward $228. Watch at Fri pre-market whether NVDA presses back toward $228
+  (reclaim = base-top retest) or re-tests the $220/$221.52 floor. Plan finalizes at the ~9:03am ET briefing.
