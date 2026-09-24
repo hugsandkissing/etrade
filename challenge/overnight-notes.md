@@ -2336,3 +2336,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   digestion, not a thesis change; stops (NVDA $187.81 / QQQ $629.88) far off. Watch at Thu pre-market
   whether NVDA **reclaims $228** (re-opens the $228-234 zone) or holds the **$224.17 low / $220 base** vs.
   follow-through lower. Either is normal. Plan finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-24 13:20 UTC (Thu pre-market briefing) — second down day (rates-driven), HOLD into $220 base
+- **Follow-through lower, macro/rates-driven — not an NVDA break.** Vs Wed's close (NVDA $225.51 / QQQ
+  $741.21): **NVDA ~$222.70 (−1.25%)** — extending into the middle of the $220-228 base toward the $220
+  shelf — **QQQ ~$735.30 (−0.80%)**. Est. book **~$100.4 (~+0.35% overall)**, just above break-even.
+- **Catalyst = Treasury yields / rate-hike odds** pressuring high-multiple AI/growth names (broad risk-off);
+  AI-capex thesis intact (mgmt guiding ~90% FY27 rev / ~70% FY28 sales growth). NVDA lagging SOX peers on
+  positioning, not fundamentals — a valuation/rates gap that closes once yields stabilize. BTC **~$83.8k**
+  (−~1.5% vs the Wed-eve ~$84.5k note; under ±5%, no owner msg, no proxy) — same risk-off tinge. Futures
+  soft (NQ=F ~$30.5k, ES=F ~$7,735).
+- **PLAN: HOLD both. No trade.** Fully invested, cash $0.17 — HOLD or trim only. A second down day driven by
+  rates, not the AI thesis, with NVDA still inside its base ~$35 above the $187.81 stop, is exactly the kind
+  of macro noise the strategy holds through. No gap that changes anything; no reason to sell quality into a
+  rates-driven dip.
+- **Watch today:** **$220** — the reclaimed shelf and base support; holding it keeps the pullback orderly.
+  Below, **$215** (the gap) then **$211** (cost). Hard stop **$187.81** (~16% below, the only sell trigger on
+  a hard break on volume). **$228** now overhead resistance (reclaim re-opens $228-234). QQQ ~$735 off its
+  ATH. BTC ~$84k (risk-off tinge, no proxy). Watch for a yields-driven bounce vs. more follow-through — both
+  normal. Session infra: tick + closing-bell crons ensured, watcher re-armed.
