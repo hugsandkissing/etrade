@@ -2386,3 +2386,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   then **$215** (gap), **$211** (cost). Hard stop **$187.81** (~17% below, the only sell trigger on a hard break
   on real 5m volume); QQQ stop **$629.88**. QQQ ~$744 pressing back toward its ATH ($747.46). Session infra:
   tick + closing-bell crons ensured, watcher re-armed for the session.
+
+## 2026-09-25 ~21:37 UTC (Fri post-close / weekend-open overnight check) — quiet, HOLD into Monday
+- **Week closed green.** Book $101.52 (+1.5% overall) at Fri's official close — NVDA $225.07 (+0.22% c/c,
+  capped mid-base, no $228 reclaim), QQQ $744.50 (+0.46% c/c, near its ATH). Book lagged both indexes
+  (S&P +0.51% / Nasdaq +0.48%) — third relative miss of the week as NVDA underperformed its index under
+  rates pressure. Still green, base held every session, zero trades.
+- **BTC ~$83.7k**, down ~0.8% vs the ~$84.4k Thu-eve baseline (under ±5%, no owner msg, no book proxy).
+- **Index futures steady:** NQ=F **~$30,922**, ES=F **~$7,806** — flat into the weekend, no fresh direction.
+  No breaking news on the held names (NVDA/QQQ); thesis intact.
+- **PLAN unchanged: HOLD both.** Fully invested, cash $0.17. The swing factor into next week remains
+  Treasury yields — a stabilization is the catalyst for NVDA to reclaim $228 (the base top it's failed to
+  reach for 3 sessions) and the book to resume leading; continued rate pressure keeps NVDA ranging $223–226
+  while QQQ carries near its ATH. Stops far (NVDA $187.81 / QQQ $629.88). No equity session Sat/Sun; overnight
+  checks cover BTC/futures; plan re-finalizes at Monday's ~9:03am ET pre-market briefing.
