@@ -2367,3 +2367,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (NVDA $187.81 / QQQ $629.88) far off. **Swing factor = yields:** a stabilization is the catalyst for the
   $220-228 base to resolve up toward $228. Watch at Fri pre-market whether NVDA presses back toward $228
   (reclaim = base-top retest) or re-tests the $220/$221.52 floor. Plan finalizes at the ~9:03am ET briefing.
+
+## 2026-09-25 ~13:23 UTC (Fri pre-market briefing, Day 54) — bounce continuation into the open; HOLD
+- **Pre-market (Yahoo v8 5m, 13:23 UTC):** NVDA **~$225.42** (+0.4% vs Thu's $224.58 close), QQQ **~$743.83**
+  (+0.4% vs Thu's $741.10). Both firming above Thursday's close — the rates-driven pullback bounce that carried
+  NVDA off the $221.52 low into Thu's close appears to be extending. (Some web prints show NVDA choppy ~flat/
+  slightly red; the tape is mixed around unchanged — a firm-ish, not decisive, open.)
+- **BTC ~$84.2k** (Yahoo BTC-USD), flat vs the ~$84.4k Thu-eve note (under ±5%, no owner msg, no book proxy).
+  **Index futures:** NQ=F **~$30,904**, ES=F **~$7,789** — steady, no fresh direction. Yields remain the swing
+  factor; no fresh macro shock overnight.
+- **No dated news on held names.** NVDA fundamentals unchanged and constructive (Q2 FY27 revenue doubled YoY to
+  ~$96B; Strong Buy consensus, ~$328 avg target) — all previously digested. Nothing thesis-changing.
+- **PLAN: HOLD both, no trade.** Fully invested, cash $0.17 — no powder to add, no reason to sell quality that
+  held the $220 base twice and is bouncing. The two-day rates pullback tested the base and it held; a firm open
+  is the base starting to resolve back up.
+- **Watch today:** **$228** — the base top / overhead resistance; reclaiming it (and $228-234) is the recovery's
+  next leg. **$224-225** the near level NVDA is pressing from. **$220 / $221.52** the base-shelf floor below;
+  then **$215** (gap), **$211** (cost). Hard stop **$187.81** (~17% below, the only sell trigger on a hard break
+  on real 5m volume); QQQ stop **$629.88**. QQQ ~$744 pressing back toward its ATH ($747.46). Session infra:
+  tick + closing-bell crons ensured, watcher re-armed for the session.
