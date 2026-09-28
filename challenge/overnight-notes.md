@@ -2400,3 +2400,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   reach for 3 sessions) and the book to resume leading; continued rate pressure keeps NVDA ranging $223–226
   while QQQ carries near its ATH. Stops far (NVDA $187.81 / QQQ $629.88). No equity session Sat/Sun; overnight
   checks cover BTC/futures; plan re-finalizes at Monday's ~9:03am ET pre-market briefing.
+
+## 2026-09-28 ~13:30 UTC (Mon pre-market briefing, Day 55) — NVDA reclaims $228 to the upside; HOLD
+- **Divergent open:** NVDA gapping UP to **~$229.50–230** (+2% vs Fri's $225.07 close), breaking back above the
+  $228 base top and eyeing all-time highs — the bullish resolution of the $220-228 base I've flagged for a week.
+  NVDA-specific strength (per Benzinga, "eyes breaking ATH"; no single catalyst pinned but the surge is real).
+  Meanwhile **QQQ soft ~$740** (−0.6% vs Fri's $744.50) on the risk-off tape — the higher-beta NVDA sleeve is
+  finally the one pulling the blend UP.
+- **Overnight backdrop was mildly risk-off:** BTC dipped to a ~$82.6k low (~−2% from the ~$84.3k Sun-eve base,
+  under ±5%, no owner msg, no book proxy), now ~$83.6k; index futures slid ~−1.2% then recovered to ~−0.7%
+  (NQ=F ~$30,700, ES=F ~$7,774). NVDA cutting against that softness on its own news is the notable tell.
+- **No adverse news on held names** — NVDA fundamentals intact and constructive; the move is a breakout, not a
+  gap-down to manage.
+- **PLAN: HOLD both, no trade.** This is exactly the up-resolution to hold for, not sell into. Fully invested,
+  cash $0.17 — no powder to add, no reason to trim quality breaking out. Let the NVDA reclaim run.
+- **Watch today:** **$228** — reclaimed; it flips back to support, and holding it keeps NVDA in the
+  **$228-234 breakout zone**. **$234** (late-Aug highs) is the next resistance, then the ATH. Below, $228 lost
+  would drop NVDA back into the base (still constructive); base shelf **$220/$221.52**; hard stop **$187.81**
+  (~18% below, only sell trigger on a hard break on real 5m volume). QQQ ~$740 soft — watch whether it firms
+  with NVDA or the risk-off tape keeps it heavy (the day's tension: NVDA breakout vs. soft broad market). QQQ
+  stop $629.88, far off. Session infra: tick + closing-bell crons ensured, watcher re-armed.
