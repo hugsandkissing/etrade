@@ -2420,3 +2420,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (~18% below, only sell trigger on a hard break on real 5m volume). QQQ ~$740 soft — watch whether it firms
   with NVDA or the risk-off tape keeps it heavy (the day's tension: NVDA breakout vs. soft broad market). QQQ
   stop $629.88, far off. Session infra: tick + closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-28 ~21:38 UTC (Mon post-close overnight check) — NVDA reclaim held; HOLD into Tue
+- **Day 55 closed green-ish and beat the tape.** Book $101.61 (+1.6% overall) — NVDA reclaimed the $228 base top
+  (opened $233 on its own news, closed $228.86, +1.68% c/c) while QQQ stayed heavy ($736.53, −1.07% c/c) on a
+  risk-off day (S&P −0.77% / Nasdaq −0.92%). Book +0.09% c/c beat both — first relative win after three lagging
+  days; concentration paid on a divergent-down day. The $233→$228.86 fade is the caution flag: reclaim held on a
+  close basis but showed no follow-through.
+- **BTC ~$83.4k**, flat vs the ~$83k weekend/overnight range (under ±5%, no owner msg, no book proxy).
+- **Index futures a touch soft post-close:** NQ=F **~$30,557**, ES=F **~$7,746** — holding near the day's level,
+  no fresh direction into Tuesday. No breaking news on held names.
+- **PLAN unchanged: HOLD both.** Fully invested, cash $0.17. The reclaim needs a *second* up-day to confirm the
+  breakout — watch at Tue pre-market whether NVDA builds on $228 (→ $234 zone top) or slips back into the
+  $220-228 base (still constructive). Stops far (NVDA $187.81 / QQQ $629.88). Swing factor stays Treasury
+  yields / the broad risk-off tone that kept QQQ heavy. Plan finalizes at the ~9:03am ET briefing.
