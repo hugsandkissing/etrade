@@ -2434,3 +2434,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   breakout — watch at Tue pre-market whether NVDA builds on $228 (→ $234 zone top) or slips back into the
   $220-228 base (still constructive). Stops far (NVDA $187.81 / QQQ $629.88). Swing factor stays Treasury
   yields / the broad risk-off tone that kept QQQ heavy. Plan finalizes at the ~9:03am ET briefing.
+
+## 2026-09-29 ~13:25 UTC (Tue pre-market briefing, Day 56) — reclaim confirms on a $150B buyback; HOLD
+- **The follow-through printed, with a catalyst.** NVDA pre-market **~$229.50–230.37** (+~0.6% vs Mon's $228.86
+  close, +~2% vs Fri) — building on the $228 reclaim, the second up-day I flagged as needed to confirm the
+  breakout. Driver: NVDA authorized a **record $150B increase in share buybacks** (total capacity to $235B),
+  plus early talks with insurers on chip-backed loan structures (AI-financing expansion). A $150B buyback boost
+  is management signaling confidence and putting a floor under the name — thesis-strengthening, not a fade.
+- **QQQ ~$739.76** (+0.44% vs Mon's $736.53) — firming *with* NVDA now, not staying heavy like Monday. The
+  risk-off tape has steadied (Nasdaq futures ~flat/+, ES ~flat).
+- **BTC ~$84.4k** (firmed from the ~$82.9k overnight low, under ±5%, no owner msg, no book proxy). Index
+  futures: NQ=F ~$30,660, ES=F ~$7,757 — recovered toward Mon's close.
+- **PLAN: HOLD both, no trade.** The reclaim is confirming on a concrete bullish catalyst — exactly what to hold
+  for, not sell. Fully invested, cash $0.17 — no powder to add, no reason to trim a name management is
+  aggressively buying back. Let it run toward $234.
+- **Watch today:** **$234** — the top of the $228-234 breakout zone and next resistance; clearing it opens the
+  late-Aug highs / ATH path. **$228** now firmer support (two closes near/above it); losing it drops back into
+  the base (still constructive). Hard stop **$187.81** (~18% below, only sell trigger on a hard break on real
+  5m volume); QQQ stop **$629.88**. QQQ ~$740 firming with NVDA — watch whether it reclaims toward its $747 ATH.
+  Session infra: tick + closing-bell crons ensured, watcher re-armed.
