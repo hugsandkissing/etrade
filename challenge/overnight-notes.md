@@ -2453,3 +2453,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   the base (still constructive). Hard stop **$187.81** (~18% below, only sell trigger on a hard break on real
   5m volume); QQQ stop **$629.88**. QQQ ~$740 firming with NVDA — watch whether it reclaims toward its $747 ATH.
   Session infra: tick + closing-bell crons ensured, watcher re-armed.
+
+## 2026-09-29 ~21:40 UTC (Tue post-close overnight check) — buyback faded; NVDA back in base; HOLD
+- **Day 56 closed slightly red c/c; the $150B buyback got sold.** Book $101.41 (+1.4% overall, −0.20% c/c).
+  NVDA opened up on the record $150B buyback authorization ($230.15, tagged $230.80) then faded all day to
+  close **$227.21 — back below $228 and into the $220–228 base**. Two closes near/above $228 (Mon $228.86)
+  failed to extend; the reclaim is unconfirmed. QQQ the steadier leg, +0.19% c/c to $737.93. Book lagged both
+  indexes by a hair (S&P −0.17%, Nasdaq −0.09%) — the mirror of Monday, NVDA the drag today instead of the lift.
+- **Why the news got sold (worth keeping):** the bullish $150B buyback (management signaling the stock is cheap;
+  a real long-term floor) ran into bearish positioning headlines the same session — a disclosed **Michael Burry
+  short in NVDA** and **~$385M of insider selling** since Q2 earnings. Sentiment/positioning headwinds, not a
+  thesis break — NVDA is a Strong Buy consensus name management is aggressively buying back. No action: no stop
+  near ($187.81), no trade, thesis intact on the multi-week horizon. Noted as color, not an owner-message event.
+- **BTC ~$83.4k**, flat vs the ~$83–84k range (under ±5%, no owner msg, no book proxy). Index futures flat
+  post-close: NQ=F **~$30,653**, ES=F **~$7,738** — no fresh direction into Wednesday. No after-hours move on
+  NVDA/QQQ (both at their closes).
+- **PLAN into Wed: HOLD both.** Fully invested, cash $0.17. Near-term the $228 reclaim must be *re-won*, not
+  assumed — watch whether NVDA holds the $225–228 upper base and re-attacks $228, or slips toward $220/$221.52.
+  Stops far (NVDA $187.81 / QQQ $629.88). Plan finalizes at the ~9:03am ET pre-market briefing.
