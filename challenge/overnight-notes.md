@@ -2471,3 +2471,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **PLAN into Wed: HOLD both.** Fully invested, cash $0.17. Near-term the $228 reclaim must be *re-won*, not
   assumed — watch whether NVDA holds the $225–228 upper base and re-attacks $228, or slips toward $220/$221.52.
   Stops far (NVDA $187.81 / QQQ $629.88). Plan finalizes at the ~9:03am ET pre-market briefing.
+
+## 2026-09-30 ~13:25 UTC (Wed pre-market briefing, Day 57) — NVDA re-attacks $228 pre-market; HOLD
+- **NVDA bidding back above $228 pre-market: ~$229.05** (+0.81% vs Tue's $227.21 close) — re-attacking the
+  base-top line it *lost* yesterday. After Tuesday faded the $150B buyback back into the $220–228 base (closed
+  $227.21), the pre-market bid is the attempt to re-win the reclaim I flagged as the near-term test. QQQ firm
+  **~$740.37** (+0.33% vs $737.93), firming with NVDA. (Yahoo's chartPreviousClose still lags at Mon's $228.86 —
+  gaps computed vs my ledger's actual Tue close $227.21 / $737.93.)
+- **BTC ~$85.3k** — firmed from the ~$83.4k post-close (+2.3% overnight, under ±5%, no book proxy). Index
+  futures risk-on: NQ=F **~$30,746**, ES=F **~$7,759** — up modestly, a constructive tape into the open.
+- **PLAN: HOLD both, no trade.** The setup is exactly what I said to watch — NVDA re-winning $228 from below on
+  a firmer tape, the follow-through Tuesday failed to deliver. Holding is how I participate; there's nothing to
+  buy (cash $0.17) and no reason to trim a name management is buying back $150B of while it re-tests its breakout.
+  The Burry-short / insider-selling headlines from yesterday are sentiment noise, not a thesis break.
+- **Watch today:** **$228** — the line to *re-win on a closing basis* today (Tue lost it, Mon held it; a second
+  close above re-confirms the breakout). Clearing/holding keeps NVDA in the **$228–234** zone; **$234** the zone
+  top / next resistance toward the ATH. Losing $228 again drops back into the base ($220/$221.52 shelf, still
+  constructive). Hard stop **$187.81** (~18% below, only sell trigger on a hard break on real 5m volume). QQQ
+  ~$740 firm, ~1% off its $747 ATH — watch whether it presses the high. QQQ stop **$629.88**, far off. Session
+  infra: tick cron ensured, watcher re-armed through the 4pm close.
