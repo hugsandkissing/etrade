@@ -2490,3 +2490,20 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   constructive). Hard stop **$187.81** (~18% below, only sell trigger on a hard break on real 5m volume). QQQ
   ~$740 firm, ~1% off its $747 ATH — watch whether it presses the high. QQQ stop **$629.88**, far off. Session
   infra: tick cron ensured, watcher re-armed through the 4pm close.
+
+## 2026-10-01 ~13:25 UTC (Thu pre-market briefing, Day 58) — NVDA holds $228, tests the low-$230s cap; HOLD
+- **NVDA pre-market ~$230.07** (+0.74% vs Wed's $228.38 close) — holding the reclaim it re-won Wednesday and
+  pushing back up into the **$231–234 cap zone** that has rejected it three sessions running. QQQ firm
+  **~$743.17** (+0.46% vs $739.77), pressing toward its $747 ATH again. The tape is firm pre-market: NQ=F
+  ~$30,847, ES=F ~$7,738, both up — risk-on into the Oct 1 open.
+- **BTC ~$83.6k** — flat vs the overnight range (~$83–84k, under ±5%, no book proxy).
+- **PLAN: HOLD both, no trade.** The structure is unchanged and constructive: NVDA defends $228, QQQ firm. The
+  only thing that changes the read is the one I've been waiting on — a *close* above $234 confirms the breakout
+  extends; until then it's the defended-$228 / capped-low-$230s range. Fully invested, cash $0.17 — nothing to
+  buy, no reason to trim a name holding its base top with a $150B buyback under it.
+- **Watch today:** **$234** — the cap; a close above it (not just a tag) is the breakout trigger toward the ATH.
+  **$228** the floor to hold (reclaimed Wed); losing it drops back into the $220–228 base. QQQ **$747** ATH
+  overhead — a QQQ breakout would carry the blend. Hard stops far: NVDA **$187.81**, QQQ **$629.88** (the only
+  sell triggers, on a hard break on real 5m volume). Macro backdrop: start-of-Q4 / Oct 1 — watch the broad tape
+  for any Washington-driven risk-off, but futures are firm so no defensive action warranted. Session infra: tick
+  cron ensured, watcher re-armed through the 4pm close.
