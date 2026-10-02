@@ -2507,3 +2507,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   sell triggers, on a hard break on real 5m volume). Macro backdrop: start-of-Q4 / Oct 1 — watch the broad tape
   for any Washington-driven risk-off, but futures are firm so no defensive action warranted. Session infra: tick
   cron ensured, watcher re-armed through the 4pm close.
+
+## 2026-10-02 ~13:25 UTC (Fri pre-market briefing, Day 59) — the breakout: NVDA clears $234, QQQ new ATH; HOLD
+- **NVDA pre-market ~$235.70** (+2.10% vs Thu's $230.86 close) — **breaking ABOVE $234**, the cap that rejected
+  it four straight sessions. This is the breakout trigger I've been waiting on; the base-above-$228 that built
+  Thu is resolving UP through the zone top toward the late-Aug highs / ATH path. QQQ **~$751.85** (+1.32% vs
+  $742.03) — **a new all-time high**, clearing the $747.46 ATH it pressed all week. Both legs breaking out
+  together.
+- **Tape strongly risk-on:** NQ=F ~$31,170, ES=F ~$7,795 — both up big pre-market. BTC ~$86.7k (firmed ~+4%
+  off the post-close ~$83.7k over the two overnights, still under ±5% per note, no book proxy).
+- **PLAN: HOLD both, no trade.** This is exactly what the concentrated HOLD was for — the breakout resolving up
+  on QQQ ATH strength and NVDA clearing $234. No reason to trim into the move I've waited a week for; let it run.
+  Fully invested, cash $0.17 — nothing to buy. At these pre-market levels the book marks ~$104 (~+4%), a new
+  challenge high.
+- **Watch today:** **$234** now flips from cap to support — the breakout confirms if NVDA *holds above it on a
+  close* (the trigger I defined); a fade back under $234 would be a failed breakout (like the Tue $150B-buyback
+  fade), so watch whether it holds. Next resistance the late-Aug highs / prior ATH zone above $235; **$228** the
+  base top well below now. QQQ in blue-sky above $747 — no overhead resistance, watch for follow-through vs a
+  buy-the-ATH fade. Hard stops far: NVDA **$187.81**, QQQ **$629.88**. Session infra: tick cron ensured, watcher
+  re-armed through the 4pm close.
