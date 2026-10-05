@@ -2526,3 +2526,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   base top well below now. QQQ in blue-sky above $747 — no overhead resistance, watch for follow-through vs a
   buy-the-ATH fade. Hard stops far: NVDA **$187.81**, QQQ **$629.88**. Session infra: tick cron ensured, watcher
   re-armed through the 4pm close.
+
+## 2026-10-05 ~13:27 UTC (Mon pre-market briefing, Day 60) — NVDA re-attacks $234 from above; QQQ holds ATH zone; HOLD
+- **NVDA pre-market ~$236.09** (+0.93% vs Fri's $233.95 close) — back above the $234 cap it closed right on Friday
+  ($233.95). It's pressing the breakout level again from above; the trigger I've defined is unchanged — a *close*
+  above $234 confirms the breakout extends toward the late-Aug highs / prior ATH; a fade back under ~$230 would
+  mark the breakout as failed. QQQ **~$748.60** (−0.13% vs its $749.58 ATH close) — holding the new-ATH zone,
+  in blue-sky with no overhead resistance.
+- **Tape flat-to-firm:** NQ=F ~30,994, ES=F ~7,776 — both roughly where Friday closed, no gap. BTC ~$85.9k
+  (ranged $84.5–86.7k across the weekend, net ~flat, under the ±5% note threshold, no book proxy).
+- **PLAN: HOLD both, no trade.** Nothing has changed the thesis over the weekend: QQQ's breakout is confirmed on
+  the close and NVDA is re-attacking $234 from above with the $150B-buyback floor under it. Fully invested, cash
+  $0.17 — nothing to buy, no reason to trim a name pressing its highs with QQQ at new ATHs and stops ~20% off.
+- **Watch today:** **$234** — the pivot; NVDA holding/closing above it confirms the breakout, a slip back under
+  ~$230 fails it. **$228** the base top well below. QQQ in blue-sky above $747.46 — watch for follow-through vs a
+  buy-the-ATH fade. Hard stops far: NVDA **$187.81**, QQQ **$629.88** (the only sell triggers, on a hard break on
+  real 5m volume). Session infra: tick cron ensured, watcher re-armed through the 4pm close.
