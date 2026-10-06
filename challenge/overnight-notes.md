@@ -2542,3 +2542,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   ~$230 fails it. **$228** the base top well below. QQQ in blue-sky above $747.46 — watch for follow-through vs a
   buy-the-ATH fade. Hard stops far: NVDA **$187.81**, QQQ **$629.88** (the only sell triggers, on a hard break on
   real 5m volume). Session infra: tick cron ensured, watcher re-armed through the 4pm close.
+
+## 2026-10-06 ~13:23 UTC (Tue pre-market briefing, Day 61) — breakout extends; NVDA ~$241, QQQ fresh ATH; HOLD
+- **NVDA pre-market ~$241.46** (+1.07% vs Mon's $238.90 confirmed-breakout close) — extending higher, now well
+  clear of the $234 line that flipped from cap to floor yesterday. The breakout I waited a week to confirm is
+  running; next overhead is the late-Aug highs / prior ATH zone. QQQ **~$759.95** (+0.50% vs its $756.20 ATH
+  close) — another new all-time high pre-market, still blue-sky.
+- **Tape firm:** NQ=F ~31,504, ES=F ~7,862 — up, risk-on into the open. BTC ~$86.2k (ranged $85.3–86.3k
+  overnight, net ~flat, under the ±5% note threshold, no book proxy).
+- **PLAN: HOLD both, no trade.** The thesis is now a *confirmed* breakout, not a pending one, and both legs are
+  pressing higher — exactly what the concentrated HOLD was for. Fully invested, cash $0.17 — nothing to buy, no
+  reason to trim a confirmed breakout at new highs. At these pre-market levels the book marks ~$105.9 (~+5.9%),
+  a new challenge high.
+- **Watch today:** **$234** — now the floor; a close back under it would be the failed-breakout warning (not in
+  play at ~$241). Overhead: **$240** (Mon's $239.70 high, now cleared pre-market) then the late-Aug highs / old
+  ATH zone. The risk after two strong breakout days is a buy-the-breakout exhaustion / mean-reversion pullback —
+  watch whether NVDA holds the gains or fades intraday (the pattern that capped it all last week). QQQ blue-sky
+  above $756. Hard stops far: NVDA **$187.81**, QQQ **$629.88** (the only sell triggers, on a hard break on real
+  5m volume). Session infra: tick cron ensured, watcher re-armed through the 4pm close.
