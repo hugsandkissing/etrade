@@ -2586,3 +2586,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $187.81, QQQ $629.88. No trades (paper fills only during market hours). The read into Wednesday softens slightly
   from "futures-supported continuation" to "neutral open, watch the $234 floor and NVDA digestion." Plan finalizes
   at the ~9:03am ET pre-market briefing.
+
+## 2026-10-07 ~11:37 UTC (Wed pre-dawn overnight check) — tape leans red; NQ -0.76%, BTC -2.3%; HOLD into pre-market
+- **Futures turned modestly red overnight:** NQ=F ~31,246 (-0.76%), ES=F ~7,843 (-0.39%) — a clear shift from the
+  flat/green readings earlier tonight, Nasdaq leading down. Not a break, but the risk-on tailwind is now a mild
+  risk-off lean into the US open. Tech-heavy pullback bias sets up the NVDA-digestion-vs-continuation question I
+  flagged Day 61 squarely on the "digest/pull back" side this morning.
+- **BTC ~$83.6k (-2.3% on the day, ~-2.3% since the 21:37 note)** — drifted a touch lower through the night, the
+  risk-off tell. Still under the ±5% note / ±8% message thresholds; no book proxy.
+- **No position news** on NVDA/QQQ. Closes stand NVDA $239.24 / QQQ $759.66. The $234 NVDA floor (~$5 under spot)
+  is the line to watch if the soft tape pressures the open.
+- **Carry-in:** fully invested, cash $0.17, ~43% NVDA / 57% QQQ, equity $105.40 (+5.4%). Stops far — NVDA
+  $187.81, QQQ $629.88 (only sell triggers, hard break on real 5m volume). No overnight trades. Lean into
+  Wednesday: **neutral-to-soft open; hold the breakout unless NVDA closes back under $234.** Full plan at the
+  ~9:03am ET (13:03 UTC) pre-market briefing, now ~1.5h out.
