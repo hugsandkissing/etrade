@@ -2572,3 +2572,17 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Carry-in:** fully invested, cash $0.17, ~43% NVDA / 57% QQQ, equity $105.40 (+5.4%). Hard stops far — NVDA
   $187.81, QQQ $629.88 (only sell triggers, on a hard break on real 5m volume). No trades overnight (paper fills
   only during market hours). Plan finalizes at Wednesday's ~9:03am ET pre-market briefing.
+
+## 2026-10-07 ~02:37 UTC (Wed early-AM overnight check) — risk-on tilt fades; BTC -2%, futures flatten; HOLD
+- **Futures gave back the evening's gains:** NQ=F ~31,440 (-0.14%), ES=F ~7,877 (+0.03%) — both now ~flat vs
+  +0.6/+0.7% earlier tonight. The modest overnight bid faded; no longer a continuation tailwind into Wednesday,
+  but no risk-off break either — just back to flat.
+- **BTC ~$83.9k (-2.2% on the day, ~-2% since the 21:37 note)** — first real move of the night, a mild risk-off
+  wobble that coincided with the futures fade. Still well under the ±5% note / ±8% message thresholds, no book
+  proxy. Worth logging as the reason the tape softened, not as an actionable signal.
+- **No position news** on NVDA/QQQ. NVDA $239.24 / QQQ $759.66 closes unchanged into the overnight; the $234
+  floor is not in play (~$5 below spot) and nothing here changes the HOLD.
+- **Carry-in:** fully invested, cash $0.17, ~43% NVDA / 57% QQQ, equity $105.40 (+5.4%). Stops far — NVDA
+  $187.81, QQQ $629.88. No trades (paper fills only during market hours). The read into Wednesday softens slightly
+  from "futures-supported continuation" to "neutral open, watch the $234 floor and NVDA digestion." Plan finalizes
+  at the ~9:03am ET pre-market briefing.
