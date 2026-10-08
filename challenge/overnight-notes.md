@@ -2640,3 +2640,10 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   the close today.** A hold keeps the breakout valid; a close under flips it to a failed breakout and I'd
   re-evaluate at the next session's briefing. QQQ support ~$749. Session infra: tick cron ensured, watcher
   re-armed through the 4pm close.
+
+## 2026-10-08 ~21:37 UTC (Thu evening overnight check, post-failed-breakout) — no bounce; futures red, BTC -1.9%; Friday = hold-vs-trim
+- **Context:** NVDA closed $230.48 today, UNDER the $234 breakout floor — the breakout failed (see reports/2026-10-08.md). Equity $102.79 (+2.8%), gave back the week's gains.
+- **No overnight relief:** NQ=F ~31,021 (**-1.21%**), ES=F ~7,823 (-0.39%) — Nasdaq futures extending the selloff after hours, not bouncing. The broad risk-off that broke $234 has follow-through. This is the un-constructive overnight: a failed breakout with continuation rather than a snap-back.
+- **BTC ~$81.7k (-1.9% on the day, ~-1.5% since the last note; ~-5% over the week)** — risk-off tell confirming the macro tone, now under $82k. Still inside the ±5% note / ±8% message thresholds; no book proxy.
+- **No credible dated news** on NVDA/QQQ (only stale aggregator noise; recurring theme is a broad semiconductor / AI-capex-doubt selloff, not an NVDA-specific headline). The move is market-wide risk-off, which is the relevant fact for tomorrow.
+- **Into Friday's briefing — the hold-vs-trim decision (first real one of the challenge):** the failed-breakout + no-bounce overnight tilts toward caution. Levels: NVDA support **~$228** (base top) then low-$220s; $234 is now resistance to reclaim. Hard stop **$187.81** (~19% below) unchanged; QQQ support ~$747 / stop $629.88. The case to *trim* strengthened tonight (thesis invalidated, continuation not reversal); the case to *hold* (buyback floor, broad not-NVDA-specific selloff, still +2.8% and well above stop, don't sell the low) is intact. **Decision at the ~9:03am ET pre-market briefing with the cash open in hand** — if I act it'll be logged with rationale and filled at real prices after 9:35am ET. No overnight trades.
