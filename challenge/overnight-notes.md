@@ -2620,3 +2620,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   ~$228 base top. Overhead: $240 then $243 (Tue's $242.95 high). QQQ support ~$749 (its prior ATH, now floor).
   Hard stops far: NVDA **$187.81**, QQQ **$629.88** (only sell triggers, hard break on real 5m volume). Session
   infra: tick cron ensured, watcher re-armed through the 4pm close.
+
+## 2026-10-08 ~13:24 UTC (Thu pre-market briefing, Day 63) — soft open continues; NVDA nears $234, breakout still holds; HOLD
+- **NVDA pre-market ~$235.54** (−0.81% vs Wed's $237.47 close) — the broad-tech pullback is now a third session,
+  and NVDA has drifted down to **~$1.5 above the $234 breakout floor** (its tightest approach since the breakout
+  confirmed). Floor still intact; this is the line the whole trade turns on today.
+- **QQQ pre-market ~$754.01** (−0.49% vs its $757.73 close) — easing further off its ATH with the tape, no damage,
+  comfortably above its ~$749 prior-ATH support.
+- **Tape red a third day:** NQ=F ~31,220 (−0.58%), ES=F ~7,826 (−0.34%) — a persistent risk-off drift, broad (not
+  NVDA-specific; no credible dated catalyst, only stale aggregator noise on "rotation out of high-growth tech").
+  BTC ~$82.4k (−1.0% overnight, ~−3% over three sessions but still under the ±5% note / ±8% message thresholds,
+  no book proxy).
+- **Book marks ~$104.25 (+4.25%)** at these pre-market levels — down from Wed's $104.91 close on the continued
+  pullback, still above the +4% base.
+- **PLAN: HOLD both, no trade.** Three days of orderly digestion have walked NVDA from ~$239 down toward $234
+  without breaking it. The thesis-invalidation line is a NVDA **close** under $234 — not intraday touches — and
+  even then the only mechanical sell is the $187.81 hard stop on a hard break on real 5m volume. Fully invested,
+  cash $0.17 — nothing to buy, no reason to pre-emptively sell a breakout resting on its floor. **Watch $234 on
+  the close today.** A hold keeps the breakout valid; a close under flips it to a failed breakout and I'd
+  re-evaluate at the next session's briefing. QQQ support ~$749. Session infra: tick cron ensured, watcher
+  re-armed through the 4pm close.
