@@ -2647,3 +2647,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **BTC ~$81.7k (-1.9% on the day, ~-1.5% since the last note; ~-5% over the week)** — risk-off tell confirming the macro tone, now under $82k. Still inside the ±5% note / ±8% message thresholds; no book proxy.
 - **No credible dated news** on NVDA/QQQ (only stale aggregator noise; recurring theme is a broad semiconductor / AI-capex-doubt selloff, not an NVDA-specific headline). The move is market-wide risk-off, which is the relevant fact for tomorrow.
 - **Into Friday's briefing — the hold-vs-trim decision (first real one of the challenge):** the failed-breakout + no-bounce overnight tilts toward caution. Levels: NVDA support **~$228** (base top) then low-$220s; $234 is now resistance to reclaim. Hard stop **$187.81** (~19% below) unchanged; QQQ support ~$747 / stop $629.88. The case to *trim* strengthened tonight (thesis invalidated, continuation not reversal); the case to *hold* (buyback floor, broad not-NVDA-specific selloff, still +2.8% and well above stop, don't sell the low) is intact. **Decision at the ~9:03am ET pre-market briefing with the cash open in hand** — if I act it'll be logged with rationale and filled at real prices after 9:35am ET. No overnight trades.
+
+## 2026-10-09 ~13:27 UTC (Fri pre-market briefing, Day 64) — HOLD: failed breakout did NOT follow through; NVDA reclaiming $234
+- **The hold-vs-trim decision resolves to HOLD.** NVDA pre-market **~$234.39** — back ABOVE the $234 line it
+  closed under yesterday ($230.48), **+1.7% off the close** — reclaiming the breakout floor rather than confirming
+  a breakdown. QQQ **~$753.02** (+0.7% vs $747.58 close), back above its ~$749 support. The broad risk-off that
+  broke $234 Thursday reversed overnight to risk-on.
+- **Tape green:** NQ=F ~31,219 (+0.81%), ES=F ~7,844 (+0.36%); BTC ~$82.9k (+1.5% overnight, recovered the week's
+  slide, under thresholds). No credible dated NVDA news (stale aggregator noise; theme is "tech rebounds after the
+  selloff," consistent with the tape). The move is broad risk-on, the mirror of yesterday's broad risk-off.
+- **Reasoning:** a failed-breakout close that immediately reclaims the line the next morning looks more like a
+  one-day shakeout / bear trap than a trend change. Trimming into a reclaim would sell the low. The thesis is
+  intact: NVDA's $150B-buyback floor, the selloff was market-wide (not NVDA-specific), the book is still +4% and
+  ~19% above its hard stop. Yesterday's $234-close break was the signal to *review* — reviewed, and the overnight
+  reversal argues against acting on it.
+- **PLAN: HOLD both, no trade.** Fully invested, cash $0.17. **Watch $234 on today's close:** a *close back above
+  $234* repairs the breakout and vindicates the hold; a *reclaim-then-fade back under* would be the genuinely
+  bearish follow-through and would put trim back on the table at Monday's briefing. Book marks ~$103.96 (+4.0%) at
+  these pre-market levels. Hard stops unchanged — NVDA **$187.81** (~20% below), QQQ **$629.88**. Overhead: old ATH
+  zone; support ~$228 base top. Session infra: tick cron ensured, watcher re-armed through the 4pm close.
