@@ -30293,6 +30293,15 @@
       },
       "equity": 102.85,
       "source": "Day 64 official close (Yahoo v8 interval=1d regularMarketPrice)"
+    },
+    {
+      "ts": "2026-10-09T20:06:53Z",
+      "prices": {
+        "NVDA": 229.28,
+        "QQQ": 751.27
+      },
+      "equity": 102.85,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
