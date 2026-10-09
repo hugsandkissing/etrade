@@ -30176,6 +30176,24 @@
       },
       "equity": 102.96,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-09T18:41:08Z",
+      "prices": {
+        "NVDA": 229.465,
+        "QQQ": 751.05
+      },
+      "equity": 102.87,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-09T18:41:15Z",
+      "prices": {
+        "NVDA": 229.44,
+        "QQQ": 751.03
+      },
+      "equity": 102.87,
+      "source": "watchdog \u2014 re-armed watcher + cron after restart"
     }
   ]
 }
