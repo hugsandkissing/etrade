@@ -30212,6 +30212,24 @@
       },
       "equity": 102.96,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-09T19:27:08Z",
+      "prices": {
+        "NVDA": 229.945,
+        "QQQ": 751.79
+      },
+      "equity": 103.02,
+      "source": "dashboard refresh B \u2014 re-armed stalled watcher"
+    },
+    {
+      "ts": "2026-10-09T19:27:15Z",
+      "prices": {
+        "NVDA": 229.89,
+        "QQQ": 751.7
+      },
+      "equity": 103.0,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
