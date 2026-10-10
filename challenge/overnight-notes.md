@@ -2666,3 +2666,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   bearish follow-through and would put trim back on the table at Monday's briefing. Book marks ~$103.96 (+4.0%) at
   these pre-market levels. Hard stops unchanged — NVDA **$187.81** (~20% below), QQQ **$629.88**. Overhead: old ATH
   zone; support ~$228 base top. Session infra: tick cron ensured, watcher re-armed through the 4pm close.
+
+## 2026-10-10 ~07:38 UTC (Sat weekend check, post-Fri-close) — reclaim FADED: NVDA closed $229.28 under $234; Monday reopens trim-vs-hold
+- **Friday's reclaim did NOT hold into the close.** NVDA pre-market reclaimed ~$234.39 but **closed $229.28**
+  (−0.5% on the day, and *under* the $234 breakout floor it was trying to repair). This is the "reclaim-then-fade
+  back under" scenario Friday's note named as the genuinely bearish follow-through — so per the book's own plan it
+  **puts trim back on the table at Monday's pre-market briefing.** Not a sell tonight (weekend, no catalyst, still
+  ~22% above the $187.81 hard stop and the book remains green), but the decision is live again Monday.
+- **Tape was NOT a selloff — aggregator claim debunked.** A web result alleged "Nasdaq −4.1% Friday"; primary data
+  says the opposite: Nasdaq Composite **27,366 (+0.6%)**, QQQ **$751.27 (+0.5%, above ~$749 support)**. Friday was
+  a mildly green broad tape; NVDA's slip was idiosyncratic/flat, not a market rout. No credible dated NVDA news.
+- **BTC ~$82,662** (Sat) — flat, ~−0.3% since the ~$82.9k Fri-pre-market note; ES=F/NQ=F closed (weekend). Well
+  inside the ±5% note / ±8% message thresholds. (Trigger names SOFI/MARA/RIG as a BTC proxy, but the live book is
+  NVDA + QQQ — no such positions held; nothing to proxy.)
+- **PLAN: HOLD into the weekend, no trade.** Fully invested, cash $0.17. **Monday's briefing is the real decision
+  point:** NVDA closed a second session under $234 (Thu $230.48, Fri $229.28), so the failed-breakout read now has
+  close-based confirmation rather than a one-day shakeout. Weigh trim vs hold Monday with the cash open in hand —
+  levels: support ~$228 (base top) then low-$220s; $234 = resistance to reclaim; hard stops unchanged (NVDA
+  $187.81, QQQ $629.88). No overnight/weekend trades — paper fills only during market hours.
