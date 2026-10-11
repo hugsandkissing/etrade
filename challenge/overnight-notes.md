@@ -2684,3 +2684,14 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   close-based confirmation rather than a one-day shakeout. Weigh trim vs hold Monday with the cash open in hand —
   levels: support ~$228 (base top) then low-$220s; $234 = resistance to reclaim; hard stops unchanged (NVDA
   $187.81, QQQ $629.88). No overnight/weekend trades — paper fills only during market hours.
+
+## 2026-10-11 ~22:37 UTC (Sun night, futures reopen) — mildly green into Monday; BTC steady; trim decision still live
+- **Sunday-night futures opened slightly positive:** NQ=F ~31,190 (**+0.26%** vs Fri close), ES=F ~7,870 (**+0.13%**) —
+  a quiet, modestly risk-on reopen, no weekend gap. Mildly supportive for the book into Monday, nothing decisive.
+- **BTC ~$83,590** (+0.82% since Fri's ~$82.9k note; held $82.5–83.6k all weekend) — no move of note, well inside
+  the ±5%/±8% thresholds; no book proxy.
+- **No weekend catalyst** on NVDA/QQQ (searches only stale aggregator noise). The setup is unchanged from Fri's
+  close: NVDA closed $229.28, a **second close under $234** — the failed-breakout read stands.
+- **Monday's ~9:03am ET briefing is the decision point (unchanged):** trim-vs-hold on the ~42% NVDA leg after two
+  closes under $234 and four straight relative-drag days, vs. hold (buyback floor, still +2.9%, ~18% above the
+  $187.81 stop). Decide with Monday's cash open in hand; QQQ stop $629.88. No trades over the weekend.
