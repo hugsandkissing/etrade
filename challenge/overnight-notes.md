@@ -2736,3 +2736,12 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   green open doesn't repair it (only a close back above $234 repairs the breakout). Execute the trim regardless,
   unless NVDA is up huge (>$234) at the open, in which case re-evaluate.
 - Book marks **$101.88 (+1.9%)** at the close. No overnight trades; the trim fills Tuesday during market hours.
+
+## 2026-10-12 ~21:38 UTC (Mon evening overnight check) — soft futures; trim-at-open plan unchanged
+- **Tape soft after the close:** NQ=F ~30,878 (**-0.74%**), ES=F ~7,857 (-0.03%) — Nasdaq futures a touch heavy,
+  consistent with the continued tech/NVDA leak that closed NVDA under $228. BTC **~$82,817 (-1.0%)**, inside the
+  ±5%/±8% thresholds; no book proxy. No credible dated NVDA/QQQ catalyst (broad sentiment, not a headline).
+- **Trim-at-open plan stands (Day 66, Tue):** sell **0.063 of 0.189 NVDA (~1/3)** at the real open after 9:35am ET
+  per the close-confirmed $228 break. Soft futures mean NVDA may open lower — the trim executes regardless (the
+  *close* under $228 is the trigger; only a gap back above $234 would stand it down). Proceeds to cash.
+- No overnight trades; the trim is the single planned action, at Tuesday's open. Book closed $101.88 (+1.9%).
