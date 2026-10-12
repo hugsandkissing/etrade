@@ -30455,6 +30455,24 @@
       },
       "equity": 101.82,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-12T16:14:14Z",
+      "prices": {
+        "NVDA": 226.765,
+        "QQQ": 747.47
+      },
+      "equity": 102.08,
+      "source": "dashboard refresh A \u2014 NVDA recovering toward $228"
+    },
+    {
+      "ts": "2026-10-12T16:14:25Z",
+      "prices": {
+        "NVDA": 226.71,
+        "QQQ": 747.44
+      },
+      "equity": 102.07,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
