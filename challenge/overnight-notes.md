@@ -2695,3 +2695,26 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Monday's ~9:03am ET briefing is the decision point (unchanged):** trim-vs-hold on the ~42% NVDA leg after two
   closes under $234 and four straight relative-drag days, vs. hold (buyback floor, still +2.9%, ~18% above the
   $187.81 stop). Decide with Monday's cash open in hand; QQQ stop $629.88. No trades over the weekend.
+
+## 2026-10-12 ~13:40 UTC (Mon pre-market briefing, Day 65) — HOLD, no trade; trim trigger hardened to a $228 close
+- **Live at the open (~9:40am ET):** NVDA **$228.16** (−0.49% vs Fri $229.28) — opened under Friday's close and is
+  sitting right on the **~$228 base-top support**, a third session under $234. QQQ **$749.29** (−0.26%), back on its
+  ~$749 prior-ATH support. Broad tape flat-to-green: S&P +0.11%, Nasdaq +0.02%, NQ=F −0.28%. BTC $82,620 (−1.3%
+  overnight, inside thresholds). Book marks **$102.49 (+2.5%)**.
+- **The trim-vs-hold decision resolves to HOLD today — but with a hardened trigger.** The case to trim is real and
+  unchanged (3 closes under $234, NVDA decoupling *down* from a flat/green market a fifth straight session, ~42%
+  single-name concentration is the documented drag). The case to hold won today on two grounds: (1) NVDA is *on*
+  the $228 support, not through it — trimming into a support test on a flat-market morning sells weakness at the
+  worst spot; (2) the damage is relative, not absolute — book still +2.5%, ~18% above the $187.81 hard stop, and
+  NVDA's $150B buyback is a structural floor. Selling a core position here would be over-trading a book that is
+  still green with no risk emergency.
+- **What changes: the open-ended "trim on the table" becomes a concrete mechanical line.** From today:
+  - **A daily CLOSE below $228** (the base top) = the downtrend has extended toward the low-$220s and the hold
+    thesis is spent → **trim ~1/3 of the NVDA leg at the next open** (cut concentration from ~42% toward ~30%),
+    redeploy to QQQ or hold as dry powder. Logged with rationale and filled at real prices.
+  - **A close back above $234** = breakout repaired, relative-drag thesis void → hold full size.
+  - Between $228 and $234 = continue HOLD, no action.
+  - Hard stops unchanged: NVDA **$187.81**, QQQ **$629.88** (the only *mechanical* sells on a hard break).
+- **PLAN: HOLD both, no trade today.** Watch the **$228 close** — that is now the decision line, not a vague
+  "revisit." Fully invested, cash $0.17. Session infra: venv rebuilt (restart had wiped it), tick cron ensured,
+  watcher re-armed through the 4pm close.
