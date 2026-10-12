@@ -30311,6 +30311,15 @@
       },
       "equity": 102.49,
       "source": "Mon Day 65 pre-market briefing \u2014 live open"
+    },
+    {
+      "ts": "2026-10-12T13:42:21Z",
+      "prices": {
+        "NVDA": 227.65,
+        "QQQ": 748.45
+      },
+      "equity": 102.32,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
