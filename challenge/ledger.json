@@ -30698,6 +30698,15 @@
       },
       "equity": 101.97,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-12T20:13:40Z",
+      "prices": {
+        "NVDA": 226.32,
+        "QQQ": 746.04
+      },
+      "equity": 101.88,
+      "source": "Day 65 OFFICIAL CLOSE \u2014 NVDA $226.32 CLOSED UNDER $228, trim trigger fired for Tue open"
     }
   ]
 }

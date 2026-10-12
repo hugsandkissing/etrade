@@ -2718,3 +2718,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **PLAN: HOLD both, no trade today.** Watch the **$228 close** — that is now the decision line, not a vague
   "revisit." Fully invested, cash $0.17. Session infra: venv rebuilt (restart had wiped it), tick cron ensured,
   watcher re-armed through the 4pm close.
+
+## 2026-10-12 ~20:13 UTC (Mon CLOSE, Day 65) — TRIM TRIGGER FIRED: NVDA closed $226.32 under $228 → trim ~1/3 at Tue open
+- **Official close: NVDA $226.32, QQQ $746.04.** NVDA closed **below the $228 base top** — the exact condition the
+  Oct 12 pre-market briefing pre-committed as the trim trigger (a *daily close* under $228). Third straight close
+  under $234 and now the first close under $228 support. The hold thesis that said "it's on support, don't sell the
+  low" is spent — $228 gave way on the close.
+- **ACTION FOR TUESDAY'S OPEN (Day 66): trim ~1/3 of the NVDA leg — sell 0.063 of 0.189 NVDA shares** at the real
+  opening price after 9:35am ET, cutting single-name concentration from ~42% toward ~28-30%. Proceeds to cash (dry
+  powder) unless QQQ setup argues otherwise at the open. This is the first discretionary trade of the challenge and
+  executes the pre-committed, logged rule — not a fresh decision.
+- **Rationale:** NVDA has now (a) failed the $234 breakout on three closes, (b) lost the $228 base top on the close,
+  (c) decoupled *down* from a flat/green market ~5 sessions running. Concentration that paid on the way up is a
+  one-way drag; trimming into the close-confirmed breakdown cuts risk while keeping majority exposure to the $150B
+  buyback-floor thesis. Remaining NVDA keeps the hard stop $187.81; QQQ untouched (stop $629.88).
+- **If NVDA gaps back above $228 at Tuesday's open:** still trim — the *close* under $228 is the trigger and a single
+  green open doesn't repair it (only a close back above $234 repairs the breakout). Execute the trim regardless,
+  unless NVDA is up huge (>$234) at the open, in which case re-evaluate.
+- Book marks **$101.88 (+1.9%)** at the close. No overnight trades; the trim fills Tuesday during market hours.
