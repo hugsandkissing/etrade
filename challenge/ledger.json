@@ -30725,6 +30725,15 @@
       },
       "equity": 100.99,
       "source": "Tue Day 66 open \u2014 post-trim mark"
+    },
+    {
+      "ts": "2026-10-13T13:32:41Z",
+      "prices": {
+        "NVDA": 223.62,
+        "QQQ": 739.32
+      },
+      "equity": 100.88,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
