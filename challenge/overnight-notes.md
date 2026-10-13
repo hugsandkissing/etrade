@@ -2763,3 +2763,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **$629.88**, support ~$747 (now testing it — watch a QQQ close under ~$745). NVDA: $228 is resistance to reclaim,
   low-$220s the next support; a close back above $234 would argue to rebuild. Cash held as powder — no rush to
   redeploy; next add only on a clear setup. Session infra: venv ok, tick cron ensured, watcher re-armed to the close.
+
+## 2026-10-13 ~21:38 UTC (Tue evening overnight check) — soft tech futures into the QQQ caution flag
+- **BTC ~$83,344 (+1.9% on the day)** — inside the ±5%/±8% thresholds, roughly flat vs this morning's ~$83.3k; no
+  book proxy, no action.
+- **Index futures mildly soft:** NQ=F ~30,782 (**−0.38%**), ES=F ~7,855 (−0.03%) — Nasdaq futures a touch heavy
+  after the close, the same tech-leaning softness that left **QQQ closing $743.57, under the ~$745 caution line**
+  today. Nothing severe, but it keeps the QQQ-leg watch live into Wednesday.
+- No dated NVDA/QQQ catalyst (broad semis/AI-capex sentiment, not a headline). No overnight trades.
+- **Plan into Wed (Day 67) unchanged: HOLD the post-trim mix** (0.126 NVDA / 0.079 QQQ / ~$14.30 cash, equity
+  $101.83). Watch at the open: **QQQ** — a second close under ~$745 (or slip under ~$740) turns the caution flag
+  into a real concern; a reclaim of $747 clears it. **NVDA** reclaimed $228 on today's close ($228.52) but a *close
+  above $234* is still the only signal to rebuild the trimmed third. Hard stops NVDA $187.81 / QQQ $629.88.
