@@ -2745,3 +2745,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   per the close-confirmed $228 break. Soft futures mean NVDA may open lower — the trim executes regardless (the
   *close* under $228 is the trigger; only a gap back above $234 would stand it down). Proceeds to cash.
 - No overnight trades; the trim is the single planned action, at Tuesday's open. Book closed $101.88 (+1.9%).
+
+## 2026-10-13 ~13:32 UTC (Tue pre-market briefing + TRIM EXECUTED, Day 66) — sold 0.063 NVDA @ $224.24
+- **TRADE EXECUTED (first discretionary trade of the challenge):** SELL **0.063 NVDA @ $224.24** at the open,
+  executing the pre-committed $228-close trim trigger from Oct 12. Cash $0.17 → **$14.30**. NVDA leg 0.189 → **0.126
+  shares**. New structure: **NVDA ~28% / QQQ ~58% / cash ~14%**, equity **$100.99 (+1.0%)**. Source: Yahoo v8 live
+  open. Logged with rationale in the ledger (trade #21).
+- **Open tape:** NVDA opened **$224.24** (gapped lower from Mon's $226.32 close — well under $228, confirming the
+  break, so the trim was right to fire; no $234 gap-up exception). QQQ **$739.79** (−0.8%). Nasdaq −0.31%, S&P −0.07%
+  — broad tape mildly soft, NVDA again the bigger faller. BTC ~$83.3k overnight (within thresholds). No dated NVDA
+  catalyst — still broad semis/AI-capex sentiment.
+- **Rationale recap:** three closes under $234, a close under the $228 base top, five straight relative-drag days —
+  concentration in a single name in a short-term downtrend is the documented drag, so cutting ~1/3 reduces risk
+  while keeping majority exposure to NVDA's $150B-buyback-floor thesis. The ~$14 cash is the first real dry powder
+  of the post-buyback phase.
+- **PLAN from here: HOLD the new mix.** Remaining 0.126 NVDA keeps the **$187.81** hard stop; QQQ (0.079) stop
+  **$629.88**, support ~$747 (now testing it — watch a QQQ close under ~$745). NVDA: $228 is resistance to reclaim,
+  low-$220s the next support; a close back above $234 would argue to rebuild. Cash held as powder — no rush to
+  redeploy; next add only on a clear setup. Session infra: venv ok, tick cron ensured, watcher re-armed to the close.

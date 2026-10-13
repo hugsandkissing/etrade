@@ -2,10 +2,10 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 0.1702899999999996,
+  "cash": 14.297410000000001,
   "positions": {
     "NVDA": {
-      "qty": 0.189,
+      "qty": 0.126,
       "avg_cost": 211.40857142857143
     },
     "QQQ": {
@@ -203,6 +203,15 @@
       "price": 220.14,
       "source": "Yahoo v8 2026-08-31 14:32 UTC",
       "note": "Reserve deploy: based higher-low that holds in the $215-218 gap-fill shelf \u2014 NVDA put in the $216.78 morning low, pulled back to a $219.55 higher-low that held, turned up and reclaimed $220 (held 14:25-14:30) on relative strength vs a soft QQQ. Confirmed rising higher-low, not a flat tape/pop. Last $10 deployed."
+    },
+    {
+      "ts": "2026-10-13T13:31:41Z",
+      "action": "SELL",
+      "symbol": "NVDA",
+      "qty": 0.063,
+      "price": 224.24,
+      "source": "Yahoo v8 live open 2026-10-13 ~13:32 UTC",
+      "note": "Pre-committed trim trigger: NVDA closed $226.32 under $228 base top on Oct 12 (3rd close under $234, 5 relative-drag days). Trimming ~1/3 of the 0.189 NVDA leg to cut single-name concentration ~42%->~30%; proceeds to cash dry powder. Remaining NVDA keeps $187.81 hard stop."
     }
   ],
   "marks": [
@@ -30707,6 +30716,15 @@
       },
       "equity": 101.88,
       "source": "Day 65 OFFICIAL CLOSE \u2014 NVDA $226.32 CLOSED UNDER $228, trim trigger fired for Tue open"
+    },
+    {
+      "ts": "2026-10-13T13:31:52Z",
+      "prices": {
+        "NVDA": 224.235,
+        "QQQ": 739.79
+      },
+      "equity": 100.99,
+      "source": "Tue Day 66 open \u2014 post-trim mark"
     }
   ]
 }
