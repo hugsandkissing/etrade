@@ -2775,3 +2775,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $101.83). Watch at the open: **QQQ** — a second close under ~$745 (or slip under ~$740) turns the caution flag
   into a real concern; a reclaim of $747 clears it. **NVDA** reclaimed $228 on today's close ($228.52) but a *close
   above $234* is still the only signal to rebuild the trimmed third. Hard stops NVDA $187.81 / QQQ $629.88.
+
+## 2026-10-14 ~13:22 UTC (Wed pre-market briefing, Day 67) — HOLD; QQQ caution flag deepening, no trade
+- **Pre-market (thin prints ~13:23Z):** NVDA **~$225.99 (−1.1%** vs Tue close $228.52) — slips back under the $228
+  base top it reclaimed yesterday; QQQ **~$738.10 (−0.7%)** — under ~$740, deepening the caution flag I raised at
+  Tue's close ($743.57, under ~$745). Index futures soft: NQ=F **−0.69%**, ES=F −0.37% — broad tech-led softness,
+  the same mechanic, not an NVDA/QQQ headline. BTC **~$82,409 (−0.8%)**, inside ±5%/±8% thresholds.
+- **Book at pre-market marks ≈ $101.1 (+1.1%)**, far above the $80 floor and the hard stops (NVDA $187.81 / QQQ
+  $629.88). No risk emergency; the softness is a give-back of yesterday's bounce, not a breakdown.
+- **PLAN: HOLD the post-trim mix — no trade.** 0.126 NVDA / 0.079 QQQ / ~$14.30 cash. Rationale: the trim already
+  cut single-name risk; cash is dry powder held for a *clean* setup, not for catching a soft open. Nothing triggers
+  a buy or a sell here.
+  - **NVDA:** back under $228 pre-market just unwinds Tue's reclaim; the rebuild signal is unchanged — only a **close
+    above $234** argues to put the trimmed third back on. Low-$220s ($223.62 Tue low) the support shelf.
+  - **QQQ — the watch item:** this is the leg flashing caution. A cash **close under ~$745 again (or a decisive
+    break of ~$740)** confirms the larger leg is rolling over and would put a QQQ trim on the table for a later
+    session; a reclaim of $747 clears it. Watching the open, not acting on the pre-market tick.
+- **No trade today unless a hard stop breaks on real 5m volume.** Session infra: ensure tick cron + re-arm watcher
+  to the 4pm close.
