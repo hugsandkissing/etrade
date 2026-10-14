@@ -2793,3 +2793,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
     session; a reclaim of $747 clears it. Watching the open, not acting on the pre-market tick.
 - **No trade today unless a hard stop breaks on real 5m volume.** Session infra: ensure tick cron + re-arm watcher
   to the 4pm close.
+
+## 2026-10-14 ~21:37 UTC (Wed evening overnight check) — tech stays heavy; QQQ trim trigger live into Thu open
+- **Index futures soft after a down day:** NQ=F ~30,139 (**−2.1%**), ES=F ~7,765 (−1.2%) — tech remains the weak
+  leg overnight, no bounce yet off today's broad sell-off. BTC **~$81,848 (−1.5%)**, inside ±5%/±8% thresholds
+  (~−1.8% vs the last note's ~$83.3k); no book proxy, no action.
+- **Context:** Day 67 closed book $99.77 (−0.2% overall, first close underwater). QQQ closed **$728.97** — 2nd
+  straight close under ~$745 and a break of ~$740 → the caution flag is confirmed. The soft overnight tape raises
+  the odds the pre-committed **QQQ trim trigger** fires at Thursday's open.
+- **Plan into Thu (Day 68), pre-committed in the Day 67 report & today's briefing:**
+  - **QQQ reclaims ~$745** at/after the open → caution clears, hold full size.
+  - **QQQ stays under ~$740** (or a 3rd close under $745) → **trim ~1/3 of the QQQ leg** at the real open after
+    9:35am ET, raising cash and cutting the ~86% tech concentration, mirroring the Oct 13 NVDA trim. Logged with
+    rationale, real-price fill.
+  - **NVDA:** hold; rebuild only on a close >$234 (far off). Hard stops NVDA $187.81 / QQQ $629.88, both far below.
+- No overnight trades (paper fills only in market hours). Thursday's pre-market briefing makes the live call.
