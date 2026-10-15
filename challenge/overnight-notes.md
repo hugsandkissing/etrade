@@ -2808,3 +2808,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
     rationale, real-price fill.
   - **NVDA:** hold; rebuild only on a close >$234 (far off). Hard stops NVDA $187.81 / QQQ $629.88, both far below.
 - No overnight trades (paper fills only in market hours). Thursday's pre-market briefing makes the live call.
+
+## 2026-10-15 ~13:20 UTC (Thu pre-market briefing, Day 68) — QQQ TRIM TRIGGER CONFIRMED; trim ~1/3 QQQ at open
+- **Pre-market (thin ~13:20Z):** QQQ **~$719.80** (−1.3% vs Wed close $728.97) — **decisively under ~$740**, the
+  pre-committed trim line; NVDA **~$216.70** (−2.1% vs $221.30), still ~16% above the $187.81 hard stop. Index
+  futures soft: NQ=F **−1.3%**, ES=F −0.35%. BTC **~$80,315 (−1.5%)**, inside ±5%/±8% thresholds.
+- **DECISION — execute the pre-committed QQQ trim at the open (first discretionary trade since the Oct 13 NVDA trim).**
+  QQQ has now: lost the ~$747 ATH support, two closes under ~$745, a break of ~$740, and gaps lower again today. The
+  caution flag I set Wed is confirmed, so the rule fires: **trim ~1/3 of the 0.079 QQQ leg → sell ~0.026 QQQ** at the
+  real opening price after 9:35am ET. Proceeds to cash (dry powder), cutting the book's ~86% tech concentration and
+  raising the cash cushion into a confirmed broad-tech downtrend while the book is ~breakeven. Logged with rationale;
+  real-price fill.
+- **Rationale:** mirrors the Oct 13 NVDA trim — when a leg's structure breaks on confirmed closes, cut concentration
+  rather than ride it down hoping for a bounce. QQQ is the larger leg (~58%); trimming ~1/3 takes tech exposure from
+  ~86% toward ~70% and lifts cash from ~14% to ~34%. The remaining QQQ (0.053) keeps the $629.88 hard stop. This is
+  disciplined risk reduction, not a market-timing call — the dry powder redeploys when the tape stabilizes.
+- **NVDA: HOLD.** Down with the tape but far above its stop; rebuild only on a close >$234 (far off). No NVDA action.
+- **Exception:** only if QQQ gaps back **above ~$745** at the open does the trim stand down (breakdown repaired) —
+  pre-market ~$720 makes that very unlikely, so the trim fires.
+- Session infra: ensure venv, tick cron, re-arm watcher to the close. Trade executes ~13:35 UTC at the real open.
