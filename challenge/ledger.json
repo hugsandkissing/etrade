@@ -2,14 +2,14 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 14.297410000000001,
+  "cash": 32.95631,
   "positions": {
     "NVDA": {
       "qty": 0.126,
       "avg_cost": 211.40857142857143
     },
     "QQQ": {
-      "qty": 0.079,
+      "qty": 0.053,
       "avg_cost": 699.596582278481
     }
   },
@@ -212,6 +212,15 @@
       "price": 224.24,
       "source": "Yahoo v8 live open 2026-10-13 ~13:32 UTC",
       "note": "Pre-committed trim trigger: NVDA closed $226.32 under $228 base top on Oct 12 (3rd close under $234, 5 relative-drag days). Trimming ~1/3 of the 0.189 NVDA leg to cut single-name concentration ~42%->~30%; proceeds to cash dry powder. Remaining NVDA keeps $187.81 hard stop."
+    },
+    {
+      "ts": "2026-10-15T13:32:28Z",
+      "action": "SELL",
+      "symbol": "QQQ",
+      "qty": 0.026,
+      "price": 717.65,
+      "source": "Yahoo v8 live open 2026-10-15 ~13:32 UTC",
+      "note": "Pre-committed QQQ trim trigger (Day 67 report + Oct 15 briefing): QQQ closed 728.97 Wed \u2014 2nd close under ~745 and a break of ~740 \u2014 and gapped to ~717.65 at the Thu open, confirming the breakdown. Trimming ~1/3 of the 0.079 QQQ leg to cut the book's ~86% tech concentration toward ~70% and raise cash from ~14% to ~34% as dry powder in a confirmed broad-tech downtrend. Mirrors the Oct 13 NVDA trim rule. Remaining 0.053 QQQ keeps the 629.88 hard stop."
     }
   ],
   "marks": [
@@ -31706,6 +31715,24 @@
       },
       "equity": 99.77,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-15T13:32:10Z",
+      "prices": {
+        "NVDA": 213.9,
+        "QQQ": 717.83
+      },
+      "equity": 97.96,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-15T13:32:32Z",
+      "prices": {
+        "NVDA": 213.58,
+        "QQQ": 717.65
+      },
+      "equity": 97.9,
+      "source": ""
     }
   ]
 }
