@@ -2827,3 +2827,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Exception:** only if QQQ gaps back **above ~$745** at the open does the trim stand down (breakdown repaired) —
   pre-market ~$720 makes that very unlikely, so the trim fires.
 - Session infra: ensure venv, tick cron, re-arm watcher to the close. Trade executes ~13:35 UTC at the real open.
+
+## 2026-10-15 ~21:37 UTC (Thu evening overnight check) — quiet tape; BTC firmer, futures flat
+- **BTC ~$82,218 (+0.79% on day; ~+2.4% vs last note's ~$80,315)** — firmer but well inside the ±5%/±8%
+  thresholds; no book proxy (we hold NVDA/QQQ, not a crypto name), so informational only.
+- **Index futures flat/mixed overnight:** NQ=F ~30,078 (**−0.35%**), ES=F ~7,786 (**+0.20%**) — no follow-through
+  either way after Day 68's green-ish tape (S&P +0.33%, Nasdaq +0.08%). The broad-tech selloff paused today and
+  the overnight tape confirms the pause rather than a resumption or a bounce.
+- **No breaking news on held names (NVDA/QQQ):** no dated NVDA catalyst; moves stay broad semis/AI-capex sentiment.
+- **Context:** Day 68 closed book $98.91 (−1.1% overall), NVDA $217.23 / QQQ $728.00, cash ~$33 (~34%) after the
+  QQQ trim. Both legs far above hard stops ($187.81 / $629.88).
+- **Into Friday (Day 69):** HOLD; cash is dry powder. Signal-driven redeploy triggers unchanged — QQQ reclaim of
+  ~$745 clears the caution (consider undoing the trim); QQQ break of ~$726/$720 confirms the breakdown (hold cash);
+  NVDA close >$234 rebuilds (far off). No overnight trades — paper fills only in market hours.
