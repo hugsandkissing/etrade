@@ -2840,3 +2840,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Into Friday (Day 69):** HOLD; cash is dry powder. Signal-driven redeploy triggers unchanged — QQQ reclaim of
   ~$745 clears the caution (consider undoing the trim); QQQ break of ~$726/$720 confirms the breakdown (hold cash);
   NVDA close >$234 rebuilds (far off). No overnight trades — paper fills only in market hours.
+
+## 2026-10-16 ~13:06 UTC (Fri pre-market briefing, Day 69) — HOLD; QQQ sits on the $726 shelf, no trigger
+- **Pre-market (vs Thu close NVDA $217.23 / QQQ $728.00):** NVDA **~$216.20 (−0.5%)**, soft and far below the
+  $234 rebuild line, ~15% above the $187.81 stop. QQQ **~$726.21 (−0.25%)** — parked right on Wednesday's
+  **$726 shelf**, still under $740 (caution unresolved), nowhere near the $745 reclaim. BTC **~$81,913 (flat)**,
+  index futures quiet/mixed (NQ=F −0.25%, ES=F +0.13%).
+- **DECISION — HOLD, no trade.** None of the signal-driven triggers fire:
+  - QQQ has **not reclaimed ~$745** → no redeploy of the cash (the trim stays on).
+  - QQQ has **not broken decisively below ~$720** → no new concern; it's balanced on the $726 low, neither
+    resuming the breakdown nor repairing it. And there is no mechanical sell here anyway — the only auto-exits are
+    the hard stops ($187.81 / $629.88), both far below.
+  - NVDA is **far from the $234** rebuild line → no rebuild.
+- **Posture:** deliberately defensive after Thursday's QQQ trim — ~66% tech (28% NVDA / 39% QQQ), ~33% cash as dry
+  powder. The cash waits for a market-hours signal: a QQQ reclaim of $745 (redeploy) or a clean break under $720
+  (stay in cash, trim validated). Today is a wait-and-watch session; most likely a flat-to-soft open that resolves
+  the $726 shelf one way or the other.
+- **Levels:** NVDA support low-$210s, resistance $228 then $234; stop $187.81. QQQ support $726/$717, overhead
+  $740 then $745; stop $629.88.
+- No overnight/pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron,
+  re-arm watcher to the 4pm close.
