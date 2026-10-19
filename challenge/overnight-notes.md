@@ -2860,3 +2860,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $740 then $745; stop $629.88.
 - No overnight/pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron,
   re-arm watcher to the 4pm close.
+
+## 2026-10-19 ~13:04 UTC (Mon pre-market briefing, Day 72) — HOLD; relief bounce, but QQQ still shy of triggers
+- **Pre-market (vs Fri close NVDA $214.13 / QQQ $709.80):** NVDA **~$218.19 (+1.9%)**, bouncing but far below the
+  $234 rebuild line; QQQ **~$719.12 (+1.3%)**, recovering back toward the **$720** line it broke Friday — but well
+  short of the ~$745 reclaim that would clear the caution. BTC **~$82,650 (flat)**; index futures green overnight
+  (NQ=F +1.3%, ES=F +0.5%) — a relief bounce after Friday's broad-tech selloff.
+- **DECISION — HOLD, no trade.** None of the signal-driven triggers fire:
+  - QQQ has **not reclaimed ~$745** → no redeploy of the cash (the trim stays on). It's only back to ~$719, still
+    under $720; a bounce, not a structural repair.
+  - NVDA is **far from $234** → no rebuild.
+  - No hard-stop risk (NVDA $187.81 / QQQ $629.88 both far below).
+- **Posture:** defensive mix unchanged — ~66% tech (28% NVDA / 39% QQQ), ~34% cash as dry powder. Friday's trim is
+  validated (QQQ fell to $709.80); today's bounce is the first test of whether it's a real turn or a dead-cat. The
+  cash waits for confirmation: a QQQ **reclaim and hold above ~$745** (cash close) redeploys; a **fail back under
+  ~$709/$700** says the breakdown resumes and the cash stays put.
+- **Watch today:** whether QQQ can clear and hold **$720**, then press toward **$740/$745**; NVDA whether it holds
+  the bounce above ~$214 and tests $228. Neither is an action line — just the read into tomorrow.
+- **Levels:** NVDA support ~$214/low-$210s, resistance $228 then $234; stop $187.81. QQQ support ~$709/$700,
+  overhead $720 then $740/$745; stop $629.88.
+- No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
+  the 4pm close.
