@@ -2881,3 +2881,25 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead $720 then $740/$745; stop $629.88.
 - No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
   the 4pm close.
+
+## 2026-10-20 ~13:06 UTC (Tue pre-market briefing, Day 73) — HOLD; bounce giving back a little, QQQ still under $720
+- **Pre-market (vs Mon close NVDA $217.15 / QQQ $718.34):** NVDA **~$216.29 (−0.4%)**, QQQ **~$715.81 (−0.35%)** —
+  a modest give-back of Monday's relief bounce. QQQ is back under the $720 line it got rejected at Monday (high
+  $724, close $718), so the "bounce, not repair" read persists; still well above the $709/$700 breakdown line and
+  miles from the $745 reclaim. NVDA eased but holds ~$216, far from both the $187.81 stop and the $234 rebuild.
+  BTC **~$81,332 (−0.6% overnight**, ~−1.5% vs Monday's pre-market note — in-threshold); index futures slightly red
+  (NQ=F −0.4%, ES=F −0.1%) — a flat-to-soft open setup after two up sessions.
+- **DECISION — HOLD, no trade.** No signal-driven trigger fires:
+  - QQQ has **not reclaimed ~$745** → no redeploy of the cash (the trim stays on). It's ~$716, under $720 — still a
+    bounce that hasn't repaired the breakdown.
+  - QQQ has **not broken under ~$709/$700** → no new concern; the pullback is shallow so far.
+  - NVDA is **far from $234** → no rebuild; no hard-stop risk either ($187.81 far below).
+- **Posture:** defensive mix unchanged — ~66% tech (28% NVDA / 39% QQQ), ~34% cash as dry powder. Two days into the
+  bounce the book sits ~−1.6% overall, equity ~$98.4. The cash stays dry until QQQ either reclaims and holds $720
+  → then presses $745 (redeploy), or fails back under $709/$700 (breakdown resumes, cash keeps paying).
+- **Watch today:** can QQQ get back above $720 and hold, or does the give-back extend toward $709? NVDA whether it
+  holds ~$214/$216 and tests $228. Neither is an action line — just the read into tomorrow.
+- **Levels:** NVDA support ~$214/low-$210s, resistance $228 then $234; stop $187.81. QQQ support ~$709/$700,
+  overhead $720 (Mon rejection) then $740/$745; stop $629.88.
+- No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
+  the 4pm close.
