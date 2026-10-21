@@ -2903,3 +2903,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead $720 (Mon rejection) then $740/$745; stop $629.88.
 - No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
   the 4pm close.
+
+## 2026-10-21 ~13:07 UTC (Wed pre-market briefing, Day 74) — HOLD; firm open, QQQ poking back above $720
+- **Pre-market (vs Tue close NVDA $216.47 / QQQ $717.63):** NVDA **~$220.56 (+1.9%)**, leading higher but still far
+  below the $234 rebuild line; QQQ **~$722.36 (+0.66%)**, back above the $720 shelf it's chopped under for three
+  sessions — but well short of the ~$745 reclaim. BTC **~$83,525 (+~2% vs Mon's note**, firm, in-threshold); index
+  futures green overnight (NQ=F / ES=F both up) — a constructive, risk-on open after Tuesday's range-bound hold.
+- **DECISION — HOLD, no trade.** No signal-driven trigger fires:
+  - QQQ has **not reclaimed and held ~$745** → no redeploy of the cash. A pre-market poke above $720 is not a cash
+    close-and-hold; it needs to clear and stay above $720, then press $740/$745, before the breakdown is "repaired."
+  - QQQ is **nowhere near the $709/$700 breakdown line** → no downside trigger.
+  - NVDA is **far from $234** → no rebuild; no hard-stop risk ($187.81 far below).
+- **Posture:** defensive mix unchanged — ~66% tech (28% NVDA / 39% QQQ), ~34% cash as dry powder. The book sits
+  ~−1.7% overall, equity ~$98.3, in a tight 3-day range. Today is the first session with a genuine upside test: can
+  QQQ break out of the $709–$724 box it has held since Friday's breakdown?
+- **Watch today:** whether QQQ **clears and holds $720** (first real sign the bounce has legs), then presses
+  **$740 → $745** (the redeploy line); NVDA whether the +1.9% pre-market gap holds and it tests $228. Neither is an
+  action line yet — the cash only redeploys on a QQQ $745 cash close-and-hold.
+- **Levels:** NVDA support ~$214/low-$210s, resistance $228 then $234; stop $187.81. QQQ support ~$709/$700,
+  overhead $720 (today's test) then $740/$745; stop $629.88.
+- No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
+  the 4pm close.
