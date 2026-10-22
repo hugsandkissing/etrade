@@ -2924,3 +2924,31 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead $720 (today's test) then $740/$745; stop $629.88.
 - No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
   the 4pm close.
+
+## 2026-10-22 ~13:08 UTC (Thu pre-market briefing, Day 75) — HOLD; breakout gives back, QQQ back under $720
+- **Pre-market (vs Wed close NVDA $221.97 / QQQ $725.20, confirmed via Yahoo daily series — the pre-post
+  chartPreviousClose field was stale, showing Tue's close, so ignored):** NVDA **~$216.44 (−2.49%)**, back to
+  roughly Monday's level; QQQ **~$712.81 (−1.71%)**, which has **given back Wednesday's entire breakout** and
+  slipped back under the $720 shelf, into the middle of the old $709–$724 box. BTC **~$81,571** (~flat vs the
+  overnight checks, ~−2.9% on 24h — well inside ±8%); index futures soft overnight (NQ=F **~29,505, −1.7%**, ES=F
+  **~7,725, −1.0%**) — a risk-off give-back open after Wednesday's risk-on breakout.
+- **DECISION — HOLD, no trade.** No signal-driven trigger fires:
+  - QQQ is **nowhere near the ~$745 reclaim** → no redeploy of the cash (the breakout it would have built on just
+    reversed).
+  - QQQ at ~$713 is **back under $720 but still above the ~$709 breakdown line** → the breakout *failed to follow
+    through*, but this is a return into the range, **not a fresh breakdown**. Downside trigger is a break of $709;
+    ~$4 below the pre-market print, not yet live.
+  - NVDA is **far from $234** → no rebuild; no hard-stop risk ($187.81 far below, $629.88 for QQQ far below).
+- **Read:** Wednesday's one-day breakout was young and unconfirmed — exactly why the cash correctly did **not**
+  redeploy on it. Today it reverses, vindicating the discipline of waiting for a $745 cash close-and-hold rather
+  than front-running a single green session. The book is back where it was: range-bound, ~−1.7% overall, equity
+  ~$98–99, ~34% cash as dry powder. One breakout attempt, one failure — the $709–$724 box is intact and the market
+  is still deciding.
+- **Watch today:** whether QQQ **holds $709** (range intact, keep holding) or **breaks it** toward $700 (breakdown
+  resumes, cash keeps paying — the live downside line now ~$4 away); on any bounce, whether it can **reclaim and
+  hold $720** again. NVDA support ~$214/low-$210s into the soft open. Neither redeploy ($745) nor rebuild ($234) is
+  anywhere in reach.
+- **Levels:** NVDA support ~$214/$213.68 (Tue low), resistance $228 then $234; stop $187.81. QQQ support **$709**
+  (live floor) then $700, overhead $720 (reclaim) then $740/$745 (redeploy); stop $629.88.
+- No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
+  the 4pm close.
