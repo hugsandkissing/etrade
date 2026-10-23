@@ -35315,6 +35315,24 @@
       },
       "equity": 96.84,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-10-23T14:20:13Z",
+      "prices": {
+        "NVDA": 212.16,
+        "QQQ": 703.85
+      },
+      "equity": 96.99,
+      "source": ""
+    },
+    {
+      "ts": "2026-10-23T14:20:13Z",
+      "prices": {
+        "NVDA": 212.31,
+        "QQQ": 704.175
+      },
+      "equity": 97.03,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
