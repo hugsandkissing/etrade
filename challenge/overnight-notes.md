@@ -2952,3 +2952,26 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (live floor) then $700, overhead $720 (reclaim) then $740/$745 (redeploy); stop $629.88.
 - No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
   the 4pm close.
+
+## 2026-10-23 ~13:11 UTC (Fri pre-market briefing, Day 76) — HOLD; QQQ consolidating just above $700
+- **Pre-market (vs Thu close NVDA $212.19 / QQQ $704.28):** NVDA **~$212.14 (flat)**, QQQ **~$702.68 (−0.2%)** —
+  essentially unchanged overnight, QQQ holding just above the **$700** line but still below the $709 shelf it lost
+  yesterday. BTC **~$81,565** (flat vs the overnight checks, ~−0.4% on the day — well inside ±8%); index futures
+  modestly soft (NQ=F **~29,047**, ES=F **~7,667**) — a flat-to-slightly-lower setup after Thursday's tech-led
+  give-back.
+- **DECISION — HOLD, no trade.** No signal-driven trigger fires:
+  - QQQ is **nowhere near the ~$745 reclaim** → no redeploy.
+  - QQQ at ~$703 is **below $709 but holding above ~$700** → the breakout-failure range persists; the live downside
+    trigger is a **loss of $700** toward $695/$690 (then keep holding cash — still not a sell; positions held unless
+    the $629.88 stop breaks). ~$3 below the pre-market print.
+  - NVDA **far from $234** → no rebuild; both hard stops miles below ($187.81 / $629.88).
+- **Read:** Thursday fully reversed Wednesday's breakout; the book sits at −3.0% overall, equity ~$97, the low of
+  the recent range but far from any stop. Friday opens as consolidation just above $700 — the market is deciding
+  whether $700 holds as the new floor or gives way. The posture needs no change either way: cash stays dry, both
+  legs held. Nothing to do but watch which line breaks first ($700 down, $709 then $745 up).
+- **Watch today:** QQQ **$700** (hold = range persists; lose it = breakdown extends, cash keeps paying) and a
+  reclaim of **$709** on any bounce; NVDA support ~$208/$205. Neither redeploy ($745) nor rebuild ($234) is near.
+- **Levels:** NVDA support ~$208/$205, resistance $220 then $234; stop $187.81. QQQ support **$700** then
+  ~$695/$690, overhead $709 (lost shelf) then $720/$745 (redeploy); stop $629.88.
+- No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
+  the 4pm close.
