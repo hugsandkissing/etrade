@@ -2975,3 +2975,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   ~$695/$690, overhead $709 (lost shelf) then $720/$745 (redeploy); stop $629.88.
 - No pre-market trades (paper fills only in market hours). Session infra: ensure venv, tick cron, re-arm watcher to
   the 4pm close.
+
+## Monday, October 26, 2026 — Day 79 pre-market (~13:11 UTC / 9:11am ET)
+
+- **Plan: HOLD, no trade.** Both held names open modestly firm, QQQ testing the $709 shelf — the first live upside
+  watch since Thursday — but a reclaim is a *watch*, not an action. No trigger is in range.
+- **Pre-market quotes:** NVDA **~$213.0** (vs Fri close $211.01, **+0.95%**); QQQ **~$707.6** (vs Fri close $704.40,
+  **+0.46%**). QQQ is pressing the underside of **$709**, the shelf it lost Thursday and was rejected at Friday
+  (intraday $709.30). NVDA firm but ~$21 under the $234 rebuild line.
+- **BTC $80,035** (Yahoo BTC-USD verified) — dead flat on the $80k handle all weekend ($79.5k–$80.4k range), far
+  inside the ±8% threshold. No action.
+- **Futures green into the open:** NQ=F 29,264 (+0.5% overnight), ES=F 7,681 (+0.3%). Mildly risk-on Monday setup.
+- **No dated news on NVDA/QQQ** over the weekend — quiet tape.
+- **The question for today:** can QQQ *reclaim and hold* $709 (repairs the range, still only a watch toward $720
+  then the $745 redeploy line), or does it get rejected again and slip back toward $700/$702 (unresolved
+  consolidation continues)? Pre-committed responses are queued for both; the cash waits until a $745 close-and-hold.
+- **Levels:** NVDA support ~$208/$205, resistance $220 then $234; stop **$187.81**. QQQ support **$700** then
+  ~$695/$690, overhead **$709** (lost shelf, now being tested) then $720/$745 (redeploy); stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being rebuilt: venv OK, tick cron + watcher
+  re-armed to the 4pm close.
