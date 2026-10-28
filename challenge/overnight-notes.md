@@ -3014,3 +3014,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   shelf) then $700, overhead **$720** then $745 (redeploy); stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being rebuilt: venv OK, tick cron + watcher
   re-armed to the 4pm close.
+
+## Wednesday, October 28, 2026 — Day 81 pre-market (~13:05 UTC / 9:05am ET)
+
+- **Plan: HOLD, no trade.** Third straight firm open — the recovery is extending. QQQ is holding above $720 and
+  edging toward the $745 redeploy line; NVDA firm near $220. But no trigger is in range: redeploy needs a $745
+  close-and-hold (~$21 away), NVDA rebuild needs $234 (~$14 away). Still a *watch*, not an action.
+- **Pre-market quotes:** NVDA **~$219.8** (vs Tue close $217.94, **+0.85%**); QQQ **~$723.7** (vs Tue close $721.25,
+  **+0.34%**). QQQ sits ~$4 above the $720 support and ~$21 under $745; NVDA testing $220 resistance, ~$14 under the
+  $234 rebuild line.
+- **BTC $80,629** (Yahoo BTC-USD verified) — flat on the $80–81.5k range all night, far inside the ±8% threshold.
+  No action.
+- **Futures green:** NQ=F 29,902, ES=F 7,773 — mildly risk-on into the open, consistent with the three-day recovery.
+- **No dated news on NVDA/QQQ** overnight.
+- **The question for today:** does QQQ push from $720 toward the $745 redeploy line (the trigger finally within
+  reach), or stall and consolidate the three-day run? Pre-committed responses are queued for both; cash waits until
+  a $745 close-and-hold.
+- **Levels:** NVDA support ~$214/$208, resistance $220 then $234; stop **$187.81**. QQQ support **$720** then $709,
+  overhead **$745** (redeploy); stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being rebuilt: venv OK, tick cron + watcher
+  re-armed to the 4pm close.
