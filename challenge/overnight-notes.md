@@ -3034,3 +3034,26 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead **$745** (redeploy); stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being rebuilt: venv OK, tick cron + watcher
   re-armed to the 4pm close.
+
+## Thursday, October 29, 2026 — Day 82 pre-market (~13:11 UTC / 9:11am ET)
+
+- **Plan: HOLD, no trade.** Both held names open soft, giving back part of the three-day run. QQQ is slipping to
+  **test its $720 support from below** — the repair-stall watch branch. Per the pre-committed plan that is *hold
+  cash, not a sell* (positions held unless the $629.88 stop breaks); nothing to act on. No upside trigger in range:
+  redeploy needs a $745 close-and-hold (~$27 away now), NVDA rebuild needs $234 (~$19 away).
+- **Pre-market quotes:** NVDA **~$214.7** (vs Wed close $215.38, **−0.3%**); QQQ **~$718.6** (vs Wed close $725.61,
+  **−1.0%**). QQQ sits right at/just under the $720 shelf; NVDA extending Wednesday's fade, ~$19 under the $234
+  rebuild line and well above the $187.81 stop. (Pre-market prints are thin — the real read is the 9:30 open.)
+- **BTC $80,001** (Yahoo BTC-USD verified) — flat on the $80k handle all night ($79.7k–$80.2k range, −0.8% vs the
+  Day-81 note), far inside the ±8% threshold. No action.
+- **Futures roughly flat/slightly soft:** NQ=F 29,680, ES=F 7,760 — little changed overnight, consistent with a
+  mild cool-off rather than a risk event.
+- **No dated news on NVDA/QQQ** confirmed overnight (searches returned only stale results). The softness reads as
+  continuation of Wednesday's rotation/pullback, not a catalyst.
+- **The question for today:** does QQQ hold the $720 shelf (repair intact, back to grinding toward $745) or lose it
+  back toward $709 (consolidation of the three-day run)? Either way the plan holds cash — the only action lines are
+  a $745 close-and-hold (redeploy) or the $629.88 stop (exit), and neither is near.
+- **Levels:** NVDA support ~$214/$208, resistance $220 then $234; stop **$187.81**. QQQ support **$720** then $709,
+  overhead **$745** (redeploy); stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the 4pm close.
