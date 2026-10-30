@@ -3057,3 +3057,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead **$745** (redeploy); stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the 4pm close.
+
+## Thursday night, October 29→30, 2026 — overnight risk-off watch (~00:38 UTC Fri)
+
+- **Context note (no action):** broad risk-off building overnight after Thursday's tech-led down day. **BTC $77,271**,
+  **−4.2%** from the Day-81/82 ~$80.6k reference (Yahoo BTC-USD verified) — the largest overnight move of the stretch,
+  though still inside the ±8% owner-alert threshold and we hold **no BTC proxy** (NVDA/QQQ only, so no direct read).
+- **Index futures soft:** NQ=F ~29,057, ES=F ~7,700 — down ~2–3% from Day-81 pre-market levels (NQ ~29,900), extending
+  the Nasdaq's −1.38% Thursday session. Points to a **weak-ish Friday open**, QQQ likely pressing the lower end of its
+  $709–720 box.
+- **Implication for Friday:** no change to the plan — HOLD, cash dry. But the live downside line (**QQQ loses $709**,
+  deeper into the box toward $700) is the one to watch into the open, and the $629.88 stop remains ~12% away and not
+  in question. Redeploy ($745) is further off after the pullback.
+- No trades (paper fills only in market hours). Logged for Friday's pre-market briefing.
