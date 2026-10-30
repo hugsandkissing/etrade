@@ -3070,3 +3070,27 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   deeper into the box toward $700) is the one to watch into the open, and the $629.88 stop remains ~12% away and not
   in question. Redeploy ($745) is further off after the pullback.
 - No trades (paper fills only in market hours). Logged for Friday's pre-market briefing.
+
+## Friday, October 30, 2026 — Day 83 pre-market briefing (~13:08 UTC / 9:08am ET)
+
+- **Plan: HOLD, no trade.** Sharp risk-off gap down into the open — QQQ is gapping **below $709 and $700** toward
+  ~$697, breaking the $709–720 consolidation box to the downside. This is the pre-committed *"QQQ loses $709,
+  deeper into the box"* branch: **hold cash, NOT a sell** — positions are held unless the $629.88 stop breaks, and
+  it is ~11% away. No trigger calls for action.
+- **Pre-market quotes:** NVDA **~$208.2** (vs Thu close $213.66, **−2.5%**), sitting on its ~$208 support, ~11%
+  above the $187.81 stop; QQQ **~$696.8** (vs Thu close $715.34, **−2.6%**), below $709/$700, ~11% above the $629.88
+  stop. (Pre-market prints are thin — the real levels are the 9:30 open.)
+- **Est. open equity ~$96.1 (−3.9% overall)** — would be the stretch low, but well inside the $80 floor; no equity
+  threshold crossing. Both legs far above hard stops.
+- **BTC $77,146** (Yahoo verified), **−4.3%** from the ~$80.6k reference — the risk-off that built overnight (logged
+  ~00:38 UTC) is carrying into the cash open. Still inside the ±8% owner-alert threshold; no BTC proxy held.
+- **Futures soft:** NQ=F ~28,802, ES=F ~7,671 — down ~3–4% from mid-week, a broad tech/risk-off move. **No dated
+  NVDA/QQQ-specific catalyst** confirmed (searches returned only stale results); reads as market-wide, not a
+  single-name event.
+- **The question for today:** does QQQ stabilize above $700 and reclaim toward $709, or break deeper toward the old
+  base — either way the plan holds cash; the only action lines are the $629.88 / $187.81 stops (both ~11% away) and
+  a $745 QQQ close-and-hold for redeploy (far off). HOLD is pre-committed through this.
+- **Levels:** NVDA support **$208** then ~$200, resistance $214/$220; stop **$187.81**. QQQ support ~$700 then the
+  old base; overhead $709 (reclaim) then $720/$745; stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the 4pm close.
