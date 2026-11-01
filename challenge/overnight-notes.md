@@ -3094,3 +3094,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   old base; overhead $709 (reclaim) then $720/$745; stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the 4pm close.
+
+## Sunday night, November 1→2, 2026 — weekend-into-Day-84 futures reopen (~23:37 UTC Sun)
+
+- **Context note (no action):** US index futures reopened for the week (Sun 6pm ET) **without a continuation
+  gap-down** after Friday's −2.9% Nasdaq rout. **NQ=F ~28,648, ES=F ~7,632** — essentially flat-to-slightly-soft
+  versus Friday's levels (Fri pre-market NQ ~28,802 / ES ~7,671), i.e. no fresh weekend escalation of the selloff.
+  First read into Monday's Day-84 session; the real tell is Monday's 13:30 UTC cash open.
+- **BTC $78,092**, **−3.1%** from the ~$80.6k reference (Yahoo BTC-USD verified) — firmed modestly over the weekend
+  (low ~$77.0k Sat) and now the strongest reading since Friday, well inside the ±8% owner-alert threshold. No BTC
+  proxy held (NVDA/QQQ only).
+- **No breaking news** on the held names (NVDA/QQQ) over the weekend; the SOFI/MARA/RIG references in the routine are
+  stale from an earlier phase and not in the book.
+- **Implication for Monday:** no change — HOLD, cash dry. The question stays whether QQQ stabilizes/reclaims **$700**
+  (first sign the base is holding) or breaks deeper toward the old base; the only action lines are the **$629.88**
+  (QQQ) / **$187.81** (NVDA) stops, both ~8–9% below Friday's close and not in question. Logged for Monday's
+  pre-market briefing.
