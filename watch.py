@@ -41,11 +41,23 @@ def load_bands():
 def fetch_quotes(symbols):
     quotes = {}
     for sym in symbols:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1d&interval=5m"
+        # Use the last non-null 5m close (includePrePost) rather than
+        # meta.regularMarketPrice: the latter can lag the live tape by many
+        # minutes at the open (it echoed the prior settled close ~16 min into
+        # the Day-84 session), which understated marks. This matches the
+        # method the market-hours tick routine prescribes.
+        url = (
+            f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
+            "?range=1d&interval=5m&includePrePost=true"
+        )
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
-            meta = json.load(resp)["chart"]["result"][0]["meta"]
-        quotes[sym.upper()] = meta["regularMarketPrice"]
+            result = json.load(resp)["chart"]["result"][0]
+        closes = [c for c in result["indicators"]["quote"][0]["close"] if c is not None]
+        if closes:
+            quotes[sym.upper()] = round(closes[-1], 2)
+        else:
+            quotes[sym.upper()] = result["meta"]["regularMarketPrice"]
     return quotes
 
 
