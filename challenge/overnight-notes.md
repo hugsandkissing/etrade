@@ -3139,3 +3139,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead **$700** (reclaim) then $709/$720/$745; stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the 4pm close.
+
+## Monday night, November 2→3, 2026 — risk-off drift into Day 85 (~21:37 UTC Mon)
+
+- **Context note (no action):** mild risk-off continues after Day-84's failed bounce. **BTC $76,787**, **−4.8%** from
+  the ~$80.6k reference (Yahoo BTC-USD verified) — the softest reading of the stretch (was ~$78k Mon AM, −3 to −4% over
+  the weekend), but still inside the ±8% owner-alert threshold. No BTC proxy held (NVDA/QQQ only).
+- **Index futures soft:** ES=F ~7,589, NQ=F ~28,230 — below Monday's cash closes (Nasdaq futures leading lower),
+  pointing to a soft-to-lower Tuesday open rather than a bounce. Continuation of the tech-led drift, not a fresh shock.
+- **No breaking news** on the held names; NVDA earnings Nov 17 (after close) remains the next position-specific catalyst.
+- **Implication for Tuesday (Day 85):** no change — HOLD, cash dry. QQQ closed $681 (under the $684 floor); the watch is
+  whether it reclaims $684/$700 (base holding) or drifts into the old base below $680. Only action lines are the
+  **$629.88 (QQQ) / $187.81 (NVDA)** stops, both ~7–8% below. Logged for the Tuesday pre-market briefing.
