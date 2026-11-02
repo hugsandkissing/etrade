@@ -3110,3 +3110,32 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (first sign the base is holding) or breaks deeper toward the old base; the only action lines are the **$629.88**
   (QQQ) / **$187.81** (NVDA) stops, both ~8–9% below Friday's close and not in question. Logged for Monday's
   pre-market briefing.
+
+## Monday, November 2, 2026 — Day 84 pre-market briefing (~13:22 UTC / 9:22am ET)
+
+- **Plan: HOLD, no trade.** Modest green bounce after Friday's rout — a broad tech rebound, not a position-specific
+  event. No trigger fires: QQQ is bouncing but **still below $700** (not the $709/$720 reclaim that would signal the
+  base holding), NVDA is bouncing but **still below $208**; both legs sit ~8–9% above their hard stops. Nothing on the
+  sheet calls for action; cash stays dry.
+- **Pre-market quotes:** NVDA **~$206.5** (vs Fri close $202.42, **+2.0%**), ~10% above the $187.81 stop; QQQ
+  **~$694.7** (vs Fri close $691.14, **+0.5%**), still under $700, ~10% above the $629.88 stop. (Pre-market prints are
+  thin and move fast — the 13:30 UTC open is the real read; Benzinga had NVDA ~$208 / +1.6% around the same time, so
+  direction is firm, level approximate.)
+- **Est. open equity ~$95.8 (−4.2% overall)** — a touch above Friday's $95.09 close, recovering ~0.7pp of the stretch
+  low. Well inside the $80 floor; no equity-threshold crossing (>$120 / <$80).
+- **BTC $77,495** (Yahoo BTC-USD verified), **−3.9%** from the ~$80.6k reference — firmed to ~$78.6k overnight then
+  eased back, net flat across the weekend and well inside the ±8% owner-alert threshold. No BTC proxy held.
+- **Futures flat-to-soft:** ES=F ~7,640, NQ=F ~28,707 — reopened Sunday night without a continuation gap-down
+  (logged ~23:37 UTC Sun) and held through the night; points to a stabilizing, modestly-firmer open rather than a
+  second leg down.
+- **News on held names:** broad tech rebound narrative; lingering *AI-capex-peak* worry chatter (one investor trimmed
+  NVDA), but **no fresh dated single-name catalyst**. **NVDA earnings Nov 17 (after close)** is the next big
+  position-specific event on the horizon — ~2 weeks out, worth flagging now.
+- **The question for today:** does the bounce extend and QQQ **reclaim $700 then $709** (first sign the base is
+  holding, the constructive path), or does it fade back toward Friday's $684 floor / the old base? Either way the plan
+  holds cash — the only action lines are the **$629.88 (QQQ) / $187.81 (NVDA)** stops (both ~9–10% away) and a
+  QQQ **$745** close-and-hold for redeploy (far off). HOLD is pre-committed through this.
+- **Levels:** NVDA support ~$200/$202, resistance **$208** then $214/$220; stop **$187.81**. QQQ support ~$684,
+  overhead **$700** (reclaim) then $709/$720/$745; stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the 4pm close.
