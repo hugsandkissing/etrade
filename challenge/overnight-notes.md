@@ -3151,3 +3151,29 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Tuesday (Day 85):** no change — HOLD, cash dry. QQQ closed $681 (under the $684 floor); the watch is
   whether it reclaims $684/$700 (base holding) or drifts into the old base below $680. Only action lines are the
   **$629.88 (QQQ) / $187.81 (NVDA)** stops, both ~7–8% below. Logged for the Tuesday pre-market briefing.
+
+## Tuesday, November 3, 2026 — Day 85 pre-market briefing (~13:05 UTC / 8:05am ET)
+
+- **Plan: HOLD, no trade.** Another modest tech-rebound bounce after Monday's fade — NVDA is reported snapping a
+  four-day losing streak (+~1.3% pre-market), but it's the same shape as yesterday: a bounce that hasn't reclaimed
+  anything. No trigger fires — QQQ is **still below $684 and $700**, NVDA **still below $208**; both legs ~8% above
+  their hard stops. Cash stays dry.
+- **Pre-market quotes:** NVDA **~$205.8** (vs Mon close $202.06, **+1.9%**), ~10% above the $187.81 stop; QQQ
+  **~$683.0** (vs Mon close $681.09, **+0.3%**), still under $684/$700, ~8.5% above the $629.88 stop. (Pre-market
+  prints thin and conflicting across sources — TradingView had NVDA ~+1.3%; the 13:30 UTC open… note: EST now, real
+  open is **14:30 UTC** — is the real read.)
+- **Est. open equity ~$95.1 (−4.9% overall)** — a touch above Monday's $94.51 close; well inside the $80 floor, no
+  equity-threshold crossing (>$120 / <$80).
+- **BTC $77,218** (Yahoo verified), **−4.2%** from the ~$80.6k reference — drifted to a $76.4k low overnight then
+  firmed back; net the risk-off drift logged Mon night, still inside the ±8% owner-alert threshold. No BTC proxy held.
+- **Futures ~flat:** ES=F ~7,569, NQ=F ~28,229 — roughly Monday's closing levels after drifting lower overnight and
+  recovering; broad tape **mixed**, with AAPL margin concerns cited as a tech weight and QQQ sentiment still bearish.
+  No fresh dated NVDA/semis catalyst; **NVDA earnings Nov 17 (after close)** remains the next position-specific event.
+- **The question for today:** does the bounce finally reclaim **$684 then $700** (first sign the base is holding), or
+  fade again into the old base below $680 — either way the plan holds cash; the only action lines are the **$629.88
+  (QQQ) / $187.81 (NVDA)** stops (both ~8% away) and a QQQ $745 close-and-hold for redeploy (far off). HOLD is
+  pre-committed through this.
+- **Levels:** NVDA support ~$200/$202, resistance **$208** then $214; stop **$187.81**. QQQ support ~$680, overhead
+  **$684** then $700/$709; stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the real 21:00 UTC (4pm ET / EST) close.
