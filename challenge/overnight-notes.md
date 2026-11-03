@@ -3177,3 +3177,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **$684** then $700/$709; stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Tuesday night, November 3→4, 2026 — Day 85 close into Day 86 (~21:40 UTC Tue)
+
+- **Context note (no action):** Day 85 closed constructive — equity **$95.32** (+0.86% c/c, −4.7% overall), QQQ
+  reclaimed and held $684 (close $685.28), NVDA +2.3% c/c to $206.69. First genuinely firmer close in a week.
+- **BTC $77,844** (Yahoo BTC-USD verified), **+1.5%** from the prior close (~$76.7k), firming off Monday night's
+  ~$76.8k low. Net still ~−3.5% from the ~$80.6k reference but the risk-off drift has paused. Inside the ±8%
+  owner-alert threshold. No BTC proxy held.
+- **No breaking news** on the held names; NVDA earnings Nov 17 (after close) remains the next position-specific
+  catalyst (~2 weeks out).
+- **Implication for Wednesday (Day 86):** HOLD, cash dry. The watch is whether QQQ builds on the $684 reclaim toward
+  **$700/$709** (base recovery) or slips back under $684 into the old base. Only action lines are the **$629.88 (QQQ)
+  / $187.81 (NVDA)** stops, both ~7.5–9.5% below. Logged for the Wednesday pre-market briefing.
