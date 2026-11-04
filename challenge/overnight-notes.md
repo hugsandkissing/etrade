@@ -3216,3 +3216,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $684 reclaim. The watch: does QQQ hold **$684** or slip into the old base **below $680** (drift resuming, still NOT
   a sell). Only action lines remain the **$629.88 (QQQ) / $187.81 (NVDA)** stops, both ~7.5–9.5% below Day-85's close
   and not in question on a ~2% futures fade. Flagged for the Wednesday pre-market briefing.
+
+## Wednesday pre-dawn, November 4, 2026 — risk-off largely reverses (~05:40 UTC Wed)
+
+- **Context note (no action):** the overnight fade has substantially unwound. **NQ=F ~28,100 (−0.7% vs prior close)**,
+  ES=F ~7,554 (−0.6%) — Nasdaq futures clawed back ~1.6% off the ~27,660 low (−2.3% at 04:37), now only modestly soft.
+  **BTC $77,576** (Yahoo verified), +1.7% over the hour, back ~flat vs the prior close and ~−3.8% from the ~$80.6k
+  reference — inside the ±8% threshold. No BTC proxy held.
+- **Net:** the "soft-to-lower open" read from 02:40 has softened back toward **roughly flat**; the overnight was a dip
+  that mostly recovered, not a sustained leg down. No breaking single-name news.
+- **Implication for Wednesday (Day 86):** unchanged plan — HOLD, cash dry. Open now looks closer to flat than lower;
+  the watch is the same: does QQQ hold **$684** (base intact) or slip under toward the old base below $680. Only action
+  lines remain the **$629.88 (QQQ) / $187.81 (NVDA)** stops. For the pre-market briefing.
