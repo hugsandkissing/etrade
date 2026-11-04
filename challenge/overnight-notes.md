@@ -3253,3 +3253,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead **$700** (reclaim) then $709/$720/$745; stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Wednesday night, November 4→5, 2026 — Day 86 close into Day 87 (~21:40 UTC Wed)
+
+- **Context note (no action):** Day 86 was a missed rally — tape +1.5% (S&P +1.58%, Nasdaq +1.44%), QQQ tagged $700.49
+  but faded to $691.95 (+0.97% c/c); **NVDA diverged sharply, closing $200.13 (−3.2% c/c)** right on its $200 support.
+  Book −0.49% c/c, equity **$94.85** (−5.2% overall, new stretch low) — concentration cut against us as NVDA fell on a
+  green day.
+- **BTC $80,141** (Yahoo verified), **+3.6%** on the day, back to the ~$80.6k reference — the stretch's risk-off has
+  fully unwound. Inside the ±8% owner-alert threshold. No BTC proxy held.
+- **NVDA is the watch item now, not QQQ.** Single-name weakness (AI-capex-peak worry) overrode a strong tape; NVDA
+  $200.13 is ~6.6% above the $187.81 stop — closer than it's been. NVDA earnings **Nov 17 (after close)** is the
+  defining catalyst ~2 weeks out.
+- **Implication for Thursday (Day 87):** HOLD, cash dry. Watch whether NVDA stabilizes at $200 and repairs toward $208,
+  or slides toward its stop; QQQ needs a close-and-hold of $700 to confirm the base recovery its tag only hinted at.
+  Only action lines are the **$187.81 (NVDA) / $629.88 (QQQ)** stops. Logged for the Thursday pre-market briefing.
