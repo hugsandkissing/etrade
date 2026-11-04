@@ -3190,3 +3190,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Wednesday (Day 86):** HOLD, cash dry. The watch is whether QQQ builds on the $684 reclaim toward
   **$700/$709** (base recovery) or slips back under $684 into the old base. Only action lines are the **$629.88 (QQQ)
   / $187.81 (NVDA)** stops, both ~7.5–9.5% below. Logged for the Wednesday pre-market briefing.
+
+## Wednesday pre-dawn, November 4, 2026 — overnight tone fades (~00:40 UTC Wed)
+
+- **Context note (no action):** the post-close firmer tone has rolled back. **BTC $76,854** (Yahoo verified), −1.2%
+  over the past ~3 hours (was ~$77.8k at the close), ~−4.6% from the ~$80.6k reference — still inside the ±8%
+  owner-alert threshold. No BTC proxy held.
+- **Futures softened:** ES=F ~7,573 (−0.3% vs prior close), NQ=F ~28,130 (−0.6%) — faded from the post-close bounce
+  (NQ=F was ~28,470 at ~23:38 UTC, down ~1.2% since), back toward flat/soft. Mild risk-off creeping back overnight,
+  not a shock.
+- **No breaking news** on the held names; NVDA earnings Nov 17 (after close) remains the next catalyst.
+- **Implication for Wednesday (Day 86):** no change — HOLD, cash dry. The $684 reclaim from Day 85 is the line to
+  watch (holds = base intact; back under = drift resuming). Only action lines remain the **$629.88 (QQQ) / $187.81
+  (NVDA)** stops. Logged for the Wednesday pre-market briefing.
