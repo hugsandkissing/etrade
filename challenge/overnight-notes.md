@@ -3293,3 +3293,19 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   support **$684**, overhead $700 then $709/$745; stop **$629.88**.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Thursday night, November 5→6, 2026 — Day 87 close into Day 88 (~21:40 UTC Thu)
+
+- **Context note (no action):** Day 87 was a broad rout — S&P −4.36%, Nasdaq −5.52%, the worst tape of the run.
+  **NVDA stop-loss TRIGGERED at 15:14 UTC: sold 0.126 @ $186.39** (hard stop $187.81 broken); NVDA closed $181.60, so
+  the exit was well-timed. QQQ fell to **$647.05** (−6.5% c/c, deep into the old base) but held ~2.7% above its
+  $629.88 stop. Book **$90.74** (−4.33% c/c, **−9.3% overall, new stretch low**) — fell less than the Nasdaq because
+  the stop took NVDA to cash mid-day. Book now **QQQ 0.053 + ~62% cash**.
+- **BTC $75,925** (Yahoo verified), **−5.6%** on the day, back toward the stretch lows with the equity selloff — a
+  >±5% move but under the ±8% owner-alert threshold. No BTC proxy held (and no MARA — that reference is stale; held
+  name is QQQ only).
+- **QQQ's $629.88 stop is now the only live action line** (~2.7% below the close — the closest any stop has been).
+  NVDA flat; rebuild line is a close above $234 (far off), Nov 17 earnings now only a possible re-entry catalyst.
+- **Implication for Friday (Day 88):** HOLD QQQ, cash dry. Mechanical either way: QQQ loses $629.88 → sell to all-cash;
+  QQQ reclaims $680/$684 → first repair (watch, not a buy). Watch whether the −5% rout is a one-day flush or more.
+  Logged for the Friday pre-market briefing.
