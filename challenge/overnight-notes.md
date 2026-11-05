@@ -3268,3 +3268,28 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Thursday (Day 87):** HOLD, cash dry. Watch whether NVDA stabilizes at $200 and repairs toward $208,
   or slides toward its stop; QQQ needs a close-and-hold of $700 to confirm the base recovery its tag only hinted at.
   Only action lines are the **$187.81 (NVDA) / $629.88 (QQQ)** stops. Logged for the Thursday pre-market briefing.
+
+## Thursday, November 5, 2026 — Day 87 pre-market briefing (~13:05 UTC / 8:05am ET)
+
+- **Plan: HOLD, no trade — but NVDA is now the live risk.** Day 86 saw NVDA diverge sharply (−3.2% c/c to $200.13)
+  while the tape rallied; pre-market it's **extending lower to ~$197.0**, about **−1.6%** below yesterday's close and
+  now only **~4.9% above the $187.81 hard stop** — the closest it's been all run. No trigger has fired yet (stop
+  intact, QQQ fine), so the plan holds cash, but if NVDA keeps sliding and breaks **$187.81** intraday the tick routine
+  sells that leg at market per the pre-committed rule. QQQ **$686.56**, holding the reclaimed $684, ~9% above its
+  $629.88 stop.
+- **Pre-market quotes:** NVDA **~$197.0** (vs Day-86 close $200.13, −1.6%), ~4.9% above the $187.81 stop; QQQ
+  **~$686.6** (vs Day-86 close $691.95, −0.8%), above $684. (Real read is the **14:30 UTC** open — EST; pre-market thin.)
+- **Est. open equity ~$94.2 (−5.8% overall)** — a touch below Day-86's $94.85 close as NVDA slips; still well inside
+  the $80 floor, no equity-threshold crossing (>$120 / <$80).
+- **BTC $79,624** (Yahoo verified), −1.0% vs the prior close, holding ~the $80k reference — the stretch's risk-off is
+  fully unwound and BTC has been flat-to-firm all week. Inside the ±8% owner-alert threshold. No BTC proxy held.
+- **Futures ~flat:** ES=F ~7,726 (+0.1%), NQ=F ~28,300 (−0.9%) — roughly flat after Wednesday's strong rally, no
+  continuation gap either way. **NVDA earnings Nov 17 (after close)** is the defining position-specific catalyst
+  ~1.5 weeks out; today's weakness is pre-earnings de-risking/AI-capex-peak chatter, no fresh dated catalyst.
+- **The question for today:** does NVDA stabilize at/above $197–200 and repair, or keep sliding toward the **$187.81
+  stop** (~5% away — the one genuinely live action line now)? QQQ's job is just to hold $684. The plan holds cash and
+  lets the stops do their work: a break of $187.81 (NVDA) or $629.88 (QQQ) sells that leg at market; nothing else acts.
+- **Levels:** NVDA support **$195/$190**, resistance $200 then $208; **stop $187.81** (~4.9% below pre-market). QQQ
+  support **$684**, overhead $700 then $709/$745; stop **$629.88**.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the real 21:00 UTC (4pm ET / EST) close.
