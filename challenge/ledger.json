@@ -41960,6 +41960,54 @@
       },
       "equity": 91.43,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-06T20:18:32Z",
+      "prices": {
+        "QQQ": 658.98
+      },
+      "equity": 91.37,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-06T20:23:36Z",
+      "prices": {
+        "QQQ": 659.26
+      },
+      "equity": 91.38,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-06T20:28:41Z",
+      "prices": {
+        "QQQ": 658.79
+      },
+      "equity": 91.36,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-06T20:41:27Z",
+      "prices": {
+        "QQQ": 658.12
+      },
+      "equity": 91.32,
+      "source": ""
+    },
+    {
+      "ts": "2026-11-06T20:41:27Z",
+      "prices": {
+        "QQQ": 658.07
+      },
+      "equity": 91.32,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-06T21:38:35Z",
+      "prices": {
+        "QQQ": 656.1
+      },
+      "equity": 91.21,
+      "source": ""
     }
   ]
 }
