@@ -3335,3 +3335,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (repair) then $700/$745. NVDA (unheld) reference: $181.60 close, bouncing to ~$189 pre-market.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Sunday night, November 8→9, 2026 — into Day 91 (Mon Nov 9) open (~22:40 UTC Sun)
+
+- **Context note (no action):** BTC slipped to **$74,207 (−2.04%** on the day, Yahoo verified) late Sunday — the
+  first real move of an otherwise flat weekend (it held $75.6–76.0k Fri–Sun). Now ~**−7.9% off the ~$80.6k reference**,
+  just inside the ±8% owner-alert threshold; back toward the stretch lows. A mild cross-asset risk-off tell heading
+  into Monday, worth watching but not actionable. No BTC proxy held (held name is QQQ only).
+- **Index futures:** still closed at this hour (Sun ~22:40 UTC; CME reopens ~23:00 UTC / 6pm ET). Will read live at the
+  Monday pre-market briefing.
+- **Book unchanged over the weekend:** QQQ 0.053 @ avg $699.60, cash $56.44, equity **$91.21** (−8.8% overall, Fri Nov-6
+  close). QQQ closed **$656.10**, ~4.1% above its **$629.88** stop — the one live action line. Watch $680/$684 for the
+  first structural repair of the Nov-5 break; $745 close-and-hold is the far-off redeploy line.
+- **Implication for Monday (Day 91):** HOLD QQQ, cash dry. If BTC's softness bleeds into a weak equity-futures open and
+  QQQ gaps toward $629.88, the stop is mechanical (sell to all-cash); otherwise nothing changes. Logged for the Monday
+  pre-market briefing.
