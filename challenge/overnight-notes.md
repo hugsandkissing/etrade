@@ -3387,3 +3387,28 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   Monday's strong +2.7% Nasdaq rally. No fresh dated catalyst on the book; NVDA earnings **Nov 17** is the next event.
 - **Book unchanged** since the Nov-9 close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.45 (−7.6%). QQQ $679.35,
   ~7.9% above the $629.88 stop. No trades (paper fills only in market hours). HOLD into the Day-92 open.
+
+## Tue Nov 10, 2026 — pre-market briefing (Day 92, 9:03am ET / ~13:06 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade queued.** After Monday's strong +2.7% Nasdaq rally that reclaimed $680
+  (QQQ closed $679.35), the tape is consolidating the big up day pre-market — constructive, not a reversal. QQQ's
+  **$629.88 stop** remains the only live action line (~7.4% below the pre-market), nowhere near. Watch lines (NOTE ONLY,
+  no action): QQQ holds **$680** and presses **$684** → repair confirmation; **$745** close-and-hold → redeploy cash.
+- **Pre-market quotes:** QQQ **~$676.7** (vs Mon close $679.35, **−0.4%**) — a slight give-back, sitting just under the
+  $680 reclaim line; ~7.4% above the stop. NVDA **~$177.4** (vs $178.67 close, −0.7%) — **reference only, position flat**
+  (stopped out Nov 5 @ $186.39); still soft into its **Nov 17** earnings, rebuild line a close above $234 (far).
+  (Real read is the **14:30 UTC** open — EST; pre-market thin.)
+- **Est. open equity ~$92.3 (−7.7% overall)** — QQQ 0.053 × ~$676.7 ≈ $35.9 + cash $56.44; a touch below Monday's
+  $92.45 close on the small QQQ pullback. Well inside the $80 floor; no equity-threshold crossing (>$120 / <$80).
+- **BTC $74,152** (Yahoo verified), flat (−1.4% day), **~−8.0% off the ~$80.6k reference** — right at the edge of the
+  ±8% band after days oscillating $74–75k (logged separately pre-dawn). No BTC proxy held; a fresh daily move >±8% or a
+  decisive break of the band would change the watch, not today's small drift.
+- **Futures mildly soft/flat:** NQ=F ~27,894, ES=F ~7,576 — slightly red vs the pre-dawn read, pointing to a
+  consolidation open after Monday's rally (ignore Yahoo's pre-market prevClose %, its base is stale). No fresh dated
+  catalyst on the book; NVDA earnings **Nov 17** is the next event.
+- **The question for today:** does QQQ hold $680 and press **$684/$700** (confirming the Nov-5 repair — a watch, not a
+  buy), or consolidate back into the $660s–670s? Mechanical either way: a break of $629.88 sells QQQ to all-cash;
+  nothing else acts.
+- **Levels:** QQQ support $680 (reclaimed) then ~$665/$650, **stop $629.88** (~7.4% below pre-market); overhead **$684**
+  then $700/$745. NVDA (unheld) reference: ~$177.4 pre-market.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the real 21:00 UTC (4pm ET / EST) close.
