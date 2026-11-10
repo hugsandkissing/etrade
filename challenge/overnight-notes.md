@@ -3376,3 +3376,14 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   (repair) then $700/$745. NVDA (unheld) reference: ~$177.5 pre-market.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Tue Nov 10, 2026 — pre-dawn overnight check (Day 92, US equities closed)
+- **BTC $74,167** (Yahoo verified ~10:37 UTC), **−1.4% on the day**, flat near the ~$74k stretch lows it has held
+  since the weekend. Now **~−8.0% off the ~$80.6k reference** — right at the edge of the ±8% owner-alert band after
+  days of oscillating $74–75k. Daily move is small and **no BTC proxy is held** (book is QQQ + cash only; MARA/SOFI/RIG
+  are stale references), so no owner message — logging the band touch as a marker. A fresh *daily* move >±8% or a close
+  decisively through the band would change that.
+- **Futures flat:** NQ=F ~27,998 (−0.06%), ES=F ~7,586 (+0.15%) — no overnight direction into the Day-92 open after
+  Monday's strong +2.7% Nasdaq rally. No fresh dated catalyst on the book; NVDA earnings **Nov 17** is the next event.
+- **Book unchanged** since the Nov-9 close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.45 (−7.6%). QQQ $679.35,
+  ~7.9% above the $629.88 stop. No trades (paper fills only in market hours). HOLD into the Day-92 open.
