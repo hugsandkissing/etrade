@@ -3456,3 +3456,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   then $700/$745. NVDA (unheld) reference: ~$174.9 pre-market.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv rebuilt after overnight
   recycle, tick cron + watcher re-armed to the real 21:00 UTC (4pm ET / EST) close.
+
+## Wed Nov 11, 2026 — post-close overnight check (Day 93 → 94, 21:37 UTC)
+- **BTC $74,518** (+1.08% on the day), now **~−7.5% off the ~$80.6k reference** — firmed back **inside the ±8% band**
+  after several days just outside it (the multi-day bleed to ~$73.3k has reversed). Small move, no BTC proxy held → no
+  owner message; logging the band reclaim as constructive context.
+- **Futures firmly green:** NQ=F ~28,454 (**+2.22%**), ES=F ~7,644 (+1.32%) — pointing to a firm Thu open that would
+  extend today's repair-confirmation rally. No fresh dated catalyst on the book; NVDA earnings **Nov 17** is next.
+- **Book at the Nov-11 official close:** QQQ 0.053 @ avg $699.60, cash $56.44, equity $93.03 (−7.0%, best of the
+  recovery). QQQ $690.38, repair confirmed (held/closed above $684), ~9.6% above the $629.88 stop. HOLD into Day 94.
+  Watch: $700 then the $745 close-and-hold redeploy line (~7.9% above); cash stays dry until then.
