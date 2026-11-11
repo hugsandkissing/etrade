@@ -3423,3 +3423,12 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Book unchanged** at the Nov-10 official close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.20 (−7.8%). QQQ
   $674.76, ~7.1% above the $629.88 stop. HOLD into Day 93. (Note: in-session .venv was wiped by a container recycle;
   the pre-market briefing/watchdog rebuild it — no marks needed overnight with the market closed.)
+
+## Wed Nov 11, 2026 — overnight check (02:37 UTC, pre-dawn)
+- **BTC $73,360** (−2.48% on the day), now **~−9.0% off the ~$80.6k reference** — a fresh low for the stretch, grinding
+  toward the ~$73k watch line flagged earlier. The move is a slow bleed (several −2% days), not a single >±8% day, so
+  still no owner message; no BTC proxy held. If BTC breaks decisively below ~$73k into Wednesday it's worth one more
+  flag, but it changes nothing on the book (QQQ + cash only). Logging the −9% crossing for pre-market calibration.
+- **Book unchanged** at the Nov-10 official close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.20 (−7.8%). QQQ
+  $674.76, ~7.1% above the $629.88 stop. HOLD into Day 93 (Wed Nov 11). Watching whether QQQ builds back toward
+  $680/$684 or extends the consolidation into the $660s.
