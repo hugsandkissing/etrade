@@ -3466,3 +3466,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Book at the Nov-11 official close:** QQQ 0.053 @ avg $699.60, cash $56.44, equity $93.03 (−7.0%, best of the
   recovery). QQQ $690.38, repair confirmed (held/closed above $684), ~9.6% above the $629.88 stop. HOLD into Day 94.
   Watch: $700 then the $745 close-and-hold redeploy line (~7.9% above); cash stays dry until then.
+
+## Thu Nov 12, 2026 — overnight check (09:38 UTC, pre-dawn)
+- **BTC $73,375** (−0.80% on the day), now **~−9.0% off the ~$80.6k reference** — a fresh low for the stretch,
+  grinding toward the ~$73k watch line flagged earlier in the week. Still a slow bleed (sub-1% daily moves), not a
+  single >±8% day, so no owner message; no BTC proxy held (QQQ + cash only). A decisive break below ~$73k would be
+  worth one more flag; it changes nothing on the book. Noting the −9% low for pre-market calibration — mild risk-off
+  crypto backdrop into the Day-94 open.
+- **Book unchanged** at the Nov-11 official close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $93.03 (−7.0%, best of
+  the recovery). QQQ $690.38, repair confirmed (held/closed above $684), ~9.6% above the $629.88 stop. HOLD into Day 94
+  (Thu Nov 12). Watch: $700 then the $745 close-and-hold redeploy line; cash stays dry until then.
