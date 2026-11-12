@@ -3476,3 +3476,27 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Book unchanged** at the Nov-11 official close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $93.03 (−7.0%, best of
   the recovery). QQQ $690.38, repair confirmed (held/closed above $684), ~9.6% above the $629.88 stop. HOLD into Day 94
   (Thu Nov 12). Watch: $700 then the $745 close-and-hold redeploy line; cash stays dry until then.
+
+## Thu Nov 12, 2026 — pre-market briefing (Day 94, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade queued.** Risk-off pre-market tone, but the plan is unchanged and purely
+  mechanical: only a break of QQQ **$629.88** trades, and QQQ is ~8.4% above it. QQQ is pulling back toward the $684
+  repair line it confirmed yesterday — if it loses $684/$680 the repair is "on watch" again, but that is a NOTE, not a
+  trade. Nothing is queued.
+- **Pre-market quotes:** QQQ **~$682.9** (vs Wed close $690.38, **−1.09%**) — giving back part of yesterday's run,
+  sitting just under the $684 line; ~8.4% above the $629.88 stop. **NVDA ~$160.9 (−7.4%!)** — a sharp pre-market drop,
+  **reference only, position flat** (stopped out Nov 5 @ $186.39); NVDA is now ~$25 below our exit and ~$13 below
+  Wed's close, five sessions before its **Nov 17 earnings** — the mechanical stop-out keeps looking better. (Real read
+  is the **14:30 UTC** open.)
+- **Est. open equity ~$92.6 (−7.4% overall)** — QQQ 0.053 × ~$682.9 ≈ $36.2 + cash $56.44; down from Wed's $93.03 close
+  on the QQQ pullback. Well inside the $80 floor; no equity-threshold crossing (>$120 / <$80).
+- **BTC $72,751** (Yahoo verified), **~−9.7% off the ~$80.6k reference** — slipped below $73k overnight (fresh stretch
+  low), a slow multi-day bleed. No BTC proxy held → no owner action; a mild risk-off crypto backdrop into the open.
+- **Futures soft:** NQ=F ~28,195 (down from ~28,450 overnight), ES=F ~7,608 — pointing to a soft/lower open that gives
+  back some of Wednesday's rally. NVDA's pre-market slide is the notable single-name move (unheld).
+- **The question for today:** does QQQ hold the $684/$680 repair zone on a soft tape, or fade further toward $665/$650?
+  Mechanical either way: a break of $629.88 sells QQQ to all-cash; nothing else acts. **$745** close-and-hold is the
+  redeploy line (far off).
+- **Levels:** QQQ $684/$680 repair zone (testing), support ~$665/$650, **stop $629.88** (~8.4% below pre-market);
+  overhead $700/$745. NVDA (unheld) reference: ~$160.9 pre-market.
+- No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
+  re-armed to the real 21:00 UTC close.
