@@ -3500,3 +3500,16 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead $700/$745. NVDA (unheld) reference: ~$160.9 pre-market.
 - No pre-market trades (paper fills only in market hours). Session infra being prepared: venv OK, tick cron + watcher
   re-armed to the real 21:00 UTC close.
+
+## Thu Nov 12, 2026 — overnight check (21:37 UTC, post-close)
+- **BTC $71,434** (−3.37% on the day), now **~−11.4% off the ~$80.6k reference** — the bleed has accelerated from the
+  week's sub-1% daily grind to a −3.4% session, a fresh stretch low well below the ~$73k line watched earlier. Still no
+  single >±8% day, so no owner message; **no BTC proxy held** (book is QQQ + cash only — the MARA/SOFI/RIG proxies in
+  this check's prompt are stale, long since exited), so it stays a macro marker, not an action. A decisive further leg
+  down would be worth one flag; it changes nothing on the book.
+- **Index futures ~flat:** NQ=F ~28,427 (−0.16%), ES=F ~7,622 (−0.24%) — a quiet, slightly-soft tilt into Friday after
+  today's mild red session. No fresh dated catalyst; NVDA earnings **Nov 17** is the next one.
+- **Book at the Nov-12 official close:** QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.91 (−7.1%). QQQ $688.17,
+  held and defended the $684 repair line on today's retest (session low $684.37), ~9.3% above the $629.88 stop. HOLD
+  into Day 95 (Fri Nov 13). Watch: $700 then the $745 close-and-hold redeploy line; a loss of $684/$680 puts the repair
+  back on watch (a note, not a trade); cash stays dry until $745 or a stop break.
