@@ -3531,3 +3531,25 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   $684 repair line defended Thursday, ~9.3% above the $629.88 stop. HOLD into the Day-95 session (Fri Nov 13). A
   weak-crypto, risk-off overnight backdrop to watch for QQQ's open, but the plan is mechanical: only a break of
   $629.88 trades.
+
+## Fri Nov 13, 2026 — pre-market briefing (Day 95, fired late ~15:19 UTC, ~50min into the session)
+- **Plan: HOLD QQQ; cash stays dry. No trade.** The cloud pre-market Routine fired ~2h late (after the 14:30 open), so
+  this is logged against the live tape rather than true pre-market quotes. Plan is unchanged and mechanical: only a
+  break of QQQ **$629.88** trades, and QQQ is ~7.1% above it.
+- **Risk-off open:** QQQ **$674.56** (vs Thu close $688.17, **−1.98%**) — gave back Thursday's hold and lost the
+  **$684/$680** repair zone it had defended; the Nov-5 repair is **back on watch** (a NOTE, not a trade). Session low so
+  far ~$674, drifting toward the ~$665/$650 support shelf. ~7.1% above the $629.88 stop.
+- **NVDA $160.52 (−3.41%)** — unheld (stopped out Nov 5 @ $186.39), sliding again into its **Nov 17 (Mon)** earnings,
+  now ~$26 below our exit; reference only, the stop-out keeps looking better.
+- **BTC $68,749 (−3.67%)**, **~−14.7% off the ~$80.6k reference** — the multi-day crypto bleed continues, still
+  sub-±8% daily so no owner alert; no BTC proxy held. A risk-off macro backdrop.
+- **Futures soft:** NQ=F ~27,965 (−1.48%), ES=F ~7,562 (−0.70%) — pointing to the weak tape QQQ is already trading.
+- **Est. equity ~$92.3 (−7.7%)** — QQQ 0.053 × ~$674.6 ≈ $35.8 + cash $56.44; well inside the $80 floor, no
+  threshold crossing.
+- **The question for today:** does QQQ find the ~$665/$650 shelf on this risk-off slide, or keep bleeding toward the
+  stop? Mechanical either way — a break of **$629.88** sells QQQ to all-cash; nothing else acts. **$745** close-and-hold
+  is the (far-off) redeploy line.
+- **Levels:** QQQ lost repair zone **$680/$684**; support ~**$665** then ~$650, **stop $629.88** (~7.1% below);
+  overhead $684/$700. NVDA (unheld) ref $160.52.
+- Session infra confirmed: venv OK, tick cron + guardrail watcher re-armed to the 21:00 UTC close (done on the 14:35
+  watchdog recovery). No pre-market trades.
