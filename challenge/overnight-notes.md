@@ -3513,3 +3513,11 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   held and defended the $684 repair line on today's retest (session low $684.37), ~9.3% above the $629.88 stop. HOLD
   into Day 95 (Fri Nov 13). Watch: $700 then the $745 close-and-hold redeploy line; a loss of $684/$680 puts the repair
   back on watch (a note, not a trade); cash stays dry until $745 or a stop break.
+
+## Fri Nov 13, 2026 — overnight check (00:37 UTC)
+- **BTC $70,853** — a steady grind lower through the evening ($71.4k at 21:37 → $71.2k → **$70.9k** now), slipping
+  below $71k to **~−12.1% off the ~$80.6k reference**, a fresh stretch low. Moves stay sub-1% hourly / sub-8% daily, so
+  no owner message; **no BTC proxy held** (QQQ + cash only). Logging the continued directional drift for calibration —
+  the crypto risk-off tone is deepening into Friday but changes nothing on the book.
+- **Book unchanged** at the Nov-12 close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.91 (−7.1%). QQQ $688.17,
+  $684 repair line held/defended on Thursday's retest, ~9.3% above the $629.88 stop. HOLD into Day 95 (Fri Nov 13).
