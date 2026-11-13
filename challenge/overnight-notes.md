@@ -3521,3 +3521,13 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   the crypto risk-off tone is deepening into Friday but changes nothing on the book.
 - **Book unchanged** at the Nov-12 close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.91 (−7.1%). QQQ $688.17,
   $684 repair line held/defended on Thursday's retest, ~9.3% above the $629.88 stop. HOLD into Day 95 (Fri Nov 13).
+
+## Fri Nov 13, 2026 — overnight check (03:37 UTC)
+- **BTC $69,116 — broke below $70k** (−3.2% on the day), now **~−14.2% off the ~$80.6k reference**, extending the
+  multi-hour grind to a decisive loss of the round $70k level and a fresh stretch low. The daily move is still inside
+  the ±8% owner-alert band, so no message; **no BTC proxy held** (QQQ + cash only), so it stays a macro marker — the
+  crypto risk-off is deepening but touches nothing on the book. Worth one flag if it accelerates toward a >±8% day.
+- **Book unchanged** at the Nov-12 close: QQQ 0.053 @ avg $699.60, cash $56.44, equity $92.91 (−7.1%). QQQ $688.17,
+  $684 repair line defended Thursday, ~9.3% above the $629.88 stop. HOLD into the Day-95 session (Fri Nov 13). A
+  weak-crypto, risk-off overnight backdrop to watch for QQQ's open, but the plan is mechanical: only a break of
+  $629.88 trades.
