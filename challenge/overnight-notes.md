@@ -3553,3 +3553,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   overhead $684/$700. NVDA (unheld) ref $160.52.
 - Session infra confirmed: venv OK, tick cron + guardrail watcher re-armed to the 21:00 UTC close (done on the 14:35
   watchdog recovery). No pre-market trades.
+
+## Sat Nov 15, 2026 — weekend overnight check (21:37 UTC)
+*Correction: dateline is Sat Nov 14 UTC (session clock); labeled by trading-day sequence.*
+
+- **BTC broke its range: $64,538** — down **−6.0% vs Friday's close ($68,675)** and **−3.9%** from the midday check
+  (~$67,167 at 12:38 UTC). First decisive move under **$65k** in this bleed; now **~−19.9% off the ~$80.6k reference**
+  (was ~−16.7% all day). BTC sat in a tight ~$66.8k–67.4k band from the Friday close through Saturday midday, then
+  dropped ~$2.6k into Saturday evening.
+- **Still no owner alert:** the day-over-day move is −6.0%, under the ±8% threshold, and **no BTC proxy is held** (book
+  is QQQ + cash only), so this is a macro marker, not a position risk. Logged as a note because it is a genuine
+  regime break from the multi-day stable band — the kind of "decisive further break" earlier notes flagged as
+  worth recording.
+- **Watch into Sunday night:** whether weak crypto spills into equity futures when they reopen (~23:00 UTC Sun / 6pm
+  ET), and whether the risk-off tone carries into Monday's QQQ open. Equity futures are closed over the weekend, so no
+  ES/NQ read tonight.
+- **Book unchanged at Friday's close:** QQQ **$679.89**, equity **$92.48** (−7.5% overall), cash ~62%. **HOLD.** The
+  $629.88 QQQ stop is ~8% below and untouched; nothing crypto-linked trades off this. NVDA (unheld) earnings **Tue Nov
+  17 (after close)** remains the week's key dated catalyst. Plan is mechanical and unchanged into Monday (Day 96).
