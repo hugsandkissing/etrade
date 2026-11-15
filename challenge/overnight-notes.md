@@ -3571,3 +3571,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Book unchanged at Friday's close:** QQQ **$679.89**, equity **$92.48** (−7.5% overall), cash ~62%. **HOLD.** The
   $629.88 QQQ stop is ~8% below and untouched; nothing crypto-linked trades off this. NVDA (unheld) earnings **Tue Nov
   17 (after close)** remains the week's key dated catalyst. Plan is mechanical and unchanged into Monday (Day 96).
+
+## Sun Nov 15, 2026 — weekend overnight check (01:38 UTC) — ±8% BTC ALERT
+- **BTC $62,284 — crossed the ±8% alert line.** Down **−8.7% vs Friday's completed daily bar ($68,249)** and
+  **~−9.2% vs Friday's close ($68,675)**; −2.1% from the 00:38 check (~$63,695). Now **~−22.6% off the ~$80.6k
+  reference** and under **$63k**. This is the first >±8% move of the bleed, so per the standing rule I messaged the
+  owner — informational only.
+- **No book impact. Nothing mechanical changes.** The book holds **QQQ + cash only — no BTC, no crypto proxy** (MARA
+  referenced in the routine prompt is not held). The only live action line remains **QQQ < $629.88 → sell**; QQQ is at
+  Friday's $679.89, ~8% above it. Crypto is a macro read, not a position.
+- **Why it matters anyway (macro):** a ~9% weekend crypto drawdown is a risk-off tell that can pressure equity index
+  futures when they reopen (~23:00 UTC Sun / 6pm ET) and carry into Monday's (Day 96) QQQ open. Watch for follow-through
+  in ES/NQ tonight and whether QQQ defends the ~$665 shelf or probes $650 Monday. Plan is unchanged and mechanical
+  either way.
+- **Book:** QQQ **$679.89**, equity **$92.48** (−7.5% overall), cash ~62%. **HOLD.** NVDA (unheld) earnings **Tue Nov 17
+  (after close)** still the week's key dated catalyst.
