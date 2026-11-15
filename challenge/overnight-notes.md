@@ -3586,3 +3586,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   either way.
 - **Book:** QQQ **$679.89**, equity **$92.48** (−7.5% overall), cash ~62%. **HOLD.** NVDA (unheld) earnings **Tue Nov 17
   (after close)** still the week's key dated catalyst.
+
+## Sun Nov 15, 2026 — futures reopen check (21:38 UTC)
+- **Crypto weakness did NOT spill into equity futures.** At the Sunday reopen: **ES +0.51% (~7,583), NQ +0.72%
+  (~28,035)** vs Friday's settles — modestly green, risk-on-leaning, not following BTC down. This answers the weekend
+  watch question constructively: the ~9% BTC drawdown looks contained to crypto so far, not a broad risk-off that drags
+  index futures.
+- **BTC $64,992** — −5.36% vs Friday's close, ~−19.4% off the ~$80.6k reference; recovered well off the $62.3k Sat-night
+  washout and holding mid-$64k. Sub-±8%, no proxy held.
+- **Setup into Monday (Day 96):** green futures point to a steady-to-firmer QQQ open rather than the gap-down the
+  Saturday crypto break might have implied. Plan unchanged and mechanical: HOLD; only **QQQ < $629.88** sells (QQQ
+  $679.89, ~8% above). Monday's pre-market briefing will take the authoritative futures/quote read. **NVDA earnings Tue
+  Nov 17 (after close)** is the week's key dated catalyst.
