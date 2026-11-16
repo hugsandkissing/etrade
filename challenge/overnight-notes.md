@@ -3598,3 +3598,21 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   Saturday crypto break might have implied. Plan unchanged and mechanical: HOLD; only **QQQ < $629.88** sells (QQQ
   $679.89, ~8% above). Monday's pre-market briefing will take the authoritative futures/quote read. **NVDA earnings Tue
   Nov 17 (after close)** is the week's key dated catalyst.
+
+## Mon Nov 16, 2026 — pre-market briefing (Day 96, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade.** Mechanical: only a break of QQQ **$629.88** sells to all-cash, and QQQ
+  is ~6.6% above it. Nothing else acts; the **$745** close-and-hold redeploy line is far off.
+- **Soft open at the shelf:** QQQ **~$671.67** pre-market (vs Fri close **$679.89**, **−1.21%**) — gapping down onto the
+  **$665–672 support shelf** it defended Friday (Fri low $671.91). Repair zone **$680/$684** stays lost; this is the
+  level that matters today — does $665 hold again, or does QQQ probe $650? Mechanical either way.
+- **NVDA $158.45** pre-market (vs Fri $162.85, −2.70%) — unheld (stopped out Nov 5 @ $186.39), sliding into its **Tue
+  Nov 17 (after close) earnings**, now ~$28 below our exit and ~$75 below the $234 rebuild line. Reference only; the
+  earnings print is the week's main volatility catalyst (and a possible re-entry read), not a book risk.
+- **BTC $64,171** — −6.56% vs Fri close, **~−20% off the ~$80.6k reference**; recovered off the Sat-night $62.3k washout
+  (which briefly tagged −8.7% and prompted the one owner alert), holding low-$64k. Sub-±8% daily now, no proxy held.
+- **Futures soft, tech-led:** ES −0.08%, NQ −0.57% vs Friday settles — pointing to the soft QQQ open already trading.
+- **Est. open equity ~$92.0 (−8.0%)** — QQQ 0.053 × ~$671.7 ≈ $35.6 + cash $56.44; inside the $80 floor, no threshold
+  crossing.
+- **Levels:** QQQ support **$665** (held Fri, low $671.91) then ~$650, **stop $629.88** (~6.6% below); repair/overhead
+  **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $158.45.
+- Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
