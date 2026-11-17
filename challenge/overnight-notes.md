@@ -3650,3 +3650,10 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Wednesday (Day 98):** HOLD, cash dry. The NVDA reaction is the open's main swing factor for the
   tech tape — watch whether it lifts QQQ to reclaim **$665** or fades back toward the **$650** probe / the $629.88 stop.
   Logged for the Wednesday pre-market briefing. No owner message (sub-±8% BTC, NVDA unheld).
+
+## Tue Nov 17, 2026 — overnight update (~22:37 UTC)
+- **NVDA after-hours firming:** last AH tick **~$161.15 (+~3.7%** vs the $155.46 close), up from ~$159.54 an hour
+  earlier — the positive-print read is strengthening into the Wednesday open. Still unheld; still ~$73 below the $234
+  rebuild line; no book action. A sustained green NVDA reaction is a tailwind for QQQ to retest the **$665** shelf at
+  Wednesday's open — the pre-market briefing will take the authoritative read.
+- **BTC $64,683**, **−0.27%** — flat/quiet, well inside the ±8% threshold. No proxy held, no owner message.
