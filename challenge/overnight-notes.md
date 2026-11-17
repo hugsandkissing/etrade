@@ -3635,3 +3635,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Levels:** QQQ shelf **$665** (pre-market right at it), support **$650**, **stop $629.88** (~5.5% below); overhead
   repair **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $157.87; earnings tonight.
 - Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
+
+## Tue Nov 17, 2026 — post-close overnight check (Day 97 close → Day 98, ~21:37 UTC)
+- **NVDA earnings (after close) — first read: modestly POSITIVE.** NVDA closed the regular session **$155.46 (−0.44%)**;
+  the first after-hours ticks printed **~$159.54 (+~2.6%)** on Yahoo. Earnings details are not yet in reliable
+  published coverage (print just landed), so treat the +2.6% as an early, thin AH read, not a confirmed reaction —
+  Wednesday's pre-market briefing will take the authoritative number. Directionally supportive for the tech tape into
+  Wed, but **no book action**: NVDA unheld (stopped out Nov 5), rebuild line is a close above **$234** (far above the
+  AH ~$160). A green NVDA reaction would help QQQ retest the lost **$665** shelf; the plan still holds cash either way.
+- **BTC $64,500**, **−0.55%** vs the prior close (~$64,856), ~−20% off the ~$80.6k reference — flat/quiet overnight,
+  well inside the ±8% owner-alert threshold. No proxy held.
+- **No other breaking news** on the book (QQQ-only + cash; the stale MARA/SOFI/RIG references in the check prompt are
+  not held). Plan unchanged and mechanical: HOLD; only **QQQ < $629.88** sells (QQQ closed $656.95, ~4.2% above).
+- **Implication for Wednesday (Day 98):** HOLD, cash dry. The NVDA reaction is the open's main swing factor for the
+  tech tape — watch whether it lifts QQQ to reclaim **$665** or fades back toward the **$650** probe / the $629.88 stop.
+  Logged for the Wednesday pre-market briefing. No owner message (sub-±8% BTC, NVDA unheld).
