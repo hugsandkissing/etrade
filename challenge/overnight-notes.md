@@ -3616,3 +3616,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Levels:** QQQ support **$665** (held Fri, low $671.91) then ~$650, **stop $629.88** (~6.6% below); repair/overhead
   **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $158.45.
 - Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
+
+## Tue Nov 17, 2026 — pre-market briefing (Day 97, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade.** Mechanical: only a break of QQQ **$629.88** sells to all-cash, and QQQ
+  is ~5.5% above it. Nothing else acts; the **$745** close-and-hold redeploy line is far off.
+- **Firmer open off the shelf break:** QQQ **~$664.61** pre-market (vs Mon close **$661.75**, **+0.43%**) — bouncing
+  back toward the **$665** shelf it lost on Monday's close. (Yahoo futures prints ES −2.3% / NQ −3.5% are the recurring
+  `chartPreviousClose` reference-roll artifact — contradicted by QQQ trading *up* pre-market; the real setup is
+  steady-to-firmer, not a gap-down.) The live question: does QQQ reclaim and hold **$665**, or fade back toward **$650**
+  ahead of tonight's NVDA print?
+- **NVDA $157.87 pre-market (+1.11% vs Mon $156.14) — EARNINGS TONIGHT (after close).** Unheld (stopped out Nov 5 @
+  $186.39), ~$28 below our exit, ~$76 below the $234 rebuild line. The print is the week's dominant volatility catalyst
+  for the whole tech tape (and QQQ) into Wednesday, and a possible NVDA re-entry read — but it is **not a book risk**
+  (we hold none). No position action off it; a close above $234 is the only thing that re-adds NVDA.
+- **BTC $65,029** — ~−19.3% off the ~$80.6k reference, flat overnight (~$64–65k range), sub-±8% daily, no proxy held.
+- **Est. open equity ~$91.7 (−8.3%)** — QQQ 0.053 × ~$664.6 ≈ $35.2 + cash $56.44; inside the $80 floor, no threshold
+  crossing.
+- **Levels:** QQQ shelf **$665** (pre-market right at it), support **$650**, **stop $629.88** (~5.5% below); overhead
+  repair **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $157.87; earnings tonight.
+- Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
