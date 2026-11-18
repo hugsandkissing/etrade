@@ -3657,3 +3657,24 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   rebuild line; no book action. A sustained green NVDA reaction is a tailwind for QQQ to retest the **$665** shelf at
   Wednesday's open — the pre-market briefing will take the authoritative read.
 - **BTC $64,683**, **−0.27%** — flat/quiet, well inside the ±8% threshold. No proxy held, no owner message.
+
+## Wed Nov 18, 2026 — pre-market briefing (Day 98, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade.** Mechanical: only a break of QQQ **$629.88** sells to all-cash, and QQQ
+  is ~4.7% above it. Nothing else acts; the **$745** close-and-hold redeploy line is far off.
+- **Firmer open, NVDA print digested as a measured positive:** QQQ **~$660.3** pre-market (vs Tue close **$656.95**,
+  **+0.5%**) — bouncing back toward the **$665** shelf lost Mon/Tue. NVDA **~$159.36** pre-market (vs Tue close
+  $155.46, **+2.5%**), holding its after-hours earnings gain (peaked ~+3.7% overnight, settled to ~+2.5%) — a
+  solid-but-not-blowout reaction, supportive for the tech tape rather than a face-ripper. (NVDA unheld; the actual
+  earnings figures are not yet in reliable published coverage — the price reaction is the authoritative read, and it's
+  mildly green.) The live question: does QQQ reclaim and hold **$665**, or stall and fade back toward **$650**?
+- **NVDA unheld (stopped out Nov 5 @ $186.39).** At ~$159 it's ~$27 below our exit and ~$75 below the $234 rebuild
+  line — the only thing that re-adds NVDA. The post-earnings pop doesn't change the book; it's a tape-direction read.
+- **BTC $63,986** — **−1.40%** vs the prior close, ~−21% off the ~$80.6k reference; soft but inside the ±8%
+  owner-alert threshold. No proxy held.
+- **Futures mildly green:** ES=F ~7,372 (~+0.4% vs Tue S&P cash close 7340.53), NQ=F ~27,232 — pointing to the firmer
+  open QQQ is already trading, consistent with the NVDA reaction.
+- **Est. open equity ~$91.4 (−8.6%)** — QQQ 0.053 × ~$660.3 ≈ $35.0 + cash $56.44; inside the $80 floor, no threshold
+  crossing.
+- **Levels:** QQQ shelf **$665** (pre-market ~$5 below), support **$650**, **stop $629.88** (~4.7% below); overhead
+  repair **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $159.36.
+- Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
