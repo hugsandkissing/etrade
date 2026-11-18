@@ -3678,3 +3678,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Levels:** QQQ shelf **$665** (pre-market ~$5 below), support **$650**, **stop $629.88** (~4.7% below); overhead
   repair **$680/$684** then $700; redeploy $745. NVDA (unheld) ref $159.36.
 - Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
+
+## Wed Nov 18, 2026 — Day 98 close → Day 99 (post-close, ~21:38 UTC)
+- **Context (no action):** Day 98 closed equity **$91.40** (+0.15% c/c, −8.6% overall); QQQ **$659.51** (+0.39% c/c),
+  still below the $665 shelf for a third day, never near the $629.88 stop. Daily report written and sent.
+- **NVDA sold the news:** after the positive after-hours earnings pop (overnight +2.5–3.7%), NVDA **reversed to
+  $150.96, −2.89%** on the regular session — a full unwind of the print's enthusiasm. Unheld (stopped out Nov 5); no
+  book impact; rebuild line $234 (~55% above). Logged as the key tape event — watch for semis follow-through.
+- **BTC $62,323**, **−3.96%** vs the prior close, ~−23% off the ~$80.6k reference — softened back toward the mid-Nov
+  washout lows. Still inside the ±8% owner-alert threshold; no proxy held; no owner message.
+- **Implication for Thursday (Day 99):** HOLD, cash dry. Watch whether QQQ reclaims **$665** or NVDA's fade drags the
+  tape toward **$650**/the stop, and whether BTC's slide toward washout lows signals broader risk-off. Only action
+  lines: QQQ **$629.88** stop (exit, ~4.5% below) and a **$745** close-and-hold (redeploy, far off).
