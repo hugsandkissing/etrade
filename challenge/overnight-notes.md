@@ -3709,3 +3709,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Levels:** QQQ reclaimed shelf **$665** (pre-market ~$673, above it), repair **$680/$684** (just overhead), then
   $700; **stop $629.88** (~6.8% below); redeploy $745. Support back at $650 then $629.88. NVDA (unheld) ref $153.15.
 - Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
+
+## Thu Nov 19, 2026 — Day 99 close → Day 100 (post-close, ~21:40 UTC)
+- **Context (no action):** Day 99 closed equity **$90.63** (−0.84% c/c, −9.4% overall), essentially matching the Nov-5
+  cycle low ($90.74). QQQ **$645.04** (−2.19% c/c) — a failed-reclaim reversal: gapped up to reclaim $665 at the open
+  (peak $675.09), then faded all day, lost $665 and $650, closed near the low ($644.70). Daily report written and sent.
+- **Broad risk-off:** S&P **−2.02%**, Nasdaq **−2.25%** — the ugliest tape in weeks. Book beat both by >1pt on the ~62%
+  cash cushion. QQQ now ~2.4% above the **$629.88** stop — the tightest cushion since the stop was set; the first time
+  in a while a continued down leg could put it in play.
+- **NVDA sell-the-news extends:** closed **$145.98, −3.3%** — third straight post-earnings down day, now ~$88 below the
+  $234 rebuild line. Unheld; no book impact. The semis weakness has shifted from single-name to tape driver.
+- **BTC $61,465**, **−2.42%** vs the prior close, ~−24% off the ~$80.6k reference — grinding back toward the mid-Nov
+  washout lows. Still inside the ±8% owner-alert threshold; no proxy held; no owner message.
+- **Implication for Friday (Day 100):** HOLD, cash dry. The one thing to watch is whether the risk-off leg continues
+  and tests **$629.88** (~2.4% below) — the mechanical exit — or stabilizes. Reclaim path: $650 then $665. Redeploy
+  still needs a **$745** close-and-hold, far off.
