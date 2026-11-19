@@ -3690,3 +3690,22 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Thursday (Day 99):** HOLD, cash dry. Watch whether QQQ reclaims **$665** or NVDA's fade drags the
   tape toward **$650**/the stop, and whether BTC's slide toward washout lows signals broader risk-off. Only action
   lines: QQQ **$629.88** stop (exit, ~4.5% below) and a **$745** close-and-hold (redeploy, far off).
+
+## Thu Nov 19, 2026 — pre-market briefing (Day 99, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ; cash stays dry. No trade.** Mechanical: only a break of QQQ **$629.88** sells to all-cash, and QQQ
+  is now ~6.8% ABOVE it after a strong gap up. Nothing else acts; the **$745** close-and-hold redeploy line is far off.
+- **Strong risk-on gap up — QQQ reclaims the $665 shelf:** QQQ **~$673.13** pre-market (vs Wed close **$659.51**,
+  **+2.06%**) — the first decisive push back above the **$665** shelf (lost Mon–Wed) and into the **$680/$684** repair
+  zone's lower approach. If it holds, that's the repair finally confirming — but a reclaim is a watch, not a buy; the
+  redeploy trigger is a **$745** close-and-hold, far above.
+- **NVDA $153.15 pre-market (+1.45% vs Wed $150.96)** — a modest bounce after Wednesday's −2.89% sell-the-news fade.
+  Unheld (stopped out Nov 5); ~$81 below the $234 rebuild line; reference only, no book action.
+- **BTC $63,740** — **+1.2%** on the day, ~−21% off the ~$80.6k reference; stabilized in the low-$63k/$64k area after
+  the mid-week slide toward washout lows. Sub-±8% daily, no proxy held.
+- **Futures strongly green:** ES=F ~7,424 (**~+1.4%** vs Wed S&P cash close 7323.63), NQ=F ~27,730 — pointing to the
+  firm risk-on open QQQ is already trading. Both green and consistent with the QQQ gap (no chartPreviousClose artifact).
+- **Est. open equity ~$92.1 (−7.9%)** — QQQ 0.053 × ~$673.1 ≈ $35.7 + cash $56.44; inside the $80 floor, best reading
+  in over a week, no threshold crossing.
+- **Levels:** QQQ reclaimed shelf **$665** (pre-market ~$673, above it), repair **$680/$684** (just overhead), then
+  $700; **stop $629.88** (~6.8% below); redeploy $745. Support back at $650 then $629.88. NVDA (unheld) ref $153.15.
+- Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close. No pre-market trades.
