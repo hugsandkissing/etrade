@@ -3724,3 +3724,11 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Implication for Friday (Day 100):** HOLD, cash dry. The one thing to watch is whether the risk-off leg continues
   and tests **$629.88** (~2.4% below) — the mechanical exit — or stabilizes. Reclaim path: $650 then $665. Redeploy
   still needs a **$745** close-and-hold, far off.
+
+## Thu Nov 19, 2026 — overnight signal check (~22:38 UTC)
+- **BTC $62,156**, **+1.12%** vs the ~21:40 post-close note ($61,465), ~−23% off the ~$80.6k reference — a small
+  stabilizing bounce after the day's slide; well inside the ±8% owner-alert threshold. No proxy held, no owner message.
+- **Futures ~flat after the risk-off close:** ES=F **7,182.5** (≈ S&P cash close 7,175.83, roughly flat), NQ=F
+  **26,505.5** — no overnight follow-through lower yet; the Day-99 sell-off is holding, not extending, into the evening.
+- **No major position news.** Book is QQQ-only + cash; the stop line for Friday (Day 100) is **$629.88** (QQQ closed
+  $645.04, ~2.4% above). Watch resumes at the Friday pre-market briefing.
