@@ -48720,6 +48720,14 @@
       },
       "equity": 90.19,
       "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-20T14:26:38Z",
+      "prices": {
+        "QQQ": 638.06
+      },
+      "equity": 90.26,
+      "source": "Yahoo via watch.py auto-mark"
     }
   ]
 }
