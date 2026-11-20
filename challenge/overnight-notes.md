@@ -3732,3 +3732,23 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   **26,505.5** — no overnight follow-through lower yet; the Day-99 sell-off is holding, not extending, into the evening.
 - **No major position news.** Book is QQQ-only + cash; the stop line for Friday (Day 100) is **$629.88** (QQQ closed
   $645.04, ~2.4% above). Watch resumes at the Friday pre-market briefing.
+
+## Fri Nov 20, 2026 — pre-market briefing (Day 100, 9:03am ET / ~13:05 UTC)
+- **Plan: HOLD QQQ — but the $629.88 stop is LIVE today for the first time.** QQQ pre-market **~$633.6** (vs Thu close
+  **$645.04**, **−1.78%**), only **~0.6% above the $629.88 stop**. No pre-market trade (paper fills only intraday). The
+  mechanical rule stands: if QQQ breaks **$629.88** on TWO confirmed reads (5m last close AND regularMarketPrice)
+  during the session, the tick sells QQQ at market and the book goes fully to cash. That is the one action queued, and
+  today is the first day it's genuinely in range.
+- **Risk-off continues into Day 100.** Thursday's reversal (QQQ −2.19% c/c) is extending: index futures soft — ES=F
+  **~7,134** (≈ −0.6% vs Thu S&P cash close 7,175.83), NQ=F **~26,145**. The pre-market QQQ gap (−1.78%) is steeper
+  than the futures (thin pre-market tape), but the direction is clear: another down open.
+- **NVDA $145.98 (ref; stopped out Nov 5).** Pre-market quote not yet rolled; after three straight post-earnings down
+  days, still the semis-weakness tell dragging the tape. ~$88 below the $234 rebuild line; no book action.
+- **BTC $61,507** — ~flat overnight (rangebound $61.3–62.2k all night), ~−24% off the ~$80.6k reference. Sub-±8%
+  owner-alert threshold; no proxy held.
+- **Est. open equity ~$90.0 (−10.0%)** — QQQ 0.053 × ~$633.6 ≈ $33.6 + cash $56.44; still above the $80 floor (no
+  owner-alert crossing), but the lowest reading of the challenge and essentially at the prior cycle low.
+- **Levels:** QQQ **stop $629.88** (~0.6% below pre-market — LIVE), Thu low $644.70 now overhead, lost support $650,
+  lost shelf $665; redeploy $745 (far). NVDA (unheld) ref $145.98.
+- Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close, Day-100 daily-report
+  one-shot set. No pre-market trades. If the stop triggers intraday, that tick executes the sell AND messages the owner.
