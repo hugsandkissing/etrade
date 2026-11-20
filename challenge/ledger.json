@@ -2,13 +2,8 @@
   "start_cash": 100.0,
   "goal": 200.0,
   "created": "2026-07-13T15:35:10Z",
-  "cash": 56.44145,
-  "positions": {
-    "QQQ": {
-      "qty": 0.053,
-      "avg_cost": 699.596582278481
-    }
-  },
+  "cash": 89.69630000000001,
+  "positions": {},
   "trades": [
     {
       "ts": "2026-07-13T15:35:10Z",
@@ -226,6 +221,15 @@
       "price": 186.39,
       "source": "Yahoo v8 5m last/regularMarketPrice 2026-11-05 ~15:14 UTC (confirmed both)",
       "note": "Hard stop broken: NVDA traded 186.39 < 187.81 stop. Pre-committed rule sells the NVDA leg at market. QQQ (661.38) still above its 629.88 stop, held."
+    },
+    {
+      "ts": "2026-11-20T15:45:46Z",
+      "action": "SELL",
+      "symbol": "QQQ",
+      "qty": 0.053,
+      "price": 627.45,
+      "source": "Yahoo v8 live (5m close + regularMarketPrice both <$629.88)",
+      "note": "Pre-committed $629.88 stop broke on two confirmed reads (QQQ $627.45); sold to all-cash per STRATEGY.md"
     }
   ],
   "marks": [
@@ -48935,6 +48939,22 @@
         "QQQ": 630.37
       },
       "equity": 89.85,
+      "source": ""
+    },
+    {
+      "ts": "2026-11-20T15:42:02Z",
+      "prices": {
+        "QQQ": 630.5
+      },
+      "equity": 89.86,
+      "source": "Yahoo via watch.py auto-mark"
+    },
+    {
+      "ts": "2026-11-20T15:45:40Z",
+      "prices": {
+        "QQQ": 627.45
+      },
+      "equity": 89.7,
       "source": ""
     }
   ]
