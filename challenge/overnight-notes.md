@@ -3752,3 +3752,18 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   lost shelf $665; redeploy $745 (far). NVDA (unheld) ref $145.98.
 - Session infra: venv checked, tick cron + guardrail watcher re-armed to the 21:00 UTC close, Day-100 daily-report
   one-shot set. No pre-market trades. If the stop triggers intraday, that tick executes the sell AND messages the owner.
+
+## Fri Nov 20, 2026 — Day 100 close → Day 101 (post-close, ~21:40 UTC)
+- **THE STOP TRIGGERED.** QQQ broke the pre-committed **$629.88** stop on two confirmed reads (~$627.45) at ~15:45 UTC;
+  the full 0.053 QQQ position SOLD at market. Book is now **100% cash, equity $89.70 (−10.3%)**, zero positions. Daily
+  report written and sent.
+- **Exit vindicated hard.** QQQ kept falling after the sell — closed **$608.45, −5.67% c/c** (another ~3% below the
+  exit). The afternoon rout didn't touch the book (already in cash). Nasdaq **−5.28%**, S&P **−3.70%**; book held
+  **−1.03% c/c** — the biggest relative win of the challenge.
+- **NVDA crashed −14.01% to $125.53** — a semis-led risk-off that drove the whole tape down. Unheld; rebuild $234 now
+  ~85% above. BTC **$58,770, −5.06%**, below $60k, ~−27% off the ~$80.6k reference — softer and nearing the ±8% alert
+  edge, but still inside it; no proxy held, no owner message.
+- **Positioning into Monday (Day 101, Nov 23):** HOLD cash. No position, no stop, nothing to sell — the book is fully
+  defensive and insulated from further downside. The only forward line is a QQQ **$745** close-and-hold redeploy (~22%
+  above the $608 close, far off), and that's a judgment call surfaced to the owner, not an auto-buy. Weekend watch: a
+  BTC move beyond ±8% (the one alert line) and whether equities stabilize or extend the slide. Discipline = do nothing.
