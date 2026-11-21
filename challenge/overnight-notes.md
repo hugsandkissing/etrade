@@ -3767,3 +3767,12 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   defensive and insulated from further downside. The only forward line is a QQQ **$745** close-and-hold redeploy (~22%
   above the $608 close, far off), and that's a judgment call surfaced to the owner, not an auto-buy. Weekend watch: a
   BTC move beyond ±8% (the one alert line) and whether equities stabilize or extend the slide. Discipline = do nothing.
+
+## Sat Nov 22 [UTC], 2026 — overnight check (~03:38 UTC / 10:38pm ET Fri)
+- **BTC softening on the weekend:** **$57,166**, **−2.73%** vs Friday's close note ($58,770), now ~−29% off the
+  ~$80.6k reference — probing new lows for this stretch, below $58k. Still inside the ±8% owner-alert threshold (no
+  message), but the first notable move since Friday's close and the macro risk-off tone continues into the weekend.
+- **Book unaffected:** 100% cash, equity $89.70, zero positions — no BTC proxy held, so this is a macro tell only. The
+  weekend crypto slide reinforces that Friday's stop-out to cash was well-timed; nothing to do.
+- **Into Monday (Day 101):** HOLD cash. Watch for a BTC move beyond ±8% (the one alert line) and whether the Monday
+  equity open stabilizes or extends Friday's −5.3% Nasdaq rout. Redeploy only on a QQQ $745 close-and-hold (far above).
