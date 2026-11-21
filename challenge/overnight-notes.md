@@ -3776,3 +3776,10 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   weekend crypto slide reinforces that Friday's stop-out to cash was well-timed; nothing to do.
 - **Into Monday (Day 101):** HOLD cash. Watch for a BTC move beyond ±8% (the one alert line) and whether the Monday
   equity open stabilizes or extends Friday's −5.3% Nasdaq rout. Redeploy only on a QQQ $745 close-and-hold (far above).
+
+## Sat Nov 22 [UTC], 2026 — overnight check (~04:38 UTC / 11:38pm ET Fri)
+- **BTC slide accelerating:** **$55,963**, now **−4.78%** vs Friday's close note ($58,770) and ~−31% off the ~$80.6k
+  reference — a steeper weekend leg down (was −2.73% an hour ago). Still inside the ±8% owner-alert band; the −8% line
+  from Friday's close sits at **~$54,069** (~$1.9k / ~3.4% below here). If BTC breaks that, it's an owner message.
+- **Book unaffected:** 100% cash, equity $89.70, zero positions — no proxy held, macro tell only. Watching the ±8%
+  line closely on the next checks; no action either way (all-cash, nothing to trade over the weekend).
