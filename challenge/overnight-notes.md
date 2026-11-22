@@ -3783,3 +3783,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   from Friday's close sits at **~$54,069** (~$1.9k / ~3.4% below here). If BTC breaks that, it's an owner message.
 - **Book unaffected:** 100% cash, equity $89.70, zero positions — no proxy held, macro tell only. Watching the ±8%
   line closely on the next checks; no action either way (all-cash, nothing to trade over the weekend).
+
+## Sun Nov 22 [UTC], 2026 — end-of-weekend check (~21:38 UTC / 4:38pm ET Sun)
+- **BTC fully reversed the Saturday dip:** **$60,896**, now **+3.62%** vs Friday's close note ($58,770) and back above
+  $60k. Saturday's slide toward the ±8% alert line (low ~$55,963, −4.78%; the −8% line sits at ~$54,069) never broke —
+  BTC bounced all of Sunday and spent the day chopping $58.9k–$60.9k, a clean stabilization. No owner alert (well inside
+  ±8%), no proxy held.
+- **Book unchanged:** 100% cash, equity $89.70 (−10.3%), zero positions — fully defensive after Friday's stop-out. The
+  weekend crypto recovery is a mild risk-on tell into Monday but changes nothing with no position on.
+- **Into Monday (Day 101, Nov 23):** HOLD cash. The pre-market briefing (~13:03 UTC) reads live QQQ/BTC/futures and
+  re-arms the all-cash market-hours infra. No downside action exists (nothing to sell); redeploy is a judgment call only
+  on a QQQ **$745** close-and-hold (~22% above Friday's $608.45 close, far off). Watch whether the equity open follows
+  BTC's stabilization or extends Friday's −5.3% Nasdaq rout.
