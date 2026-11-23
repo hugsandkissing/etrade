@@ -3807,3 +3807,31 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
 - **Book unchanged, no action:** 100% cash, equity $89.70, zero positions. A green open changes nothing with no
   position on — there's nothing to sell, and redeploy is a QQQ $745 close-and-hold (far above Friday's $608.45), a
   judgment call surfaced to the owner, not an auto-buy. The pre-market will set the Day-101 plan.
+
+## Mon Nov 23 [UTC], 2026 — Day 101 PRE-MARKET BRIEFING (9:03am ET / 14:03 UTC)
+**Plan: HOLD CASH. No trade. Book is 100% cash, equity $89.70 (−10.3%), zero positions.**
+
+**Pre-market tape (relief bounce after Friday's rout):**
+- **QQQ ~$630.08 pre-market, +3.56%** vs Friday's $608.45 close — a strong risk-on gap up, consistent with NQ futures.
+- **NVDA ~$136.10, +8.4%** vs Friday's $125.53 — bouncing hard off the −14% semis crash (unheld; reference only).
+- **NQ futures +3.0%, ES +2.3%** vs Friday settle; **BTC $61,248, +4.2%** vs Friday close, steady above $61k, inside ±8%.
+- Overnight/weekend context: BTC fully reversed Saturday's dip toward the ±8% alert and stabilized; Sunday futures
+  reopened green and held +2–2.8% all night. The tape points to a bounce, not a continuation of Friday's −5.3% Nasdaq.
+
+**Reasoning — why HOLD cash:**
+- **No position to manage.** Friday's pre-committed $629.88 stop sold the QQQ at $627.45 to all-cash. There is nothing
+  to hold, nothing to sell, no stop live. A green open simply doesn't touch the book.
+- **The bounce retraces toward our exit — and that's fine.** QQQ ~$630 pre-market is now *back above* the $629.88 stop
+  and our $627.45 sale — the whipsaw the Day-100 report explicitly flagged as the exit's risk. But the sell was
+  mechanically correct (QQQ fell to a $608.45 close first, −5.67%), the discipline is the thesis, and a one-session
+  bounce back to the exit is NOT a re-entry signal. No regret trading, no chasing the gap.
+- **Re-entry is a pre-committed judgment call, not a trigger.** The only forward action line is a QQQ **$745**
+  close-and-hold — ~18% above the $630 pre-market print, far off. If QQQ ever closes-and-holds there, it goes to the
+  owner as a judgment call, not an auto-buy. Nothing re-adds risk below that.
+- **NVDA** — flat (stopped out Nov 5 @ $186.39); +8% bounce to ~$136 is noise vs the $234 rebuild line (~72% above).
+
+**Levels:** QQQ pre-mkt ~$630 (Fri close $608.45); old stop $629.88 (spent, no position); overhead shelves $650/$665;
+redeploy $745. NVDA (unheld) ~$136. No active stop — all cash.
+
+**Session prep:** all-cash market-hours tick cron to be (re)armed; guardrail watcher NOT re-armed (watch.py exits
+immediately with no position to guard — correct). No trade today, so no owner message.
