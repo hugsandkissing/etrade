@@ -49196,6 +49196,14 @@
       },
       "equity": 89.7,
       "source": "Yahoo v8 live (5m close + regularMarketPrice) Day101 open"
+    },
+    {
+      "ts": "2026-11-23T14:46:34Z",
+      "prices": {
+        "QQQ": 646.16
+      },
+      "equity": 89.7,
+      "source": "Yahoo v8 live tick"
     }
   ]
 }
