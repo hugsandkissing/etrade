@@ -49268,6 +49268,14 @@
       },
       "equity": 89.7,
       "source": "Yahoo v8 live tick"
+    },
+    {
+      "ts": "2026-11-23T16:06:31Z",
+      "prices": {
+        "QQQ": 652.41
+      },
+      "equity": 89.7,
+      "source": "Yahoo v8 live tick"
     }
   ]
 }
