@@ -49388,6 +49388,14 @@
       },
       "equity": 89.7,
       "source": "Yahoo v8 live tick"
+    },
+    {
+      "ts": "2026-11-23T18:26:26Z",
+      "prices": {
+        "QQQ": 652.2
+      },
+      "equity": 89.7,
+      "source": "Yahoo v8 live (dashboard refresh)"
     }
   ]
 }
