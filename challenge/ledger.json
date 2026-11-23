@@ -49452,6 +49452,14 @@
       },
       "equity": 89.7,
       "source": "Yahoo v8 live (watchdog)"
+    },
+    {
+      "ts": "2026-11-23T21:39:16Z",
+      "prices": {
+        "QQQ": 651.03
+      },
+      "equity": 89.7,
+      "source": "Yahoo v8 Day101 final close"
     }
   ]
 }
