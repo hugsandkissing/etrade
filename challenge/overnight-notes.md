@@ -3795,3 +3795,15 @@ at hand — a MILESTONE to note, NOT a message trigger (bands remain $120/$80).
   re-arms the all-cash market-hours infra. No downside action exists (nothing to sell); redeploy is a judgment call only
   on a QQQ **$745** close-and-hold (~22% above Friday's $608.45 close, far off). Watch whether the equity open follows
   BTC's stabilization or extends Friday's −5.3% Nasdaq rout.
+
+## Mon Nov 23 [UTC], 2026 — Sunday-reopen futures check (~00:37 UTC / 7:37pm ET Sun)
+- **Futures reopened GREEN — a relief bounce, not continuation.** ES = **7073.75** vs Friday's settle **6935.0** =
+  **+2.0%**. (First read mis-compared against a stale prevClose field showing −3.9%; the true Fri→now move is +2.0%.)
+  This answers the question the end-of-weekend note flagged: the early tape points to a rebound after Friday's
+  −3.7% S&P / −5.3% Nasdaq rout, following BTC's weekend stabilization. **BTC $61,083, +3.93%** vs Friday close,
+  holding above $61k, well inside ±8% — no alert.
+- **Preliminary read, hedged:** this is a Sunday-night snapshot; it will trade through Asia/Europe before the 13:03 UTC
+  pre-market briefing fetches a fresher futures read. Direction (up) is the signal; magnitude will move.
+- **Book unchanged, no action:** 100% cash, equity $89.70, zero positions. A green open changes nothing with no
+  position on — there's nothing to sell, and redeploy is a QQQ $745 close-and-hold (far above Friday's $608.45), a
+  judgment call surfaced to the owner, not an auto-buy. The pre-market will set the Day-101 plan.
